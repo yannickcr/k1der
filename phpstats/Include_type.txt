@@ -1,0 +1,50 @@
+PHP:
+ 
+<?php 
+function php_stats_recognize(){ 
+$ip=$user_agent=$lang=$page=''; 
+if(!isset($_SERVER)) $_SERVER=$HTTP_SERVER_VARS; 
+if(isset($_SERVER['HTTP_HOST'])) $page=urlencode('http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].($_SERVER['QUERY_STRING']!='' ? '%A7%A7%A7%A7'.str_replace('&','%A7%A7',$_SERVER['QUERY_STRING']) : '')); 
+if(isset($_SERVER['REMOTE_ADDR'])) $ip=(isset($_SERVER['HTTP_PC_REMOTE_ADDR']) ? $_SERVER['HTTP_PC_REMOTE_ADDR'] : $_SERVER['REMOTE_ADDR']); 
+if(isset($_SERVER['HTTP_USER_AGENT'])) $user_agent=urlencode(str_replace(' ','',$_SERVER['HTTP_USER_AGENT'])); 
+if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) $lang=urlencode($_SERVER['HTTP_ACCEPT_LANGUAGE']); 
+if($ip!=='' && $user_agent!=='') 
+if (function_exists('file_get_contents')) echo file_get_contents("http://www.tuo_sito.it/php-stats.redir.php?ip=$ip&user_agent=$user_agent&lang=$lang&page=$page"); 
+else echo implode('',file("http://www.tuo_sito.it/php-stats.redir.php?ip=$ip&user_agent=$user_agent&lang=$lang&page=$page")); 
+} 
+php_stats_recognize(); 
+?> 
+
+
+
+
+ASP:
+
+<% 
+Function  php_stats_recognize() 
+Dim ip,user_agent,lang,page,query,objXMLHTTP,xml,text 
+ip=user_agent=lang=page="" 
+page="http://"+Server.URLEncode(Request.ServerVariables("HTTP_HOST")+Request.ServerVariables("SCRIPT_NAME")) 
+query=Request.ServerVariables("QUERY_STRING") 
+if query<>"" then 
+   query=replace(query,"&","%A7%A7") 
+   page=page+Server.URLEncode("%A7%A7%A7%A7"+query) 
+end if 
+ip=Request.ServerVariables("REMOTE_ADDR") 
+user_agent=replace(Request.ServerVariables("HTTP_USER_AGENT")," ","") 
+lang=Request.ServerVariables("HTTP_ACCEPT_LANGUAGE") 
+if ip<>"" AND user_agent<>"" then 
+   Response.Buffer = true 
+   Set xml = Server.CreateObject ("Microsoft.XMLHTTP") 
+   'Se non funziona usare il seguente codice : 
+   'Set xml = Server.CreateObject("MSXML2.ServerXMLHTTP") 
+   xml.Open "GET", "http://www.tuo_sito.it/php-stats.redir.php?ip="+ip+"&user_agent="+user_agent+"&page="+page+"&lang="+lang, false 
+   xml.Send 
+   text = xml.ResponseText 
+   Response.write(text) 
+   Set xml = Nothing 
+end if 
+End Function 
+
+php_stats_recognize() 
+%> 

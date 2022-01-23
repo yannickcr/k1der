@@ -1,0 +1,100 @@
+<body>
+<table width="760" bgcolor="black" cellspacing="1" cellpadding="1" align="center">
+  <tr>
+   <td colspan="2" bgcolor="#C1C1C1">
+      <table width="740">
+	    <tr>
+		  <td><img src="./templates/default/images/logo.gif" alt=""></td>
+		  <td align="right" valign="bottom"><font face="verdana" size="1">$option[nomesito]</font></td>
+		</tr>
+      </table>
+	</td>
+  </tr>
+<tr>
+ <td width="150" valign="top" bgcolor="#8C83B4">
+  <font face="verdana" size="1">
+
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=main">$admin_menu[main]</a></p>
+
+        <!--Begin details-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=details">$admin_menu[details]</a></p>
+        <!--End details-->
+
+        <!--Begin os_browser-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=os_browser">$admin_menu[os_browser]</a></p>
+        <!--End os_browser-->
+
+        <!--Begin reso_colo-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=reso">$admin_menu[reso]</a></p>
+        <!--End reso_colo-->
+
+        <!--Begin pages_time-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=pages">$admin_menu[pages]</a></p>
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=time_pages">$admin_menu[time_pages]</a></p>
+        <!--End pages_time-->
+
+        <!--Begin referer_engines-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=referer">$admin_menu[referer]</a></p>
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=engines">$admin_menu[engines]</a></p>
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=query">$admin_menu[query]</a></p>
+        <!--End referer_engines-->
+
+        <!--Begin hourly-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=hourly">$admin_menu[hourly]</a></p>
+        <!--End hourly-->
+
+        <!--Begin daily_mountly-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=daily">$admin_menu[daily]</a></p>
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=mountly">$admin_menu[mountly]</a></p>
+	    <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=calendar">$admin_menu[calendar]</a></p>
+        <!--End daily_mountly-->
+
+        <!--Begin ip-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=ip">$admin_menu[ip]</a></p>
+        <!--End ip-->
+
+        <!--Begin country-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=country">$admin_menu[country]</a></p>
+        <!--End country-->
+
+        <!--Begin lang-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=lang">$admin_menu[lang]</a></p>
+        <!--End lang-->
+
+        <!--Begin downloads-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=downloads">$admin_menu[downloads]</a></p>
+        <!--End downloads-->
+
+        <!--Begin clicks-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=clicks">$admin_menu[clicks]</a></p>
+        <!--End clicks-->
+
+	<!--Begin daily_mountly-->
+	<p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=trend">$admin_menu[trend]</a></p>
+	<!--End daily_mountly-->
+        <br>
+        <!--Begin is_loged_in-->
+        	<p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=preferenze">$admin_menu[options]</a></p>
+		<p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=esclusioni">$admin_menu[esclusioni]</a></p>
+		<p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=optimize_tables">$admin_menu[optimize_tables]</a></p>
+	        <!--Begin downloads-->
+	        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=downadmin">$admin_menu[downadmin]</a></p>
+	        <!--End downloads-->
+	        <!--Begin clicks-->
+	        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=clicksadmin">$admin_menu[clicksadmin]</a></p>
+	        <!--End clicks-->
+	        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=backup">$admin_menu[backup]</a></p>
+	        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=resett">$admin_menu[reset]</a></p>
+        <!--End is_loged_in-->
+        <p class="menu"><img src="./templates/default/images/bullet.gif"><a href="admin.php?action=$admin_menu[status_rev]">$admin_menu[status]</a></p>
+  </font>
+  </td>
+     <td width="610" valign="top" bgcolor="#D9DBE9">
+     <font face="verdana" size="1">$action<center><br><br>$creation_time</center><br></font>
+     </td>
+   </tr>
+   <tr>
+     <td bgColor=#c1c1c1 colSpan=2><CENTER><FONT face=verdana size=1>© <a href="http://www.webmaster76.com">Webmaster76</a></FONT></CENTER></td>
+   </tr>
+</table>
+</body>

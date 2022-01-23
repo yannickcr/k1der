@@ -1,0 +1,3 @@
+<?
+$desc = "Technique à la con N°6";
+?>

@@ -1,0 +1,673 @@
+<html>
+<head>
+<?
+echo "<title>$titrepage</title>";
+?>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<STYLE type=text/css><!--
+-->
+</STYLE>
+<body bgcolor="#ffffff" text="#000000" link="#DE0200" vlink="#DE0200" alink="#DE0200">
+<table width="950" border="0" cellspacing="0" cellpadding="0" align="center" height="535">
+  <tr> 
+    <td height="30" colspan="6"> 
+      <table width="950" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="217">&nbsp;</td>
+          <td width="366"><img src="images/titre3.gif" width="122" height="58"></td>
+          <td valign="bottom" width="116"><img src="images/titre4.gif" width="78" height="27"></td>
+          <td valign="bottom" width="140"><img src="images/titre5.gif" width="93" height="52"></td>
+          <td valign="bottom" width="111"><img src="images/titre6.gif" width="72" height="28"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="93" colspan="6"><img src="images/titre2.gif" width="950" height="95"></td>
+  </tr>
+  <tr> 
+    <td height="2" background="images/fond.gif" width="950" colspan="6"> <font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF"><MARQUEE> 
+      <?
+	  require("config.inc.php3");
+	  
+	  $db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+	  mysql_select_db("$dbbase",$db) or Die("Base Down !");
+	  
+	  $req = MYSQL_QUERY("SELECT * FROM phrases");
+	  $res = MYSQL_NUM_ROWS($req);
+	  $nbre =mysql_num_rows($req);
+	  $rnd = rand (0,$nbre-1);
+	  
+	  $req = MYSQL_QUERY("SELECT * FROM phrases limit $rnd,1");
+	  $res = MYSQL_NUM_ROWS($req);
+	  $nbre =mysql_num_rows($req);
+	  while($disp = mysql_fetch_array($req))
+	  {
+	  echo $disp[phrase];
+	  }
+	  ?>
+
+
+      </MARQUEE></font></td>
+  </tr>
+  <tr> 
+    <td height="10" background="images/fond.gif" width="20">&nbsp; </td>
+    <td height="10" background="images/fond.gif" width="85"> 
+      <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=news"><font color="#FFFFFF">News</font></a></font></div>
+    </td>
+    <td height="10" background="images/fond.gif" width="40"> 
+      <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF"><img src="images/coin.gif" width="20" height="20"></font></div>
+    </td>
+    <td height="10" width="615">&nbsp;</td>
+    <td height="10" background="images/fond.gif" width="20"> 
+      <div align="center"><img src="images/coin3.gif" width="20" height="20" align="absmiddle"></div>
+    </td>
+    <td height="10" background="images/fond.gif" width="170"> 
+      <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>Image 
+        de la Semaine</b></font></div>
+    
+</td></tr> 
+  <tr> 
+    <td colspan="6">
+<table width="950" border="0" cellspacing="0" cellpadding="0" height="523">
+        <tr> 
+          <td valign="top" width="125"> 
+            <table width="125" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif">&nbsp; </td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=team"><font color="#FFFFFF">&Eacute;quipe</font></a></font></div></td>
+                <td background="images/fond.gif" height="20" width="20">&nbsp; </td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif">&nbsp; </td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=stats"><font color="#FFFFFF">Stats</font></a></font></div></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp; </td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="20">&nbsp; </td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=galerie"><font color="#FFFFFF">Galerie</font></a></font></div></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp; </td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" height="2" colspan="3"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=lan_photos"><font color="#FFFFFF">Photos 
+                    des LANs</font></a></font></div></td>
+              </tr>
+              <tr> 
+                <td width="20" height="2" background="images/fond.gif">&nbsp;</td>
+                <td width="85" height="2" background="images/fond.gif"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=resumes"><font color="#FFFFFF">Matches</font></a></font></div></td>
+                <td width="20" height="2" background="images/fond.gif">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" height="2" colspan="3"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="index.php3?page=phrases"><font color="#FFFFFF">Phrases 
+                    &agrave; la Con</font></a></font></div></td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="20">&nbsp; </td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=dessins"><font color="#FFFFFF">Dessins</font></a></font></div></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp; </td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif">&nbsp; </td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=download"><font color="#FFFFFF">Download</font></a></font></div></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp; </td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="20">&nbsp; </td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=sons"><font color="#FFFFFF">Sons</font></a></font></div></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp; </td>
+              </tr>
+              <tr> 
+                <td colspan="3" height="10" background="images/fond.gif"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=recrutement"><font color="#FFFFFF">Recrutement</font></a></font></div></td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="20">&nbsp; </td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="http://k1der.les-forums.com/" target="_blank"><font color="#FFFFFF">Forum</font></a></font></div></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp; </td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"> 
+                  <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coingbasgauche.gif" width="20" height="20"></font></div></td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="index.php3?page=irc"><font color="#FFFFFF">IRC</font></a></font></div></td>
+                <td height="20" background="images/fond.gif" width="20"> 
+                  <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coingbasdroite.gif" width="20" height="20"></font></div></td>
+              </tr>
+              <tr> 
+                <td width="20" height="20">&nbsp;</td>
+                <td height="20" width="85">&nbsp;</td>
+                <td height="20" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="7" background="images/fond.gif"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coinghautgauche.gif" width="20" height="20"></font></td>
+                <td height="7" background="images/fond.gif" width="85"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>Prochaine 
+                    </b></font></div></td>
+                <td height="7" background="images/fond.gif" width="20"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coinghautdroite.gif" width="20" height="20"></font></td>
+              </tr>
+              <tr> 
+                <td height="20" width="20" background="images/fond.gif">&nbsp;</td>
+                <td height="20" width="85" background="images/fond.gif"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>LAN 
+                    Arena </b></font></div></td>
+                <td height="20" width="20" background="images/fond.gif">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td colspan="3" height="7" width="125" background="images/fond.gif"> 
+                  <table width="120" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+                        <?
+require("administ/activeuser/user.txt");
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+
+$req = MYSQL_QUERY("SELECT * FROM lan");
+
+$jour          = mysql_result($req,0,"jour");
+$mois       = stripslashes(mysql_result($req,0,"mois"));
+$annee       = stripslashes(mysql_result($req,0,"annee"));
+$nom       = stripslashes(mysql_result($req,0,"nom"));
+$lanlien       = stripslashes(mysql_result($req,0,"lanlien"));
+?>
+                        <script language="JavaScript">
+<!-- Original:  Alan Palmer -->
+<!-- Web Site:  http://www.users.dircon.co.uk/~apalmer -->
+
+<!-- Begin
+var date = new Date("<? echo $mois; ?> <? echo $jour; ?>, <? echo $annee; ?>");
+var description = "<a href=<? echo $lanlien; ?> target=_blank ><font color='#FFFFFF'><? echo $nom; ?></font></a>";
+var now = new Date();
+var diff = date.getTime() - now.getTime();
+var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+document.write("<center>")
+if (days > 1) {
+document.write(days+1 + " jours avant " + description + "");
+}
+else if (days == 1) {
+document.write("Plus que 2 jours avant " + description + " !");
+}
+else if (days == 0) {
+document.write("Demain y a " + description + " !");
+}
+else {
+document.write(description + " c'est partit !");
+document.write("</center>");
+}
+// End -->
+</script>
+                        </font></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif">&nbsp;</td>
+                <td height="20" background="images/fond.gif" width="85">&nbsp;</td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+require("administ/activeuser/user.txt");
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+
+$req = MYSQL_QUERY("SELECT * FROM joueurs WHERE nom='bueno'");
+
+$nom          = mysql_result($req,0,"nom");
+$statut       = stripslashes(mysql_result($req,0,"statut"));
+?>
+                  </font></td>
+                <td height="20" background="images/fond.gif" width="85"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+if ($statut =="oui")
+	{
+		$ico = "images/oui.gif";
+	}
+elseif ($statut =="non")
+	{
+		$ico = "images/non.gif";
+	}
+elseif ($statut =="pas")
+	{
+		$ico = "images/pasur.gif";
+	}
+?>
+                  <img src="<? echo $ico ?>" width="7" height="7"> <font color="#FFFFFF">Bueno</font></font></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+require("administ/activeuser/user.txt");
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+
+$req = MYSQL_QUERY("SELECT * FROM joueurs WHERE nom='country'");
+
+$nom          = mysql_result($req,0,"nom");
+$statut       = stripslashes(mysql_result($req,0,"statut"));
+?>
+                  </font></td>
+                <td height="20" background="images/fond.gif" width="85"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+if ($statut =="oui")
+	{
+		$ico = "images/oui.gif";
+	}
+elseif ($statut =="non")
+	{
+		$ico = "images/non.gif";
+	}
+elseif ($statut =="pas")
+	{
+		$ico = "images/pasur.gif";
+	}
+?>
+                  <img src="<? echo $ico ?>" width="7" height="7"> <font color="#FFFFFF">Country</font></font></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+require("administ/activeuser/user.txt");
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+
+$req = MYSQL_QUERY("SELECT * FROM joueurs WHERE nom='maxi'");
+
+$nom          = mysql_result($req,0,"nom");
+$statut       = stripslashes(mysql_result($req,0,"statut"));
+?>
+                  </font></td>
+                <td height="20" background="images/fond.gif" width="85"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+if ($statut =="oui")
+	{
+		$ico = "images/oui.gif";
+	}
+elseif ($statut =="non")
+	{
+		$ico = "images/non.gif";
+	}
+elseif ($statut =="pas")
+	{
+		$ico = "images/pasur.gif";
+	}
+?>
+                  <img src="<? echo $ico ?>" width="7" height="7"> <font color="#FFFFFF">Maxi</font></font></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+require("administ/activeuser/user.txt");
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+
+$req = MYSQL_QUERY("SELECT * FROM joueurs WHERE nom='pingui'");
+
+$nom          = mysql_result($req,0,"nom");
+$statut       = stripslashes(mysql_result($req,0,"statut"));
+?>
+                  </font></td>
+                <td height="20" background="images/fond.gif" width="85"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+if ($statut =="oui")
+	{
+		$ico = "images/oui.gif";
+	}
+elseif ($statut =="non")
+	{
+		$ico = "images/non.gif";
+	}
+elseif ($statut =="pas")
+	{
+		$ico = "images/pasur.gif";
+	}
+?>
+                  <img src="<? echo $ico ?>" width="7" height="7"> <font color="#FFFFFF">Pingui</font></font></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+require("administ/activeuser/user.txt");
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+
+$req = MYSQL_QUERY("SELECT * FROM joueurs WHERE nom='surprise'");
+
+$nom          = mysql_result($req,0,"nom");
+$statut       = stripslashes(mysql_result($req,0,"statut"));
+?>
+                  </font></td>
+                <td height="20" background="images/fond.gif" width="85"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                  <?
+if ($statut =="oui")
+	{
+		$ico = "images/oui.gif";
+	}
+elseif ($statut =="non")
+	{
+		$ico = "images/non.gif";
+	}
+elseif ($statut =="pas")
+	{
+		$ico = "images/pasur.gif";
+	}
+?>
+                  <img src="<? echo $ico ?>" width="7" height="7"> <font color="#FFFFFF">Surprise</font></font></td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif">&nbsp;</td>
+                <td height="20" background="images/fond.gif" width="85">&nbsp;</td>
+                <td height="20" background="images/fond.gif" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="3" background="images/fond.gif"><div align="center"><font size="1" color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"><img src="images/oui.gif" width="7" height="7"> 
+                    Vient <img src="images/non.gif" width="7" height="7"> Vient 
+                    pas<br>
+                    <img src="images/pasur.gif" width="7" height="7"> Sait pas</font></div></td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coingbasgauche.gif" width="20" height="20"></font></td>
+                <td height="20" background="images/fond.gif" width="85">&nbsp;</td>
+                <td height="20" background="images/fond.gif" width="20"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coingbasdroite.gif" width="20" height="20"></font></td>
+              </tr>
+              <tr> 
+                <td width="20" height="20">&nbsp;</td>
+                <td height="20" width="85">&nbsp;</td>
+                <td height="20" width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" background="images/fond.gif"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coinghautgauche.gif" width="20" height="20"></font></td>
+                <td height="20" background="images/fond.gif" width="85"> 
+                  <div align="center"><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif"><b>Liens</b></font></div></td>
+                <td height="20" background="images/fond.gif" width="20"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="images/coinghautdroite.gif" width="20" height="20"></font></td>
+              </tr>
+            </table>
+            <table width="125" border="0" cellspacing="0" cellpadding="0">
+              <?
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+$requete  = "SELECT * FROM liens";
+$req = mysql_query($requete) or die('Erreur SQL !<br>'.$requete.'<br>'.mysql_error());  
+$nbre =mysql_num_rows($req);
+$i = 1;
+while($disp = mysql_fetch_array($req))
+{
+if ($disp[image] != "")
+{
+?>
+              <?
+		}
+		else
+		{
+		?>
+              <?
+		}
+		}
+		?>
+              <tr> 
+                <td height="20" colspan="3" background="images/fond.gif"><table width="125" border="0" cellpadding="0" cellspacing="0">
+                    <?
+require("config.inc.php3");
+
+$db = mysql_connect("$dbhost", "$dblogi", "$dbpass") or Die("Base Down !");
+mysql_select_db("$dbbase",$db) or Die("Base Down !");
+
+$requete  = "SELECT * FROM liens";
+$req = mysql_query($requete) or die('Erreur SQL !<br>'.$requete.'<br>'.mysql_error());  
+$nbre =mysql_num_rows($req);
+$i = 1;
+while($disp = mysql_fetch_array($req))
+{
+if ($disp[image] != "")
+{
+if(ereg(".swf",$disp[image]))
+{
+?>
+                    <tr> 
+                      <td colspan="3"> <div align="center"><a href="<? echo $disp[lien]; ?>" target="_blank">
+                          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0">
+                            <param name="movie" value="<? echo $disp[image]; ?>">
+                            <param name="quality" value="high">
+                            <embed src="<? echo $disp[image]; ?>" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed></object>
+                          </a></div></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="3">&nbsp;</td>
+                    </tr>
+<?
+}
+else
+{
+?>
+                    <tr> 
+                      <td colspan="3"> <div align="center"><a href="<? echo $disp[lien]; ?>" target="_blank"><img src="<? echo $disp[image]; ?>" border="0" alt="<? echo $disp[nom]; ?>"></a></div></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="3">&nbsp;</td>
+                    </tr>
+<?
+}
+		}
+		else
+		{
+		?>
+                    <tr> 
+                      <td colspan="3"> <div align="center"><a class=type2 href="<? echo $disp[lien]; ?>" target="_blank"><font color=white size="2" face="Verdana, Arial, Helvetica, sans-serif"><? echo $disp[nom]; ?></font></a></div></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <?
+		}
+		}
+		?>
+                    <tr> 
+                      <td colspan="3"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF">Et 
+                          Nous:</font></div></td>
+                    </tr>
+                    <tr> 
+                      <td height="15" colspan="3"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="http://www.k1der.fr.st"><img src="images/lienk1der.gif" width="88" height="31" border="0" alt="-=K1der=-"></a></font></div></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif">&nbsp;</td>
+                <td background="images/fond.gif">&nbsp;</td>
+                <td background="images/fond.gif" height="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="19" colspan="3" background="images/fond.gif"><div align="center"><font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">Pour 
+                    rajouter ce lien collez ce code dans votre page:</font></div></td>
+              </tr>
+              <tr> 
+                <td height="20" colspan="3" background="images/fond.gif"><div align="center">
+                    <textarea name="textarea" cols="14" rows="3" readonly style="font-size:9; font-family: Verdana, Arial, Helvetica, sans-serif;"><iframe src="http://membres.lycos.fr/k1der/lien.html" width="88" height="31" scrolling="no" frameborder="0"></iframe></textarea>
+                  </div></td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" width="20"><img src="images/coingbasgauche.gif" width="20" height="20"></td>
+                <td background="images/fond.gif" width="85">&nbsp;</td>
+                <td background="images/fond.gif" height="20"><img src="images/coingbasdroite.gif" width="20" height="20"></td>
+              </tr>
+            </table></td><td height="20" valign="top" colspan="3"> 
+<?
+		  require($page_a_inclure);
+		  ?>
+</td><td height="40" valign="top" width="170"> <table width="100%" border="0" cellspacing="0" cellpadding="0" height="64"> 
+<tr> <td width="150"> <table width="150" border="0" cellspacing="0" cellpadding="0" height="118"> 
+<tr> <td background="images/fond.gif" width="20" height="72">&nbsp;</td><td width="130" height="98" background="images/screensemaine.jpg"><a href="images/bigscreensemaine.jpg" target="_blank"><img src="images/fondimsem.gif" width="130" height="98" border="0"></a></td></tr> 
+<tr> <td background="images/fond.gif" width="20"><img src="images/coingbasgauche.gif" width="20" height="20"></td><td width="130" background="images/fond.gif">&nbsp;</td></tr> 
+</table></td><td width="20"> <table width="20" border="0" cellspacing="0" cellpadding="0" height="118"> 
+<tr> <td width="20" background="images/fond.gif" height="98">&nbsp;</td></tr> <tr> <td width="20" background="images/fond.gif" height="20"><img src="images/coingbasdroite.gif" width="20" height="20"></td></tr> 
+</table></td></tr> </table>
+            <table width="170" border="0" cellspacing="0" cellpadding="0" height="165">
+              <tr> 
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="2"><img src="images/coinghautgauche.gif" width="20" height="20"></td>
+                <td width="130" background="images/fond.gif" height="2"> <div align="center"> 
+                    <script language="JavaScript">
+function resultats()
+	{
+	window.open("phpolls.php3?result=1&go=1","Resultats","toolbar=0,location=0,directories=0,menuBar=0,scrollbars=0,resizable=0,height=200,width=200")
+	}
+</script>
+                    <b><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF">Sondage</font></b></div></td>
+                <td width="20" background="images/fond.gif" height="2"><img src="images/coinghautdroite.gif" width="20" height="20"></td>
+              </tr>
+              <tr align="center"> 
+                <td colspan="3" background="images/fond.gif" height="16"> <table border="1" cellspacing="0" cellpadding="0" bordercolor="#DE0200" height="14" width="130">
+                    <tr> 
+                      <td bordercolor="#000000" bgcolor="#FFFFFF"> 
+                        <?require ("phpolls.php3"); ?>
+                      </td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif"><img src="images/coingbasgauche.gif" width="20" height="20"></td>
+                <td width="130" background="images/fond.gif">&nbsp;</td>
+                <td width="20" background="images/fond.gif"><img src="images/coingbasdroite.gif" width="20" height="20"></td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" height="20"><img src="images/coinghautgauche.gif" width="20" height="20"></td>
+                <td height="20" background="images/fond.gif" valign="middle"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+                    <b>Chat'Express</b></font></div></td>
+                <td background="images/fond.gif" height="20"><img src="images/coinghautdroite.gif" width="20" height="20"></td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" height="20">&nbsp;</td>
+                <td height="20" background="images/fond.gif"> <iframe frameborder=0 src="shoutbox/board.php" width="130" height="454"> 
+                  </iframe> </td>
+                <td background="images/fond.gif" height="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" height="20">&nbsp;</td>
+                <td height="20"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                    [ <a href=javascript:openScript('shoutbox\\board.php?act=all','150','400')>Historique</a> 
+                    : <a href=javascript:openScript('shoutbox\\board.php?act=help','300','250')>Infos</a> 
+                    ]</font></div></td>
+                <td background="images/fond.gif" height="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" height="20"><img src="images/coingbasgauche.gif" width="20" height="20"></td>
+                <td height="20" background="images/fond.gif">&nbsp;</td>
+                <td background="images/fond.gif" height="20"><img src="images/coingbasdroite.gif" width="20" height="20"></td>
+              </tr>
+              <tr> 
+                <td width="20">&nbsp;</td>
+                <td width="130">&nbsp;</td>
+                <td width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif"><img src="images/coinghautgauche.gif" width="20" height="20"></td>
+                <td width="130" background="images/fond.gif"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF"><b>Acc&egrave;s 
+                    Membres</b></font></div></td>
+                <td width="20" background="images/fond.gif"><img src="images/coinghautdroite.gif" width="20" height="20"></td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif">&nbsp;</td>
+                <td width="130" background="images/fond.gif" rowspan="2"> <div align="center"><strong><br>
+                    </strong><a href="index.php3?page=admin"><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif">Acc&egrave;der 
+                    &agrave; l'espace Membres</font></a><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><font color="#FFFFFF"><strong><br>
+                    <br>
+                    </strong></font></font></div></td>
+                <td background="images/fond.gif">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" height="20" valign="bottom" background="images/fond.gif"><img src="images/coingbasgauche.gif" width="20" height="20"></td>
+                <td background="images/fond.gif" height="20" valign="bottom"><img src="images/coingbasdroite.gif" width="20" height="20"></td>
+              </tr>
+              <tr> 
+                <td width="20">&nbsp;</td>
+                <td width="130">&nbsp;</td>
+                <td width="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="20"><img src="images/coinghautgauche.gif" width="20" height="20"></td>
+                <td height="20" background="images/fond.gif" valign="middle"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+                    <b>Compteurs </b></font></div></td>
+                <td width="20" background="images/fond.gif" height="20"><img src="images/coinghautdroite.gif" width="20" height="20"></td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="20">&nbsp;</td>
+                <td height="20" background="images/fond.gif" valign="middle"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">T'es 
+                    le 
+                    <? require "compt.php"; ?>
+                    &egrave;me Visiteur</font></div></td>
+                <td width="20" background="images/fond.gif" height="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="20" background="images/fond.gif" height="20">&nbsp;</td>
+                <td height="20" background="images/fond.gif" valign="middle"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                    <script language="JavaScript">
+<!--
+today = new Date;
+sec = today.getTime();
+document.write('<SCRIPT LANGUAGE="javascript" SRC="http://countus4.editeurjavascript.com/countus.php3?pseudo=k1der&timer=')
+document.write(sec)
+document.write('&present=3&color=%23DF0100&textcolor=%23FFFFFF"><\/SCRIPT>')
+//-->
+</script>
+                    </font></div></td>
+                <td width="20" background="images/fond.gif" height="20">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td background="images/fond.gif" height="20"><img src="images/coingbasgauche.gif" width="20" height="20"></td>
+                <td height="20" background="images/fond.gif"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp; 
+                  </font></td>
+                <td background="images/fond.gif" height="20"><img src="images/coingbasdroite.gif" width="20" height="20"></td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr> </table></td></tr> </table>
+</body>
+</html>

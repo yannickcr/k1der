@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settingexport exported="1094651620">
+	<settinggroup>
+		<setting>
+			<conf_id>218</conf_id>
+			<conf_title>Forums to export articles from</conf_title>
+			<conf_description>You may select more than one.</conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>multi</conf_type>
+			<conf_key>csite_article_forum</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra>#show_forums#</conf_extra>
+			<conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['csite_article_forum']) )
+	{
+		$_POST['csite_article_forum'] = implode(",",$_POST['csite_article_forum']);
+	}
+	else
+	{
+		$_POST['csite_article_forum'] = "";
+	}
+	
+	$key = 'csite_article_forum';
+}
+if ( $show == 1 )
+{
+$key = 'csite_article_forum[]';
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>265</conf_id>
+			<conf_title>Caching PATH</conf_title>
+			<conf_description><![CDATA[<b>This can be left blank</b>
+<br />This is useful for specifing a PATH for the IPB written files (skin_cache, style_avatars, style_emoticons, style_images) when dealing with load balanced/clustered servers. If you enter a PATH, please ensure that it ends with a trailing slash]]></conf_description>
+			<conf_group>1</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>ipb_cache_path</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>8</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>264</conf_id>
+			<conf_title>Image URL</conf_title>
+			<conf_description><![CDATA[<b>This can be left blank</b>
+<br />This can be used if you wish to serve images from a different server or when using clustered servers. Please ensure that you use a trailing slash and that it starts with http(s):// if entering a URL]]></conf_description>
+			<conf_group>1</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>ipb_img_url</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>8</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+	</settinggroup>
+
+</settingexport>

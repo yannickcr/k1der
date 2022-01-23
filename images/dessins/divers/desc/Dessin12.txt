@@ -1,0 +1,3 @@
+<?
+$desc = "Dommage n°3";
+?>

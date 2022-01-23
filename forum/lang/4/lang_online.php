@@ -1,0 +1,47 @@
+<?php
+
+$lang = array (
+
+// 1.2
+'WHERE_toplist'         =>  "Top Sites",
+'s_by'    => "Trier suivant le : ",
+'s_sort_key_click' => "dernier clic",
+'s_sort_key_name'  => "nom du membre",
+'s_sort_order_asc'   => "en ordre ascendant",
+'s_sort_order_desc'  => "en ordre descendant",
+'s_show_mem_guest' => "en affichant les invit&eacute;s uniquement",
+'s_show_mem_reg' => "en affichant les inscrits uniquement",
+'s_show_mem_all'    => "en affichant tous les utilisateurs",
+'s_go' => "Mise &agrave; jour",
+WHERE_sf					=>	"Affichage du forum :",
+WHERE_sr					=>	"Affichage des r&egrave;gles des forums :",
+WHERE_st					=>	"Affichage du sujet :",
+WHERE_login				=>	"Connexion...",
+WHERE_post				=>	"&Eacute;criture dans le forum :",
+WHERE_reg	 				=>	"Inscription...",
+WHERE_online				=>	"Affichage de la liste des connect&eacute;s",
+WHERE_members				=>	"Affichage de la liste des membres",
+WHERE_help				=>	"Affichage des fichiers d&#039;aide",
+WHERE_search				=>	"Recherche en cours...",
+WHERE_print				=>	"Impression d&#039;un sujet :",
+WHERE_forward				=>	"Envoi d&#039;un sujet :",
+WHERE_msg				=>	"Actuellement sur son messager personnel",
+WHERE_usercp				=>	"Actuellement sur le PC utilisateur",
+WHERE_mail	 				=>	"Contact d&#039;un membre par email",
+WHERE_invite				=>	"Invitation d&#039;un ami aux forums",
+WHERE_icq	 				=>	"Contact d&#039;un membre via ICQ",
+WHERE_aol 				=>	"Contact d&#039;un membre via AIM",
+WHERE_profile				=>	"Affichage du profil d&#039;un membre",
+WHERE_stats				=>	"Affichage des statistiques",
+member_name				=>	"Nom du membre",
+guest						=>	"Invit&eacute;",
+board_index					=>	"Affichage de l&#039;index des forums",
+n_a						=>	"[N/D]",
+pages						=>	"Pages :",
+'time'						=>	"Heure",
+where					=>	"Lieu",
+user_ops					=>	"Options",
+page_title					=>	"Utilisateur(s) connect&eacute;(s)",
+
+);
+?>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+"http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+  <channel>
+    <title>-=k1der=- the chocolat effect</title>
+    <link>http://www.k1der.net</link>
+    <description>site de la team k1der, clan counter-strike de bretagne : new, dessins, animations, calendrier...</description>
+    <language>fr</language>
+    <copyright>©2004 3-x-3</copyright>
+    <webMaster>infos@3-x-3.com</webMaster>
+    <image>
+      <title>-=k1der=- the chocolat effect</title>
+      <url>http://www.k1der.net/images/groslien.gif</url>
+      <link>http://www.k1der.net</link>
+      <width>80</width>
+      <height>35</height>
+      <description>site de la team k1der, clan counter-strike de bretagne : new, dessins, animations, calendrier...</description>
+    </image>
+    <item>
+      <title>clan</title>
+      <link>http://www.clanbase.com</link>
+    </item>
+    <item>
+      <title>counter-strike</title>
+      <link>http://www.counter-strike.net</link>
+    </item>
+    <item>
+      <title>bretagne</title>
+      <link>http://www.bretagne.com</link>
+    </item>
+    <item>
+      <title>breton</title>
+      <link>http://www.breizhoo.fr</link>
+    </item>
+    <item>
+      <title>flash</title>
+      <link>http://www.macromedia.com</link>
+    </item>
+    <item>
+      <title>dessin</title>
+      <link>http://www.superart.com</link>
+    </item>
+    <item>
+      <title>equipe</title>
+      <link>http://www.lequipe.fr</link>
+    </item>
+    <item>
+      <title>actualité</title>
+      <link>http://www.lactualite.com</link>
+    </item>
+    <item>
+      <title>calendrier</title>
+      <link>http://www.education.gouv.fr/prat/cal.htm</link>
+    </item>
+    <item>
+      <title>débile</title>
+      <link>http://www.superdebile.com</link>
+    </item>
+  </channel>
+</rss>

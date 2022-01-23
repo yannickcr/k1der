@@ -1,0 +1,280 @@
+// Command Menu definition
+// 
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// 
+//
+//
+// Buttons can also open up submenus, as follows:
+// {
+// 	"Some More Options",
+//	{
+//		...
+//	}
+// }
+//
+//
+// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
+// around or deleted.
+//
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+
+//--------------------------------------------------------
+// Everything below here is editable
+
+"•" "CHANGE TEAM"	"chooseteam"
+
+"»" "Commande client"
+{
+	"»" "Arme"
+	{
+		"•" "Couleur du Viseur" "adjust_crosshair"
+		TOGGLE "•" "Dynamic Crosshair" "cl_dynamiccrosshair"
+		TOGGLE "•" "Arme a droite" "cl_righthand"
+		TOGGLE "•" "Arme Visible"	"r_drawviewmodel"
+		"»" "Auto Weapon Switch"
+		{
+			"•" "On" "setinfo _cl_autowepswitch 1"
+			"•" "Off" "setinfo _cl_autowepswitch 0"
+		}
+	}
+	"»" "Affichage"
+	{
+		TOGGLE "•" "FPS" "cl_showfps"
+		"»" "Net_Graph"
+		{
+			"•" "Off" "net_graph 0"
+			"•" "Net_Graph 1" "net_graph 1"
+			"•" "Net_Graph 2" "net_graph 2"
+			"•" "Net_Graph 3" "net_graph 3"
+		}
+		"»" "Position Net_Graph"
+		{
+			"•" "Droite" "net_graphpos 1"
+			"•" "Centré" "net_graphpos 2"
+			"•" "Gauche" "net_graphpos 3"
+		}
+		"»" "Radar"
+		{
+			"•" "On" "drawradar"
+			"•" "Off" "hideradar"
+		}
+		TOGGLE "•" "Center ID" "hud_centerid"
+		"»" "Qualite de la fumee"
+		{
+			"•" "High" "fastsprites 0"
+			"•" "Medium" "fastsprites 2"
+			"•" "Low" "fastsprites 1"
+		}
+		"»" "Corps"
+		{
+			"•" "On" "cl_corpsestay 600"
+			"•" "Off" "cl_corpsestay 0"
+		}
+		"»" "Menu VGUI"
+		{
+			"•" "On" "setinfo _vgui_menus 1"
+			"•" "Off" "setinfo _vgui_menus 0"
+		}
+		TOGGLE "•" "Afficher HUD" "hud_draw"
+		TOGGLE "•" "Observer crosshair" "cl_observercrosshair"
+		TOGGLE "•" "hud fastswitch" "hud_fastswitch"
+	}
+	"»" "Son"
+	{
+		TOGGLE "•" "Off" "nosound"
+		"•" "Volume" "messagemode volume"
+		"•" "Enlever sons d'ambience" "stopsound"
+		"»" "Voix Constante"
+		{
+			"•" "Activée" "+voicerecord"
+			"•" "Désactivée" "-voicerecord"
+		}
+		"•" "Voice Wave" "voicewavON"
+	}
+	"»" "Démos"
+	{
+		"•" "Commencer" "messagemode record"
+		"•" "Stopper" "stop"
+		"•" "Visualiser" "messagemode viewdemo"
+	}
+	"»" "Divers"
+	{
+		"•" "Temps Restant" "timeleft"
+		"•" "Retry ®" "retry"
+		"•" "Changer de Server" "messagemode connect"
+		"•" "Changer de Nom" "messagemode name"
+		"•" "Changer D'equipe" "chooseteam"
+		TOGGLE "•" "Console" "console"
+		"»" "Auto Help"
+		{
+			"•" "On" "setinfo _ah 1"
+			"•" "Off" "setinfo _ah 0"
+		}
+		TOGGLE "•" "End-Game Screenshot" "hud_takesshots"
+		"•" "Sensitivity" "messagemode sensitivity"
+	}
+		
+}
+"•" "Loguer Le Rcon" "rcon_password tb6d8ftx35"
+
+"»" "Commande server 1/2"
+{
+	"•" "Restartround 1" "rcon sv_restartround 1"
+	"»" "Time Limit"
+		{
+			"•" "Pas de limites" "rcon mp_timelimit 0"
+			"•" "5 Minutes" "rcon mp_timelimit 5"
+			"•" "10 Minutes" "rcon mp_timelimit 10"
+			"•" "15 Minutes" "rcon mp_timelimit 15"
+			"•" "20 Minutes" "rcon mp_timelimit 20"
+			"•" "30 Minutes" "rcon mp_timelimit 30"
+			"•" "45 Minutes" "rcon mp_timelimit 45"
+		}
+	"»" "Round Time"
+		{
+			"•" "3 Minutes" "rcon mp_roundtime 3"
+			"•" "5 Minutes (Def.)" "rcon mp_roundtime5"
+			"•" "7 Minutes" "rcon mp_roundtime 7"
+			"•" "10 Minutes" "rcon mp_roundtime 10"
+		}
+	"»" "TK Punish"
+		{
+			"•" "On" "rcon mp_tkpunish 1"
+			"•" "Off" "rcon mp_tkpunish 0"
+		}
+	"»" "Hostage Penalty"
+		{
+			"•" "Off" "rcon mp_hostagepenalty 0"
+			"•" "1 Otage" "rcon mp_hostagepenalty 1"
+			"•" "2 Otages" "rcon mp_hostagepenalty 2"
+			"•" "3 Otages" "rcon mp_hostagepenalty 3"
+			"•" "4 Otages" "rcon mp_hostagepenalty 4"
+			"•" "5 Otages" "rcon mp_hostagepenalty 5"
+		}
+	"»" "Auto Kick"
+		{
+			"•" "On" "rcon mp_autokick 1"
+			"•" "Off" "rcon mp_autokick 0"
+		}
+	"•" "Kicker un joueur (ID)" "kickid"
+	"•" "Kicker un joueur (Nom)" "kicknom"
+}
+"»" "Commande server 2/2"
+{	
+
+	"»" "ForceChasecam"
+		{
+			"•" "On" "rcon mp_forcechasecam 1"
+			"•" "Off" "rcon mp_forcechasecam 0"
+		}
+	TOGGLE "•" "Fade To Black" "rcon mp_fadetoblack"
+	"»" "Type de Camera"
+		{
+			"•" "Tous le monde" "rcon mp_forcecamera 0"
+			"•" "Equipe" "rcon mp_forcecamera 1"
+			"•" "1ère Personne" "rcon mp_forcecamera 2"
+		}		
+
+	"»" "Temps d'Achat"
+		{
+			"•" "30 Secondes" "rcon mp_buytime 30"
+			"•" "60 Secondes" "rcon mp_buytime 60"
+			"•" "90 Secondes" "rcon mp_buytime 90"
+			"•" "Pas de Limite" "rcon mp_buytime 0"
+		}
+	"»" "Freeze Time"
+		{
+			"•" "Desactive" "rcon mp_freezetime 0"
+			"•" "3 Secondes" "rcon mp_freezetime 3"
+			"•" "5 Secondes" "rcon mp_freezetime 5"
+		}
+	"»" "Friendly Fire"
+		{
+			"•" "On" "rcon mp_friendlyfire 1"
+			"•" "Off" "rcon mp_friendlyfire 0"
+		}
+	"»" "C4 Timer"
+		{
+			"•" "15 Secondes" "rcon mp_c4timer 15"
+			"•" "30 Secondes" "rcon mp_c4timer 30"
+			"•" "45 Secondes (Def.)" "rcon mp_c4timer 45"
+		}
+
+}
+
+"»" "Match"
+	{
+	"•" "Config match" "rcon match"
+	"•" "Config FFa" "rcon ffa"
+	"•" "3 Rs et GO" "rcon rs"
+	"»" "Server password"  
+		{
+		"•" "roxor" "rcon sv_password roxor"
+		"•" "train" "rcon sv_password train"
+		"•" "match" "rcon sv_password match"
+		"•" "lumiere" "rcon sv_password lumiere"
+		"•" "lueur" "rcon sv_password lueur" 	
+		"•" "plop" "rcon sv_password plop"
+		"•" "aucun" "rcon sv_password none"
+		"•" "Autre" "messagemode rcon sv_password"
+		}
+	}
+"»" "Changer de map"
+		{
+		"»" "Assassination (as_)"
+			{
+			"•" "as_oilrig" "rcon changelevel as_oilrig"
+			"•" "as_tundra" "rcon changelevel as_tundra"
+			}
+		"»" "Hostage Rescue (cs_)"
+			{
+			"•" "cs_747" "rcon cs_747"
+			"•" "cs_assault" "rcon changelevel cs_assault"
+			"•" "cs_backalley" "rcon changelevel cs_backalley"
+			"•" "cs_estate" "rcon changelevel cs_estate"
+			"•" "cs_havana" "rcon changelevel cs_havana"
+			"•" "cs_italy" "rcon changelevel cs_italy"
+			"•" "cs_militia" "rcon changelevel cs_militia"
+			"•" "cs_office" "rcon changelevel cs_office"
+			"•" "cs_siege" "rcon changelevel cs_siege"
+			}
+		"»" "Defuse (de_) 1/2"
+			{
+			"•" "de_aztec" "rcon changelevel de_aztec"
+			"•" "de_cbble" "rcon changelevel de_cbble"
+			"•" "de_chateau" "rcon changelevel de_chateau"
+			"•" "de_dust" "rcon changelevel de_dust"
+			"•" "de_dust2" "rcon changelevel de_dust2"
+			"•" "de_inferno" "rcon changelevel de_inferno"
+			"•" "de_nuke" "rcon changelevel de_nuke"
+			"•" "de_piranesi" "rcon changelevel de_piranesi"
+			"•" "de_prodigy" "rcon changelevel de_prodigy"
+			}
+		"»" "Defuse (de_) 2/2"
+			{
+			"•" "de_storm" "rcon changelevel de_storm"
+			"•" "de_survivor" "rcon changelevel de_survivor"
+			"•" "de_torn" "rcon changelevel de_torn"
+			"•" "de_train" "rcon changelevel de_train"
+			"•" "de_vegas" "rcon changelevel de_vegas"
+			"•" "de_vertigo" "rcon changelevel de_vertigo"
+			}
+		"»" "Map non-officiel"
+			{
+			"•" "awp_map" "rcon changelevel awp_map"
+			}
+		"•" "Map Non Lister" "messagemode rcon changelevel"
+		}
+
+"•" "Amx Off" "amx_off"
+
+}
+
+
+
+

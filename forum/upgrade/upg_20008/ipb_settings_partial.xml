@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settingexport exported="1092402393">
+	<settinggroup>
+		<setting>
+			<conf_id>253</conf_id>
+			<conf_title>Chat Room Type</conf_title>
+			<conf_description>This is the type of chat service you purchased</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat04_servicetype</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra>advanced=Advanced
+premium=Premium</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>252</conf_id>
+			<conf_title>Default Chat Room</conf_title>
+			<conf_description>This is the room that your chat users will be logged into first</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_default_room</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>203</conf_id>
+			<conf_title>Chat Room URL?</conf_title>
+			<conf_description><![CDATA[<!--SERVER-->]]></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_whodat_server_addr</conf_key>
+			<conf_value></conf_value>
+			<conf_default>--Not currently required--</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>204</conf_id>
+			<conf_title><![CDATA[Enable &#39;Who&#39;s Chatting?&#39;]]></conf_title>
+			<conf_description><![CDATA[If enabled, this will show who's chatting in the chat room on your forums home page underneath the active users list.]]></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>chat04_who_on</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>4</conf_position>
+			<conf_start_group><![CDATA[Who&#39;s Chatting]]></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>205</conf_id>
+			<conf_title><![CDATA[Hide Who&#39;s Chatting when no members are logged into chat?]]></conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>chat04_hide_whoschatting</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>5</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>262</conf_id>
+			<conf_title>Enable X_FORWARDED_FOR IP matching?</conf_title>
+			<conf_description><![CDATA[If enabled, this will check the X_FORWARDED_FOR headers to match the user's IP address. This is useful in a intranet situation if the REMOTE_ADDR will be the same across the network. It will also help maintain AOL sessions but can be abused to forge incorrect headers to report an incorrect IP address. If unsure, leave off.]]></conf_description>
+			<conf_group>6</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>xforward_matching</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>6</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>206</conf_id>
+			<conf_title>Update local list no less than every:</conf_title>
+			<conf_description>The local list is updated from the master chat server by the frequency you set and cached locally. In minutes.</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat04_who_save</conf_key>
+			<conf_value></conf_value>
+			<conf_default>2</conf_default>
+			<conf_extra>2=2
+5=5
+10=10
+15=15
+30=30</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>6</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>209</conf_id>
+			<conf_title>Chat Room Dimensions (WIDTH)?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_width</conf_key>
+			<conf_value></conf_value>
+			<conf_default>600</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>8</conf_position>
+			<conf_start_group>Showing the chat room</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>248</conf_id>
+			<conf_title>Moderators can ban via warn panel?</conf_title>
+			<conf_description><![CDATA[Applies to those moderators allowed to use the warning system<br />Admins can automatically do this via the warn panel.]]></conf_description>
+			<conf_group>13</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>warn_mod_ban</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>8</conf_position>
+			<conf_start_group>Forum Moderator Permissions</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>210</conf_id>
+			<conf_title>Chat Room Dimensions (HEIGHT)?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_height</conf_key>
+			<conf_value></conf_value>
+			<conf_default>350</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>9</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>249</conf_id>
+			<conf_title>Moderators can mod queue members via warn panel?</conf_title>
+			<conf_description><![CDATA[Applies to those moderators allowed to use the warning system<br />Admins can automatically do this via the warn panel.]]></conf_description>
+			<conf_group>13</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>warn_mod_modq</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>9</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>50</conf_id>
+			<conf_title><![CDATA[Auto prune all topic subscriptions if the topic has no replies over [x] days]]></conf_title>
+			<conf_description>Leave blank or enter 0 for no auto prune limit</conf_description>
+			<conf_group>4</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>subs_autoprune</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>10</conf_position>
+			<conf_start_group><![CDATA[Topic &amp; Forum Subscriptions]]></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key>0</conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>254</conf_id>
+			<conf_title>Default Chat Room Language</conf_title>
+			<conf_description>This is the default language used for the chat user inteface (buttons and labels, etc)</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat04_default_lang</conf_key>
+			<conf_value></conf_value>
+			<conf_default>english.conf</conf_default>
+			<conf_extra>english.conf=English
+spanish.conf=Spanish
+portuguese.conf=Portuguese
+italian.conf=Italian
+french.conf=French
+german.conf=German</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>10</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>250</conf_id>
+			<conf_title>Moderators can remove post rights via warn panel?</conf_title>
+			<conf_description><![CDATA[Applies to those moderators allowed to use the warning system<br />Admins can automatically do this via the warn panel.]]></conf_description>
+			<conf_group>13</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>warn_mod_post</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>10</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>263</conf_id>
+			<conf_title>Automatically subscribe to every forum</conf_title>
+			<conf_description><![CDATA[Please choose which user groups you'd like to automatically be subscribed for email notification of <b>new</b> topics (not replies) in every forum available to them. This means that members having a selected PRIMARY group will be emailed everytime there is a new topic and they are not online to view it.<br /><b>Note</b> This will only send the email to those who have chosen to 'Allow emails from the administrators'.]]></conf_description>
+			<conf_group>4</conf_group>
+			<conf_type>multi</conf_type>
+			<conf_key>autoforum_sub_groups</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra>#show_groups#</conf_extra>
+			<conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['autoforum_sub_groups']) )
+	{
+		$_POST['autoforum_sub_groups'] = implode(",",$_POST['autoforum_sub_groups']);
+	}
+	else
+	{
+		$_POST['autoforum_sub_groups'] = "";
+	}
+	
+	$key = 'autoforum_sub_groups';
+}
+if ( $show == 1 )
+{
+    $key='autoforum_sub_groups[]';
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>11</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>255</conf_id>
+			<conf_title><![CDATA[Enable &quot;Plain Mode&quot;?]]></conf_title>
+			<conf_description><![CDATA["Plain mode" removes the colored chat text from your Invision Power Chat Advanced room(s), and implements single-colored (non-GUI) chat text. This will disable the graphic emoticons and click-able URLs.]]></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>chat04_plainmode</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>11</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>251</conf_id>
+			<conf_title>Number of times per day a moderator can warn a single member</conf_title>
+			<conf_description></conf_description>
+			<conf_group>13</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>warn_mod_day</conf_key>
+			<conf_value></conf_value>
+			<conf_default>3</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>11</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>213</conf_id>
+			<conf_title>Load the chat room in...?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat04_display</conf_key>
+			<conf_value></conf_value>
+			<conf_default>self</conf_default>
+			<conf_extra>self=Normal IPB Page
+new=New Pop Up Window</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>12</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>211</conf_id>
+			<conf_title>Chat Room Pop-up Window Padding? (in px)</conf_title>
+			<conf_description>Allows window to open without scrollbars</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_poppad</conf_key>
+			<conf_value></conf_value>
+			<conf_default>50</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>14</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>256</conf_id>
+			<conf_title>Applet: Background Color</conf_title>
+			<conf_description>To change your chat applet background color select any RGB value.</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_style_applet_bg</conf_key>
+			<conf_value></conf_value>
+			<conf_default>#BCD0ED</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>16</conf_position>
+			<conf_start_group>Chat Room Style Options</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>257</conf_id>
+			<conf_title>Applet: Foreground Color</conf_title>
+			<conf_description>To change your chat applet foreground color select any RGB value.</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_style_applet_fg</conf_key>
+			<conf_value></conf_value>
+			<conf_default>#345487</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>17</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>258</conf_id>
+			<conf_title>Chat Window: Background Color</conf_title>
+			<conf_description>To change your chat window background color select any RGB value.</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_style_window_bg</conf_key>
+			<conf_value></conf_value>
+			<conf_default>#F5F9FD</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>17</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>259</conf_id>
+			<conf_title>Chat Window: Foreground Color</conf_title>
+			<conf_description>To change your chat window foreground color select any RGB value.</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_style_window_fg</conf_key>
+			<conf_value></conf_value>
+			<conf_default>#345487</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>17</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>261</conf_id>
+			<conf_title>Additional PARAM information</conf_title>
+			<conf_description><![CDATA[Use this field to enter any custom param tags for the chat applet.
+Example:<br />
+&lt;param name="cmd.BeepEnter" value="true"&gt;
+<br />&lt;param name="cmd.BeepLeave" value="true"&gt;
+<br />Please refer to the Invision Chat documentation for more info.]]></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>textarea</conf_type>
+			<conf_key>chat04_customparams</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>18</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>110</conf_id>
+			<conf_title>Remove chr(0xCA) from input?</conf_title>
+			<conf_description><![CDATA[Can be used as a 'hidden' space to emulate registered names - but can cause problems in non Western character sets.]]></conf_description>
+			<conf_group>6</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>strip_space_chr</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>18</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>260</conf_id>
+			<conf_title>Chat Room Font Size</conf_title>
+			<conf_description><![CDATA[To customize your font size replace "10" to whatever numeric value you wish.]]></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_style_font_size</conf_key>
+			<conf_value></conf_value>
+			<conf_default>10</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>19</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>214</conf_id>
+			<conf_title>Allow chat access to these groups</conf_title>
+			<conf_description>You may select more than one</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>multi</conf_type>
+			<conf_key>chat04_access_groups</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra>#show_groups#</conf_extra>
+			<conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['chat04_access_groups']) )
+	{
+		$_POST['chat04_access_groups'] = implode(",",$_POST['chat04_access_groups']);
+	}
+	else
+	{
+		$_POST['chat04_access_groups'] = "";
+	}
+	
+	$key = 'chat04_access_groups';
+}
+if ( $show == 1 )
+{
+$key = 'chat04_access_groups[]';
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>25</conf_position>
+			<conf_start_group>Access Permissions</conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+	</settinggroup>
+
+</settingexport>

@@ -1,0 +1,15 @@
+Se state aggiornando dalle versioni di test distribuite dal sito, procedere come segue:
+
+//////////////////////////////////
+//  Da Php-Stats 0.1.8 Test 40  //
+//////////////////////////////////
+
+E' necessaria una modifica alla tabella php_stats_pages:
+
+ALTER TABLE php_stats_pages CHANGE lev_1 lev_1 INT(10) DEFAULT '0' NOT NULL;
+ALTER TABLE php_stats_pages CHANGE lev_2 lev_2 INT(10) DEFAULT '0' NOT NULL;
+ALTER TABLE php_stats_pages CHANGE lev_3 lev_3 INT(10) DEFAULT '0' NOT NULL;
+ALTER TABLE php_stats_pages CHANGE lev_4 lev_4 INT(10) DEFAULT '0' NOT NULL;
+ALTER TABLE php_stats_pages CHANGE lev_5 lev_5 INT(10) DEFAULT '0' NOT NULL;
+ALTER TABLE php_stats_pages CHANGE lev_6 lev_6 INT(10) DEFAULT '0' NOT NULL;
+ALTER TABLE php_stats_pages CHANGE outs outs INT(10) DEFAULT '0' NOT NULL;

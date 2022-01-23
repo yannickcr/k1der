@@ -1,0 +1,33 @@
+<?php
+$os_dat_version=1; 
+$os_def=
+Array(
+        Array('Windows XP','WindowsNT5.1'),
+        Array('Windows XP','WindowsXP'),
+        Array('Windows Server 2003','WindowsNT5.2'),
+        Array('Windows 2000','Windows2000'),
+        Array('Windows 2000','WindowsNT5.0'),
+        Array('Windows ME','WindowsME'),
+        Array('Windows ME','Win9x4.90'),
+        Array('Windows 98','Windows98'),
+        Array('Windows 98','Win98'),
+        Array('Windows 95','Windows95'),
+        Array('Windows 95','Win95'),
+        Array('Windows NT 4','WindowsNT4'),
+        Array('Windows NT 4','WinNT'),
+        Array('Windows NT 4','WindowsNT'),
+        Array('Windows 3.1','Win3.1'),
+        Array('Windows CE','WindowsCE'),
+        Array('Windows CE','WinCE'),
+        Array('Mac','Mac'),
+        Array('SunOS','SunOS'),
+        Array('FreeBSD','FreeBSD'),
+        Array('OpenBSD','OpenBSD'),
+        Array('Linux','Linux'),
+        Array('Linux','linux'),
+        Array('Linux','X11'),
+        Array('WebTV','WebTV'),
+        Array('Amiga','Amiga'),
+        Array('Symbian','Symbian')
+);
+?>

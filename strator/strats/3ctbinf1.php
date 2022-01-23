@@ -1,0 +1,31 @@
+<?php
+$strat[nom]="3ctbinf1";
+$strat[map]="de_inferno.png";
+$strat[k6]="look midd";
+$strat[k7]="eco style ou arme oto legere / planké sous balcon";
+$strat[k8]="mouleu";
+$strat[k9_x]="726";
+$strat[k9_y]="341";
+$strat[k9]="";
+$strat[k1_nom]="awp";
+$strat[k1_x]="943";
+$strat[k1_y]="443";
+$strat[k2_nom]="Surprise";
+$strat[k2_x]="967";
+$strat[k2_y]="428";
+$strat[k3_nom]="Country";
+$strat[k3_x]="887";
+$strat[k3_y]="663";
+$strat[k4_nom]="Maxi King";
+$strat[k4_x]="757";
+$strat[k4_y]="580";
+$strat[k5_nom]="m4";
+$strat[k5_x]="759";
+$strat[k5_y]="652";
+$strat[k6_x]="761";
+$strat[k6_y]="574";
+$strat[k7_x]="766";
+$strat[k7_y]="735";
+$strat[k8_x]="2";
+$strat[k8_y]="763";
+?>

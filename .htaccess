@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^statistiques(.*)$ include/scripts/phpmyvisites/$1 [L]
+
+
+AddType text/xml xml
+AddType text/xml xsl
+AddType application/x-xpinstall .xpi
+AddType text/xml rdf

@@ -1,0 +1,3 @@
+<?
+$desc = "Stratégie N°1";
+?>

@@ -1,0 +1,37 @@
+<?php
+$strat[nom]="poz de base";
+$strat[map]="de_dust2.png";
+$strat[k9]="awp corncihe";
+$strat[k10]="couvre le mid et matte en B";
+$strat[k11]="awp corn";
+$strat[k1_nom]="Chocofresh";
+$strat[k1_x]="433";
+$strat[k1_y]="238";
+$strat[k2_nom]="Surprise";
+$strat[k2_x]="333";
+$strat[k2_y]="416";
+$strat[k3_nom]="awp";
+$strat[k3_x]="363";
+$strat[k3_y]="451";
+$strat[k4_nom]="Country";
+$strat[k4_x]="38";
+$strat[k4_y]="160";
+$strat[k5_nom]="Chocobon";
+$strat[k5_x]="52";
+$strat[k5_y]="233";
+$strat[k6_nom]="Circus";
+$strat[k6_x]="473";
+$strat[k6_y]="207";
+$strat[k7_nom]="Country";
+$strat[k7_x]="358";
+$strat[k7_y]="505";
+$strat[k8_nom]="Chocobon";
+$strat[k8_x]="301";
+$strat[k8_y]="523";
+$strat[k9_x]="-3";
+$strat[k9_y]="661";
+$strat[k10_x]="357";
+$strat[k10_y]="491";
+$strat[k11_x]="340";
+$strat[k11_y]="415";
+?>

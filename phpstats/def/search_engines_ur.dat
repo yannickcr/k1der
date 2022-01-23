@@ -1,0 +1,15 @@
+<?php
+$se_ur_dat_version=1; 
+
+////////////////////////////////
+// PHP-STATS ENGINE DEFS      //
+// http://www.php-stats.com   //
+////////////////////////////////
+
+$search_engines_def=
+Array(
+        Array('MetaCrawler','metacrawler.com','us',3,4,20),
+        Array('Dogpile','www.dogpile.com','us',3,4,20),
+        Array('Excite','excite.com','us',3,4,20)
+);
+?>

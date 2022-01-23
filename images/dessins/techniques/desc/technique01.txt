@@ -1,0 +1,3 @@
+<?
+$desc = "La statue en plein milieu de dust";
+?>

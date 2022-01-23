@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /def/
+Disallow: /doc/
+Disallow: /files_noWrite/
+Disallow: /images/
+Disallow: /inc/
+Disallow: /isp_db/
+Disallow: /lang/
+Disallow: /option/
+Disallow: /setup_files/
+Disallow: /stili/
+Disallow: /templates/
+Disallow: /update_files/

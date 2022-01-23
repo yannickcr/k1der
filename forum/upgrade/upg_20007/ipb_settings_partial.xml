@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settingexport exported="1090502939">
+	<settinggroup>
+		<setting>
+			<conf_id>188</conf_id>
+			<conf_title>Chat Room Account Number?</conf_title>
+			<conf_description>Removing this number will remove all links / chat functionality within IPB.
+</conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat_account_no</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>1</conf_position>
+			<conf_start_group>Account Specifics</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>202</conf_id>
+			<conf_title>Chat Room Account Number?</conf_title>
+			<conf_description>Removing this number will remove all links / chat functionality within IPB.
+</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_account_no</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>1</conf_position>
+			<conf_start_group>Account Specifics</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>216</conf_id>
+			<conf_title>ENABLE IPB Portal?</conf_title>
+			<conf_description><![CDATA[If 'yes', IPB Portal can be accessed via 'index.php?act=home' or via the special 'index.php' script (see documentation for more info).]]></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_on</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>1</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>246</conf_id>
+			<conf_title>IPB Copyright Removal Key</conf_title>
+			<conf_description>Your copyright removal key obtained from IPS.</conf_description>
+			<conf_group>25</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>ipb_copy_number</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>1</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>245</conf_id>
+			<conf_title>IPB Registered Licence Key</conf_title>
+			<conf_description><![CDATA[This is the IPB registraton key NOT your customer code or client center password. To get your key, log into your client center and click on 'Invision Power Board' under 'Purchased Services'.
+<br />DO NOT REMOVE OR EDIT THIS KEY UNLESS YOU'RE SURE OF WHAT YOU'RE DOING!]]></conf_description>
+			<conf_group>24</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>ipb_reg_number</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>1</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>239</conf_id>
+			<conf_title>Show subscription packages when registering?</conf_title>
+			<conf_description>If enabled, the subscription packages will be shown in the registration page and the registering member will be able to select one.</conf_description>
+			<conf_group>23</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>subsm_show_reg</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>1</conf_position>
+			<conf_start_group>Optional Purchase Upon Registration</conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>189</conf_id>
+			<conf_title>Chat Room Server?</conf_title>
+			<conf_description><![CDATA[<!--SERVER-->]]></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat_server_addr</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>203</conf_id>
+			<conf_title>Chat Room URL?</conf_title>
+			<conf_description><![CDATA[<!--SERVER-->]]></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_whodat_server_addr</conf_key>
+			<conf_value></conf_value>
+			<conf_default>http://invision.parachat.com/cgi-bin/userlist/test</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>247</conf_id>
+			<conf_title>Copyright Purchased?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>25</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>ips_cp_purchase</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>243</conf_id>
+			<conf_title>Display registered to line?</conf_title>
+			<conf_description><![CDATA[If enabled, you can optionally add a "registered to" line at the bottom of your board.]]></conf_description>
+			<conf_group>24</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>ipb_reg_show</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>240</conf_id>
+			<conf_title>Force every member to require a subscriptions package</conf_title>
+			<conf_description>If enabled, the member must choose a package upon registration to proceed past the validating group and current members must purchase a subscription to view the board.</conf_description>
+			<conf_group>23</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>subsm_enforce</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group>Force Package Purchase</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>217</conf_id>
+			<conf_title>IPB Portal Page Title?</conf_title>
+			<conf_description><![CDATA[This will appear inbetween the &lt;title&gt; elements on the page]]></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_title</conf_key>
+			<conf_value></conf_value>
+			<conf_default>IPB Portal</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>2</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>223</conf_id>
+			<conf_title>Date format for articles</conf_title>
+			<conf_description><![CDATA[<a href='http://www.php.net/date'>Same as PHP's date function]]></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_article_date</conf_key>
+			<conf_value></conf_value>
+			<conf_default>m-j-y H:i</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>190</conf_id>
+			<conf_title><![CDATA[Enable &#39;Who&#39;s Chatting?&#39;]]></conf_title>
+			<conf_description><![CDATA[If enabled, this will show who's chatting in the chat room on your forums home page underneath the active users list.]]></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>chat_who_on</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group><![CDATA[Who&#39;s Chatting]]></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>204</conf_id>
+			<conf_title><![CDATA[Enable &#39;Who&#39;s Chatting?&#39;]]></conf_title>
+			<conf_description><![CDATA[If enabled, this will show who's chatting in the chat room on your forums home page underneath the active users list.]]></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>chat04_who_on</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group><![CDATA[Who&#39;s Chatting]]></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>218</conf_id>
+			<conf_title>Forums to export articles from</conf_title>
+			<conf_description><![CDATA[Separate <b>forum ids</b> with a comma for more than one]]></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_article_forum</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>241</conf_id>
+			<conf_title>Member group to use after registration but before package purchase?</conf_title>
+			<conf_description><![CDATA[If you require that every member purchases a subscription, choose a group to move the member into once they have validated their registration prior to purchasing a subscriptions manager package.
+Members in this group will see the 'Purchase Subscriptions' page when logged in and if they don't already have a package.]]></conf_description>
+			<conf_group>23</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>subsm_nopkg_group</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra>#show_groups#</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>244</conf_id>
+			<conf_title>Show as registered to...</conf_title>
+			<conf_description><![CDATA[Examples: <em>Matthew Mecham</em>, <em>IPS, Inc.]]></conf_description>
+			<conf_group>24</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>ipb_reg_name</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>3</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>191</conf_id>
+			<conf_title><![CDATA[Hide Who&#39;s Chatting when no members are logged into chat?]]></conf_title>
+			<conf_description></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>chat_hide_whoschatting</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>4</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>205</conf_id>
+			<conf_title><![CDATA[Hide Who&#39;s Chatting when no members are logged into chat?]]></conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>chat04_hide_whoschatting</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>4</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>219</conf_id>
+			<conf_title>Number of Articles to display in the main section</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_article_max</conf_key>
+			<conf_value></conf_value>
+			<conf_default>15</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>4</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>220</conf_id>
+			<conf_title>Enable Recent Articles?</conf_title>
+			<conf_description>This will show a list of recent topic titles on the IPB Portal page</conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_article_recent_on</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>5</conf_position>
+			<conf_start_group>IPB Portal Recent Articles</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>238</conf_id>
+			<conf_title><![CDATA[Registration Terms &amp; Rules]]></conf_title>
+			<conf_description><![CDATA[The content of this section will be displayed before a member can register a new account.
+<b>HTML ENABLED</b>]]></conf_description>
+			<conf_group>17</conf_group>
+			<conf_type>textarea</conf_type>
+			<conf_key>reg_rules</conf_key>
+			<conf_value></conf_value>
+			<conf_default><![CDATA[<b>Forum Terms & Rules</b>
+
+Please take a moment to review these rules detailed below. If you agree with them and wish to proceed with the registration, simply click the "Register" button below. To cancel this registration, simply hit the 'back' button on your browser.
+
+Please remember that we are not responsible for any messages posted. We do not vouch for or warrant the accuracy, completeness or usefulness of any message, and are not responsible for the contents of any message.
+
+The messages express the views of the author of the message, not necessarily the views of this bulletin board. Any user who feels that a posted message is objectionable is encouraged to contact us immediately by email. We have the ability to remove objectionable messages and we will make every effort to do so, within a reasonable time frame, if we determine that removal is necessary.
+
+You agree, through your use of this service, that you will not use this bulletin board to post any material which is knowingly false and/or defamatory, inaccurate, abusive, vulgar, hateful, harassing, obscene, profane, sexually oriented, threatening, invasive of a person's privacy, or otherwise violative of any law.
+
+You agree not to post any copyrighted material unless the copyright is owned by you or by this bulletin board.
+]]></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>5</conf_position>
+			<conf_start_group><![CDATA[Registration Terms &amp; Rules]]></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>192</conf_id>
+			<conf_title>Update local list no less than every:</conf_title>
+			<conf_description>The local list is updated from the master chat server by the frequency you set and cached locally.</conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat_refresh_list</conf_key>
+			<conf_value></conf_value>
+			<conf_default>15</conf_default>
+			<conf_extra>5=5
+10=10
+15=15
+30=30</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>5</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>206</conf_id>
+			<conf_title>Update local list no less than every:</conf_title>
+			<conf_description>The local list is updated from the master chat server by the frequency you set and cached locally.</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat04_who_save</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra>1=1
+5=5
+10=10
+15=15
+30=30</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>5</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>193</conf_id>
+			<conf_title>Changed your IPChat control panel password?</conf_title>
+			<conf_description><![CDATA[If you have changed your IPChat control panel password, please add the new password here. Leave blank if it's not changed.]]></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat_pass_md5</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>6</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>221</conf_id>
+			<conf_title>Max. no recent articles to show</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_article_recent_max</conf_key>
+			<conf_value></conf_value>
+			<conf_default>5</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>6</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>194</conf_id>
+			<conf_title>ENTER YOUR IPCHAT CONTROL PANEL PASSWORD</conf_title>
+			<conf_description><![CDATA[You must enter your IPChat control panel password to allow retrieval of the Who's Chatting list.]]></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat_pass_md5_new</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>7</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>222</conf_id>
+			<conf_title>Max. length of topic titles</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_article_len</conf_key>
+			<conf_value></conf_value>
+			<conf_default>30</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>7</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>195</conf_id>
+			<conf_title>Chat Room Dimensions (WIDTH)?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat_width</conf_key>
+			<conf_value></conf_value>
+			<conf_default>600</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>8</conf_position>
+			<conf_start_group>Showing the chat room</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>209</conf_id>
+			<conf_title>Chat Room Dimensions (WIDTH)?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_width</conf_key>
+			<conf_value></conf_value>
+			<conf_default>600</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>8</conf_position>
+			<conf_start_group>Showing the chat room</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>196</conf_id>
+			<conf_title>Chat Room Dimensions (HEIGHT)?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat_height</conf_key>
+			<conf_value></conf_value>
+			<conf_default>350</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>9</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>210</conf_id>
+			<conf_title>Chat Room Dimensions (HEIGHT)?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_height</conf_key>
+			<conf_value></conf_value>
+			<conf_default>350</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>9</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>224</conf_id>
+			<conf_title>Enable Recent Discussions</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_discuss_on</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>9</conf_position>
+			<conf_start_group>IPB Portal Recent Discussions</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>199</conf_id>
+			<conf_title>Load the chat room in...?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat_display</conf_key>
+			<conf_value></conf_value>
+			<conf_default>self</conf_default>
+			<conf_extra>self=Normal IPB Page
+new=New Pop Up Window</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>9</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>213</conf_id>
+			<conf_title>Load the chat room in...?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat04_display</conf_key>
+			<conf_value></conf_value>
+			<conf_default>self</conf_default>
+			<conf_extra>self=Normal IPB Page
+new=New Pop Up Window</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>9</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>197</conf_id>
+			<conf_title>Chat Room Pop-up Window Padding? (in px)</conf_title>
+			<conf_description>Allows window to open without scrollbars</conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat_poppad</conf_key>
+			<conf_value></conf_value>
+			<conf_default>50</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>10</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>211</conf_id>
+			<conf_title>Chat Room Pop-up Window Padding? (in px)</conf_title>
+			<conf_description>Allows window to open without scrollbars</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>chat04_poppad</conf_key>
+			<conf_value></conf_value>
+			<conf_default>50</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>10</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>225</conf_id>
+			<conf_title>Max. no recent discussions to show</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_discuss_max</conf_key>
+			<conf_value></conf_value>
+			<conf_default>10</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>10</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>198</conf_id>
+			<conf_title>Default Chat Room Interface Language?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>chat_language</conf_key>
+			<conf_value></conf_value>
+			<conf_default>en</conf_default>
+			<conf_extra>en=English
+ar=Arabic
+de=German
+es=Spanish
+fr=French
+hr=Croation
+it=Italian
+iw=Hebrew
+nl=Dutch
+pl=Polish
+pt=Portuguese</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>11</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>226</conf_id>
+			<conf_title>Max. length of topic titles</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_discuss_len</conf_key>
+			<conf_value></conf_value>
+			<conf_default>30</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>11</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>227</conf_id>
+			<conf_title>Show User / Guest Info box?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_pm_show</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>12</conf_position>
+			<conf_start_group>IPB Portal Components</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>200</conf_id>
+			<conf_title>Allow chat access to these groups</conf_title>
+			<conf_description>You may select more than one</conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>multi</conf_type>
+			<conf_key>chat_access_groups</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra>#show_groups#</conf_extra>
+			<conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['chat_access_groups']) )
+	{
+		$_POST['chat_access_groups'] = implode(",",$_POST['chat_access_groups']);
+	}
+	else
+	{
+		$_POST['chat_access_groups'] = "";
+	}
+	
+	$key = 'chat_access_groups';
+}
+if ( $show == 1 )
+{
+    $key='chat_access_groups[]';
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>13</conf_position>
+			<conf_start_group>Access Permissions</conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>214</conf_id>
+			<conf_title>Allow chat access to these groups</conf_title>
+			<conf_description>You may select more than one</conf_description>
+			<conf_group>21</conf_group>
+			<conf_type>multi</conf_type>
+			<conf_key><![CDATA[chat04_access_groups[]]]></conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra>#show_groups#</conf_extra>
+			<conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['chat04_access_groups']) )
+	{
+		$_POST['chat04_access_groups'] = implode(",",$_POST['chat04_access_groups']);
+	}
+	else
+	{
+		$_POST['chat04_access_groups'] = "";
+	}
+	
+	$key = 'chat04_access_groups';
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>13</conf_position>
+			<conf_start_group>Access Permissions</conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>228</conf_id>
+			<conf_title>Show online users?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_online_show</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>13</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>201</conf_id>
+			<conf_title>Allow ADMIN access to these groups</conf_title>
+			<conf_description>You may select more than one - please choose carefully!</conf_description>
+			<conf_group>20</conf_group>
+			<conf_type>multi</conf_type>
+			<conf_key>chat_admin_groups</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra>#show_groups#</conf_extra>
+			<conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['chat_admin_groups']) )
+	{
+		$_POST['chat_admin_groups'] = implode(",",$_POST['chat_admin_groups']);
+	}
+	else
+	{
+		$_POST['chat_admin_groups'] = "";
+	}
+	
+	$key = 'chat_admin_groups';
+}
+if ( $show == 1 )
+{
+    $key='chat_admin_groups[]';
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>14</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>229</conf_id>
+			<conf_title>Show search box?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_search_show</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>14</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>230</conf_id>
+			<conf_title>Enable skin selection choice dropdown?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_skinchange_show</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>15</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>232</conf_id>
+			<conf_title>Enter URL to poll topic for inclusion</conf_title>
+			<conf_description>Leave blank to not show a poll or the poll box</conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>input</conf_type>
+			<conf_key>csite_poll_url</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>17</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>233</conf_id>
+			<conf_title>Show Site Navigation Menu?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_nav_show</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>18</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>242</conf_id>
+			<conf_title>Reported Post Notifications sent to</conf_title>
+			<conf_description>Where do you want reported post notifications to go?</conf_description>
+			<conf_group>6</conf_group>
+			<conf_type>dropdown</conf_type>
+			<conf_key>reportpost_method</conf_key>
+			<conf_value></conf_value>
+			<conf_default>pm</conf_default>
+			<conf_extra>email=Email
+pm=Personal Message</conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>19</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>234</conf_id>
+			<conf_title>Site Navigation Menu Links</conf_title>
+			<conf_description><![CDATA[One per line in this format<br>http://www.apple.com [Apple's Website]<br><br>{board_url} will convert into your board]]></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>textarea</conf_type>
+			<conf_key>csite_nav_contents</conf_key>
+			<conf_value></conf_value>
+			<conf_default><![CDATA[{board_url} [Forums]
+{board_url}act=Search&CODE=getactive [Today's Active Topics]
+{board_url}act=Stats [Today's Top 10 Posters]
+{board_url}act=Stats&CODE=leaders [Contact Staff]]]></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp><![CDATA[if ( $show == 1)
+{
+    $value = preg_replace( "/&(middot|quot|copy|amp)/", "&\\1", $value );
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>19</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>235</conf_id>
+			<conf_title>Show Affiliates / Favoured Sites box?</conf_title>
+			<conf_description></conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>csite_fav_show</conf_key>
+			<conf_value></conf_value>
+			<conf_default>0</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>20</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>236</conf_id>
+			<conf_title>Show Affiliates / Favoured Sites box content</conf_title>
+			<conf_description>Raw HTML enabled</conf_description>
+			<conf_group>22</conf_group>
+			<conf_type>textarea</conf_type>
+			<conf_key>csite_fav_contents</conf_key>
+			<conf_value></conf_value>
+			<conf_default></conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp><![CDATA[if ( $show == 1)
+{
+ $value = preg_replace( "/&(middot|quot|copy|amp)/", "&\\1", $value );
+}]]></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>21</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>1</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>0</conf_add_cache>
+		</setting>
+
+		<setting>
+			<conf_id>237</conf_id>
+			<conf_title>Allow poll creator to vote in own poll?</conf_title>
+			<conf_description><![CDATA[If set to "yes", the poll creator will have the option of voting in their own poll.]]></conf_description>
+			<conf_group>5</conf_group>
+			<conf_type>yes_no</conf_type>
+			<conf_key>allow_creator_vote</conf_key>
+			<conf_value></conf_value>
+			<conf_default>1</conf_default>
+			<conf_extra></conf_extra>
+			<conf_evalphp></conf_evalphp>
+			<conf_protected>1</conf_protected>
+			<conf_position>31</conf_position>
+			<conf_start_group></conf_start_group>
+			<conf_end_group>0</conf_end_group>
+			<conf_help_key></conf_help_key>
+			<conf_add_cache>1</conf_add_cache>
+		</setting>
+	</settinggroup>
+
+</settingexport>

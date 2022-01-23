@@ -1,0 +1,25 @@
+body { margin: 0px; } table { border-collapse: collapse; } td { background: #FFFFFF; padding: 0px; }
+select, option, textarea, input { BORDER-RIGHT: #9DBECD 1px solid; BORDER-TOP: #9DBECD 1px solid; BORDER-BOTTOM: #9DBECD 1px solid; BORDER-LEFT: #9DBECD 1px solid; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff }
+a:visited {text-decoration:none; font-family: Tahoma; font-size: 11px; color:#000000; }
+a:active {text-decoration:none; font-family: Tahoma; font-size: 11px; color:#000000; }
+a:hover {text-decoration:none; font-family: Tahoma; font-size: 11px; color:#076FA4; }
+a:link { text-decoration:none; font-family: Tahoma; font-size: 11px; color:#000000; }
+a:hover.creditslink {text-decoration:none; font-family: Tahoma; font-size: 11px; color:#C0C0C0; }
+a:link.creditslink { text-decoration:none; font-family: Tahoma; font-size: 11px; color:#777777; }
+ul { list-style-type: square; text-indent: -10pt;}
+.tabletitle { display:block; background: #076FA4; height: 20px; padding: 3px; font-family: Tahoma; margin:1px 0; font-size: 11px; color: #FFFFFF; font-weight: bold; }
+.tabletextA { display:block; border: #DDDDDD 0px solid; font-family: Tahoma; font-size: 11px; color: #000000; }
+.tabletextB { display:block; border: #DDDDDD 0px solid; font-family: Tahoma; font-size: 11px; color: #FF0000 }
+.pagetitle { font-family: Verdana; font-size: 11px; color: #000000; font-weight: bold; }
+.servertime { font-family: Verdana; font-size: 9px; color: #222222 }
+.testo {  font-family: Verdana; font-size: 10px; color: #000000}
+.menumenu { padding-left: 20px; padding-top: 20px; }
+.menu {  font-family: Tahoma; font-size: 9px; color: #000000; }
+.menutd { padding: 1px; border: #DDDDDD 1px solid; }
+.nomesito {  font-family: Verdana; font-size: 11px; color: #FFFFFF;}
+.whois { font-family: Lucida Console; font-size: 10px; color: #000000; }
+.indexheader { background-image: url(images/header.gif); text-align: center; }
+.indexcubes { background-image: url(images/cubes.gif); height: 2px; }
+.indexsite { background: #076FA4; height: 20px; text-align: right; padding-right: 5px; }
+.headerblu { background: #076FA4; height: 20px; padding-left: 7px; padding-right: 7px; font-family: Tahoma; font-weight: bold; font-size: 11px; color: #FFFFFF; }
+.credits { background-image: url(images/credits.gif); font-family: Tahoma; font-size: 11px; height: 20px; text-align: center; color: #777777; }

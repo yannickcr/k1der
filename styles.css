@@ -1,0 +1,901 @@
+body {
+	color:#000000;
+	background-color:#FFFFFF;
+}
+#dsl {
+	display:none;
+	visibility:hidden;
+	color:#FFFFFF;
+}
+a:visited {
+	text-decoration: none;
+	color:#de0200;
+}
+.drop { position: absolute; width: 3;  filter: flipV(), flipH(); font-size: 40px; color: blue }
+
+a:link {
+	text-decoration: none;
+	color:#de0200;
+	}
+a:hover {
+	text-decoration: underline;
+	color:#de0200;
+}
+.maxiabuze {
+	position:absolute;
+	background-image:url(images/maxiabuze.gif);
+	left:50%;
+	width:126px;
+	height:171px;
+	margin-left:326px;
+	margin-top:0px;
+}
+body {
+	margin:0px;
+	padding:0px;
+}
+#bulle {
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-size:10px;
+	border:1px solid #000000;
+	text-align:left;
+	position:absolute;
+	display:none;
+	padding:1px;
+	z-index:100;
+}
+
+/* Styles utilisés sur K1der */
+
+/* ======================================================
+                        Titre
+====================================================== */
+
+#titre {
+	height:154px;
+	width:950px;
+	background-image:url(images/titre_noel.gif);
+}
+
+#titre a {
+	display: block;
+	height: 154px;
+	text-indent: -9000px;
+	text-decoration: none;
+}
+
+#titre h1 {
+	padding:0px;
+	margin:0px;
+}
+
+/* ======================================================
+                       Mise en page
+====================================================== */
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	margin: 0px 7px 0px -6px;
+	padding: 0;
+	background-color:#FFFFFF;
+}
+#headbarre {
+	display: none;
+}
+#gauche .contenu, #droite .contenu, #menu, #recherche, #gauche a, #droite a {
+	color:#FFFFFF;
+}
+#gauche ul {
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+#gauche li {
+	padding:1px 0px;
+}
+.cyberleagues {
+	position:relative;
+	height:10px;
+	width:150px;
+	background-image:url(images/cyberleagues.gif);
+	background-repeat:no-repeat;
+	background-position:top center;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:1.5em;
+	text-align:right;
+	padding:35px 10px 0px 0px;
+	margin-top:20px;
+}
+.cltxt {
+	display:none;
+}
+#phrase {
+	height:40px;
+	width:100%;
+	background-image:url(images/fond.gif);
+	color:#FFFFFF;
+	text-align:center;
+}
+#haut {
+height: 30px;
+}
+#conteneur {
+position: absolute;
+left: 50%;
+width: 950px;
+margin-left: -475px;
+}
+#centre2 {
+margin-left: 170px;
+margin-right: 170px;
+}
+#gauche {
+	position: absolute;
+	left:0px;
+	width: 170px;
+	background-image:url(images/fond.gif);
+}
+#droite {
+	position: absolute;
+	right:0px;
+	width: 170px;
+	background-image:url(images/fond.gif);
+}
+#pied {
+	height: 30px;
+	margin:20px 170px;
+	font-size:0.7em;
+	text-align:center;
+}
+
+.menuhaut {
+list-style-type: none;
+margin: 0;
+padding:0;
+}
+.menuhaut li {
+display: inline;
+}
+.menuhaut a {
+margin: 0 2px;
+color: #000000;
+text-decoration: underline;
+}
+.menuhaut a:hover {
+text-decoration: none;
+}
+.menugauche {
+list-style-type: none;
+margin: 0;
+padding:0;
+}
+.menugauche li {
+margin-bottom: 5px;
+}
+.menugauche a {
+margin: 0 2px;
+color: #000000;
+text-decoration: underline;
+}
+.menugauche a:hover {
+text-decoration: none;
+}
+.menudroit {
+list-style-type: none;
+margin: 0;
+padding:0;
+}
+.menudroit li {
+margin-bottom: 5px;
+}
+.menudroit a {
+margin: 0 2px;
+color: #000000;
+text-decoration: underline;
+}
+.menudroit a:hover {
+text-decoration: none;
+}
+img {
+border:0;
+}
+
+/* ======================================================
+                 Style des tableaux
+====================================================== */
+
+.cadre {
+	margin:0px 15px 0px 15px;
+}
+
+.haut {
+	height: 20px;
+	background-image:url(images/hback.gif);
+	background-repeat:no-repeat;
+}
+
+.bas {
+	height: 20px;
+	border-bottom:20px solid #FFFFFF;
+	background-image:url(images/bback.gif);
+	background-repeat:no-repeat;
+}
+.round {
+	position:absolute;
+	height:20px;
+	width:610px;
+	top:174px;
+	left:170px;
+	background-image:url(images/round.gif);
+}
+
+.server {
+	margin-top:20px;
+	padding:2px;
+	color:#FFFFFF;
+}
+.serverinfo, .servergame {
+	font-weight:bold;
+}
+.servergame {
+	text-align:center;
+}
+.lan {
+	text-align:center;
+	margin-top:30px;
+}
+.listjoueurs {
+	padding-left:20px;
+	text-align:left;
+	margin:15px 0px;
+}
+
+.forum {
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	margin:15px 15px 0px 15px;
+	font-size:0.8em;
+}
+#gauche .forum a.forumtopic {
+	color:#CC0000;
+	font-weight:bold;
+}
+#gauche .forum a.forumposter {
+	color:#000000;
+	font-weight:bold;
+}
+.forumcount {
+	color:#666666;
+}
+.post1 {
+	background-color:#FFFFFF;
+	border-top:1px solid #CCCCCC;
+	padding:3px;
+}
+.post2 {
+	background-color:#F7F7F7;
+	border-top:1px solid #CCCCCC;
+	padding:3px;
+}
+.whatpulse {
+	font-size:0.8em;
+	padding:5px;
+	color:#FFFFFF;
+	margin-top:15px;
+}
+.partenaires {
+	text-align:center;
+	color:#FFFFFF;
+	margin-top:15px;
+}
+.dernierdessin {
+	text-align:center;
+}
+.dernierdessin img {
+	margin-top:3px;
+}
+.derniersmatches {
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	margin:15px 15px 0px 15px;
+	font-size:0.8em;
+}
+#droite .derniersmatches a {
+	color:#000000;
+	font-weight:bold;
+}
+.matchwin, .matchlost, .matchdraw {
+	float:right;
+	padding:2px;
+	width:30px;
+	text-align:center;
+	font-weight:bold;
+	margin:1px 3px;
+}
+.matchwin {
+	background-color:#00FF00;
+	color:#000000;
+}
+.matchlost {
+	background-color:#FF0000;
+	color:#000000;
+}
+.matchdraw {
+	background-color:#0000FF;
+	color:#FFFFFF;
+}
+.matchline1, .matchline2 {
+	height:18px;
+	vertical-align:middle;
+	padding-left:3px;
+	border-top:1px solid #CCCCCC;
+}
+.matchline1 {
+	background-color:#FFFFFF;
+}
+.matchline2 {
+	background-color:#F7F7F7;
+}
+.calendrier {
+	border-bottom:20px solid #FFFFFF;
+}
+.cadrecalendrier {
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+}
+.cadrecalendrier table {
+	width:100%;
+	font-size:0.7em;
+}
+#droite .calendrier a {
+	color:#000000;
+}
+#droite .cadrecalendrier img {
+	height:126px;
+	width:168px;
+}
+.aujourdhui {
+	color:#CC0000;
+	font-weight:bold;
+}
+.jourvide {
+	color:#000000;
+	border:1px solid #000000;
+	text-align:center;
+}
+.jourplein {
+	color:#000000;
+	border:1px solid #000000;
+	background-color:#FFE0E0;
+	text-align:center;
+}
+.sondage {
+	padding:3px;
+	margin:15px 15px 0px 15px;
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+}
+#droite .sondage a {
+	color:#CC0000;
+}
+.episode {
+	padding:3px;
+	margin:30px 15px 0px 15px;
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	font-size:0.8em;
+}
+.episodedate {
+	margin-top:15px;
+	font-weight:bold;
+	text-align:center;
+}
+.chatexpress {
+	margin:15px 15px 0px 15px;
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	font-size:0.8em;
+}
+.accesmembres {
+	margin-top:15px;
+	text-align:center;
+	color:#FFFFFF;
+}
+.compteurs {
+	padding:3px;
+	font-size:0.8em;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.compteurstxt {
+	float:right;
+	font-weight:normal;
+}
+/* ======================================================
+                         Titres
+====================================================== */
+
+
+h3, .titre2, .titre3, .titre4, .titre5, .titre6 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin:0px;
+}
+h3, .titre3, .titre4, .titre5, .titre6 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.titre3, .titre4, .titre5, .titre6 {
+	background-color:#CC0000;
+}
+h3 {
+	font-size:1em;
+	padding:4px 4px 4px 4px;
+	text-align:center;
+}
+.titre2 {
+	font-size:20px;
+	color:#000000;
+}
+.titre3 {
+	font-size:12px;
+}
+.titre4 {
+	font-size:12px;
+
+	text-align:center;
+}
+.titre5 {
+	font-size:30px;
+}
+.titre6 {
+	font-size:20px;
+}
+
+/* ======================================================
+                         Tableaux
+====================================================== */
+
+.table1, .table2 {
+	border:1px solid #000000;
+}
+.table1 {
+	background-color:#CC0000;
+
+	border: 1px solid #000000;
+}
+.table2 {
+	background-color:#FFFFFF;
+}
+
+.table3 {
+	border:0px;
+	margin:0px;
+}
+
+.table_titre, .table_titreb {
+	background-color:#E0E0E0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	font-weight:bold;
+}
+.table_titre {
+	border-right:1px solid #CCCCCC;
+}
+
+.table_line1, .table_line1b, .table_line2, .table_line2b, .table_war_line1, .table_war_line1b, .table_war_line2, .table_war_line2b, .table_war_line3, .table_war_line3b {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+
+.table_line1,.table_line1b {
+	background-color:#FFFFFF;
+}
+.table_line2,.table_line2b {
+	background-color:#F0F0F0;
+}
+.table_war_line1,.table_war_line1b {
+	background-color:#CCFFCC;
+}
+.table_war_line2,.table_war_line2b {
+	background-color:#FFCCCC;
+}
+.table_war_line3,.table_war_line3b {
+	background-color:#CCCCFF;
+}
+.table_line1,.table_line2,.table_war_line1,.table_war_line2,.table_war_line3 {
+	border-right:1px solid #CCCCCC;
+}
+
+td {
+border-width:0px;
+}
+
+.liste {
+	border:0;
+	background-color:#CCCCCC;
+}
+.liste2 {
+	border:0;
+	background-color:#CCCCCC;
+	margin:20px;
+}
+.td1 {
+	background-color:#FFFFFF;
+	padding:2px;
+}
+.td2 {
+	background-color:#F7F7F7;
+	padding:2px;
+}
+#bulle hr {
+	width:50px;
+	text-align:center;
+	background-color:#000000;
+	height:1px;
+	border:0px;
+}
+.bulledraw, .bullewin, .bullelose {
+	font-weight:bold;
+}
+.bulledraw {
+	color:#0000FF
+}
+
+.bullewin {
+	color:#00CC00
+}
+
+.bullelose {
+	color:#FF0000;
+}
+.caltxt {
+	text-align:center;
+	font-weight:bold;
+	padding:5px;
+}
+/* ======================================================
+                         Textes
+====================================================== */
+
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .texts1, .texts2, .texts3, .error, .error2 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.text1 {
+	font-size:12px;
+	color:#FFFFFF;
+}
+#gauche .text2,#gauche .text3,#droite .text2,#droite .text3 {
+	color:#FFFFFF;
+}
+
+.text2, .text3 {
+	font-size:10px;
+	color:#000000;
+}
+
+.text3, .texts1, .text7 {
+	font-weight:bold;
+}
+
+.text4 {
+	font-size:12px;
+	color:#000000;
+}
+
+.text5, .text6 {
+	font-size:10px;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+.text6 {
+ text-align:justify;
+}
+
+.text7 {
+	font-size:10px;
+	color:#FFFFFF;
+}
+
+.text8 {
+	font-size:10px;
+	color:#CC0000;
+	font-weight:bold;
+}
+
+.texts1 {
+	color:#006699;
+	font-size:18px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.texts2 {
+	color:#006699;
+	font-size:16px;
+	font-weight: bold;
+	vertical-align:middle;
+}
+
+.texts3 {
+	color:#006699;
+	font-size:13px;
+	font-weight: bold;
+	vertical-align:middle;
+}
+
+.error {
+	font-size:10px;
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#CC0000;
+}
+.error2 {
+	font-size:10px;
+	color:#CC0000;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+/* ======================================================
+                         Liens
+====================================================== */
+
+a.menu1:link, a.menu1:visited, 
+a.menu3:link, a.menu3:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration: none;
+}
+a.menu2:link, a.menu2:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration: none;
+}
+
+a.big1:link, a.big1:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-size:12px;
+	text-decoration: none;
+}
+
+a.menu1:link, a.menu1:visited,
+a.menu3:link, a.menu3:visited {
+	font-size:10px;
+}
+
+a.menu2:link, a.menu2:visited {
+	font-size:12px;
+}
+
+a.moy1:link, a.moy1:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:12px;
+	text-decoration: none;
+}
+a.moy2:link, a.moy2:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#CC0000;
+	font-size:12px;
+	text-decoration: none;
+}
+
+a.pti1:link, a.pti1:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-size:10px;
+	text-decoration: none;
+}
+
+a.pti2:link, a.pti2:visited, a.pti3:link, a.pti3:visited, a.pti4:link, a.pti4:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-decoration: none;
+}
+
+a.pti2:link, a.pti2:visited, a.pti3:link, a.pti3:visited {
+	color:#FFFFFF;
+}
+
+a.pti4:link, a.pti4:visited {
+	color:#CC0000;
+}
+
+a.pti3:link, a.pti3:visited {
+	font-weight:bold;
+}
+
+a.big1:hover, a.big1:active, 
+a.menu1:hover, a.menu1:active, 
+a.menu2:hover, a.menu2:active, 
+a.menu3:hover, a.menu3:active, 
+a.moy1:hover, a.moy1:active, 
+a.moy2:hover, a.moy2:active, 
+a.pti1:hover, a.pti1:active, 
+a.pti2:hover, a.pti2:active,
+a.pti3:hover, a.pti3:active,
+a.pti4:hover, a.pti4:active {
+	text-decoration: underline;
+}
+
+a.menu3:link, a.menu3:visited {
+	float:right;
+}
+
+.news a:link {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#34669B;
+	text-decoration: none;
+}
+.news a:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#34669B;
+	text-decoration: none;
+}
+
+.news a:hover {
+	color:#DD6900;
+	text-decoration: underline;
+}
+
+.news a:active {
+	color:#DD6900;
+	text-decoration: underline;
+}
+
+/* ======================================================
+                        Formulaire
+====================================================== */
+
+form {
+	margin:0px;
+}
+.input1 {
+	 width:200px;
+}
+.button {
+	border:1px solid #FFFFFF;
+	background-color: #880000;
+	font-family:Verdana, Arial;
+	color:#FFFFFF;
+	font-size:11px;
+}
+.button2 {
+	border:1px solid #000000;
+	background-color: #CC0000;
+	font-family:Verdana, Arial;
+	color:#FFFFFF;
+	font-size:11px;
+}
+input, select {
+	vertical-align:middle;
+	font-size:10px;
+	border:1px solid black;
+}
+.pti_input {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-style:normal;
+	color:#000000;
+	background-color:#E5E5E5;
+	text-decoration:none;
+	margin:0;
+	margin-top:1px;
+	padding:0;
+	border:1px solid #cccccc;
+	background-color:#f5f5f5;
+}
+
+.form_stop {
+	background-color: #CC0000;
+}
+
+.row1, .row2 {
+	font-family: Verdana,Arial, Sans-Serif;
+	color:#FFFFFF;
+	font-size: 10px;
+}
+
+.row1 {
+	background-color:#CC0000;
+	border:0px;
+}
+.row2 {
+	background-color:#CC0000;
+	border:0px;
+}
+.row3 {
+	background-color:#CC0000;
+	border:0px;
+}
+.row4 {
+	background-image:url(images/infos.gif);
+	height:12px;
+	border:0px;
+	text-align:left;
+	font-weight:bold;
+	padding:1px 2px 3px 14px;
+	font-size:10px;
+	color:#FFFFFF;
+}
+.form_start {
+	background-color:#880000;
+	border:0px;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+.sep {
+	background-color:#A50000;
+	border:0px;
+	color:#FFFFFF;
+	font-size:10px;
+	font-weight:bold;
+	padding:5px;
+}
+.checkbox {
+	border:0px;
+}
+.poll,.pollgris {
+	font-size:0.7em;
+}
+.pollgris {
+	color:#CCCCCC;
+}
+.polltxt {
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+}
+.pollend {
+	margin-top:15px;
+	text-align:center;
+}
+#droite .poll input {
+	margin:1px;
+	vertical-align:middle;
+}
+
+/* ======================================================
+                Re-définition de balises
+====================================================== */
+
+/* Fin Styles Re-So */
+
+.bottom {
+text-align:center;
+}
+
+.page {
+background-color: #E5E5E5;
+border: 2px solid #34669B;
+margin:0px 180px 0px 180px;
+}
+
+.center {
+text-align:center;
+}
+
+.conteneur {
+float: left;
+width: 100%;
+}
+
+.interdit {
+text-align:center;
+margin-top:40px;
+}

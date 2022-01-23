@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on 
+RewriteRule   ^sign.jpg$   sign.php  [L]
+RewriteRule   ^([a-zA-Z0-9[:punct:][:space:]]+)\.jpg$   sign.php?compte=$1  [L]

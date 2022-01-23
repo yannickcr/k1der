@@ -1,0 +1,462 @@
+<HTML>
+<HEAD>
+<TITLE>Php-Stats PRO - Leggimi</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<STYLE type=text/css>SELECT {
+        BORDER-RIGHT: #9dbecd 1px dotted; BORDER-TOP: #9dbecd 1px dotted; FONT-SIZE: 10px; BORDER-LEFT: #9dbecd 1px dotted; COLOR: #000000; BORDER-BOTTOM: #9dbecd 1px dotted; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff
+}
+OPTION {
+        BORDER-RIGHT: #9dbecd 1px dotted; BORDER-TOP: #9dbecd 1px dotted; FONT-SIZE: 10px; BORDER-LEFT: #9dbecd 1px dotted; COLOR: #000000; BORDER-BOTTOM: #9dbecd 1px dotted; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA {
+        BORDER-RIGHT: #9dbecd 1px dotted; BORDER-TOP: #9dbecd 1px dotted; FONT-SIZE: 10px; BORDER-LEFT: #9dbecd 1px dotted; COLOR: #000000; BORDER-BOTTOM: #9dbecd 1px dotted; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff
+}
+INPUT {
+        BORDER-RIGHT: #9dbecd 1px dotted; BORDER-TOP: #9dbecd 1px dotted; FONT-SIZE: 10px; BORDER-LEFT: #9dbecd 1px dotted; COLOR: #000000; BORDER-BOTTOM: #9dbecd 1px dotted; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff
+}
+A:visited {
+        COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+        COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+        COLOR: #aa0000; TEXT-DECORATION: none
+}
+A:link {
+        COLOR: #000000; TEXT-DECORATION: none
+}
+.testo {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: xx-small;
+        color: #000000;
+        text-align: justify;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+</STYLE>
+<META content="MSHTML 6.00.2600.0" name=GENERATOR>
+</HEAD>
+<BODY>
+<TABLE width=760 align=center cellPadding=1 cellSpacing=1 bgColor=black class="testo">
+  <TBODY>
+  <TR>
+    <TD bgColor=#c1c1c1>
+      <TABLE width=740>
+        <TBODY>
+        <TR>
+              <TD>&nbsp;</TD>
+              <TD vAlign=bottom align=right><FONT face=verdana size=1>LEGGIMI</FONT></TD>
+            </TR></TBODY></TABLE></TD></TR>
+    <TR>
+      <TD vAlign=top bgColor=#d9dbe9 class="testo">
+<table width="100%" border="0" cellspacing="5" cellpadding="5">
+          <tr>
+            <td><h3 align="center"><strong>Php-Stats 0.1.9.1</strong></h3>
+              <p class="testo"><strong>REQUISITI</strong>: PHP 4.0.6 o superiore,
+                MySQL 3.23 (*) o superiore </p>
+              <p class="testo">(*) Lo script pu&ograve; anche lavorare con la
+                versione 3.22 impostando $option[php_stats_safe]=1; nel config.php,
+                anche se lo script in questo modo risulter&agrave; meno performante.</p>
+              <p class="testo">&nbsp;</p>
+              <p class="testo">Ricordo che i domini attivi attualmente sono: <a href="http://www.php-stats.it" target="_blank"><strong>www.php-stats.it</strong></a>
+                , <a href="http://www.php-stats.com" target="_blank"><strong>www.php-stats.com</strong></a>
+                e <a href="http://www.php-stats.com" target="_blank"><strong>www.php-stat.com</strong></a><br>
+              </p>
+              <p class="testo">&nbsp; </p>
+              <p class="testo"><strong>CONDIZIONI DI LICENZA E USO</strong></p>
+              <p class="testo">L'uso di questo script implica il tacito assenso
+                delle seguenti condizioni di licenza:</p>
+              <p class="testo">Questo script &egrave; liberamente scaricabile
+                ed utilizzabile per usi non commerciali. [Per uso commerciale
+                dello script si intende la vendita (in ogni sua forma) o la cessione
+                (in ogni sua forma) di servizi legati direttamente o indirettamente
+                ad esso con fini di lucro]</p>
+              <p class="testo">L'autore non si assume alcuna responsabilit&agrave;,
+                implicita ed esplicita, su eventuali danni provocati dall'uso
+                proprio o improprio di questo script, ne fornisce alcuna forma
+                di garanzia, assistenza o supporto di qualsiasi tipo. </p>
+              <p class="testo">Chi utilizza questo script lo utilizza completamente
+                a suo rischio e pericolo assumendosene tutte le responsabilit&agrave;.</p>
+              <p class="testo">E' vietato rimuovere qualsiasi riferimento all'autore
+                o al copyright dello stesso o al sito di origine dello script.</p>
+              <p class="testo">E' vietato ridistribuire questo script, senza previa
+                autorizzazione dell'autore.</p>
+              <p class="testo">Chiunque usa questo script accetta tacitamente
+                queste condizioni.</p>
+              <p class="testo">&nbsp;</p>
+              <p class="testo"><strong>CREDITS</strong></p>
+              <p class="testo">Ci sono tantissime persone che hanno generosamente
+                offerto tante energie e dedicato tanto tempo al progetto. Impossibile
+                non ricordarle qui. E' un piccolo gesto e una occasione per ringraziarle
+                davvero di cuore a nome di tutti coloro che useranno questo script:</p>
+              <p class="testo">Grazie al team di sviluppo: <b>Matrix</b>, <b><a href="http://www.codicesorgente.it/" target="_blank">Viewsource</a></b>,
+                <b> <a href="http://www.paodj.net" target="_blank">PaoDJ</a></b>,
+                <b> <a href="http://web.computermania.ch/" target="_blank">Fabry</a></b>,
+                <b> <a href="http://www.radian.it" target="_blank">theCAS</a></b> e
+                ai nostri <a href="http://php-stats.com/forum/groupcp.php?g=51" target="_blank"><strong>beta-tester</strong></a>.
+                Essi sono i pilastri dello script!</p>
+              <p class="testo">Un Grazie particolarissimo alla <A href="http://www.ideahosting.net"><b>IdeaHosting</b></A>
+                per ospitarci sui loro ottimi server, per i domini e per il loro
+                servizio sempre perfetto sotto tutti i punti di vista.</p>
+              <p class="testo">Un Grazie speciale va a tutti gli sviluppatori
+                dei vari MOD:<br>A <b>theCAS</b> per lo splendido riconoscimento
+                degli ip tramite files e per tutti gli altri MODS.<br>
+                Ad <b>Avatar</b> per il MOD di esclusione ip e cartelle,
+                dei downloads e per la sua presenza sempre attiva sul forum.<br>
+                A <b>Stega</b> per il riconoscimento tramite Flash.<br>
+                A <b>Lucas</b> alias <b>JackNight</b> per il MOD dei
+                motori di ricerca.<br>
+                A <b>mattemod</b> per il suo consiglio sull'ottimizzazione del
+                ciclo for.<br>
+                A <b>dapuzz</b> per il MOD sul filtro di ricerca degli IP.<br>
+                A <b>airjetline</b> per l'idea originaria del MOD dei downloads.<br>
+			    Ad <b>EvolutionCrazy</b>, <b>zerocool</b> e <b>Gianni_T</b> per i loro consigli
+			   e supporto nel rendere la stringa di include compatibile con i vari CMS</p>
+              <p class="testo">Un grazie a tutti gli utenti del forum, non li
+                nomino tutti perch&egrave; ne dimenticherei sicuramente qualcuno,
+                ma &egrave; grazie a loro che lo script viene sviluppato e vengono
+                risolti i bug... sono davvero orgoglioso del nostro forum!</p>
+              <p class="testo">&nbsp;</p>
+              <p class="testo"><strong>GUIDA A PHP-STATS</strong></p>
+              <p class="testo">Sul sito <strong><a href="http://www.php-stats.com" target="_blank">www.php-stats.com</a></strong><a href="http://www.php-stats.com" target="_blank">
+                &egrave; presente una guida all'uso e all'ottimizzazione dello
+                script (guida che cercheremo di ampliare), di seguito riporto
+                un breve schema dell'installazione dello script.</a></p>
+              <p class="testo">&nbsp;</p>
+              <strong><span class="testo">INSTALLAZIONE DELLO SCRIPT</span></strong>
+              <p class="testo"><b>ATTENZIONE:</b>
+				<ol>
+				 <li class="testo">per poter ottenere le migliori prestazioni,
+                  ogni qual volta modificherete un'opzione dal pannello di php-stats
+                  verrà scritto un file nella cartella <b>option</b>. Per cui assicuratevi
+                  che quest'ultima abbia i permessi di lettura, scrittura ed esecuzione
+                  per tutti (777). Nel caso il vostro server non supporti la scrittura
+                  di files tramite web, verranno automaticamente utilizzati i files senza supporto 
+				  di scrittura via WEB. Qualora nel futuro il vostro server prevederà il supporto 
+				  di scrittura via WEB, vi basterà copiare i files presenti nella cartella <b>files_Write</b> 
+				  nella directory principale di PHP-Stats, sovrascrivendo quelli gi&agrave; presenti,
+				  dopodich&eacute; lanciate il file <b>create-options.php</b>.</li>
+				  <li class="testo">Per poter utilizzare il Config-Editor di PHP-Stats, è necessario che il file <b>config.php</b>
+				  abbia i permessi di lettura e scrittura per tutti (666)</li>
+				  </ol></p>
+			  <blockquote>
+                <p class="testo"><strong>1 - MODIFICARE IL FILE DI CONFIGURAZIONE</strong></p>
+				<p class="testo">Il primo passo per l'installazione dello script
+                  &egrave; modificare il file config.php (si pu&ograve; usare
+                  un qualsiasi editor testuale) come segue:</p>
+              </blockquote>
+              <table width="90%" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000">
+                <tr>
+                  <td bordercolor="#d9dbe9"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="1">
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['host']=&quot;xxx&quot;;</td>
+                        <td width="74%" bgcolor="#CCCCCC" class="testo">xxx rappresenta
+                          l'indirizzo del vostro server MySQL. Di solito questo
+                          indirizzo &egrave; &quot;localhost&quot;, ma pu&ograve;
+                          essere anche rappresentato da un indirizzo IP.</td>
+                      </tr>
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['database']=&quot;xxx&quot;;
+                        </td>
+                        <td bgcolor="#CCCCCC" class="testo">xxx rappresenta il
+                          nome del vostro dabase MySQL. Da notare il fatto che
+                          il database deve essere gi&agrave; esistente, in quanto
+                          Php-Stats non ne crea alcuno.</td>
+                      </tr>
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['user_db']=&quot;xxx&quot;;
+                        </td>
+                        <td bgcolor="#CCCCCC" class="testo">xxx rappresenta l'username
+                          del database utilizzato</td>
+                      </tr>
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['pass_db']=&quot;xxx&quot;;
+                        </td>
+                        <td bgcolor="#CCCCCC" class="testo">xxx rappresenta la
+                          password del database utilizzato</td>
+                      </tr>
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['script_url']=&quot;xxx&quot;;
+                        </td>
+                        <td bgcolor="#CCCCCC" class="testo">xxx rappresenta l'url
+                          che punta alla cartella di installazione di Php-Stats.</td>
+                      </tr>
+					  <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['exc_pass']=&quot;xxx&quot;;
+                        </td>
+                        <td bgcolor="#CCCCCC" class="testo">xxx rappresenta la password
+                          che servirà l'esclusione dinamica degli IP.</td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+              <p class="testo">&nbsp;</p>
+              <blockquote>
+                <p class="testo">Le impostazioni avanzate sono da modificare <strong>solo
+                  in caso di esigenze particolari</strong> e da <strong>utenti
+                  che hanno un minimo di esperienza con lo script</strong>:</p>
+              </blockquote>
+              <table width="90%" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000">
+                <tr>
+                  <td bordercolor="#d9dbe9"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="1">
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['prefix']=&quot;xxx&quot;;</td>
+                        <td width="74%" bgcolor="#CCCCCC" class="testo">xxx rappresenta
+                          il prefisso con cui verranno create le tabelle di Php-Stats</td>
+                      </tr>
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['callviaimg']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare 1 per attivare il richiamo dello script tramite una gif
+                          da 1px X 1px<br>
+                          Impostate il valore 0 nel caso decidiate di posizionare la stringa satellite tra l'&lt;head&gt; della pagina Web.</td>
+                      </tr>
+					  <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['php_stats_safe']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare 0 se avete
+                          MySQL 3.23 o superiore oppure 1 per MySQL 3.22. Impostando
+                          il valore 1 viene inoltre saltato il check delle tabelle.</td>
+                      </tr>
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['out_compress']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare 1 se si
+                          intende abilitare la compressione dell'html generato
+                          dallo script (richiede Php&gt;4.0.4), 0 altrimenti.</td>
+                      </tr>
+                      <tr>
+                        <td width="200" valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['persistent_conn']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare 1 per utilizzare
+                          una connessione persistente a MySQL, 0 altrimenti.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['autorefresh']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">X rappresenta il valore
+                          in minuti di refresh delle pagine di amministrazione.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['show_server_details']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          visualizzare informazioni sul server nella pagina principale
+                          di amministrazione, 0 altrimenti.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['show_average_user']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          visualizzare informazioni sull'utente medio nella pagina principale
+                          di amministrazione, 0 altrimenti.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['short_url']=X;
+                        </td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          usare url abbreviate quando possibile, 0 altrimenti.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['lock_not_valid_url']=X;
+                        </td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          bloccare tutti gli url non presenti nelle preferenze di php-stats, 0 altrimenti.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['full_recn']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Se impostato a 1 php-stats
+                          riconoscer&agrave; ad ogni hit i motori di ricerca anzich&egrave;
+                          ad ogni accesso unico (modalit&agrave; 0).</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['ext_whois']=&quot;&quot;;</td>
+                        <td bgcolor="#CCCCCC" class="testo">La stringa vuota (&quot;&quot;)
+                          comporta l'uso del whois interno dello script. Se si
+                          vuole usare un whois esterno immettere l'url (http://www....).
+                          la variabile contenente l'IP dovr&agrave; essere scritta
+                          come %IP%.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['online_timeout']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 0 per
+                          utilizzare la determinazione automatica del tempo di
+                          permanenza per il calcolo degli utenti on-line oppure
+                          impostare il numero di minuti da considerare come time-out.
+                          Di default questo parametro &egrave; impostato a 5 minuti.</td>
+                      </tr>
+					  <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['page_title']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          memorizzare il titolo delle pagine visualizzate.<br>
+						  Impostare a 0 per disabilitare tale funzione.</td>
+                      </tr>
+					  <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['refresh_page_title']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 0 per impedire il refresh continui dei titoli 
+                          delle pagine gi&agrave; memorizzate.<br>
+						  Impostare a 1 per abilitare il refresh continuo dei titoli.</td>
+                      </tr>
+					  <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['log_host']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per memorizzare l'host nei dettagli 
+						  <b>ATTENZIONE:</b> ciò può rallentare il riconoscimento.<br>
+						  Impostare a 0 per disabilitare tale opzione.</td>
+                      </tr>
+					  <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['clear_cache']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per effettuare il riconoscimento continuo 
+						  dei dati in cache  <b>ATTENZIONE:</b> ciò può rallentare il riconoscimento.<br>
+						  Impostare a 0 per disabilitare tale opzione.</td>
+                      </tr>
+					  <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['full_recn']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per effettuare il riconoscimento continuo 
+						  dei motori di ricerca e dei refers ad ogni pagina <b>ATTENZIONE:</b> ciò può rallentare il riconoscimento.<br>
+						  Impostare a 0 per disabilitare tale opzione.</td>
+                      </tr>
+					  <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['logerrors']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          loggare nel file php-stats.log gli errori generati dalla
+                          query effettuate da Php-Stats oppure 0 per non loggare
+                          questi errori. Di default il parametro &egrave; settato
+                          a 0. Da notare che se impostate il valore 1 il file
+                          php-stats.log deve avere i permessi in scrittura.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['check_new_version']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          attivare la notifica automatica della disponibilità
+                          di una nuova versione di php-stats, 0 altrimenti.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['www_trunc']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per
+                          considerare univoche gli url con suffisso http://www. in http://
+                          evitando un doppio conteggio nel caso di domini che ammettono
+                          entrambe le estensioni, 0 altrimenti.</td>
+                      </tr>
+					  <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['accept_ssi']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 per accettare le chiamate tramite
+						  Server Side Include<br>
+						  Impostare a 0 per disabilitare tale opzione.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" nowrap bgcolor="#CCCCCC" class="testo">$option['compatibility_mode']=X;</td>
+                        <td bgcolor="#CCCCCC" class="testo">Impostare a 1 nel caso di problemi con l'include in php
+						  </td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+              <blockquote>
+                <p class="testo">Molte altre voci di configurazione saranno accessibili
+                  nelle opzioni di Php-Stats una volta terminata l'installazione.</p>
+                <p class="testo"><strong>2 - UPLOAD DEI FILES e CARTELLE</strong></p>
+                <p class="testo">Modificato il file di configurazione, si proceda
+                  con l'uplad dei files e cartelle (eventualmente creando la cartella
+                  necessaria) con un qualsiasi client FTP.</p>
+                <p class="testo"><strong>3 - AVVIO INSTALLAZIONE</strong></p>
+                <p class="testo">A questo punto si procede con il setup vero e
+                  proprio lanciando il file setup.php presente nella cartella
+                  principale di Php-Stats. Seguire le indicazioni che compariranno.</p>
+                <p class="testo"><strong>4 - TERMINE INSTALLAZIONE</strong></p>
+                <p class="testo">Al termine dell'installazione verrete reindirizzati
+                  alla pagina delle opzioni: modificate gli ultimi parametri (in
+                  particolare l' url del sito, la vostra mail per il recupero
+                  password e per i report) </p>
+              </blockquote>
+              <p class="testo">&nbsp;</p>
+              <p class="testo">&nbsp;</p>
+              <p class="testo"><strong>COME INSTALLARE IL DATABASE IP-TO-COUNTRY<sup>(*)</sup> SU DATABASE</sup></strong></p>
+              <p class="testo">La versione 0.1.9 di php-stats pu&ograve; appoggiarsi
+                all'IP-to-Country Database<strong><sup>(*)</sup></strong> scaricabile
+                all'indirizzo http://ip-to-country.webhosting.info/</p>
+              <ol>
+                <li class="testo">Scaricare il csv dal sito http://ip-to-country.webhosting.info/
+                  , decomprimerlo e effettuare l'upload nella cartella di installazione
+                  di Php-Stats.</li>
+                <li class="testo">Eseguire lo script create_ip-to-county_database.php
+                  che creer&agrave; la tabella necessaria a php-stats</li>
+                <li class="testo">Aprite il config.php e modificate la variabile
+                  $option['ip-zone'] in questo modo: $option['ip-zone']=1;</li>
+              </ol>
+               <p class="testo"><strong>COME INSTALLARE IL DATABASE IP-TO-COUNTRY<sup>(*)</sup> SU FILES MOD BY theCAS</sup></strong></p>
+               <ol>
+                <li class="testo"> Scaricare il csv dal sito http://ip-to-country.webhosting.info/
+                  , decomprimerlo e effettuare l'upload nella cartella di installazione
+                  di Php-Stats.</li>
+                <li class="testo">Eseguire lo script create_ip-to-country_files.php
+                  che creer&agrave; 2 files: ip-to-country.idx e ip-to-country.db</li>
+                <li class="testo">Aprite il config.php e modificate la variabile
+                  $option['ip-zone'] in questo modo: $option['ip-zone']=2;
+                  <p><span class="testo"><strong><sup>(*)</sup></strong> L'IP-to-Country
+                    Database &egrave; copyright della Direct Information Pvt.
+                    Ltd., distribuito dalla WebHosting.Info e scaricabile all'indirizzo
+                    http://ip-to-country.webhosting.info<br>
+                    Informativa sul copyright: http://ip-to-country.webhosting.info/node/view/62</span></p>
+                </li>
+              </ol>
+              <p class="testo">&nbsp;</p>
+              <p class="testo"><strong>UPGRADE DA VERSIONI PRECEDENTI</strong></p>
+              <p class="testo">Php-Stats 0.1.9.1 &egrave; aggiornabile dalle seguenti
+                versioni ufficiali:</p>
+              <ul type="square">
+			    <li class="testo">Php-Stats 0.1.9</li>
+                <li class="testo">Php-Stats 0.1.8</li>
+                <li class="testo">Php-Stats 0.1.7</li>
+                <li class="testo">Php-Stats 0.1.6</li>
+                <li class="testo">Php-Stats 0.1.5 RC 1</li>
+                <li class="testo">Php-Stats 0.1.4</li>
+                <li class="testo">Php-Stats 0.1.3 RC 2</li>
+              </ul>
+              <p class="testo">Per effettuare l'upgrade da una di queste versioni,
+                procedere in questo ordine:</p>
+              <ol>
+                <li class="testo">Per prima cosa &egrave; utile effettuare un
+                  backup del database usato da Php-Stats; in caso di errore sar&agrave;
+                  possibile reinstallare la vecchia versione senza perdere i dati
+                  delle statistiche.</li>
+                <li class="testo">Il secondo passo &egrave; modificare il file
+                  di configurazione (config.php) della versione corrente</li>
+                <li class="testo">Effettuare l'upload di tutti i files (cancellando
+                  preventivamente la vecchia versione) escludendo i file non necessari
+                  (setup.php e setup_files, gli stili del contatore ad esempio)</li>
+                <li class="testo">Lanciare il file update.php</li>
+                <li class="testo">Una volta effettuato l'update &egrave; consigliato
+                  cancellare i files di update non pi&ugrave; necessari (update.php
+                  e update_files)</li>
+              </ol>
+              <p class="testo"><strong><br>
+                BISOGNO DI AIUTO? DOMANDE?</strong></p>
+              <p class="testo">Invito chi abbia bisogno di aiuto o abbia domande
+                da porre di utilizzare il forum del nostro sito. L'iscrizione,
+                inutile dirlo, &egrave; gratuita e richiede circa 30 secondi.
+                Per favore non conttatteci direttamente via mail per richieste
+                di assistenza: queste mail non vengono lette e sono cestinate.</p>
+              <p class="testo">&nbsp;</p>
+              <p class="testo"><strong>SUGGERIMENTI</strong></p>
+              <p class="testo">Dalla versione 0.1.3 abbiamo inserito il pruning
+                automatico delle tabelle che hanno tendenza a occupare spazio
+                prezioso. Ma non abusate di questa funzione in quanto potrebbe
+                rallentare l'esecuzione dello script anzich&egrave; mantenere
+                il database piccolo ed efficente. Siate cauti quindi... &egrave;
+                consigliato un piccolo test per verificare &quot;sul campo&quot;
+                le prestazioni migliori.</p>
+              <p class="testo">Tenete presente che ogni puning attivo esegue da
+                1 a 3 query (ad eccezione per il pruning dei dettagli a &quot;ore&quot;
+                che effettua 1 solo 1 query aggiuntiva)</p>
+              <p class="testo">Tenete inoltre presente che l'eliminazione di righe
+                del database significa anche &quot;spazio sprecato&quot;. Eseguite
+                quindi di tanto in tanto l'ottimizzazione delle tabelle per liberare
+                spazio prezioso! In alternativa, quando le prestazioni del vostro
+                server lo consentono, &egrave; possibile impostare l'ottimizzazione
+                delle tabelle in modo automatico.</p>
+              <p class="testo">E' inoltre presente la possibilit&agrave; di usare
+                connessioni persistenti al database MySQL. L'uso di tali connessioni
+                sebbene risulti molto pi&ugrave; veloce, potrebbe causare l'intasamento
+                delle connessioni permesse compromettendo all'accesso al database.</p></td>
+          </tr>
+        </table>
+        <TR>
+    <TD bgColor=#c1c1c1>
+      <CENTER>
+          <FONT face=verdana size=1>© <A
+      href="http://www.php-stats.com/"> Webmaster76</A></FONT>
+</CENTER></TD></TR></TBODY></TABLE></BODY></HTML>

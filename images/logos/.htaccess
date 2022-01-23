@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on 
+RewriteRule   ^sign.jpg$   country_sign.php  [L]
+RewriteRule   ^sign2.jpg$   country_sign.php?key=1  [L]

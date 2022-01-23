@@ -1,0 +1,490 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Couleur de Police</title>
+	
+ <style>
+ 
+ 
+ .extrait 
+ { 
+ border-bottom: #000000 1px solid;
+ border-left: #000000 1px solid;
+ border-right: #000000 1px solid;
+ border-top: #000000 1px solid;
+ }
+ 
+  .affect1 { }
+
+  .affect2 { }
+
+  .affect3 { }
+
+  .affect4 { }
+
+  .affect5 { }
+
+  .affect6 { }
+
+  .affect7 { }
+
+  .affect8 { }
+
+  .affect9 { }
+ </style>
+	
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	var agent = navigator.userAgent.toLowerCase();
+	var ver = parseInt(navigator.appVersion);
+
+	if ((agent.indexOf("ppc") >= 0) || (agent.indexOf("mac_powerpc") >= 0)) {
+		document.write('');
+		}
+	else {
+			if ((agent.indexOf("mozilla") != -1) && (navigator.appName.indexOf("Netscape") != -1)) {
+				if (ver >= 5) { 
+					document.write(''); }
+				else { 
+					document.write(''); }
+		 	}
+			else { document.write(''); }
+		 }
+//-->
+
+ var change=0;
+ 
+ 
+ function fontcolor (color)
+ {
+   if (color=="")
+     { 
+       alert ("Une couleur doit etre sélectionnée");
+     }
+ else
+    {
+    window.opener.document.webmail.change.value = change
+    window.opener.document.webmail.Val.value = color
+    window.close();
+    window.opener.editeurHtml.focus();
+    }
+ 
+ }
+ 
+ 
+
+  function select (preselect)
+
+  {
+
+  
+
+  if (change==0)
+
+     {
+
+     affect1.style.background=preselect;
+
+     window.opener.document.webmail.Txt1.value = preselect
+
+     change++;
+
+     }
+
+  else 
+
+         if (change==1)
+
+          {
+
+          affect2.style.background=preselect;
+
+          window.opener.document.webmail.Txt2.value = preselect
+
+          change++;
+
+          }
+
+       
+
+          
+
+  else 
+
+          if (change==2)
+
+          {
+
+            affect3.style.background=preselect;
+
+            window.opener.document.webmail.Txt3.value = preselect
+
+            change++;
+
+          }
+
+          
+
+  else 
+
+          if (change==3)
+
+          {
+
+            affect4.style.background=preselect;
+
+            window.opener.document.webmail.Txt4.value = preselect
+
+            change++;
+
+          }
+
+          
+
+  else 
+
+          if (change==4)
+
+          {
+
+            affect5.style.background=preselect;
+
+            window.opener.document.webmail.Txt5.value = preselect
+
+            change++;
+
+          }
+
+  
+
+  else 
+
+          if (change==5)
+
+          {
+
+            affect6.style.background=preselect;
+
+            window.opener.document.webmail.Txt6.value = preselect
+
+            change++;
+
+          }
+
+      
+
+  else 
+
+          if (change==6)
+
+          {
+
+            affect7.style.background=preselect;
+
+            window.opener.document.webmail.Txt7.value = preselect
+
+            change++;
+
+          }
+
+          
+
+  else 
+
+          if (change==7)
+
+          {
+
+            affect8.style.background=preselect;
+
+            window.opener.document.webmail.Txt8.value = preselect
+
+            change++;
+
+          }
+
+          
+
+  else 
+
+          if (change==8)
+
+          {
+
+            affect9.style.background=preselect;
+
+            window.opener.document.webmail.Txt9.value = preselect
+
+            change=0;
+
+          }
+
+       
+
+  }
+
+ 
+ function capture (color) 
+ {
+ extrait.style.background=color;
+ document.all.valhexa.value=color;
+ }
+ 
+ 
+ 
+ function hex(q) 
+ {
+ hexa="0123456789abcdef";
+ return  hexa.charAt(q >> 4 &  0xf)  +  hexa.charAt(q & 0xf);
+ }
+                  
+ 
+ function affiche () {
+ 
+ var q;
+ var compteur=1;
+ 
+ var cons="<table cellpadding='0' cellspacing='0'><tr>"; 
+                 
+ for (var k=0; k<256; k+=51){
+ for (var i=0; i<256; i+=51){
+ for (var j=0; j<256; j+=51){
+ 
+ if (compteur==36) {
+ 
+   cons+="</tr><tr>";
+   compteur=0;
+   
+                   }
+                   
+ else 
+                   
+                   
+       cons+="<td bgcolor='#"+ hex (k)+""+hex (i)+""+hex (j)+"' onMouseOver='capture(this.bgColor)' onClick='select(this.bgColor)'><a href='#' style='text-decoration:none; cursor:crosshair '>&nbsp;</a></td>";
+ compteur=compteur+1
+       
+      
+                            }
+                            }
+                            }
+ 
+ 
+                            
+      cons+="</tr></table>";
+      
+      return cons;
+ }
+ 
+function InitColor()
+
+  {
+
+ 
+
+  
+
+  
+
+  if(window.opener.document.webmail.Txt1.value != "")
+
+     affect1.style.background = window.opener.document.webmail.Txt1.value;
+
+  
+
+  if(window.opener.document.webmail.Txt2.value != "") 
+
+     affect2.style.background = window.opener.document.webmail.Txt2.value;
+
+  
+
+  if(window.opener.document.webmail.Txt3.value != "") 
+
+     affect3.style.background = window.opener.document.webmail.Txt3.value;
+
+  
+
+  if(window.opener.document.webmail.Txt4.value != "") 
+
+     affect4.style.background = window.opener.document.webmail.Txt4.value;
+
+     
+
+  if(window.opener.document.webmail.Txt5.value != "") 
+
+     affect5.style.background = window.opener.document.webmail.Txt5.value;
+
+  
+
+  if(window.opener.document.webmail.Txt6.value != "") 
+
+     affect6.style.background = window.opener.document.webmail.Txt6.value;
+
+     
+
+  if(window.opener.document.webmail.Txt7.value != "") 
+
+     affect7.style.background = window.opener.document.webmail.Txt7.value;
+
+     
+
+  if(window.opener.document.webmail.Txt8.value != "") 
+
+     affect8.style.background = window.opener.document.webmail.Txt8.value;
+
+     
+
+  if(window.opener.document.webmail.Txt9.value != "") 
+
+     affect9.style.background = window.opener.document.webmail.Txt9.value;      
+
+  }
+
+</SCRIPT>
+
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<body onLoad="InitColor()" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<table border="0" cellspacing="0" cellpadding="0" width="350">
+<tr bgcolor="#6F66A7">
+    <td width="10" bgcolor="#CCCCCC">&nbsp;</td>
+    <td height="28" bgcolor="#CCCCCC" class="ttrcartouch"><strong><font size="2" face="Verdana, Arial, Helvetica, sans-serif">COULEUR 
+      DE TEXTE</font></strong></td>
+    <td align="right" bgcolor="#CCCCCC"><a href="" onClick="self.close()"><img src="images/btn_fermer.gif" width="58" height="16" border="0"></a></td>
+    <td width="10" bgcolor="#CCCCCC">&nbsp;</td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="350">
+  <tr> 
+    <td width="2" rowspan="2" bgcolor="#F1F1F1">&nbsp;</td>
+    <td width="148" rowspan="2" valign="top"> 
+      <table border="0" cellspacing="0" cellpadding="0">
+		 <tr>
+          <td height="27"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Couleurs 
+            de base</font></b></td>
+        </tr></table>
+	    
+             <table>
+               <tr>
+                 
+                 <td bgcolor="#000000" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#FFFFFF" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#FF0000" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#3300CC" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#FFFF00" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td> 
+               </tr>
+               <tr>
+                 
+                 <td bgcolor="#9933FF" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#33CC33" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>      
+                 <td bgcolor="#996600" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#00CCFF" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#FF6600" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>         
+               </tr>
+               <tr>
+                
+                 <td bgcolor="#990000" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#006633" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>      
+                 <td bgcolor="#FF99FF" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#FF9900" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>
+                 <td bgcolor="#CCCCCC" class="extrait" width="20" onClick="fontcolor(this.bgColor)">&nbsp;</td>         
+               </tr>
+             </table>
+
+ <table border="0" cellspacing="0" cellpadding="0">
+		 <tr>
+          <td height="27"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Couleurs personnalisées</font></b></td>
+        </tr></table>
+
+     <table >
+       <tr>
+         
+			<td id="affect1" class="extrait" width="20" onClick="fontcolor (affect1.style.background)">&nbsp;</td>			
+			<td id="affect4" class="extrait" width="20" onClick="fontcolor (affect4.style.background)">&nbsp;</td>			
+			<td id="affect7" class="extrait" width="20" onClick="fontcolor (affect7.style.background)">&nbsp;</td>			
+       </tr>
+       <tr>
+        
+			<td id="affect2" class="extrait" width="20" onClick="fontcolor (affect2.style.background)">&nbsp;</td>			
+			<td id="affect5" class="extrait" width="20" onClick="fontcolor (affect5.style.background)">&nbsp;</td>			
+			<td id="affect8" class="extrait" width="20" onClick="fontcolor (affect8.style.background)">&nbsp;</td>			
+       </tr>
+       <tr> 
+         
+			<td id="affect3" class="extrait" width="20" onClick="fontcolor (affect3.style.background)">&nbsp;</td>			
+			<td id="affect6" class="extrait" width="20" onClick="fontcolor (affect6.style.background)">&nbsp;</td>			
+			<td id="affect9" class="extrait" width="20" onClick="fontcolor (affect9.style.background)">&nbsp;</td>			
+       </tr>
+       
+     </table>
+		  
+		 
+		 
+	
+	</td>
+    <td width="11">&nbsp;</td>
+    <td width="2"><img src="img/dot_L2-g2.gif" width="2" height="120"></td>
+    <td width="25">&nbsp;</td>
+    <td rowspan="2" width="144" valign="top">
+	
+	        <table border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+          <td height="27"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Palette 
+            de couleurs</font></b></td>
+        </tr></table> 
+	 
+	
+	 		    <!-- palette -->
+                <table border=0 cellspacing=0 cellpadding=0>
+             <tr>
+		           <td>  
+		           <script>
+		           document.write(affiche());
+		           </script>
+		         </td>
+               </tr>
+				</table>
+				
+      <!-- fin palette -->
+      <table border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+          <td height="27"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Couleur 
+            : Aper&ccedil;u</font></b></td>
+        </tr></table>
+			
+			<table border="0" cellspacing="0" cellpadding="0"><tr><td>
+			<table border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+			  <td>
+			  
+			     <!-- carre de couleur -->
+                <table border=0 cellspacing=0 cellpadding=0>
+			    <tr>
+                 <td><input type="button" id="extrait" class="extrait" value="     "></td>
+				</tr>
+				</table>
+				<!-- fin carre de couleur -->
+			  
+			  </td>
+			  <td width="2"></td>
+                 <td><input type="text" class="extrait" size="8" name="valhexa" value="" height="50"></td>
+			</tr>
+			</table>
+			</td></tr></table>
+			
+			
+			<table border="0" cellspacing="0" cellpadding="0">
+		    <tr><td height="17">&nbsp;</td></tr></table>
+	
+	</td>
+    <td width="2" rowspan="2">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#F1F1F1"> 
+    <td height="40" colspan="3" bgcolor="#FFFFFF"><img src="images/fle3.gif" width="31" height="17"></td>
+  </tr>
+</table>
+
+</body>
+</html>
+<XML style=display:none>

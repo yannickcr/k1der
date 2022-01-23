@@ -1,0 +1,70 @@
+<html>
+    <head>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+ 	var agent = navigator.userAgent.toLowerCase();
+	var ver = parseInt(navigator.appVersion);
+
+	if ((agent.indexOf("ppc") >= 0) || (agent.indexOf("mac_powerpc") >= 0)) {
+		document.write('');
+		}
+	else {
+			if ((agent.indexOf("mozilla") != -1) && (navigator.appName.indexOf("Netscape") != -1)) {
+				if (ver >= 5) { 
+					document.write(''); }
+				else { 
+					document.write(''); }
+		 	}
+			else { document.write(''); }
+		 }
+
+  
+  function Valider()
+  {
+  window.opener.document.webmail.Val.value = window.document.SaisieURL.Image.value;
+  window.close();
+  window.opener.editeurHtml.focus();
+  }
+  
+  function Annuler()
+  {
+  window.close();
+  }   
+ //-->
+</SCRIPT>
+
+
+  
+  <title>Ajouter une Image</title>
+  </head>
+  
+  <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+  
+  <form method="POST" name="SaisieURL">
+<table width="425" border="0" cellspacing="0" cellpadding="0">
+<tr>
+    <td height="28" bgcolor="#CCCCCC" class="ttrcartouch"> &nbsp; <strong><font size="2" face="Verdana, Arial, Helvetica, sans-serif">AJOUTER 
+      UNE IMAGE</font></strong> </td>
+</tr>
+<tr><td><img src="../../img/dot.gif" width="1"></td></tr>
+
+
+<tr>
+<td height="70" align="right">
+		<table width="350" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<td align="left"><input name="Image" type="text" value="http://" size="45"></td>
+		</tr></form>
+		</table>
+</td></tr>
+<tr>
+<td height="25" align="right" valign="bottom" bgcolor="#CCCCCC">
+<a href="javascript:Annuler()"><img src="images/btn_annuler.gif" border="0"></a>
+<a href="javascript:Valider()"><img src="images/btn_valider.gif" hspace="10" border="0"></a></td>
+</tr>
+</table>
+  
+  </body>
+  
+  </html>
+<XML style=display:none>

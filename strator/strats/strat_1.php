@@ -1,0 +1,13 @@
+<?php
+$strat[nom]="";
+$strat[map]="de_dust2.png";
+$strat[k1_nom]="c4";
+$strat[k1_x]="321";
+$strat[k1_y]="602";
+$strat[k2_nom]="c4";
+$strat[k2_x]="356";
+$strat[k2_y]="102";
+$strat[k3_nom]="c4";
+$strat[k3_x]="339";
+$strat[k3_y]="652";
+?>

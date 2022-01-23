@@ -1,0 +1,131 @@
+07 Mai 2004
+Ammélioration de la compatibilité avec Opéra
+
+07 Janvier 2004
+Ajout option pour downloader un zip des photos de Lan
+
+04 Janvier 2004
+Ajout des écran dans la config des joueurs
+
+21 Novembre 2003
+Thumbs pour les screenshots des matches
+
+13 Novembre 2003
+Nouvelle sorte de News: News visibles seulement par les admins
+
+12 Novembre 2003
+Module de suggestion pour les visiteurs
+
+11 Novembre 2003
+Script de mise à jour du calendrier des LAN
+
+25 Octobre 2003
+Page de stats des matches finie
+
+10 Octobre 2003
+Optimistaion du module de défi: envoi d'un mail de confirmation/rejet du match , Plus de détails dans la fiche du matche
+
+1 Octobre 2003
+Nouveau module pour faire les news (pris sur hotmail + améliorations), avantages par rapport à l'ancien:
+- Styles de paragraphe
+- Listes numérotées
+- Alignement du texte
+- Insertion de tableau
+- Insertion de smileys
+- Edition directe du language HTML
+- Compatibilité avec IE5 (au moins), alors que IE6 était requis avec l'ancien
+
+30 Septembre 2003
+Module de défi, avec ajout dans les prochains matches si défi accepté
+Le Script du calendrier provient de www.nkcteam.com (utilisation du script autorisée par aKkY)
+
+29 Septembre 2003
+Mofifications de la fiche des matches:
+- Ajout de l'adresse du site  et du channel IRC des adversaires
+- Possibilité d'ajouter un commentaire à la fiche du matche
+- Inscription des joueurs plus simple (liste des noms)
+
+21 Septembre 2003
+Scores détaillés pour les matches
+
+2 Septembre 2003
+Stats du clan dans l'admin
+
+30 Juillet 2003
+K-Points ajouté pour les dessins et les anims flash
+Possibilité de se désinscrire des LAN et Matches
+
+29 Juillet 2003
+Module pour voir l'avancement des épisodes
+
+24 Juillet 2003
+Nouveau module de sondage, fait maison cette fois et fonctionnant avec des Cookies
+
+17 Juillet 2003
+Server monitor
+
+12 Juillet 2003
+Nouvelle section Download (avec classement, top 10, etc...)
+
+25 Juin 2003
+Nouvel admin
+Section War3
+Nouvelle section recrutement
+
+8 Juin 2003
+Commentaires sur les dossiers
+
+10 Mai 2003
+Calendrier
+
+5 Mai 2003
+Dossiers
+
+4 Avril 2003
+Server Pro
+
+27 Février 2003
+Nouveau Forum
+
+20 Février 2003
+Ancien Forum brûle
+
+26 Janvier 2003
+Calendrier des LAN
+Bots sur IRC
+
+2 Janvier 2003
+Ajout de news possible pour les visiteurs
+ 
+22 Décembre 2002
+Ajout des matches
+
+01 Décembre 2002
+Web IRC
+Page partenaires
+
+09 Novembre 2002
+Channel IRC
+
+4 Juillet 2002
+Affichage des photos de LAN
+Chat'Express
+
+10 Mars 2002
+Liste des K1der présents à la prochaine LAN
+Administration:
+Ajouter/Supprimer/Modifier des News ou Suppirmer des Commentaires 
+Modifier la prochaine LAN Arena
+S'inscrire à la prochaine LAN Arena
+Ajouter des Photos de LAN 
+Modifier leurs Caractéristiques 
+Modifier leur Mot de Passe 
+Changer le Sondage
+Accéder aux Fichiers du Site 
+
+25 Novembre 2001
+Nouvelle interface
+Sondage
+
+16 Mai 2001
+Version 1

@@ -1,0 +1,95 @@
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+	margin:0 1px;
+}
+
+#main .round1 {
+	display:block;
+	float:left;
+	background:#C00 url(../images/news/titre-left.gif) no-repeat left top;
+	width:7px;
+	height:35px;
+}
+#main .round2 {
+	display:block;
+	float:right;
+	background:#C00 url(../images/news/titre-right.gif) no-repeat left top;
+	width:7px;
+	height:35px;
+}
+
+#main .round3 {
+	display:block;
+	float:left;
+	background:#FFF url(../images/news/infos-left.gif) no-repeat left top;
+	width:6px;
+	height:44px;
+}
+
+#main .round4 {
+	display:block;
+	float:right;
+	background:#FFF url(../images/news/infos-right.gif) no-repeat left top;
+	width:6px;
+	height:44px;
+}
+
+#main .infos {
+	font-size:0.8em;
+	padding:3px 0 5px 1em;
+	background:#FFF url(../images/news/infos-back.gif) repeat-x left top;
+}
+#main .infos img { vertical-align:middle; padding-bottom:3px; }
+
+#main .news {
+	margin:0 1em 2em;
+	padding:5px;
+}
+
+/**
+ * Mise en forme
+ */
+ 
+#main blockquote {
+	font-size:0.9em;
+	padding: 1em 2em 1em 3.5em;
+	margin: 1em;
+	background:#EEE url(images/quote.gif) no-repeat 0.5em 0.5em;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+#main pre {
+	padding: 1em;
+	margin: 1em;
+	font-size: 1.2em;
+	background: #EEE;
+	width: 90%;
+	overflow: auto;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+#main ul { margin-left:20px; }
+
+#main .classement, #main .classement td, #main .classement tr {
+	padding:5px 10px;
+	border:0.1em solid #DDD;
+	border-collapse:collapse;
+}
+
+#main .classement th {
+	background-color:#EEE;
+	font-weight:bold;
+	color:#000;
+	padding:4px 10px;
+	white-space: nowrap;
+}
+#main .classement { width:200px; }
+#main .classement .col1 { width:50px; }

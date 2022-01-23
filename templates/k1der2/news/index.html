@@ -1,0 +1,17 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <!-- BEGIN NEWS -->
+ <h3>{newsTitre}</h3>
+ <span class="round3"></span><span class="round4"></span>
+ <p class="infos"><img src="templates/{THEME}/images/icons/page_white_edit.png" alt="News" height="16" width="16" /> Publi par <a href="membres/{newsAuteur}" title="Voir le profil de {newsAuteur}">{newsAuteur}</a> le {newsDate}<br />
+  <img src="templates/{THEME}/images/icons/comment.png" alt="Commentaires" height="16" width="16" />
+  <!-- BEGIN COMMENTS -->
+  <a href="forum/{newsCleanTitre}-t{newsId}.html">{newsNbComms} Commentaire{s}</a>, Dernier de <a href="membres/{newsLastPoster}" title="Voir le profil de {newsLastPoster}">{newsLastPoster}</a>
+  <!-- END COMMENTS -->
+  <!-- BEGIN NOCOMMENTS -->
+  <a href="forum/{newsCleanTitre}-t{newsId}.html">Aucun Commentaire</a>
+  <!-- END NOCOMMENTS -->
+ </p>
+ <div class="news">{newsText}</div>
+ <!-- END NEWS -->
+</div>

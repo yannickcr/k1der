@@ -1,0 +1,47 @@
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+}
+
+#main .left {
+	width:70%;
+	float:left;
+}
+
+#main .right {
+	float:right;
+	width:30%;
+}
+
+#main table, #main table td, #main table tr, #main table th {
+	padding: 5px 10px;
+	border-collapse: collapse;
+	border:1px solid #DDD;
+}
+
+#main table {
+	width:100%;
+	margin:0 1px 10px;
+}
+
+#main table td { background-color:#F5F5F5; font-size:0.85em; white-space:nowrap; }
+#main table img { vertical-align:middle; margin-right:.2em; }
+
+#main table td.date, #main table td.comms { text-align:center; }
+
+#main col.date { width:25%; }
+#main col.blog { width:25%; }
+#main col.titre { width:35%; }
+#main col.titre2 { width:50%; }
+#main col.comms { width:15%; }
+
+#main .right h3 {
+	font-size:1em;
+	border:1px solid #BBB;
+	margin:0 0 10px 10px;
+}

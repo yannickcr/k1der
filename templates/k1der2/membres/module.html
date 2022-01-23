@@ -1,0 +1,69 @@
+<div id="membres">
+ <!-- BEGIN CONNEX -->
+ <h2 class="connexion">Connexion</h2>
+ <form action="{REQUEST_URI}" method="post">
+  <fieldset>
+  <!-- BEGIN ERROR -->
+  <span class="erreur">{error}</span>
+  <!-- END ERROR -->
+  <label for="membres_pseudo">Login</label>
+  <input type="text" id="membres_pseudo" name="loginpseudo" />
+  <label for="membres_pass">Mot de passe</label>
+  <input type="password" id="membres_pass" name="loginpass" />
+  <input type="checkbox" id="membres_auto" name="auto" value="1" />
+  <label for="membres_auto">Connexion auto</label>
+  <input id="membres_submit" type="submit" value="Valider" />
+  <a title="Récupèrer votre mot de passe" href="membres/recupmdp.html">Mot de passe perdu</a> <a title="S'inscrire sur le site" href="membres/inscription.html">Inscription</a>
+  </fieldset>
+ </form>
+ <!-- END CONNEX -->
+ <!-- BEGIN PROFIL -->
+ <h2 class="profil">Profil</h2>
+  <!-- BEGIN AVATARIMG -->
+  <a href="membres/{profilPseudo}"><img src="{profilAvatar}" alt="Avatar de {profilPseudo}" /></a>
+  <!-- END AVATARIMG -->
+  <span>{profilPseudo}</span>
+  <ul>
+   <li>Blog :
+    <ul>
+	 <!-- BEGIN HAVEBLOG -->
+     <li class="blog"><a href="http://blog.k1der.net/{blogPseudo}">Aller sur votre blog</a></li>
+     <li class="blogadmin"><a href="http://blog.k1der.net/admin">Administrer votre blog</a></li>
+	 <!-- END HAVEBLOG -->
+	 <!-- BEGIN HAVENOTBLOG -->
+     <li class="blogcreate"><a href="membres/mon-profil-creer-blog.html">Créer votre blog</a></li>
+	 <!-- END HAVENOTBLOG -->
+    </ul>
+   </li>
+   <li>Profil :
+    <ul>
+     <li class="mail"><a href="membres/mon-profil-boite-de-reception.html">{profilNbMess} message{s} privé{s}</a></li>
+     <li class="view"><a href="membres/{profilPseudo}">Voir son profil</a></li>
+     <li class="edit"><a href="membres/mon-profil.html">Modifier son profil</a></li>
+    </ul>
+   </li>
+   <!-- BEGIN LANPARTY -->
+   <li>Atomic Re-SO 2006 :
+    <ul>
+     <li><a href="lanparty/modifier-inscription.html">Modifier son inscription</a></li>
+    </ul>
+   </li>
+   <!-- END LANPARTY -->
+   <!-- BEGIN ADMIN -->
+   <li>Administration :
+    <ul>
+     <li class="admin"><a href="admin/">Accés à l'admininistration</a></li>
+    </ul>
+   </li>
+   <!-- END ADMIN -->
+  </ul>
+  <a href="membres/logout.html">Déconnexion</a>
+ <!-- END PROFIL -->
+  <h2 class="enligne">En ligne</h2>
+  <ul class="online">
+  <!-- BEGIN ONLINE -->
+  <li class="{onlineClass}"><a href="membres/{onlinePseudo}">{onlinePseudo}</a></li>
+  <!-- END ONLINE -->
+  <li class="visiteur">{onlineVisiteurs} visiteur{onlineS}</li>
+  </ul>
+</div>

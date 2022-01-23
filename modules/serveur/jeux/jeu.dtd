@@ -1,0 +1,22 @@
+<!ELEMENT jeu ((gametype)+,maps) >
+<!ATTLIST jeu
+	name		CDATA							#REQUIRED
+	shortname	CDATA							#REQUIRED
+>
+<!ELEMENT gametype EMPTY>
+<!ATTLIST gametype
+	nom			CDATA							#REQUIRED
+	type		(Team|Duel|Deathmatch)			"Duel"
+	nbplayer	CDATA							#REQUIRED
+	team1		CDATA							#IMPLIED
+	team2		CDATA							#IMPLIED
+	round		CDATA							#IMPLIED
+	minmaps		CDATA							#REQUIRED
+	maxmaps		CDATA							#REQUIRED
+>
+<!ELEMENT maps ((map)+) >
+<!ELEMENT map EMPTY>
+<!ATTLIST map
+	nom			CDATA							#REQUIRED
+	image		CDATA							"../nomap.jpg"
+>

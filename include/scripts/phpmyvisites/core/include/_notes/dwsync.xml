@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AdminModule.class.php" local="127838919000000000" remote="0" testing="127838919000000000" />
+<file name="ApplicationController.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Archive.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Archive.functions.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ArchiveCategory.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ArchiveDay.class.php" local="127864030501875000" remote="0" testing="127864033200000000" />
+<file name="ArchiveEmpty.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ArchiveMonth.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ArchivePeriod.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ArchiveTable.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ArchiveWeek.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ArchiveYear.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Cookie.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="DataModel.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Date.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="InstallModule.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Lang.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Logs.functions.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="MenuDefinition.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Module.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="PmvConfig.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Request.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Site.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="SiteConfigDb.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="Str.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="TemplateEngine.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="User.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="UserConfigDb.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="ViewModule.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="common.functions.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="commonDB.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="functions.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="global.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="installSql.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="myMailer.class.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+<file name="updateLangFiles.php" local="127838919600000000" remote="0" testing="127838919600000000" />
+</dwsync>

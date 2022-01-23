@@ -1,0 +1,72 @@
+#membres h2 {
+	margin:0 0 1em;	
+	padding:10px 0 5px 0;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	height:40px;
+	text-indent:-9000em;
+	color:#FFFFFF;
+	font-size:1.4em;
+	text-align:center;
+}
+
+#membres h2.connexion { background-image:url('../images/titres/connexion.gif'); }
+#membres h2.profil { background-image:url('../images/titres/profil.gif'); }
+#membres h2.enligne { background-image:url('../images/titres/en-ligne.gif'); height:42px; }
+
+/**
+ * Formulaire de connexion
+ */
+
+#membres form { text-align:left; }
+#membres fieldset { border:0; }
+#membres label {
+	padding:2px;
+	display:block;
+}
+#membres_pseudo, #membres_pass { display:block; }
+#membres_auto { float:left; margin:2px; }
+#membres_submit { margin:0.5em auto 0; display:block; }
+#membres form a { display:block; margin:0.5em auto; text-align:center; }
+
+/**
+ * Profil
+ */
+
+#membres { 
+	text-align:center;
+	font-size:0.8em;
+}
+#membres span { display:block; margin:0.5em auto 1em; font-size:1.2em; font-weight:bold; }
+#membres ul { text-align:left; margin-bottom:1em; }
+#membres ul li { 
+	margin-top:1em;
+}
+#membres ul li ul li { 
+	margin-left:1em;
+	list-style-type:none;
+	margin:0.2em 0 0.2em 0.5em;
+	padding:0.2em 0 0.2em 2em;
+	background:  no-repeat left center;
+}
+
+#membres ul li ul li.blog		{ background-image:url(../images/icons/layout.png); }
+#membres ul li ul li.blogadmin	{ background-image:url(../images/icons/lock.png); }
+#membres ul li ul li.blogcreate	{ background-image:url(../images/icons/layout_add.png); }
+#membres ul li ul li.mail 		{ background-image:url(../images/icons/email.png); }
+#membres ul li ul li.view 		{ background-image:url(../images/icons/vcard.png); }
+#membres ul li ul li.edit 		{ background-image:url(../images/icons/vcard_edit.png); }
+#membres ul li ul li.admin		{ background-image:url(../images/icons/lock.png); }
+
+/**
+ * En ligne
+ */
+#membres ul.online li {
+	list-style:none;
+	background:  no-repeat left center;
+	padding:0.2em 0 0.2em 2em;
+	margin-top:0.2em;
+}
+#membres ul.online li.membre { background-image:url(../images/icons/user.png); }
+#membres ul.online li.admin { background-image:url(../images/icons/user_gray.png); }
+#membres ul.online li.visiteur { background-image:url(../images/icons/group.png); }

@@ -1,0 +1,75 @@
+/**
+ * Titres
+ */
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+}
+
+#main h4 {
+	margin:1em 0 .5em;
+	font-size:1em;
+	text-align:left;
+}
+
+/**
+ * Bloc central
+ */
+#main .message { border:1px solid #BBB; padding:0.5em; text-align:center }
+
+#main .message p { text-align:left; }
+
+/**
+ * Pagination
+ */
+#main .barreactions { height:2.5em; } 
+ 
+#main .pagination {
+	font-size:0.9em;
+	line-height:2.5em;
+	float:left;
+	margin:0;
+}
+
+#main .pagination a:link, #main  .pagination a:visited { color:#000; }
+
+#main .pagen, #main .prevnext, #main .firstlast, #main .current {
+	border:1px solid black;
+	padding:2px 3px;
+	margin:0 2px;
+}
+
+#main .prevnext { background-color:#FEE; }
+#main .firstlast { background-color:#FCC; }
+#main .current { background-color:#C00; color:#FFF; }
+
+#main .apage, #main .lastpage {
+	border:1px solid #BBB;
+	font-size:0.9em;
+	padding:0 2px;
+	margin:0 2px;
+}
+#main .apage:link, #main .apage:visited, #main .apage:active, #main .apage:hover,
+#main .lastpage:link, #main .lastpage:visited, #main .lastpage:active, #main .lastpage:hover { color:#000; }
+#main .lastpage { background-color:#FCC; }
+
+/**
+ * Tableau
+ */
+#main table { width:99%; margin:.5em; text-align:left; }
+
+#main table, #main table td, #main table tr, #main table th {
+	padding: 5px 10px;
+	border-collapse: collapse;
+	border:1px solid #DDD;
+}
+#main table th { text-align:center; }
+#main table td { background-color:#F5F5F5; }
+#main table img { vertical-align:middle; }
+
+#main table td.date { white-space:nowrap; }

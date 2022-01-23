@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+<channel>
+  <title>K1der.net - Derniers matches</title>
+  <link>http://www.k1der.net/</link>
+  <description></description>
+  <language>fr</language>
+  <copyright></copyright>
+  <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+  <generator>K1der.net</generator>
+
+  <item>
+    <title>[DRead]</title>
+    <link>http://www.k1der.net/matches/k1der-vs-dread-id51.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-dread-id51.html</guid>
+    <pubDate>2007-06-11T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>Sentinelle</title>
+    <link>http://www.k1der.net/matches/k1der-vs-sentinelle-id50.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-sentinelle-id50.html</guid>
+    <pubDate>2007-06-10T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>adrenaliN-</title>
+    <link>http://www.k1der.net/matches/k1der-vs-adrenalin-id49.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-adrenalin-id49.html</guid>
+    <pubDate>2006-11-13T00:00:00+01:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>FsK</title>
+    <link>http://www.k1der.net/matches/k1der-vs-fsk-id48.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-fsk-id48.html</guid>
+    <pubDate>2006-11-12T00:00:00+01:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>Clems</title>
+    <link>http://www.k1der.net/matches/k1der-vs-clems-id47.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-clems-id47.html</guid>
+    <pubDate>2006-08-11T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>Jahman</title>
+    <link>http://www.k1der.net/matches/k1der-vs-jahman-id46.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-jahman-id46.html</guid>
+    <pubDate>2006-08-11T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>Eldorado</title>
+    <link>http://www.k1der.net/matches/k1der-vs-eldorado-id45.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-eldorado-id45.html</guid>
+    <pubDate>2006-08-11T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>Junior</title>
+    <link>http://www.k1der.net/matches/k1der-vs-junior-id44.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-junior-id44.html</guid>
+    <pubDate>2006-08-11T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>The Dragon</title>
+    <link>http://www.k1der.net/matches/k1der-vs-the-dragon-id42.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-the-dragon-id42.html</guid>
+    <pubDate>2006-08-11T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+  <item>
+    <title>bLp</title>
+    <link>http://www.k1der.net/matches/k1der-vs-blp-id41.html</link>
+    <guid isPermaLink="true">http://www.k1der.net/matches/k1der-vs-blp-id41.html</guid>
+    <pubDate>2006-08-11T00:00:00+02:00</pubDate>
+
+    <dc:creator>K1der</dc:creator>
+    <description>...</description>
+  </item>
+</channel>
+</rss>

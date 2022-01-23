@@ -1,0 +1,20 @@
+<h3>Postulants au clan</h3>
+<table>
+ <tr>
+  <th>Date</th>
+  <th>Pseudo</th>
+  <th>Action</th>
+ </tr>
+ <!-- BEGIN POSTULANTS -->
+ <tr>
+  <td>{date}</td>
+  <td><a href="membres/{membrePseudo}">{membrePseudo}</a></td>
+  <td><a href="membres/mon-profil-clanpostul-accepter{membreId}.html">Accepter</a> / <a href="membres/mon-profil-clanpostul-refuser{membreId}.html">Refuser</a></td>
+ </tr>
+ <!-- END POSTULANTS -->
+ <!-- BEGIN NOPOSTULANTS -->
+ <tr>
+  <td class="no" colspan="3">Aucun postulant en attente</td>
+ </tr>
+ <!-- END NOPOSTULANTS -->
+</table>

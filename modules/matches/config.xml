@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration>
+	<pages>
+		<page page="livesearchplayer" condition="get[livesearchplayer],get[id],get[q]" />
+		<page page="livesearchadv" condition="get[livesearchadv],get[id],get[q]" />
+		<page page="livesearchlan" condition="get[livesearchlan],get[q]" />
+		
+		<page page="reloadxmlpart" condition="get[loadxml],get[reloadxmlpart],get[data]" />
+		<page page="loadxml" condition="get[loadxml]" />
+		<page page="matche" condition="get[action](matche),get[id]" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="modifierMatch" condition="get[id],post[jeu],post[type],post[lieu],post[mode],post[joueur1],post[adv1],infos[id]" />
+		<action action="ajouterMatch" condition="post[jeu],post[type],post[lieu],post[mode],post[joueur1],post[adv1],infos[id]" />
+		<action action="supprimerMatch" condition="get[action](supprimer),get[id],infos[id]" />
+
+		<action action="addComm" condition="get[id],post[message],post[note]" />
+		<action action="editComm" condition="get[id],get[edit],post[message],post[note]" />
+		<action action="delComm" condition="get[id],get[del]" />
+	</actions>
+	<admin titre="Matches">
+		<menu titre="Ajouter" lien="admin/matches/ajouter.html"/>
+		<menu titre="Liste des matches" lien="admin/matches/liste.html"/>
+	</admin>
+</configuration>

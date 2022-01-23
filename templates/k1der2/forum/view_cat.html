@@ -1,0 +1,35 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+{barrehaut}
+<h3>{catTitre}</h3>
+<table summary="Forums de la catégorie {catTitre}">
+<thead>
+<tr>
+	<th>&nbsp;</th>
+	<th id="forums">Forums</th>
+	<th id="sujets">Sujets</th>
+	<th id="reponses">R&eacute;ponses</th>
+	<th id="dernier">Dernier Message</th>
+</tr>
+</thead>
+<tbody>
+<!-- BEGIN FORUM -->
+<tr>
+	<td></td>
+	<td headers="forums" class="forum"><h4><a href="forum/{forumLinkTitre}-f{forumId}.html">{forumTitre}</a></h4><p>{forumDescr}</p></td>
+	<td headers="sujets" class="nb">{forumNbTopics}</td>
+	<td headers="reponses" class="nb">{forumNbPosts}</td>
+	<td headers="dernier" class="last"><p>{forumLastPostDate} &agrave; {forumLastPostHeure}</p>
+	  <p>Dans :&nbsp;<!-- BEGIN LAST --><a href="forum/{forumLinkLastPost}-t{forumLastPostId}.html"><!-- END LAST -->{forumLastPost}<!-- BEGIN LAST2 --></a><!-- END LAST2 --></p>
+	  <p>Par :&nbsp;<!-- BEGIN LAST3 --><a href="membres/{forumLastPosterName}"><!-- END LAST3 -->{forumLastPosterName}<!-- BEGIN LAST4 --></a><!-- END LAST4 --></p>
+	</td>
+</tr>
+<!-- END FORUM -->
+<!-- BEGIN NOFORUM -->
+<tr>
+	<td colspan="5">Aucun forum dans cette catégorie</td>
+</tr>
+<!-- END NOFORUM -->
+</tbody>
+</table>
+</div>

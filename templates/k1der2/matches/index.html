@@ -1,0 +1,26 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <h3><a title="Flux RSS des derniers matches" href="matches/matches.rss"><img src="templates/{THEME}/images/icons/feed.png" alt="RSS" /></a>Derniers matches</h3>
+ <div class="message">
+  <table>
+   <thead>
+    <tr>
+     <th>Adversaire</th>
+     <th>Score</th>
+     <th>Date</th>
+     <th>Détails</th>
+    </tr>
+   </thead>
+   <tbody>
+    <!-- BEGIN MATCHES -->
+    <tr>
+     <td class="{matchStatus}" style="background-image:url(modules/matches/jeux/{matchJeu}/{matchJeu}.png);">{matchAdversaire}<span title="{matchComms} commentaire(s) sur ce matche" class="posts">({matchComms})</span></td>
+     <td>{matchScore1} - {matchScore2}</td>
+     <td>lol</td>
+     <td><a title="Détails du match contre {matchAdversaire}" href="matches/{matchCleanClan}-vs-{matchCleanAdversaire}-id{matchId}.html">Détails &raquo;</a></td>
+    </tr>
+    <!-- END MATCHES -->
+   </tbody>
+  </table>
+ </div>
+</div>

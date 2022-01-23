@@ -1,0 +1,188 @@
+/**
+ * Rectification de la mise en page
+ */
+body, #footer { background-image:none; }
+#main { margin:0;padding:0.6em 1em 1em; }
+
+/**
+ * Titres
+ */
+#main h3 {
+	background-color:#CC0000;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	padding:5px;
+	border:1px solid #DDD;
+	border-bottom:0;
+	-moz-margin-start:-1px; /* Hack pour Gecko, ouai, a casse */
+}
+
+#main h3 {
+	text-align:left;
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	clear:both;
+}
+#main h3 a:link,#main h3 a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+#main h3 a:hover,#main h3 a:active { text-decoration:underline; }
+
+
+#main h3.lite { font-size:1em; }
+
+#main h3 span {
+	font-weight:normal;
+	font-size:0.8em;
+}
+
+/**
+ * Tableaux
+ */
+#main table {
+	border-collapse:collapse;
+	width:100%;
+	margin-bottom:2em;
+}
+
+#main td, #main th { border:1px solid #DDD; }
+
+
+#main th {
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	color:#FFF;
+	padding:3px;
+	font-size:0.8em;
+}
+
+#main td { padding:5px; }
+
+#main td.forum { width:59%; }
+#main td.forum p{ font-size:0.85em; }
+
+#main td.sujet {
+	width:45%;
+	font-size:0.85em;
+}
+
+#main td.sujet p {
+	color:#999;
+}
+
+#main td.auteur { text-align:center; font-size:0.85em; width:14%; }
+#main td.nb { text-align:center; font-size:0.85em; width:7%; }
+#main td.last { font-size:0.8em; width:26%; }
+#main td.sep { background-image: url(../images/forum/titre.gif); height: 1px; }
+#main td.no { text-align:center; }
+
+/**
+ * Spcificits des colonnes
+ */
+#main .postauteur { width:15%; background-color:#FEE; text-align:center; }
+#main .postauteur a:link, #main .postauteur a:visited, #main .postauteur span {
+	font-weight:bold;
+	color:#000;
+}
+#main .infos { background-color:#FEE; font-size:0.8em; padding:8px 5px 2px; }
+#main .infos span { font-weight:bold; padding-left:5px; }
+#main .infos div { float:right; margin-top:-5px; }
+
+#main .message { border-bottom:0; vertical-align:top; }
+#main .sign { border-top:0; vertical-align:bottom; }
+
+#main .profil { vertical-align:top; font-size:0.8em; padding-bottom:5em; }
+#main .profil img { vertical-align:middle; }
+#main .avatar { display:block; margin:0 auto 1em; }
+
+#main .smileys { width:150px; font-size:0.8em; vertical-align:top; text-align:center; }
+#main .smileys img { margin:0.5em; cursor:pointer; }
+#main .redac { text-align:center; }
+#main .redac textarea { width:99%; margin-bottom:1em; }
+
+#main form table td { background-color:#FEE; }
+#main label { font-size:0.85em; }
+#main hr { border:0; border-top:1px dashed #000; }
+
+/**
+ * Formulaire de réponse rapide
+ */
+#rep-rap label { display:block; text-align:left; }
+#rep-rap td { text-align:center; }
+#rep-rap textarea { width:50%; margin-bottom:1em; }
+#valider { margin-right:5em; }
+#previsualiser { margin-left:5em; }
+
+/**
+ * Formulaire
+ */
+#pseudo, #titre, #descr { width:50%;}
+
+/**
+ * Options de modération
+ */
+#modo { float:right; margin-bottom:1em; }
+
+/**
+ * Barre du haut
+ */
+#membre { font-size:0.85em; height:4em; } 
+#identform { height:4em; } 
+#ident { float:left; } 
+#ident span { font-weight:bold; } 
+#nav { float:right; }
+#nav li { display:inline; list-style-type:none; border-right:1px solid #BBB; padding-right:0.45em; } 
+#nav li:last-child { border:0; }
+
+/**
+ * Fil d'ariane
+ */
+#ariane { float:left; }
+#ariane li { display:inline; list-style-type:none; border:0; }
+#ariane li:first-child { background: url(../images/forum/root.gif) no-repeat left center; padding-left:20px; }
+#ariane a:link, #ariane a:visited { font-weight:bold; color:#000; }
+
+/**
+ * Recherche
+ */
+#search { float:right; text-align:right; margin:0 2em 2em 0; }
+#search a { font-size:0.85em; }
+
+/**
+ * Barre d'action
+ */
+#main .barreactions { clear:both; text-align:right; }
+#main .barreactions2 { clear:both; text-align:right; margin:-1.5em 0 2em; }
+#main .topicpagination { float:left; }
+
+/**
+ * Pagination
+ */
+#main .pagination {
+	font-size:0.9em;
+	line-height:2.5em;
+	float:left;
+	margin:0;
+}
+
+#main .pagination a:link, #main  .pagination a:visited { color:#000; }
+
+#main .pagen, #main .prevnext, #main .firstlast, #main .current {
+	border:1px solid black;
+	padding:2px 3px;
+	margin:0 2px;
+}
+
+#main .prevnext { background-color:#FEE; }
+#main .firstlast { background-color:#FCC; }
+#main .current { background-color:#C00; color:#FFF; }
+
+#main .apage, #main .lastpage {
+	border:1px solid #BBB;
+	font-size:0.9em;
+	padding:0 2px;
+	margin:0 2px;
+}
+#main .apage:link, #main .apage:visited, #main .apage:active, #main .apage:hover,
+#main .lastpage:link, #main .lastpage:visited, #main .lastpage:active, #main .lastpage:hover { color:#000; }
+#main .lastpage { background-color:#FCC; }

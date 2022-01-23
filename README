@@ -1,0 +1,36 @@
+Version 3.0 de K1der.net
+-------------------------
+
+Objectifs techniques :
+- Valide XHTML 1.1
+- Accessible WCAG 1.0
+- Système de Template
+- Tableless
+- Séparation contenu/présentation grâce aux CSS
+- Compatible IE6,IE7,FireFox,Opera
+
+Objectifs techniques futurs :
+- Multilanguages
+- Système de cache
+
+Modules prévus au lancement :
+- Forum
+- News
+- Sondages
+- Espace membres
+- Téléchargements
+- Dossiers
+- Lan Party
+- Galleries
+- Line Up
+- Matches
+- Rapid'Chat
+- Serveur Live
+- Partenaires
+
+Modules prévus plus tard :
+- Boutique en ligne (soyons fou)
+- Calendrier des Lan Party
+- Statistiques (fait maison)
+- Recrutement
+- Blog membres

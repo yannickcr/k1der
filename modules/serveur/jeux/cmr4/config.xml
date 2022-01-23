@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE jeu SYSTEM "../jeu.dtd">
+<jeu name="Colin McRae Rally 04" shortname="cmr4">
+	<gametype nom="Deathmatch" type="Deathmatch" nbplayer="6" minmaps="1" maxmaps="1" />
+	<gametype nom="Duel" type="Duel" nbplayer="1" minmaps="1" maxmaps="3" />
+	<maps>
+		<map nom="Australie" image="speciales/australie.jpg" />
+		<map nom="Espagne" image="speciales/espagne.jpg" />
+		<map nom="Etats-Unis" image="speciales/etatsunis.jpg" />
+		<map nom="Finlande" image="speciales/finlande.jpg" />
+		<map nom="Grce" image="speciales/grece.jpg" />
+		<map nom="Japon" image="speciales/japon.jpg" />
+		<map nom="Royaume Uni" image="speciales/royaumeuni.jpg" />
+		<map nom="Sude" image="speciales/suede.jpg" />
+	</maps>
+</jeu>

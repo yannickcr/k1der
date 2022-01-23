@@ -1,0 +1,41 @@
+<h3>Rédiger un message privé</h3>
+<!-- BEGIN PREVISUALISER -->
+<fieldset>
+<legend>Prévisualisation</legend>
+{messageHtml}
+</fieldset>
+<!-- END PREVISUALISER -->
+<form action="{REQUEST_URI}" method="post">
+ <fieldset>
+ <legend>Rédiger un message privé</legend>
+ <label for="to">Pseudo du destinataire</label>
+ <input type="text" id="to" name="to" value="{to}" />
+ <div id="LSResult" class="livesearch"></div>
+ <!-- BEGIN ERREUR-PSEUDO1 -->
+ <span class="erreur">Vous devez rentrer un destinataire</span>
+ <!-- END ERREUR-PSEUDO1 -->
+ <!-- BEGIN ERREUR-PSEUDO2 -->
+ <span class="erreur">Destinataire inconnu</span>
+ <!-- END ERREUR-PSEUDO2 -->
+ <!-- BEGIN ERREUR-PSEUDO3 -->
+ <span class="erreur">Un pseudo ne peut contenir que des caractères alphanumriques</span>
+ <!-- END ERREUR-PSEUDO3 -->
+ <!-- BEGIN ERREUR-PSEUDO4 -->
+ <span class="erreur">Un pseudo a une longueur comprise entre 3 et 20 caractères</span>
+ <!-- END ERREUR-PSEUDO4 --><br />
+ <label for="sujet">Sujet</label>
+ <input type="text" id="sujet" name="sujet" value="{sujet}" />
+ <!-- BEGIN ERREUR-SUJET -->
+ <span class="erreur">Vous devez rentrer un sujet</span>
+ <!-- END ERREUR-SUJET --><br />
+ {miseEnForme}
+ <!-- BEGIN ERREUR-MESSAGE -->
+ <span class="erreur">Vous devez rentrer un message</span>
+ <!-- END ERREUR-MESSAGE -->
+ <textarea name="message" id="message" cols="50" rows="10">{message}</textarea>
+ </fieldset>
+ <div>
+  <input id="valider" name="valider" type="submit" value="Valider"/>
+  <input id="previsualiser" name="previsualiser" type="submit" value="Prévisualisation"/>
+ </div>
+</form>

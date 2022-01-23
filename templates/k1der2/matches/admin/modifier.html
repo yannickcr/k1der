@@ -1,0 +1,123 @@
+<h3>Ajouter un match</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Informations générales</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+	<colgroup>
+		<col style="width:30%" />
+		<col style="width:70%" />
+	</colgroup>
+		<tr>
+			<td style="font-weight:bold;"><label for="jeu">Jeu</label></td>
+			<td>
+			<select id="jeu" name="jeu">
+			<!-- BEGIN JEUX -->
+				<option value="{matchJeuxShortName}"{jeuselected}>{matchJeux}</option>
+			<!-- END JEUX -->
+			</select>
+			<input type="hidden" id="id" name="id" value="{matchId}" />
+			</td>
+		</tr>
+		<tr>
+			<td style="font-weight:bold;"><label for="type">Type</label></td>
+			<td>
+			<select id="type" name="type">
+				<option value="unique"{uniqueselected}>Match unique</option>
+				<option value="tournoi"{tournoiselected}>Tournoi</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-weight:bold;"><label for="lieu">Lieu</label></td>
+			<td>
+			<select id="lieu" name="lieu">
+				<option value="internet"{internetselected}>Internet</option>
+				<option value="lanparty"{lanpartyselected}>Lan Party</option>
+				<option value="sallejeux"{sallejeuxselected}>Salle de jeux</option>
+			</select>
+			</td>
+		</tr>
+		<tr id="tournoiline">
+			<td style="font-weight:bold;"><label for="tournoi">Nom du tournoi</label></td>
+			<td><input type="text" style="width:200px;" id="tournoi" name="tournoi" value="{tournoivalue}" />
+			</td>
+		</tr>
+		<tr id="lanpartyline">
+			<td style="font-weight:bold;"><label for="lanparty">Nom de la Lan party</label></td>
+			<td><input type="text" style="width:200px;" id="lanparty" name="lanparty" value="{lanpartyvalue}" />
+			<div id="livesearchlan" class="livesearch"></div>
+			</td>
+		</tr>
+		<tr id="sallejeuxline">
+			<td style="font-weight:bold;"><label for="sallejeux">Nom de la Salle de jeux</label></td>
+			<td><input type="text" style="width:200px;" id="sallejeux" name="sallejeux" value="{sallejeuxvalue}" />
+			</td>
+		</tr>
+		<tr id="dateline">
+			<td style="font-weight:bold;">Date</td>
+			<td>
+				<select id="jour" name="jour">
+					<!-- BEGIN JOURS -->
+					<option value="{jour}"{selected}>{jour}</option>
+					<!-- END JOURS -->
+				</select>
+				<select id="mois" name="mois">
+					<!-- BEGIN MOISS -->
+					<option value="{mois}"{selected}>{nommois}</option>
+					<!-- END MOISS -->
+				</select>
+				<select id="annee" name="annee">
+					<!-- BEGIN ANNEES -->
+					<option value="{annee}"{selected2}>{annee}</option>
+					<!-- END ANNEES -->
+				</select>
+			</td>
+		</tr>
+		<tr id="datedebutline">
+			<td style="font-weight:bold;">Date de début</td>
+			<td>
+				<select id="jourdebut" name="jourdebut">
+					<!-- BEGIN JOURS -->
+					<option value="{jour}"{selected}>{jour}</option>
+					<!-- END JOURS -->
+				</select>
+				<select id="moisdebut" name="moisdebut">
+					<!-- BEGIN MOISS -->
+					<option value="{mois}"{selected}>{nommois}</option>
+					<!-- END MOISS -->
+				</select>
+				<select id="anneedebut" name="anneedebut">
+					<!-- BEGIN ANNEES -->
+					<option value="{annee}"{selected2}>{annee}</option>
+					<!-- END ANNEES -->
+				</select>
+			</td>
+		</tr>
+		<tr id="datefinline">
+			<td style="font-weight:bold;">Date de fin</td>
+			<td>
+				<select id="jourfin" name="jourfin">
+					<!-- BEGIN JOURSFIN -->
+					<option value="{jourfin}"{selected}>{jourfin}</option>
+					<!-- END JOURSFIN -->
+				</select>
+				<select id="moisfin" name="moisfin">
+					<!-- BEGIN MOISSFIN -->
+					<option value="{moisfin}"{selected}>{nommoisfin}</option>
+					<!-- END MOISSFIN -->
+				</select>
+				<select id="anneefin" name="anneefin">
+					<!-- BEGIN ANNEESFIN -->
+					<option value="{anneefin}"{selected2}>{anneefin}</option>
+					<!-- END ANNEESFIN -->
+				</select>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<div id="matchdetails"></div>
+<div style="text-align:center;"><input type="submit" name="submit" value="Valider les modifications" /></div>
+</form>
+</div>
+<div class="bas"></div>

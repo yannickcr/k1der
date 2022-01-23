@@ -1,0 +1,20 @@
+<h3>Rinitialisation du mot de passe</h3>
+ <p>Rentrez votre nouveau mot de passe ci-dessous :</p>
+ <form action="{REQUEST_URI}" method="post">
+  <fieldset>
+  <label for="pass">Nouveau mot de passe</label>
+  <input type="password" id="pass" name="pass" value="{newPass}" />
+  <!-- BEGIN ERREUR-PASS1 -->
+  <span class="erreur">Vous devez entrer un mot de passe</span>
+  <!-- END ERREUR-PASS1 -->
+  <!-- BEGIN ERREUR-PASS3 -->
+  <span class="erreur">Votre mot de passe doit avoir une longueur minimum de 6 caractères</span>
+  <!-- END ERREUR-PASS3 --><br />
+  <label for="confpass">Confirmation</label>
+  <input type="password" id="confpass" name="confpass" />
+  <!-- BEGIN ERREUR-PASS2 -->
+  <span class="erreur">La confirmation du mot de passe a choue</span>
+  <!-- END ERREUR-PASS2 -->
+  </fieldset>
+  <div><input type="submit" value="Valider" /></div>
+ </form>

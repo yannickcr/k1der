@@ -1,0 +1,229 @@
+#main img.illus {
+	float:left;
+	margin-right:.5em;
+}
+
+#main {
+	text-align:center;
+}
+
+#main h3 {
+	font-size:1.4em;
+	text-align:left;
+	padding:1.5em 0 1em;
+}
+
+#main .galerie h3 {
+	padding:0;
+}
+
+
+#main h2 {
+	font-size:1.6em;
+	text-align:left;
+	padding-bottom:.5em;
+}
+
+#main h4 {
+	font-size:1.3em;
+	text-align:left;
+}
+
+#main p {
+	font-size:.85em;
+}
+
+#main .galerie, #main div.infos, #main img.photo {
+	background-color:#F2F2F2;
+	border:1px solid #CCC;
+	padding:1%;
+	margin-bottom:1%;
+	text-align:left;
+}
+
+.photo { margin-top:1em; }
+
+#main .galerie {
+	float:left;
+	width:96%;
+	margin:1%;
+}
+
+#main .message { border:1px solid #BBB; padding:0.5em; text-align:center; }
+
+#main p.descr { margin:1em 0; font-size:1em; }
+
+#main div.photo {
+	text-align:center;
+	float:left;
+	width:164px;
+	border:1px solid #CCC;
+	margin:2px;
+}
+
+#navtop {
+	width:272px;
+	height:84px;
+	margin:0 auto;
+	background-color:#F2F2F2;
+	border:1px solid #CCC;
+}
+
+#main div.photoprev, #main div.photocurrent, #main div.photonext {
+	text-align:center;
+	float:left;
+	width:84px;
+	margin:2px;
+	font-size:.8em;
+	color:#BBB;
+}
+#main div.photoprev a, #main div.photocurrent a, #main div.photonext a,
+#main div.photoprev p.no, #main div.photocurrent p.no, #main div.photonext p.no {
+	width:84px;
+	height:66px;
+	display:table-cell !important;
+	display:block;
+	vertical-align:middle;
+}
+
+#main div.photoprev p.no, #main div.photonext p.no {
+	height:78px;
+}
+
+#main div.photocurrent img {
+	filter:Alpha(opacity=50);
+	-moz-opacity:.5;
+	opacity:.5;
+}
+
+#main div.photo a {
+	width:164px;
+	height:126px;
+	display:table-cell !important;
+	display:block;
+	vertical-align:middle;
+}
+#main div.photo img {
+	vertical-align:middle;
+	margin:auto;
+}
+
+#main ul.photo {
+	border:1px solid #CCC;
+	border-bottom:0;
+	text-align:left;
+	list-style-type:none;
+	margin:1% 0 2%;
+}
+
+#main ul li span {
+	display:block;
+	float:left;
+	width:12em;
+	border-right:1px solid #CCC;
+	margin-right:.5em;
+	padding-right:.5em;
+	font-weight:bold;
+	text-align:right;
+}
+
+#main ul.photo li {
+	line-height:2em;
+	border-bottom:1px solid #CCC;
+	white-space:nowrap;
+}
+
+#main ul.photo li img {
+	vertical-align:middle;
+	margin-bottom:4px;
+}
+
+/**
+ * Fil d'ariane
+ */
+#ariane { position:absolute; left:200px; text-align:left; margin:0 0 1em; }
+#ariane li { display:inline; list-style-type:none; border:0; }
+#ariane li:first-child { background: url(../images/forum/root.gif) no-repeat left center; padding-left:20px; }
+#ariane a:link, #ariane a:visited { font-weight:bold; color:#000; }
+
+/**
+ * Pagination
+ */
+#main .barreactions { height:2.5em; } 
+ 
+#main .pagination {
+	font-size:0.9em;
+	line-height:2.5em;
+	margin:0;
+	width:100%;
+	text-align:left;
+	float:left;
+}
+
+#main .pagination a:link, #main  .pagination a:visited { color:#000; }
+
+#main .pagen, #main .prevnext, #main .firstlast, #main .current {
+	border:1px solid black;
+	padding:2px 3px;
+	margin:0 2px;
+}
+
+#main .prevnext { background-color:#FEE; }
+#main .firstlast { background-color:#FCC; }
+#main .current { background-color:#C00; color:#FFF; }
+
+#main .apage, #main .lastpage {
+	border:1px solid #BBB;
+	font-size:0.9em;
+	padding:0 2px;
+	margin:0 2px;
+}
+#main .apage:link, #main .apage:visited, #main .apage:active, #main .apage:hover,
+#main .lastpage:link, #main .lastpage:visited, #main .lastpage:active, #main .lastpage:hover { color:#000; }
+#main .lastpage { background-color:#FCC; }
+
+/**
+ * Tableau
+ */
+#main table { width:99%; margin:.5em; text-align:left; }
+
+#main table, #main table td, #main table tr, #main table th {
+	padding: 5px 10px;
+	border-collapse: collapse;
+	border:1px solid #DDD;
+}
+#main table th, #main table td.comms { text-align:center; }
+#main table td { background-color:#F5F5F5; }
+#main table img { vertical-align:middle; }
+
+
+/**
+ *Commentaire
+ */
+#main .postauteur { font-weight:bold; width:15%; background-color:#FEE; text-align:center; }
+#main .postauteur a:link, #main .postauteur a:visited, #main .postauteur span { color:#000; }
+#main td.infos { background-color:#FEE; font-size:0.8em; padding:8px 5px 2px; }
+#main td.infos span { font-weight:bold; padding-left:5px; }
+#main td.infos div { float:right; margin-top:-5px; }
+
+#main .comm { vertical-align:top; background-color:#FFF; border-bottom:0; }
+#main .commnonote { vertical-align:top; background-color:#FFF; }
+
+#main .note { vertical-align:bottom;  background-color:#FFF; border-top:0; }
+
+#main .profil { text-align:center; vertical-align:top; background-color:#FFF; }
+#main td.sep { border:0; background-color:transparent; }
+#main table.comms, #main table.comms tr { border:0; }
+
+#main p.barreactions { margin-top:0; padding-top:0; text-align:right; }
+
+#main .pseudo label { width:10em; float:left; display:block; line-height:2em; }
+
+#main .messagetd { width:100%; }
+#main #message {
+	margin:5px 0px 25px;
+	width:98%;
+	height:150px;
+}
+
+#main fieldset { border:0; }

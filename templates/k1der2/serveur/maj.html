@@ -1,0 +1,29 @@
+<data>
+  <h2 class="serveur{i}">Serveur {i}</h2>
+  <h3>{serveurModname}</h3>
+  <a id="serveur{i}_reload" class="reload" title="Rafraichir les informations du serveur" href="{REQUEST_URI}">Actualiser</a>
+  <img id="serveur{i}activity" class="serveuractivity" src="templates/{THEME}/images/activity-white-on-red.gif" title="Loading..." alt="loading" />
+  <img id="serveur{i}map" class="serveurmap" src="{serveurMapImg}" title="{serveurMap}" alt="{serveurMap}" /> {serveurMap}
+  <ul>
+   <li>Adresse :
+    <ul>
+     <li class="adresse"><a title="Rejoindre le serveur" href="steam://connect/{serveurIp}:{serveurPort}">{serveurIp}:{serveurPort}</a></li>
+    </ul>
+   </li>
+   <li>Joueurs :
+    <ul>
+     <li id="serveur{i}_players" class="players">{serveurPlayers}/{serveurPlaces}</li>
+    </ul>
+   </li>
+   <li>Mot de passe :
+    <ul>
+     <li class="pass">{serveurPass}</li>
+    </ul>
+   </li>
+   <li>Statistiques :
+    <ul>
+     <li class="stats"><a href="{serveurStats}">Stats du serveur {serveurModname}</a></li>
+    </ul>
+   </li>
+  </ul>
+</data>

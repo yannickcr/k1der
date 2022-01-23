@@ -1,0 +1,1436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-05-30 15:22+0100\n"
+"Last-Translator: AmO <amo59@supinfo.com>\n"
+"Language-Team: Ralph Inselsbacher\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: \\\\.PSF\\WordPress\\wp-content\\plugins\\simpletagging\n"
+"X-Poedit-SearchPath-0: D:\\Documents and Settings\\Amaury.HP-AMO\\Bureau\\Simple Tagging\\trunk\n"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.mu.php:22
+#, fuzzy
+msgid "Simple Tagging: Mu Options"
+msgstr "Simple Tagging: Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.mu.php:22
+#, fuzzy
+msgid "STP: Mu Options"
+msgstr "Tag-Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.mu.php:28
+msgid "Only Mu Admin."
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:87
+#: Tagging\trunk/simpletagging.admin.php:102
+#, fuzzy
+msgid "Select"
+msgstr "Löschen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:123
+msgid "Simple Tagging"
+msgstr "Simple Tagging"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:123
+#: Tagging\trunk/simpletagging.admin.php:318
+msgid "Tags"
+msgstr "Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:124
+#: Tagging\trunk/simpletagging.admin.php:1099
+msgid "Simple Tagging: Manage Tags"
+msgstr "Simple Tagging: Tags verwalten"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:124
+msgid "Manage Tags"
+msgstr "Tags verwalten"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:125
+#: Tagging\trunk/simpletagging.admin.php:1393
+msgid "Simple Tagging: Not Tagged Articles"
+msgstr "Simple Tagging: Beiträge ohne Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:125
+msgid "Not Tagged Articles"
+msgstr "Beiträge ohne Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:126
+#: Tagging\trunk/simpletagging.admin.php:1219
+msgid "Simple Tagging: Import Tags"
+msgstr "Simple Tagging: Tags importieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:126
+msgid "Import Tags"
+msgstr "Tags importieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:127
+#, fuzzy
+msgid "Simple Tagging: General Options"
+msgstr "Simple Tagging: Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:127
+#: Tagging\trunk/simpletagging.admin.php:688
+msgid "General Options"
+msgstr "Allgemeine Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:128
+#, fuzzy
+msgid "Simple Tagging: Cloud Options"
+msgstr "Simple Tagging: Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:128
+#, fuzzy
+msgid "Cloud Options"
+msgstr "Feed-Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:129
+#: Tagging\trunk/simpletagging.admin.php:889
+#, fuzzy
+msgid "Simple Tagging: Related Options"
+msgstr "Simple Tagging: Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:129
+#, fuzzy
+msgid "Related Options"
+msgstr "Feed-Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:245
+msgid "No (suggested) tags founds."
+msgstr "Keine (vorgeschlagenen) Tags gefunden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:311
+msgid "Tags (comma separated list)"
+msgstr "Tags (kommagetrennte Liste)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:318
+msgid "Suggested Tags"
+msgstr "Vorgeschlagene Tags"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:424
+#, fuzzy, php-format
+msgid "Deleted the following tag(s): %s"
+msgstr "Folgende(r) Tag(s) wurde(n) gelöscht: %1$s"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:426
+#, fuzzy, php-format
+msgid "Could not find tag(s) in database: %s"
+msgstr "Konnte Tag(s) nicht in in der Datenbank finden: %1$s"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:443
+msgid "No new tag specified!"
+msgstr "Kein neuer Tag angegeben!"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:480
+#, php-format
+msgid "Renamed tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;"
+msgstr "Tag(s) umbenannt &laquo;%1$s&raquo; in &laquo;%2$s&raquo;"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:482
+#, fuzzy, php-format
+msgid "Added tag(s) &laquo;%s&raquo; to all posts."
+msgstr "Tag(s) &laquo;%1$s&raquo; wurde(n) zu allen Beiträgen hinzugefügt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:484
+#, php-format
+msgid "Added tag(s) &laquo;%1$s&raquo; to posts tagged with &laquo;%2$s&raquo;"
+msgstr "Tag(s) &laquo;%1$s&raquo; zu allen Beiträgen hinzugefügt, die bereits mit &laquo;%2$s&raquo; getaggt waren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:486
+msgid "No posts found matching tag(s):"
+msgstr "Keine passendend Beiträge mit Tag(s) gefunden:"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:550
+#, fuzzy, php-format
+msgid "Converting categories to tags was successful, %s categories converted :)"
+msgstr "Umwandeln erfolgreich abgeschlossen; es wurden %1$s Kategorien umgewandelt"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:552
+msgid "No categories found so nothing was converted."
+msgstr "Es wurde nichts umgewandelt, da keine Kategorien gefunden wurden."
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:593
+#, fuzzy, php-format
+msgid "Importing Tags of Jerome's Keywords 1.9 was successful, %s tags imported :)"
+msgstr "Importieren aus Jerome's Keywords 1.9 erfolgreich abgeschlossen; es wurden %1$s Tags importiert"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:595
+#: Tagging\trunk/simpletagging.admin.php:630
+#: Tagging\trunk/simpletagging.admin.php:679
+msgid "No tags found so nothing was imported."
+msgstr "Es wurde nichts importiert, da keine Tags gefunden wurden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:628
+#, fuzzy, php-format
+msgid "Importing Tags from Jerome's Keywords 2.0 Beta was successful, %s tags imported :)"
+msgstr "Importieren aus Jerome's Keywords 2.0 Beta erfolgreich abgeschlossen; es wurden %1$s Tags importiert"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:677
+#, fuzzy, php-format
+msgid "Importing Tags from Ultimate Tag Warrior was successful, %s tags imported :)"
+msgstr "Importieren aus Ultimate Tag Warrior erfolgreich abgeschlossen; es wurden %1$s Tags importiert"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:689
+msgid "Tag search base:"
+msgstr "URL-Basis für Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:689
+msgid "Please don't enter a leading or trailing slash. <br />Output: "
+msgstr "Bitte keinen Schrägstich zu Beginn oder am Ende eingeben. <br />Ausgabe:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:690
+msgid "Include trailing slash on tag urls:"
+msgstr "Schrägstich an Tag-URLs anhängen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:691
+msgid "This will add a trailing slash on tag urls, so \"<code>/tag/sometag</code>\" becomes \"<code>/tag/sometag/</code>\". It will work only if you are using <a href=\"http://codex.wordpress.org/Using_Permalinks\">pretty permalinks</a>."
+msgstr "Hiermit wird ein Schrägstrich an Tag-URLs angefügt, also \"<code>/tag/irgendeintag</code>\" wird zu \"<code>/tag/irgendeintag/</code>\". Funktioniert nur, wenn die <a href=\"http://codex.wordpress.org/Using_Permalinks\">Permalink-Struktur angepasst</a> wird."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:692
+msgid "Use hyphens as space separator:"
+msgstr "Bindestriche als Leerzeichen-Trenner nutzen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:692
+msgid "This will convert spaces to hyphens \"-\" instead of underscores \"_\". A tag name like 'Hello World' is per default converted to the URL 'Hello_World', this makes it possible that you can also use hyphens \"-\" in tag names like 'plug-in', 're-import' etc. However, if you enable this option, then spaces will be replaced with hyphens \"-\", but this will also disable the use of hyphens in tag names and will convert tags like 're-import' into 're import'."
+msgstr "Hiermit werden Leerzeichen in Bindestriche \"-\" anstatt in Unterstriche  \"_\" umgewandelt. Ein Tag-Name wie \"Hallo Welt\" wird in der Voreinstellung in die URL \"Hallo_Welt\" umgewandelt. Auf Wunsch kann er allerdings auch in die URL \"Hallo-Welt\" umgewandelt werden. Allerdings ist es dann nicht mehr möglich, Bindestriche in Tags zu nutzen, da diese in Leerzeichen konvertiert würden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:693
+msgid "Search results template file:"
+msgstr "Vorlage für Suchergebnisse:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:694
+msgid "Create a template file with this name in your theme's directory to display custom results. Otherwise, search tag results will use 'tags.php' if it exists, or your category template."
+msgstr "Erstellt in deinem Theme-Verzeichnis ein Seiten-Template für Tag-Seiten. Andernfalls wird - falls vorhanden - \"tags.php\" oder dein Kategorie-Template genutzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:696
+msgid "Feed Options"
+msgstr "Feed-Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:697
+msgid "Include tags as categories in feeds:"
+msgstr "Tags als Kategorien in Feeds einfügen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:698
+msgid "This will index your tags with <a href=\"http://technorati.com/tag\">Technorati</a>."
+msgstr "Hiermit werden deine Tags von <a href=\"http://technorati.com/tag\">Technorati</a> indexiert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:700
+msgid "Meta Keyword Options"
+msgstr "Meta Keyword-Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:701
+msgid "Automatically include in header:"
+msgstr "Automatisch in Header einfügen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:702
+msgid "Includes the meta keywords tag automatically in your header (most, but not all, themes support this). These keywords are sometimes used by search engines."
+msgstr "Fügt Meta-Keywords automatisch in den Header ein (wird von vielen, aber nicht allen, Themes unterstützt). Diese Keywords werden häufig von Suchmaschinen genutzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:703
+msgid "Always add these keywords:"
+msgstr "Diese Keywords immer hinzufügen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:704
+msgid "Include categories as keywords:"
+msgstr "Kategorien als Keywords einfügen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:705
+msgid "'Default' = includes all categories on the homepage, and only categories for posts in the current view for all other pages.<br/>'All' = includes all categories in every view.<br/> 'None' = never includes categories in the meta keywords."
+msgstr "'Default' = Enthält alle Kategorien auf der Startseite und nur die Kategorien der Beiträge in der momentanen Ansicht.<br/>'All' = Enthält alle Kategorien in allen Ansichten.<br/> 'None' = Kategorien werden nicht in den Meta-Keywords eingefügt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:707
+msgid "Display Tags of the Current Post"
+msgstr "Tags für den momentanen Beitrag anzeigen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:708
+msgid "Post tag link format:"
+msgstr "Linkformat für Tags in Beiträgen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:710
+msgid "<code>%tagname%</code> &ndash; Replaced by the name of the tag, e.g. <em>Coffee and Tea</em>."
+msgstr "<code>%tagname%</code> &ndash; Wird durch den Tag-Namen ersetzt, z. B. <em>Kaffee und Tee</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:711
+#: Tagging\trunk/simpletagging.admin.php:908
+msgid "<code>%fulltaglink%</code> &ndash; Replaced by the full link, e.g. <em>http://site.com/tag/Coffee+and+Tea</em>."
+msgstr "<code>%fulltaglink%</code> &ndash; Wird durch den kompletten Link ersetzt, z. B. <em>http://meineseite.de/tag/Kaffee+und+Tee</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:712
+#: Tagging\trunk/simpletagging.admin.php:910
+msgid "<code>%taglink%</code> &ndash; Replaced by the link, e.g. <em>Coffee_and_Tea</em>. Can be used to create links e.g. to Technorati."
+msgstr "<code>%taglink%</code> &ndash; Wird durch den Link ersetzt, z. B. <em>Kaffee_und_Tee</em>. Kann z. B. für die Erstellung von Links zu Technorati genutzt werden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:713
+msgid "<code>%flickr%</code> &ndash; Replaced by the link for Flickr compatibility, e.g. <em>coffeeandtea</em>."
+msgstr "<code>%flickr%</code> &ndash; Wird durch einen Flickr-kompatiblen Link ersetzt, z. B. <em>kaffeeundtee</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:714
+msgid "<code>%delicious%</code> &ndash; Replaced by the link for de.icio.us compatibility, e.g. <em>CoffeeandTea</em>."
+msgstr "<code>%delicious%</code> &ndash; Wird durch einen del.icio.us-kompatiblen Link ersetzt, z.B. <em>KaffeeundTee</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:716
+msgid "Post tag separator string:"
+msgstr "Trenner für Tags in Beiträgen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:717
+msgid "Include categories in tag list:"
+msgstr "Kategorien in Tag-Liste einfügen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:718
+msgid "Automatically display tag list at end of post:"
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:719
+#, fuzzy
+msgid "Text to display before automatically tags list:"
+msgstr "Anzuzeigender Text, falls keine Verwandten Tags gefunden wurden:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:720
+#, fuzzy
+msgid "Text to display after automatically tags list:"
+msgstr "Anzuzeigender Text, wenn es keine Tags zum Entfernen gibt:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:721
+#: Tagging\trunk/simpletagging.admin.php:948
+msgid "Text to display if no tags found:"
+msgstr "Anzuzeigender Text, falls keine Tags gefunden wurden:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:723
+msgid "Administration"
+msgstr "Administration"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:724
+msgid "Maximum number of tags:"
+msgstr "Maximale Anzahl an Tags:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:724
+msgid "The maximum number of tags displayed under <em>Write > Post</em>. Zero (0) means no limit and shows all tags."
+msgstr "Die maximale Anzahl an Tags, die unter <em>Schreiben > Beitrag</em> angezeigt werden soll. Null (0) bedeutet ohne Begrenzung und zeigt alle Tags an."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:725
+msgid "Display suggested tags only:"
+msgstr "Nur empfohlene Tags anzeigen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:726
+msgid "Displays suggested tags only instead of all tags. Tags will be suggested if they are part of the post. In adddition, tags that are used more often will be considered first."
+msgstr "Zeigt nur vorgeschlagene anstatt aller Tags an. Tags werden vorgeschlagen, wenn sie im Beitrag vorkommen. Zusätzlich werden häufig genutzte Tags zuerst vorgeschlagen."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:727
+#: Tagging\trunk/simpletagging.admin.php:923
+msgid "Tag cloud sort order:"
+msgstr "Sortierreihenfolge Tag-Wolke:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:729
+#: Tagging\trunk/simpletagging.admin.php:807
+msgid "<code>Alpha</code> &ndash; alphabetic order."
+msgstr "<code>Alpha</code> &ndash; alphabetisch sortiert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:730
+msgid "<code>Relevance</code> &ndash; most relevant/used tags first."
+msgstr "<code>Relevanz</code> &ndash; Relevanteste/am häufigsten genutzte Tags zuerst."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:733
+msgid "Embedded Tags"
+msgstr "Eingebettete Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:734
+msgid "Use embedded tags:"
+msgstr "Eingebettete Tags nutzen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:734
+msgid "Enabling this will cause Wordpress to look for embedded tags when saving and displaying posts. Such set of tags is marked <code>[tags]like this, and this[/tags]</code>, and is added to the post when the post is saved, but does not display on the post."
+msgstr "Wird diese Funktion aktiviert, wird WordPress beim Speichern und Anzeigen von Beiträgen nach eingebetteten Tags Ausschau halten. Mit <code>[tags]so, bette, ich, tags, ein[/tags]</code> bettet man Tags in Beiträgen ein. WordPress kann diese Tags auslesen und wo gewollt anzeigen, zeigt den Code dafür aber nicht im Beitrag an. Diese Funktion ist besonders dann hilfreich, wenn du einen Blog-Editor wie z.B. <a href=\"http://www.blogdesk.org\">BlogDesk</a>, <a href=\"http://ecto.kung-foo.tv/\">ecto</a>, oder <a href=\"http://www.red-sweater.com/marsedit/\">MarsEdit</a> nutzt und die Tags dann nicht noch extra in WordPress eingeben möchtest."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:735
+msgid "Prefix for embedded tags:"
+msgstr "Präfix für eingegebettete Tags:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:736
+msgid "Suffix for embedded tags:"
+msgstr "Suffix für eingebettete Tags:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:750
+#: Tagging\trunk/simpletagging.admin.php:860
+#: Tagging\trunk/simpletagging.admin.php:962
+msgid "Simple Tagging options saved"
+msgstr "Simple Tagging-Einstellungen gespeichert"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:753
+#: Tagging\trunk/simpletagging.admin.php:863
+#: Tagging\trunk/simpletagging.admin.php:965
+msgid "Simple Tagging options resetted to default options!"
+msgstr "Simple Tagging-Einstellungen auf Standardeinstellungen zurückgesetzt!"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:767
+#: Tagging\trunk/simpletagging.admin.php:877
+#: Tagging\trunk/simpletagging.admin.php:979
+msgid "Update Options"
+msgstr "Einstellungen aktualisieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:768
+#: Tagging\trunk/simpletagging.admin.php:878
+#: Tagging\trunk/simpletagging.admin.php:980
+msgid "Do you really want to restore the default options?"
+msgstr "Möchtest du auch ganz sicher die Voreinstellungen wiederherstellen?"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:768
+#: Tagging\trunk/simpletagging.admin.php:878
+#: Tagging\trunk/simpletagging.admin.php:980
+msgid "Reset Options"
+msgstr "Einstellungen zurücksetzen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:779
+msgid "Simple Tagging: Options"
+msgstr "Simple Tagging: Einstellungen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:780
+#: Tagging\trunk/simpletagging.admin.php:890
+#: Tagging\trunk/simpletagging.admin.php:993
+#: Tagging\trunk/simpletagging.admin.php:1100
+#: Tagging\trunk/simpletagging.admin.php:1223
+msgid "Visit the <a href=\"http://trac.herewithme.fr/project/simpletagging/\">plugin's homepage</a> for further details."
+msgstr "Besuche die <a href=\"http://trac.herewithme.fr/project/simpletagging/\">Plugin-Homepage</a>, um weitere Details zu erfahren."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:794
+msgid "Related Posts"
+msgstr "Verwandte Beiträge"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:795
+msgid "Related Posts format:"
+msgstr "Format für verwandte Beiträge:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:797
+msgid "<code>%date%</code> &ndash; Replaced by the post date."
+msgstr "<code>%date%</code> &ndash; Wird durch Datum des Beitrags ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:798
+msgid "<code>%permalink%</code> &ndash; Replaced by the post's permalink."
+msgstr "<code>%permalink%</code> &ndash; Wird durch Permalink des Beitrags ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:799
+msgid "<code>%title%</code> &ndash; Replaced by the post's title."
+msgstr "<code>%title%</code> &ndash; Wird durch Titel des Beitrags ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:800
+msgid "<code>%commentcount%</code> &ndash; Replaced by the number of comments of the post."
+msgstr "<code>%commentcount%</code> &ndash; Wird durch die Anahl an Kommentaren zu diesem Beitrag ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:802
+msgid "Related posts separator(s):"
+msgstr "Trenner für verwandte Beiträge:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:803
+msgid "Related Posts sort order:"
+msgstr "Sortierreihenfolge verwandte Beiträge:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:805
+msgid "<code>Date-desc</code> &ndash; sorting by post date, descending."
+msgstr "<code>Datum-abst</code> &ndash; absteigend nach Datum sortiert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:806
+msgid "<code>Date-asc</code> &ndash; sorting by post date, ascending."
+msgstr "<code>Datum-aufstc</code> &ndash; aufsteigend nach Datum sortiert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:808
+#: Tagging\trunk/simpletagging.admin.php:930
+msgid "<code>Random</code> &ndash; randomized every time the page is loaded."
+msgstr "<code>Random</code> &ndash; bei jedem Laden zufällig sortiert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:810
+msgid "Maximum number of related posts to display:"
+msgstr "Maximale Anzahl an verwandten Beiträgen, die angezeigt werden sollen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:811
+#: Tagging\trunk/simpletagging.admin.php:922
+msgid "Maximum number of days to be considered:"
+msgstr "Maximale Anzahl an Tagen, die berücksichtigt werden solll:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:812
+msgid "'365' means that related posts of the past 365 days are being considered."
+msgstr "'365' bedeutet, dass Beiträge aus den letzten 365 Tagen berücksichtigt werden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:813
+msgid "Format of the post’s date '%date%':"
+msgstr "Format des Beitragsdatums '%date%':"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:814
+msgid "Check out <a href=\"http://www.php.net/date\">Formatting Date and Time</a> and <a href=\"http://www.php.net/date\">PHP manual for date()</a> to see which format character you can use here."
+msgstr "Wirf einen Blick auf <a href=\"http://www.selfphp.de/funktionsreferenz/datums_und_zeit_funktionen/date.php\">Datums- und Zeitfunktionen</a>, um zu sehen, welche Formate du hier nutzen kannst."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:815
+msgid "Text to display if no related posts found:"
+msgstr "Anzuzeigender Text, fall keine verwandten Beiträge gefunden werden:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:816
+msgid "Categories to excluded"
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:816
+msgid "Category ID separated with a comma."
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:817
+#, fuzzy
+msgid "Tags to excluded"
+msgstr "Zu löschende(r) Tag(s):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:817
+msgid "Tag separated with a comma."
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:818
+msgid "Include pages in related posts list:"
+msgstr "Seiten in Liste mit verwandten Beiträgen einfügen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:820
+msgid "Related Tags"
+msgstr "Verwandte Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:821
+msgid "Related Tags format:"
+msgstr "Format für verwandte Tags:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:823
+msgid "<code>%count%</code> &ndash; Replaced by the number of posts that do have this tag."
+msgstr "<code>%count%</code> &ndash; Wird durch die Anzahl ersetzt, wieviele Beiträge mit diesem Tag versehen wurden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:824
+#: Tagging\trunk/simpletagging.admin.php:843
+msgid "<code>%tagname%</code> &ndash; Replaced by the tag name."
+msgstr "<code>%tagname%</code> &ndash; Wird durch Tag-Name ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:825
+msgid "<code>%taglink%</code> &ndash; Replaced by the tag link."
+msgstr "<code>%taglink%</code> &ndash; Wird durch Tag-Link ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:826
+msgid "<code>%taglink_plus%</code> &ndash; Replaced by the tag link that adds the current tag to the currently browsing tag(s)."
+msgstr "<code>%taglink_plus%</code> &ndash; Wird durch einen Tag-Link ersetzt, der diesen Tag zu den momentan durchsuchten Tags hinzufügt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:828
+msgid "Related tag separator(s):"
+msgstr "Trenner für Verwandte Tags:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:829
+msgid "Related Tags sort order:"
+msgstr "Sortierreihenfolge für Verwandte Tags:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:831
+msgid "<code>Alpha-asc</code> &ndash; alphabetic order."
+msgstr "<code>Alpha-asc</code> &ndash; Alphabetische aufsteigende Reihenfolge."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:832
+msgid "<code>Count-desc</code> &ndash; descending order by number of tags."
+msgstr "<code>Count-desc</code> &ndash; Nach Anzahl an Tags absteigende Reihenfolge."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:833
+msgid "<code>Count-asc</code> &ndash; ascending order by number of tags."
+msgstr "<code>Count-asc</code> &ndash; Nach Anzahl an Tags aufsteigende Reihenfolge."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:834
+msgid "<code>Alpha-desc</code> &ndash; descending alphabetic order."
+msgstr "<code>Alpha-desc</code> &ndash; Alphabetische absteigende Reihenfolge."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:836
+#, fuzzy
+msgid "Maximum number of related tags to display:"
+msgstr "Maximale Anzahl an verwandten Beiträgen, die angezeigt werden sollen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:837
+msgid "Text to display if no related tags found:"
+msgstr "Anzuzeigender Text, falls keine Verwandten Tags gefunden wurden:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:839
+msgid "Related Tags: Links for Removing Tags"
+msgstr "Verwandte Tags: Links zum Löschen von Entfernen von Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:840
+msgid "Format for 'removing tag' links:"
+msgstr "Format für 'Tags entfernen'-Links:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:842
+msgid "<code>%url%</code> &ndash; Replaced by the permalink of the URL without the appropriate tag."
+msgstr "<code>%url%</code> &ndash; Wird durch die Permalink-URL mit dem entsprechenden Tag ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:845
+msgid "Separator(s) for removing tags:"
+msgstr "Trenner für zu entfernende Tags:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:846
+msgid "Text to display if there are no tags to remove:"
+msgstr "Anzuzeigender Text, wenn es keine Tags zum Entfernen gibt:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:904
+msgid "Tag Cloud"
+msgstr "Tag-Wolke"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:905
+msgid "Cloud tag link format:"
+msgstr "Linkformat für Tags in Wolke:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:907
+msgid "<code>%tagname%</code> &ndash; Replaced by the name of the tag."
+msgstr "<code>%tagname%</code> &ndash; Wird durch den Tag-Namen ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:909
+#, fuzzy
+msgid "<code>%feedtaglink%</code> &ndash; Replaced by the feed link, e.g. <em>http://site.com/tag/Coffee+and+Tea/feed</em>."
+msgstr "<code>%fulltaglink%</code> &ndash; Wird durch den kompletten Link ersetzt, z. B. <em>http://meineseite.de/tag/Kaffee+und+Tee</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:911
+msgid "<code>%flickr%</code> &ndash; Replaced by the encoded version of the tag which conforms to Flickr link standards., e.g. <em>coffeeandtea</em>."
+msgstr "<code>%flickr%</code> &ndash; Wird durch einen Flickr-kompatiblen Link ersetzt, z. B. <em>kaffeeundtee</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:912
+msgid "<code>%delicious%</code> &ndash; Replaced by the encoded version of the tag which conforms to del.icio.us link standards., e.g. <em>coffeeandtea</em>."
+msgstr "<code>%delicious%</code> &ndash; Wird durch einen del.icio.us-kompatiblen Link ersetzt, z.B. <em>KaffeeundTee</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:913
+msgid "<code>%count%</code> &ndash; Replaced by the actual number of times the tag has been used."
+msgstr "<code>%count%</code> &ndash; Wird durch die Anzahl ersetzt, wie oft dieser Tag bereits genutzt wurde."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:914
+msgid "<code>%scale%</code> &ndash; Replaced by the value the tag is scaled to."
+msgstr "<code>%scale%</code> &ndash; Wird durch den Wert ersetzt, auf den der Tag skaliert wird."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:915
+#, fuzzy
+msgid "<code>%color%</code> &ndash; Replaced by the color of the tag, e.g. <em>color: #CCCCCC;</em>."
+msgstr "<code>%tagname%</code> &ndash; Wird durch den Tag-Namen ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:916
+#, fuzzy
+msgid "<code>%size%</code> &ndash; Replaced by the size of the tag, e.g. <em>font-size: 14px;</em>."
+msgstr "<code>%tagname%</code> &ndash; Wird durch den Tag-Namen ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:917
+#, fuzzy
+msgid "<code>%colorsize%</code> &ndash; Replaced by the color <strong>and</strong> size of the tag, e.g. <em>color: #CCCCCC; font-size: 14px;</em>."
+msgstr "<code>%tagname%</code> &ndash; Wird durch den Tag-Namen ersetzt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:919
+msgid "Cloud tag separator(s):"
+msgstr "Trenner für Tag-Wolke:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:920
+msgid "Include categories in tag cloud:"
+msgstr "Kategorien in Tag-Wolke einfügen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:921
+#, fuzzy
+msgid "Excludes specified categories in tag cloud:"
+msgstr "Kategorien in Tag-Wolke einfügen:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:921
+msgid "ID separated with a comma."
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:922
+#, fuzzy
+msgid "'365' means that tags of the past 365 days are being considered."
+msgstr "'365' bedeutet, dass Beiträge aus den letzten 365 Tagen berücksichtigt werden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:925
+msgid "<code>Natural</code> &ndash; natural case sorting (i.e. treats capital & non-capital the same)."
+msgstr "<code>Natural</code> &ndash; natürliche Sortierung (Groß- und Kleinschreibung werden gleich behandelt)."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:926
+msgid "<code>Countup/Asc</code> &ndash; ascending order by tag usage."
+msgstr "<code>Countup/Asc</code> &ndash; aufsteigend nach Häufigkeit ihrer Nutzung sortiert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:927
+msgid "<code>Countdown/Desc</code> &ndash; descending order by tag usage."
+msgstr "<code>Countdown/Desc</code> &ndash; absteigend nach Häufigkeit ihrer Nutzung sortiert."
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:928
+msgid "<code>Alpha Asc</code> &ndash; strict alphabetic order (capitals first)."
+msgstr "<code>Alpha Asc</code> &ndash; strikte aufsteigende alphabetische Reihenfolge (Großbuchstaben zuerst)."
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:929
+msgid "<code>Alpha Desc</code> &ndash; strict alphabetic order (capitals first), descending."
+msgstr "<code>Alpha Desc</code> &ndash; strikte aufsteigende alphabetische Reihenfolge (Großbuchstaben zuerst)."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:932
+msgid "Maximum number of tags to display:"
+msgstr "Maximale Anzahl Tags, die angezeigt werden soll:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:933
+msgid "Set to zero (0) to show all tags."
+msgstr "Auf null (0) setzen, um alle Tags anzuzeigen."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:934
+msgid "Minimum tag count required:"
+msgstr "Minimal erforderliche Tag-Anzahl:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:935
+msgid "Tags must be used at least this many times to show up in the cloud."
+msgstr "Tags müssen mindestens so oft wie angegeben vorkommen, um in der Tag-Wolke angezeigt zu werden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:936
+msgid "Tag count scaling maximum:"
+msgstr "Maximum  Tag-Anzahl-Skalierung:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:937
+#, fuzzy
+msgid "Set to zero (0) to disable tag scaling and color cloud."
+msgstr "Auf Null (0) setzen, um die Skalierung zu deaktivieren."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:938
+msgid "Tag count scaling minimum:"
+msgstr "Minimum Tag-Anzahl-Skalierung:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:939
+msgid "Use with the maximum scale to limit the range between your most popular and least popular tags."
+msgstr "Mit dem Maximum für die Skalierung genutzt, lässt sich der Bereich zwischen den am häufigsten und den am wenigsten genutzten Tags eingrenzen."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:940
+#, fuzzy
+msgid "Most popular color:"
+msgstr "Häufig genutzte"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:941
+msgid "The colours are hexadecimal colours,  and need to have the full six digits (#eee is the shorthand version of #eeeeee)."
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:942
+msgid "Least popular color:"
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:943
+msgid "Most popular font size:"
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:944
+msgid "The two font sizes are the size of the largest and smallest tags."
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:945
+msgid "Least popular font size:"
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:946
+#, fuzzy
+msgid "The units to display the font sizes with, on tag clouds:"
+msgstr "Anzuzeigender Text, falls keine Tags gefunden wurden:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:947
+msgid "The font size units option determines the units that the two font sizes use."
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:992
+#, fuzzy
+msgid "Simple Tagging: Tags Cloud Options"
+msgstr "Simple Tagging: Einstellungen"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1006
+#, fuzzy
+msgid "&copy; Copyright 2007 <a href=\"http://www.herewithme.fr/\" title=\"Here With Me\">Amaury Balmer</a> (Based on the excellent work of <a href=\"http://sw-guide.de\">Michael W&ouml;hrer</a>)"
+msgstr "&copy; Copyright 2007 &nbsp;&nbsp; <a href=\"http://www.herewithme.fr/\" title=\"Here With Me\">Amaury Balmer</a> (Basiert auf der tollen Arbeit von <a href=\"http://sw-guide.de\">Michael W&ouml;hrer</a>)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1081
+msgid "Sort Order:"
+msgstr "Sortierreihenfolge:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1082
+msgid "Most&nbsp;Popular"
+msgstr "Häufig genutzte"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1082
+msgid "Least&nbsp;Used"
+msgstr "Selten genutzte"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1082
+msgid "Alphabetical"
+msgstr "Alphabetisch"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1093
+#, fuzzy, php-format
+msgid "View all posts tagged with %s"
+msgstr "Alle Beiträge ansehen, die mit %1$s getaggt sind"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1104
+msgid "Existing Tags"
+msgstr "Vorhandene Tags"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1109
+msgid "Rename Tag"
+msgstr "Tag umbenennen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1110
+msgid "Enter the tag to rename and its new value.  You can use this feature to merge tags too. Click \"Rename\" and all posts which use this tag will be updated."
+msgstr "Gib den umzubenennenden Tag und seinen neuen Namen ein. Du kannst diese Funktion auch nutzen, um Tags zusammenzuführen. Klicke \"Umbenennen\" und alle Beiträge, die diesen Tag nutzen, werden aktualisiert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1111
+msgid "You can specify multiple tags to rename by separating them with commas."
+msgstr "Du kannst mehrere umzubenennende Tags angeben, indem du sie mit Kommata trennst"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1115
+msgid "Tag(s) to Rename:"
+msgstr "Umzubenennende(r) Tag(s):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1116
+msgid "New Tag Name(s):"
+msgstr "Neue(r) Tag-Name(n):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1117
+msgid "Rename"
+msgstr "Umbennen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1121
+msgid "Delete Tag"
+msgstr "Tag löschen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1122
+msgid "Enter the name of the tag to delete.  This tag will be removed from all posts."
+msgstr "Gib den Namen des Tags ein, den du löschen möchtest. Dieser Tag wird dann von allen Beiträgen entfernt."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1123
+msgid "You can specify multiple tags to delete by separating them with commas"
+msgstr "Du kannst mehrere zu löschende Tags angeben, indem du sie mit Kommata trennst"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1127
+msgid "Tag(s) to Delete:"
+msgstr "Zu löschende(r) Tag(s):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1128
+msgid "Delete"
+msgstr "Löschen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1132
+msgid "Add Tag"
+msgstr "Tag hinzufügen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1133
+msgid "This feature lets you add one or more new tags to all posts which match any of the tags given."
+msgstr "Diese Funktion lässt dich ein oder mehrere Tags zu allen Beiträgen hinzufügen, die bereits die angegebenen Tags haben."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1134
+msgid "You can specify multiple tags to add by separating them with commas.  If you want the tag(s) to be added to all posts, then don't specify any tags to match."
+msgstr "Du kannst mehrere zu löschende Tags angeben, indem du sie mit Kommata trennst. Wenn du Tags zu allen Beiträgen hinzufügen möchtest, dann gib keine bereits vorhandenen Tags an."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1138
+msgid "Tag(s) to Match:"
+msgstr "Vorhandene(r) Tag(s):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1139
+msgid "Tag(s) to Add:"
+msgstr "Hinzuzufügende(r) Tag(s):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1140
+msgid "Add"
+msgstr "Hinzufügen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1190
+msgid "Error: You clicked the &laquo;Category&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Fehler: Du hast &laquo;Kategorien in Tags umwandeln&raquo; geklickt, aber nicht bestätigt, dass du auch deine Datenbank gesichert hast."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1195
+msgid "Error: You clicked the &laquo;UTW&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Fehler: Du hast &laquo;Aus UTW importieren&raquo; geklickt, aber nicht bestätigt, dass du auch deine Datenbank gesichert hast."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1200
+msgid "Error: You clicked the &laquo;Jerome's Keywords 1.9&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Fehler: Du hast &laquo;Aus Jerome's Keywords 1.9 importieren&raquo; geklickt, aber nicht bestätigt, dass du auch deine Datenbank gesichert hast."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1205
+msgid "Error: You clicked the &laquo;Jerome's Keywords 2.0&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Fehler: Du hast &laquo;Aus Jerome's Keywords 2.0 Beta&raquo; geklickt, aber nicht bestätigt, dass du auch deine Datenbank gesichert hast."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1220
+msgid "Howdy! Here you can import tags from several different sources."
+msgstr "Hier können Tags von von verschiedenen Quellen importiert werden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1221
+msgid "These importers are smart enough not to import duplicates, so you can run these multiple times without worry if — for whatever reason — they don't finish."
+msgstr "Diese Importer sind schlau genug, um keine Duplikate zu importieren. Du kannst sie also bedenkenlos mehrmals starten, sollten sie aus irgendeinem Grund den Import nicht abschließen."
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1222
+msgid "<strong>Please note</strong> that importing tags could break your entire blog. Make sure you back up your database before clicking the button."
+msgstr "<strong>Bitte beachte</strong>, dass das Importieren von Tags dein gesamtes Blog beschädigen kann. Vergiss keinesfalls, vorher deine Datenbank zu sichern."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1227
+#: Tagging\trunk/simpletagging.admin.php:1235
+msgid "Convert Categories to Tags"
+msgstr "Kategorien in Tags umwandeln"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1232
+#: Tagging\trunk/simpletagging.admin.php:1261
+#: Tagging\trunk/simpletagging.admin.php:1286
+#: Tagging\trunk/simpletagging.admin.php:1309
+msgid "I've backuped my database."
+msgstr "Ich habe meine Datenbank gesichert."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1241
+#, fuzzy
+msgid "Ultimate Tag Warrior Plugin (UTW) Version 3.141"
+msgstr "Ultimate Tag Worrior Plugin (UTW) Version 3.141"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1251
+#, fuzzy, php-format
+msgid "<p>A supported UTW installation could not be found, missing table(s): <code>%s</code></p>"
+msgstr "<p>Es wurde keine unterstützte Installation von UTW gefunden; es fehlen folgende Tabellen: <code>%1$s</code></p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1255
+msgid "This function has been tested with UTW version 3.141 only, other versions may not work and if you use another version it is even more important to back up your database before you click the button."
+msgstr "Diese Funktion wurde ausschließlich mit UTW Version 3.141 getestet. Mit anderen Versionen von UTW kann es zwar klappen, aber es ist um so wichtiger, zuvor die Datenbank zu sichern."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1264
+msgid "Import from UTW"
+msgstr "Aus UTW importieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1274
+msgid "Jerome's Keywords Plugin Version 1.9"
+msgstr "Jerome's Keywords Plugin Version 1.9"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1289
+msgid "Import from Jerome's Keywords 1.9"
+msgstr "Aus Jerome's Keywords 1.9 importieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1294
+msgid "<p>Tags from Jerome's Keywords Plugin version 1.9 have not been found...</p>"
+msgstr "<p>Es wurden keine Tags von Jerome's Keywords Plugin Version 1.9 gefunden...</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1298
+msgid "Jerome's Keywords Plugin Version 2.0 Beta 3"
+msgstr "Jerome's Keywords Plugin Version 2.0 Beta 3"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1302
+msgid "<p>A supported Jerome's Keywords 2.0 installation could not be found.</p>"
+msgstr "<p>Es wurde keine unterstützte Installation von Jerome's Keywords 2.0 gefunden.</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1312
+msgid "Import from Jerome's Keywords 2.0 Beta"
+msgstr "Aus Jerome's Keywords 2.0 Beta importieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1338
+msgid "Sort by Title"
+msgstr "Nach Titel sortieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1339
+msgid "Sort by Date Descending"
+msgstr "Absteigend nach Datum sortieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1340
+msgid "Sort by Date Ascending"
+msgstr "Aufsteigend nach Datum sortieren"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1343
+msgid "Show Posts"
+msgstr "Beiträge zeigen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1344
+msgid "Show Pages"
+msgstr "Seiten zeigen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1345
+msgid "Show Posts and Pages"
+msgstr "Beiträge und Seiten anzeigen"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1387
+msgid "Edit Post"
+msgstr "Beitrag bearbeiten"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1387
+msgid "Edit"
+msgstr "Bearbeiten"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1404
+msgid "Show"
+msgstr "Zeige"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1410
+msgid "<p>Every article is tagged :-)</p>"
+msgstr "<p>Jeder Artikel ist getaggt :-)</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.admin.php:1412
+msgid "<p>The following articles are not tagged:</p>"
+msgstr "<p>Die folgenden Beiträge sind (noch) ungetaggt:</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:331
+msgid "<a href=\"%fulltaglink%\" title=\"Browse for %tagname%\" rel=\"tag\">%tagname%</a>"
+msgstr "<a href=\"%fulltaglink%\" title=\"Nach %tagname% durchsuchen\" rel=\"tag\">%tagname%</a>"
+
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:334
+msgid "none"
+msgstr "keine(r)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:335
+msgid "<br /><strong>Tags:</strong> "
+msgstr ""
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:340
+#, fuzzy
+msgid "<a style=\"%colorsize%\" class=\"%scale%\" title=\"Tag: %tagname% (%count%)\" href=\"%fulltaglink%\">%tagname%</a>"
+msgstr "<li class=\"t%scale%\"><a title=\"%tagname% (%count%)\" href=\"%fulltaglink%\">%tagname%</a></li>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:355
+msgid "No tags were found that match the criteria given."
+msgstr "Es wurden keine passenden Tags gefunden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:358
+msgid "<li><a href=\"%permalink%\" title=\"%title% (%date%)\">%title%</a> (%commentcount%)</li>"
+msgstr "<li><a href=\"%permalink%\" title=\"%title% (%date%)\">%title%</a> (%commentcount%)</li>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:364
+msgid "<li>None</li>"
+msgstr "<li>Keine(r)</li>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:370
+msgid "<li><span>%count%</span> <a href=\"%taglink_plus%\">+</a> <a href=\"%taglink%\">%tagname%</a></li>"
+msgstr "<li><span>%count%</span> <a href=\"%taglink_plus%\">+</a> <a href=\"%taglink%\">%tagname%</a></li>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:373
+msgid "No related tags found."
+msgstr "Keine verwandten Tags gefunden."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\trunk/simpletagging.php:374
+msgid "<li>&raquo; <a href=\"%url%\">remove %tagname%</a></li>"
+msgstr "<li>&raquo; <a href=\"%url%\">entferne %tagname%</a></li>"
+

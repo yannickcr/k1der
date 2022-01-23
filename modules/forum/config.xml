@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Forum">
+	<pages>
+		<page page="search" condition="get[module],get[action](search),get[search]" />
+		
+		<page page="viewcat" condition="get[module],get[cat]" />
+		<page page="writetopic" condition="get[module],get[forum],get[new]" />
+		<page page="listtopics" condition="get[module],get[forum]" />
+		<page page="writepost" condition="get[module],get[topic],get[reply]" />
+		<page page="delpost" condition="get[module],get[topic],get[del]" />
+
+		<page page="deltopic" condition="get[module],get[topic],post[option](del)" />
+		<page page="movetopic" condition="get[module],get[topic],post[option](move)" />
+		<page page="closetopic" condition="get[module],get[topic],post[option](close)" />
+		<page page="opentopic" condition="get[module],get[topic],post[option](open)" />
+		<page page="pintopic" condition="get[module],get[topic],post[option](pin)" />
+		<page page="unpintopic" condition="get[module],get[topic],post[option](unpin)" />
+		
+		<page page="viewtopic" condition="get[module],get[topic]" />
+		<page page="liveedit" condition="get[action](liveedit)" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="delPost" condition="get[del],post[valider]" />
+		<action action="delTopic" condition="get[topic],post[valider]" />
+		<action action="moveTopic" condition="get[topic],post[forum]" />
+		<action action="closeTopic" condition="get[topic],post[valider]" />
+		<action action="openTopic" condition="get[topic],post[valider]" />
+		<action action="pinTopic" condition="get[topic],post[valider]" />
+		<action action="unpinTopic" condition="get[topic],post[valider]" />
+		
+		<action action="vote" condition="post[vote]" />
+		<action action="showVotes" condition="post[showvotes]" />
+		<action action="showOptions" condition="post[showoptions]" />
+		<action action="reply" condition="post[message],post[valider],!get[edit]" />
+		<action action="preview" condition="post[message],post[previsualiser]" />
+		<action action="quote" condition="get[quote]" />
+		<action action="editReply" condition="get[edit],post[valider]" />
+		<action action="edit" condition="get[edit],!post[previsualiser]" />
+		<action action="newTopic" condition="post[message],post[valider],!get[edit],!get[poll]" />
+		<action action="newPoll" condition="post[message],post[valider],!get[edit],get[poll]" />
+		<action action="editPoll" condition="get[edit],post[message],post[valider]" />
+		<action action="editTopic" condition="get[edit],post[message],post[valider]" />
+		
+		<action action="addForum" condition="post[cat],post[nom],post[descr]" />
+		<action action="editForum" condition="post[cat],post[nom],post[descr]" />
+		<action action="addCat" condition="post[nom]" />
+		<action action="configForum" condition="post[nbmess]" />
+		<action action="supprCat" condition="post[moveto]" />
+		<action action="supprForum" condition="post[moveto]" />
+		<action action="editDroits" condition="post[submit]" />
+		<action action="emptyForum" condition="post[empty]" />
+		<action action="renCat" condition="post[nom]" />
+		
+	</actions>
+	<admin titre="Forum">
+		<menu titre="Ajouter une catégorie" lien="admin/forum/addcat.html" acces="forum_addcat" />
+		<menu titre="Ajouter un forum" lien="admin/forum/addforum.html" acces="forum_addforum" />
+		<menu titre="Gérer le forum" lien="admin/forum/gererforum.html" acces="forum_gererforum" />
+		<menu titre="Configuration" lien="admin/forum/configuration.html" acces="forum_config" />
+	</admin>
+</configuration>

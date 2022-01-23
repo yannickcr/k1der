@@ -1,0 +1,45 @@
+<h3>Boîte de réception</h3>
+<form action="{REQUEST_URI}" method="post">
+ <table>
+  <colgroup>
+  <col />
+  <col style="width:50%;" />
+  <col style="width:22%;" />
+  <col style="width:26%;" />
+  <col />
+  </colgroup>
+  <tr>
+   <th id="checker"><img style="vertical-align:baseline;" src="templates/{THEME}/images/check.gif" alt="Tout cocher / Tout dcocher" title="Tout cocher / Tout dcocher" /></th>
+   <th>Sujet</th>
+   <th>Expditeur</th>
+   <th>Date</th>
+   <th></th>
+  </tr>
+  <!-- BEGIN MESSAGES -->
+  <tr>
+   <td><input type="checkbox" id="message[]" name="message[]" value="{messageId}" /></td>
+   <td><img src="templates/{THEME}/images/{etatIcon}.png" alt="{etat}" title="{etat}" /><a href="membres/mon-profil-read-{linkSujet}-id{messageId}.html">{sujet}</a></td>
+   <td><!-- BEGIN FROMBLOCK1 -->
+    <a href="membres/{from}">
+    <!-- END FROMBLOCK1 -->
+    {from}
+    <!-- BEGIN FROMBLOCK2 -->
+    </a>
+    <!-- END FROMBLOCK2 --></td>
+   <td>{date}</td>
+   <td><a class="confdel" href="membres/mon-profil-message-del{messageId}.html" title="Supprimer ce message"><img src="templates/{THEME}/images/del.png" alt="supprimer" /></a></td>
+  </tr>
+  <!-- END MESSAGES -->
+  <!-- BEGIN NOMESSAGES -->
+  <tr>
+   <td class="no" colspan="5">Aucun message</td>
+  </tr>
+  <!-- END NOMESSAGES -->
+ </table>
+ <!-- BEGIN SELECT-ACTION -->
+ Slection :
+ <input class="confmarkall" type="submit" name="mark" value="Marquer comme lu" />
+ ou
+ <input class="confdelall" type="submit" name="del" value="Supprimer" />
+ <!-- END SELECT-ACTION -->
+</form>

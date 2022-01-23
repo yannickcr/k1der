@@ -1,0 +1,28 @@
+#menu h2 { display:none; }
+#menu h3 {
+	margin:0;	
+	padding:10px 0 5px 0;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	height:84px;
+	text-indent:-9000em;
+	color:#FFFFFF;
+	font-size:1.4em;
+	text-align:center;
+}
+
+#menu h3.actualite { background-image:url('../images/titres/actualite.gif'); height:56px; }
+#menu h3.lan-partys { background-image:url('../images/titres/lan-partys.gif'); }
+#menu h3.forum { background-image:url('../images/titres/forum.gif'); }
+#menu h3.communaute { background: url('../images/titres/communaute.gif') no-repeat -8px bottom; height:30px; }
+#menu h3.maxi-zone { background-image:url('../images/titres/maxi-zone.gif'); }
+#menu h3.shop { background-image:url('../images/titres/shop.gif'); margin:1em 0; height:55px; }
+
+#menu h3.shop a { display:block; background:transparent; height:55px; }
+
+#menu ul {
+	margin-left:1em;
+	list-style-type:none;
+}
+
+

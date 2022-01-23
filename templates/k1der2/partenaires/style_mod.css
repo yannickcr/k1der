@@ -1,0 +1,15 @@
+
+h2.partenaires {
+	background:url('../images/titres/partenaires.gif') no-repeat center bottom;
+	text-indent:-1000em;
+	font-size:0;
+	height:50px;
+}
+
+#partenaires {
+	text-align:center;
+	padding:1em;
+}
+
+
+#partenaires a { display:block; margin:1em 0; }

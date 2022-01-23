@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Actualités">
+	<pages>
+		<page page="news" condition="get[module],get[id]" />
+		<page page="jour" condition="get[module],get[date]" />
+		<page page="index" condition="" />
+	</pages>
+	<admin titre="News">
+		<menu titre="Configuration" lien="ajout_cat"/>
+		<menu titre="Gérer les catégories" lien="ajout_cat"/>
+	</admin>
+</configuration>

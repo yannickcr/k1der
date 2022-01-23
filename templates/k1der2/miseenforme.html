@@ -1,0 +1,38 @@
+		<!-- BEGIN SIZE -->
+		<div style="float:right;">
+			<input type="button" onclick="javascript:expand();" title="Agrandir la zone de texte" /><br />
+			<input type="button" onclick="javascript:decrease();" title="Rduire la zone de texte" />
+		</div>
+		<!-- END SIZE -->
+		<input type="button" id="B" name="B" title="Gras" onclick="replaceSelection('B');" />
+		<input type="button" id="I" name="i" title="Italique" onclick="replaceSelection('I');" />
+		<input type="button" id="U" name="U" title="Soulign" onclick="replaceSelection('U');" />
+		<input type="button" id="S" name="S" title="Barr" onclick="replaceSelection('S');" />
+		<select id="SIZE" onchange="add_attribut('SIZE');">
+		  <option value="0">Taille</option>
+		  <option value="0.8">Petit</option>
+		  <option value="1.5">Grand</option>
+		  <option value="2">Tr&egrave;s Grand</option>
+		</select>
+		<select id="COLOR" onchange="add_attribut('COLOR');">
+		  <option value='0'>Couleur</option>
+		  <option value='blue' style='color:blue'>Bleu</option>
+		  <option value='red' style='color:red'>Rouge</option>
+		  <option value='purple' style='color:purple'>Violet</option>
+		  <option value='orange' style='color:orange'>Orange</option>
+		  <option value='yellow' style='color:yellow'>Jaune</option>
+		  <option value='gray' style='color:gray'>Gris</option>
+		  <option value='green' style='color:green'>Vert</option>
+		</select>
+		<br />
+		<input type="button" id="URL" name="URL" title="Url" onclick="add_url();" />
+		<input type="button" id="EMAIL" name="EMAIL" title="E-Mail" onclick="add_email();" />
+		<input type="button" id="IMG" name="IMG" title="Image" onclick="add_image();" />
+		<input type="button" id="VIDEO" name="VIDEO" title="Vido" onclick="add_video();" />
+		<input type="button" id="LIST" name="LIST" title="Liste" onclick="add_list();" />
+		<input type="button" id="CLASSEMENT" name="CLASSEMENT" title="Classement" onclick="add_classement();" />
+		<input type="button" id="CODE" title="Code" onclick="replaceSelection('CODE');" />
+		<input type="button" id="QUOTE" title="Citation" onclick="replaceSelection('QUOTE');" />
+		<input type="button" id="ALIGNR" title="Aligner &agrave; gauche" onclick="replaceSelection('ALIGNR','ALIGN=gauche','ALIGN');" />
+		<input type="button" id="ALIGNC" title="Centrer" onclick="replaceSelection('ALIGNC','ALIGN=centrer','ALIGN');" />
+		<input type="button" id="ALIGNL" title="Aligner &agrave; droite" onclick="replaceSelection('ALIGNL','ALIGN=droite','ALIGN');" />

@@ -1,0 +1,27 @@
+h2.le-clan {	margin:0 0 1em;	
+	padding:10px 0 5px 0;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	height:84px;
+	text-indent:-9000em;
+	color:#FFFFFF;
+	font-size:1.4em;
+	text-align:center;
+	background-image:url('../images/titres/le-clan.gif'); height:20px; margin-bottom:10px;
+}
+
+ul#clan {
+	margin-left:0.5em;
+	overflow:auto;
+}
+#clan li {
+	float:left;
+	padding:2px;
+}
+
+#clan li a {
+	display:block;
+	height:44px;
+	overflow:hidden;
+	width:35px;
+}

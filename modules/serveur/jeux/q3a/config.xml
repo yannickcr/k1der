@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE jeu SYSTEM "../jeu.dtd">
+<jeu name="Quake III Arena" shortname="q3a">
+	<gametype nom="Duel" type="Duel" nbplayer="1" minmaps="1" maxmaps="3" />
+	<gametype nom="5 vs 5" type="Team" nbplayer="5" minmaps="1" maxmaps="3" />
+	<gametype nom="Deathmatch" type="Deathmatch" nbplayer="8" minmaps="1" maxmaps="1" />
+	<maps>
+		<map nom="q3dm6" image="q3dm6.jpg" />
+	</maps>
+</jeu>

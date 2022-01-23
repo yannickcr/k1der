@@ -1,0 +1,106 @@
+#shoutbox {
+	font-size:0.8em;
+	text-align:center;
+}
+
+#shoutbox h2 {
+	margin:0;	
+	padding:10px 0 5px 0;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	height:84px;
+	text-indent:-9000px;
+	color:#FFFFFF;
+	font-size:1.4em;
+	text-align:center;
+	margin-bottom:1em;
+}
+#shoutbox h2.rapid-chat { background-image:url('../images/titres/rapid-chat.gif'); }
+
+#shoutbox fieldset { border:0; }
+#shoutbox legend { display:none; }
+#shoutbox label {  text-align:left; display:block; padding:2px; }
+#shoutbox_message { display:block; width:90%; margin:0 auto; }
+#shoutbox_submit { margin:0.5em auto; }
+#shoutbox_activity {
+	position:absolute;
+	right:10px;
+}
+
+#shoutbox dl {
+	text-align:left;
+	margin-top:0.5em;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	border-top:0;
+	color:#000;
+}
+
+#shoutbox dt {
+	background-color:#FFF;
+	float:left;
+	padding:2px 2px 0 2px;
+}
+
+#shoutbox dt,#shoutbox dd {
+	background-color:#FFF;
+	border-top:1px solid #CCC;
+}
+
+#shoutbox dd { padding:2px; }
+
+#shoutbox dt a:link, #shoutbox dt a:visited {
+	color:#C00;
+	font-weight:bold;
+	background:transparent;
+}
+
+#shoutbox dd a:link, #shoutbox dd a:visited {
+	color:#C00;
+	background:transparent;
+}
+
+
+#shoutbox ul,#shoutbox li {
+	display:inline;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+#shoutbox .bulle {
+	position:absolute;
+	background-color:#FFF;
+	border:1px solid #000;
+	width:90px;
+	text-align:center;
+}
+
+#shoutbox .edit, #shoutbox .valid {
+	font-size:0.8em;
+	color:#FFFFFF;
+	font-weight:bold;
+	border:0;
+	cursor:pointer;
+	position:absolute;
+	margin:-2px 0 0 118px;
+	z-index:100;
+	background-color:#FFFFFF;
+	border:1px solid #CCC;
+	border-top:0;
+	border-right:0;
+}
+
+#shoutbox .edit img, #shoutbox .valid img { padding:2px; }
+
+#shoutbox .valid { margin:-2px 0 0 138px; }
+
+#shoutbox textarea {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1em;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	background:none;
+}

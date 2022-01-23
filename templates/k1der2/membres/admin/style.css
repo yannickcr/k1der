@@ -1,0 +1,28 @@
+input[id$='title'] {
+	width:50%;
+}
+textarea[id$='txt'] {
+	width:75%;
+	height:300px;
+}
+.listeimages {
+	height:18px;
+	width:100px;
+}
+.listeimages option {
+	padding-left:30px;
+	background-repeat:no-repeat;
+	height:26px;
+	background-color:#FFFFFF;
+}
+p { font-size:0.8em; margin-bottom:0; }
+tr[id^='ligne'] { height:50px; }
+
+table,td,tr,th {
+	margin:0px;
+	padding:5px 10px;
+	border-collapse:collapse;
+}
+th, td {
+	font-size:0.85em;
+}

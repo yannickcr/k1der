@@ -1,0 +1,49 @@
+<h3>Gérer les téléchargements</h3>
+<div class="message">
+ <p>Cliquez sur le nom d'une catégorie pour voir les fichiers quelle contient.</p>
+ <table cellpadding="2" style="width:98%;border-collapse: collapse; border:1px solid #DDDDDD; margin:1%;">
+  <colgroup span="5">
+   <col style="width:30%;" span="1" />
+   <col style="width:20%;" span="3" />
+   <col style="width:10%;" span="1" />
+  </colgroup>
+  <tr>
+   <th style="color:#FFFFFF;text-align:center;border:1px solid #DDDDDD;background-image:url(templates/{THEME}/images/forum/titre.gif);">Nom</th>
+   <th style="color:#FFFFFF;text-align:center;border:1px solid #DDDDDD;background-image:url(templates/{THEME}/images/forum/titre.gif);">Nb de fichiers</th>
+   <th style="color:#FFFFFF;text-align:center;border:1px solid #DDDDDD;background-image:url(templates/{THEME}/images/forum/titre.gif);"></th>
+   <th style="color:#FFFFFF;text-align:center;border:1px solid #DDDDDD;background-image:url(templates/{THEME}/images/forum/titre.gif);">Ordonner</th>
+   <th style="color:#FFFFFF;text-align:center;border:1px solid #DDDDDD;background-image:url(templates/{THEME}/images/forum/titre.gif);"></th>
+  </tr>
+  <!-- BEGIN CATS -->
+  <!-- BEGIN TOP -->
+  <tr>
+   <td style="font-weight:bold;background-color:#F5F5F5;border:1px solid #DDDDDD; color:#AA0000;"><a href="admin/download/gererfile-id{catId}.html">{catNom}</a></td>
+   <td style="text-align:center;font-size:0.8em;border:1px solid #DDDDDD;background-color:#F5F5F5;white-space: nowrap;">{catNbFile}</td>
+   <td style="text-align:center;font-size:0.8em;border:1px solid #DDDDDD;background-color:#F5F5F5;white-space: nowrap;"><a href="admin/download/editcat-id{catId}.html">Modifier les paramètres</a></td>
+   <td style="background-color:#F5F5F5;text-align:center;border:1px solid #DDDDDD;">
+    <a href="admin/download/gerercat-id{catId}-top.html"><img src="templates/{THEME}/images/s-top.png" alt="Tout en haut" style="vertical-align:middle;" /></a>
+    <a href="admin/download/gerercat-id{catId}-up.html"><img src="templates/{THEME}/images/s-up.png" alt="Plus haut" style="vertical-align:middle;" /></a>
+    <a href="admin/download/gerercat-id{catId}-down.html"><img src="templates/{THEME}/images/s-down.png" alt="Plus bas" style="vertical-align:middle;" /></a>
+    <a href="admin/download/gerercat-id{catId}-bottom.html"><img src="templates/{THEME}/images/s-bottom.png" alt="Tout en bas" style="vertical-align:middle;" /></a>
+   </td>
+   <td style="text-align:center;font-size:0.8em;border:1px solid #DDDDDD;background-color:#F5F5F5;white-space: nowrap;"><a href="admin/download/delcat-id{catId}.html">Supprimer</a></td>
+  </tr>
+  <!-- END TOP -->
+  <!-- BEGIN BOTTOM -->
+  <tr>
+   <td style="border:1px solid #DDDDDD; font-weight:bold;"><a href="admin/download/gererfile-id{catId}.html">{catNom}</a></td>
+   <td style="text-align:center;font-size:0.8em;border:1px solid #DDDDDD;white-space: nowrap;">{catNbFile}</td>
+   <td style="text-align:center;font-size:0.8em;border:1px solid #DDDDDD;white-space: nowrap;"><a href="admin/download/editcat-id{catId}.html">Modifier les paramètres</a></td>
+   <td style="text-align:center;border:1px solid #DDDDDD;white-space: nowrap;">
+    <a href="admin/download/gerercat-id{catId}-top.html"><img src="templates/{THEME}/images/top.png" alt="Tout en haut" style="vertical-align:middle;" /></a>
+    <a href="admin/download/gerercat-id{catId}-up.html"><img src="templates/{THEME}/images/up.png" alt="Plus haut" style="vertical-align:middle;" /></a>
+    <a href="admin/download/gerercat-id{catId}-down.html"><img src="templates/{THEME}/images/down.png" alt="Plus bas" style="vertical-align:middle;" /></a>
+    <a href="admin/download/gerercat-id{catId}-bottom.html"><img src="templates/{THEME}/images/bottom.png" alt="Tout en bas" style="vertical-align:middle;" /></a>
+   </td>
+   <td style="text-align:center;font-size:0.8em;border:1px solid #DDDDDD;white-space: nowrap;"><a class="confdelc" href="admin/download/delcat-id{catId}.html">Supprimer</a></td>
+  </tr>
+  <!-- END BOTTOM -->
+  <!-- END CATS -->
+ </table>
+</div>
+<div class="bas"></div>

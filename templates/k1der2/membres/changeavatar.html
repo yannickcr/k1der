@@ -1,0 +1,49 @@
+<h3>Changer mon avatar</h3>
+<form action="{REQUEST_URI}" method="post" enctype="multipart/form-data">
+ <fieldset>
+ <legend>Avatar actuel</legend>
+ <!-- BEGIN AVATAR-SET -->
+ <div><img src="{avatar}" alt="Avatar de {pseudo}" /></div>
+ <!-- END AVATAR-SET -->
+ <!-- BEGIN AVATAR-NOTSET -->
+ <div>Aucun avatar</div>
+ <!-- END AVATAR-NOTSET -->
+ </fieldset>
+ <fieldset>
+ <legend>Changer d'avatar</legend>
+ <input id="noavatar" name="avatar" type="radio" value="1"{checked1} />
+ <label class="lite" for="noavatar">Ne pas utiliser d'avatar</label>
+ <br />
+ <!-- BEGIN GRAVATAR -->
+ <input class="lite" id="gravatar" name="avatar" type="radio" value="3"{checked3} />
+ <label for="gravatar">Utiliser mon <a title="Gravatar - Globally Recognized Avatar" href="http://www.gravatar.com">Gravatar</a></label>
+ <br />
+ <!-- END GRAVATAR -->
+ <input id="avatar" name="avatar" type="radio" value="2"{checked2} />
+ <label class="lite" for="avatar">Utiliser un avatar personnalisé</label>
+ <br />
+ <label class="lite" for="url">Entrez l'<acronym title="Uniform Resource Locator">URL</acronym> de l'image de votre avatar</label>
+ <input type="text" id="url" name="url" value="http://" size="40" onfocus="javascript:document.getElementById('avatar').checked=true;" />
+ <!-- BEGIN ERREUR-AVATAR1 -->
+ <span class="erreur">Image introuvable, vérifiez que vous avez bien saisi l'<acronym title="Uniform Resource Locator">URL</acronym></span>
+ <!-- END ERREUR-AVATAR1 -->
+ <!-- BEGIN ERREUR-AVATAR2 -->
+ <span class="erreur">L'image sélectionnée ne correspond pas aux critères requis, Taille max. {maxWidth}x{maxHeight}, Poids max. {maxSize}ko</span>
+ <!-- END ERREUR-AVATAR2 -->
+ <!-- BEGIN ERREUR-AVATAR5 -->
+ <span class="erreur">Le fichier envoyé n'est pas une image valide, les images doivent être de type GIF, JPG ou PNG</span>
+ <!-- END ERREUR-AVATAR5 -->
+ <br />
+ <label class="lite" for="upload">Ou uploadez un avatar à partir de votre ordintateur</label>
+ <input class="file" id="upload" name="upload" type="file" size="40" onfocus="javascript:document.getElementById('avatar').checked=true;" />
+ <!-- BEGIN ERREUR-AVATAR3 -->
+ <span class="erreur">Le fichier envoyé n'est pas une image valide, les images doivent être de type GIF, JPG ou PNG</span>
+ <!-- END ERREUR-AVATAR3 -->
+ <!-- BEGIN ERREUR-AVATAR4 -->
+ <span class="erreur">L'image sélectionnée ne correspond pas aux critères requis, Taille max. {maxHeight}x{maxWidth}, Poids max. {maxSize}ko</span>
+ <!-- END ERREUR-AVATAR4 -->
+ </fieldset>
+ <div>
+  <input type="submit" value="Valider les modifications" />
+ </div>
+</form>

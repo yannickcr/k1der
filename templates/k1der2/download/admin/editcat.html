@@ -1,0 +1,36 @@
+<h3>&Eacute;diter une catégorie</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Emplacement</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="nom">Catégorie</label></td>
+			<td style="width:70%;">
+				<select id="cat" name="cat">
+					<option value="0">Racine</option>
+					<!-- BEGIN CATS -->
+					<option value="{catId}"{selected}>{catNom}</option>
+					<!-- END CATS -->
+				</select><!-- BEGIN ERREUR-CAT --><span class="erreur">Catégorie inconnue</span><!-- END ERREUR-CAT -->
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<fieldset>
+	<legend>Nom et description</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="nom">Nom</label></td>
+			<td style="width:70%;"><input type="text" id="nom" name="nom" value="{nom}" /><!-- BEGIN ERREUR-NOM --><span class="erreur">Vous devez rentrer un nom de catégorie</span><!-- END ERREUR-NOM --></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="descr">Description</label></td>
+			<td style="width:70%;"><textarea id="descr" name="descr" rows="4" cols="40">{descr}</textarea></td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>
+<div class="bas"></div>

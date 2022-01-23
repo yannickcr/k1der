@@ -1,0 +1,34 @@
+<data>
+ <a id="serveur{i}_closeplayers" class="close" title="Fermer la liste des joueurs" href="#">Fermer</a> <a id="serveur{i}_reloadplayers" class="reloadplayers" title="Rafraichir les informations des joueurs" href="#">Actualiser</a>
+<table>
+ <colgroup>
+ <col class="col1" />
+ <col class="col2" />
+ <col class="col3" />
+ <col class="col4" />
+ </colgroup>
+ <thead>
+  <tr>
+   <th>#</th>
+   <th>Pseudo</th>
+   <th>Score</th>
+   <th>Temps de jeu</th>
+  </tr>
+ </thead>
+ <tbody>
+  <!-- BEGIN PLAYERS -->
+  <tr>
+   <td>{playerId}</td>
+   <td><![CDATA[{playerName}]]></td>
+   <td>{playerScore}</td>
+   <td>{playerTime}</td>
+  </tr>
+  <!-- END PLAYERS -->
+  <!-- BEGIN NOPLAYERS -->
+  <tr>
+   <td colspan="4">Aucun joueur</td>
+  </tr>
+  <!-- END NOPLAYERS -->
+ </tbody>
+</table>
+</data>

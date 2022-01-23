@@ -1,0 +1,143 @@
+* { margin:0; padding:0; }
+
+body {
+	width:480px;
+	height:272px;
+	background:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.6em;
+}
+
+img { border:0; }
+
+a, a:visited {
+	color:#C00;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	text-decoration:underline;
+}
+
+#slogan, #footer, #version, #centretitre,
+.reload, .serveuractivity { display:none; }
+
+h1 {
+	background:#FFF url(images/header-psp.png) no-repeat left top;
+	text-indent:-1000em;
+	height:101px;
+	width:170px;
+}
+
+h1 a {
+	display:block;
+	height:50px;
+	width:170px;
+}
+
+#prelude {
+	position:absolute;
+	top:70px;
+	left:10px;
+	list-style-type:none;
+}
+
+
+#left, #right {
+	width:160px;
+	background:#C00;
+	clear:both;
+	float:left;
+	padding:0 5px;
+}
+
+#left h2, #right h2 {
+	font-size:1.2em;
+}
+
+#left h3, #right h3 {
+	font-size:1.1em;
+	margin-left:5px;
+}
+
+#left ul, #right ul {
+	margin-left:10px;
+	list-style-type:none;
+}
+
+#prelude a, #prelude a:visited,
+#left a, #left a:visited,
+#right a, #right a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#prelude a:hover, #prelude a:active,
+#left a:hover, #left a:active,
+#right a:hover, #right a:active {
+	text-decoration:underline;
+}
+
+#main {
+	position:absolute;
+	top:0;
+	left:170px;
+	padding:10px;
+	width:290px;
+}
+
+#main ul { margin-left:20px; }
+
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	margin:0 1px;
+}
+
+hr {
+	clear:both;
+	margin:0;
+	padding:0;
+	visibility:hidden;
+}
+
+#main h3 img { float:right; }
+
+#forum, #matches {
+	margin-bottom:10px;
+	
+}
+#forum ul, #matches ul { 
+	margin:0 1px;
+	padding:2px;
+	list-style-type:none;
+	border:1px solid #BBB;
+	border-top:0;
+}
+
+#matches ul li { 
+	background-repeat:no-repeat;
+	background-position:5px center;
+	line-height:20px;
+	padding-left:25px;
+	text-align:right;
+}
+
+#matches ul li span { float:left; }
+#matches ul li a { margin-left:12px; }
+
+
+#main .infos {
+	margin:0 1px 5px;
+	padding:2px;
+	border:1px solid #BBB;
+	border-top:0;
+}
+
+#main .news {
+	margin-bottom:10px;
+}

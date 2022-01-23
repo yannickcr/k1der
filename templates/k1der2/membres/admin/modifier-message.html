@@ -1,0 +1,33 @@
+<h3>Configuration des membres</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>E-mail envoyé lors de l'inscription</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="messagetitle">Titre</label></td>
+			<td style="width:70%;">
+			<input type="text" id="messagetitle" name="messagetitle" value="{messageTitle}" />
+			</td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;">
+			<label for="messagetxt">Texte</label>
+			<div class="speedhelp">
+			Variables disponibles :
+			<ul>
+			<li>[pseudo] : Pseudo du membre</li>
+			<li>[clan] : Nom du clan</li>
+			</ul>
+			</div>
+			</td>
+			<td style="width:70%;">
+			<textarea id="messagetxt" name="messagetxt" rows="10" cols="10">{messageTxt}</textarea>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>
+<div class="bas"></div>

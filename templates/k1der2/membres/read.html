@@ -1,0 +1,44 @@
+<h3>{topicTitre}</h3>
+ <table class="mp">
+  <tbody>
+   <tr>
+    <td class="postauteur"><!-- BEGIN AUTEUR.PROFIL -->
+     <a href="membres/{postAuteurName}">{postAuteurName}</a>
+     <!-- END AUTEUR.PROFIL -->
+     <!-- BEGIN AUTEUR.PROFIL2 -->
+     <span class="pseudo">{postAuteurName}</span>
+     <!-- END AUTEUR.PROFIL2 -->
+    </td>
+    <td class="infos"><div> <a class="confdel" href="membres/mon-profil-message-del{messageId}.html"><img src="templates/{THEME}/images/forum/b_supprimer.gif" alt="Supprimer le message" /></a>
+      <!-- BEGIN CITER -->
+      <a href="membres/mon-profil-rediger-message-quote{messageId}.html"><img src="templates/{THEME}/images/forum/b_citer.gif" alt="Citer le contenu de ce message" /></a>
+      <!-- END CITER -->
+     </div>
+     <span>Ecrit le :</span> {postDate} à {postHeure}</td>
+   </tr>
+   <tr>
+    <td class="profil"><!-- BEGIN AUTEUR.INFOS -->
+     <!-- BEGIN AVATAR -->
+     <img src="{membreAvatar}" alt="Avatar de {postAuteurName}" />
+     <!-- END AVATAR -->
+     <div>
+      <!-- BEGIN LEVEL -->
+      <p>{membreDesignation}<br />
+       <!-- BEGIN PIPES -->
+       <img src="templates/{THEME}/images/membres/{membrePipe}" alt="." />
+       <!-- END PIPES -->
+      </p>
+      <!-- END LEVEL -->
+      Messages : {membreNbPosts}<br />
+      Inscrit le : {membreDateIns}<br />
+      Nationalité : <img src="templates/{THEME}/images/flags/{membreNatio}.gif" alt="{membreNatio}" /><br />
+      Age : {membreDateNes} </div>
+     <!-- END AUTEUR.INFOS -->
+    </td>
+    <td class="message"> {postPost} </td>
+   </tr>
+  </tbody>
+ </table>
+ <!-- BEGIN BARREACTION -->
+  <p class="barreactions"> <a href="membres/mon-profil-rediger-message-reply{messageId}.html"><img src="templates/{THEME}/images/forum/b_repondre.gif" alt="Répondre" /></a> </p>
+ <!-- END BARREACTION -->

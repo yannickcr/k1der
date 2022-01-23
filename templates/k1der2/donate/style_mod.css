@@ -1,0 +1,37 @@
+#donate a#donatelink {
+	position:absolute;
+	right:0;
+	top:0;
+	display:block;
+	width:80px;
+	height:80px;
+	background: url(../images/donate.png) no-repeat left top;
+	text-indent:-1000em;
+	overflow:hidden;
+}
+
+.donate {
+	border:2px solid #A00;
+	background:#C00;
+	height:150px;
+	width:400px;
+	position:absolute;
+	z-index:1000;
+	color:#FFF;
+	padding:5px;
+}
+
+.donate fieldset { border:0; padding:10px; text-align:center; }
+
+.donate .close { position:absolute; right:5px; bottom:5px; }
+
+.donatehide {
+	display:none;
+}
+
+#overlay {
+	background:#000;
+	position:absolute;
+	top:0;
+	left:0;
+}

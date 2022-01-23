@@ -1,0 +1,189 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST}                !^www.k1der.net(:80)?$ [NC]
+RewriteCond %{HTTP_HOST}                !^k1der.net(:80)?$ [NC]
+# RewriteRule ^(.*)                       http://www.k1der.net/$1 [L,R=404]
+RewriteRule ^(.*)                       http://www.k1der.net/$1 [L,R=302]
+
+#<IfModule mod_gzip.c>
+#	mod_gzip_on Yes
+#	mod_gzip_item_exclude         file       \.(js|css)$
+#	mod_gzip_item_exclude         file       \.gz$
+#	mod_gzip_item_exclude         file       \.zip$
+#	mod_gzip_item_exclude         mime       ^image/
+#</IfModule>
+
+php_value allow_url_fopen 1
+
+# AddHandler application/x-httpd-php .css
+# php_value auto_prepend_file /home/www/aab44823bc0e37b6d1f46896afcb58c9/web/include/gzip-css.php
+# php_flag zlib.output_compression On
+
+ErrorDocument 404 /modules/index/404error.html
+AddDefaultCharset utf-8
+AddCharset UTF-8 .xml
+
+Options +indexes +FollowSymlinks
+RewriteEngine on
+
+AddType text/xml xml
+AddType text/xml xsl
+AddType application/x-xpinstall .xpi
+AddType application/x-httpd-php-source .phps
+AddType text/xml rdf
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteRule ^statistiques(.*)$ include/scripts/phpmyvisites/$1 [L]
+RewriteRule ^maxi/blog(.*)$ blog/maxi$1
+RewriteRule ^country/(.*)$ - [L]
+#RewriteRule ^country(.*)$ blog/country$1 [L]
+
+RewriteRule ^blog/country/feed$ http://feeds.feedburner.com/CountryBlog [L]
+RewriteRule ^blog/country/comments/feed$ http://feeds.feedburner.com/CountryBlog-Coms [L]
+RewriteRule ^blog/country/feed/rss2/comments$ http://feeds.feedburner.com/CountryBlog-Coms [L]
+RewriteRule ^blog/country/feed/$ http://feeds.feedburner.com/CountryBlog [L]
+RewriteRule ^blog/country/comments/feed/$ http://feeds.feedburner.com/CountryBlog-Coms [L]
+RewriteRule ^blog/country/feed/rss2/comments/$ http://feeds.feedburner.com/CountryBlog-Coms [L]
+
+RewriteRule ^blog/country/post/2007/06/11/Brooser-un-browser-de-fichier-pour-Mootools(.*)$ http://www.k1der.net/blog/country/post/2007/07/14/Brooser-un-browser-de-fichier-pour-Mootools [L]
+
+
+RewriteRule ^bordel(.*)$ - [L]
+RewriteRule ^robots.txt$ - [L]
+RewriteRule ^phpinfo.php$ - [L]
+RewriteRule ^dev(.*)$ - [L]
+
+RewriteRule ^medias/(.*)$ - [L]
+RewriteRule ^templates/(.*)$ - [L]
+RewriteRule ^phpstats/(.*)$ - [L]
+
+RewriteRule ^modules/(.*).html$ - [L]
+
+RewriteRule css_([a-f0-9]+)-([0-9]+).css include/css.php?file=$1&lastmodified=$2 [L]
+
+
+# Forum
+RewriteRule ^forum/(.+)-c([0-9]+).html$ index.php?module=forum&cat=$2 [L]
+
+RewriteRule ^forum/(.+)-f([0-9]+)-new.html$ index.php?module=forum&forum=$2&new=1 [L]
+RewriteRule ^forum/(.+)-f([0-9]+)-newpoll.html$ index.php?module=forum&forum=$2&new=1&poll=1 [L]
+RewriteRule ^forum/(.+)-f([0-9]+)-edit([0-9]+).html$ index.php?module=forum&forum=$2&new=1&edit=$3 [L]
+RewriteRule ^forum/(.+)-f([0-9]+)-editpoll([0-9]+).html$ index.php?module=forum&forum=$2&new=1&edit=$3 [L]
+RewriteRule ^forum/(.+)-f([0-9]+)-start([0-9]+).html$ index.php?module=forum&forum=$2&start=$3 [L]
+RewriteRule ^forum/(.+)-f([0-9]+).html$ index.php?module=forum&forum=$2 [L]
+
+RewriteRule ^forum/(.+)-t([0-9]+)-reply.html$ index.php?module=forum&topic=$2&reply=1 [L]
+RewriteRule ^forum/(.+)-t([0-9]+)-reply-quote([0-9]+).html$ index.php?module=forum&topic=$2&reply=1&quote=$3 [L]
+RewriteRule ^forum/(.+)-t([0-9]+)-edit([0-9]+).html$ index.php?module=forum&topic=$2&reply=1&edit=$3 [L]
+RewriteRule ^forum/(.+)-t([0-9]+)-del.html$ index.php?module=forum&del=$2 [L]
+RewriteRule ^forum/(.+)-t([0-9]+)-del([0-9]+).html$ index.php?module=forum&topic=$2&del=$3 [L]
+RewriteRule ^forum/(.+)-t([0-9]+)-newpost.html$ index.php?module=forum&topic=$2&newpost=1 [L]
+RewriteRule ^forum/(.+)-t([0-9]+)-start([0-9]+).html$ index.php?module=forum&topic=$2&start=$3 [L]
+RewriteRule ^forum/(.+)-t([0-9]+)-show.html$ index.php?module=forum&topic=$2&show=1 [L]
+RewriteRule ^forum/(.+)-t([0-9]+).html$ index.php?module=forum&topic=$2 [L]
+
+RewriteRule ^forum/search-(.+).html$ index.php?module=forum&action=search&search=$1 [L]
+
+# Admin
+RewriteRule ^admin/whois-([0-9-]{7,15}).html$ index.php?module=admin&ip=$1 [L]
+RewriteRule ^admin/([^/]*)/([^/]*)-id([0-9]+)-(.+).html$ index.php?module=admin&submodule=$1&action=$2&id=$3&action2=$4 [L]
+RewriteRule ^admin/([^/]*)/([^/]*)-id([0-9]+).html$ index.php?module=admin&submodule=$1&action=$2&id=$3 [L]
+RewriteRule ^admin/([^/]*)/([^/]*)-([0-9]+).html$ index.php?module=admin&submodule=$1&action=$2&param=$3 [L]
+RewriteRule ^admin/([^/]*)/([^/]*).html$ index.php?module=admin&submodule=$1&action=$2 [L]
+
+# Membres
+RewriteRule ^membres/inscription.html$ index.php?module=membres&inscription=1 [L]
+RewriteRule ^membres/inscriptionfinish.html$ index.php?module=membres&inscription=2 [L]
+RewriteRule ^membres/logout.html$ index.php?module=membres&logout=1 [L]
+RewriteRule ^membres/mon-profil.html$ index.php?module=membres&profil=1 [L]
+RewriteRule ^membres/mon-profil-(.*).html$ index.php?module=membres&profil=1&action=$1 [L]
+RewriteRule ^membres/livesearch-(.*).html$ index.php?module=membres&livesearch=1&q=$1 [L]
+RewriteRule ^membres/activer-([a-z0-9]{32}).html$ index.php?module=membres&activer=$1 [L]
+RewriteRule ^membres/activer-ok.html$ index.php?module=membres&activer=ok [L]
+RewriteRule ^membres/newmdp-([a-z0-9]{32}).html$ index.php?module=membres&newmdp=$1 [L]
+RewriteRule ^membres/([a-zA-Z0-9]*)$ index.php?module=membres&membre=$1 [L]
+
+# Clans
+RewriteRule ^clans/([a-zA-Z0-9-]*)$ index.php?module=clans&clan=$1 [L]
+RewriteRule ^clans/livesearchclan-(.*).html$ index.php?module=clans&livesearchclan=1&q=$1 [L]
+
+# Matches
+RewriteRule ^matches/admin/livesearchlan-(.*).html$ index.php?module=matches&livesearchlan=1&q=$1 [L]
+RewriteRule ^matches/admin/livesearchplayer-([0-9]+)-(.*).html$ index.php?module=matches&livesearchplayer=1&id=$1&q=$2 [L]
+RewriteRule ^matches/admin/livesearchadv-([0-9]+)-(.*).html$ index.php?module=matches&livesearchadv=1&id=$1&q=$2 [L]
+
+RewriteRule ^matches/admin/loadxml-(.*).html$ index.php?module=matches&loadxml=$1 [L]
+RewriteRule ^matches/admin/reloadxmlpart-(.*)-(.*)-(.*).html$ index.php?module=matches&loadxml=$1&reloadxmlpart=$2&data=$3 [L]
+
+RewriteRule ^matches/(.*)-id([0-9]+).html$ index.php?module=matches&action=matche&id=$2 [L]
+
+RewriteRule ^matches/(.*)-id([0-9]+)-edit([0-9]+).html$ index.php?module=matches&action=matche&id=$2&edit=$3 [L]
+RewriteRule ^matches/(.*)-id([0-9]+)-quote([0-9]+).html$ index.php?module=matches&action=matche&id=$2&quote=$3 [L]
+RewriteRule ^matches/(.*)-id([0-9]+)-del([0-9]+).html$ index.php?module=matches&action=matche&id=$2&del=$3 [L]
+RewriteRule ^matches/(.*)-id([0-9]+)-edit([0-9]+)-start([0-9]+).html$ index.php?module=matches&action=matche&id=$2&edit=$3&start=$4 [L]
+RewriteRule ^matches/(.*)-id([0-9]+)-quote([0-9]+)-start([0-9]+).html$ index.php?module=matches&action=matche&id=$2&quote=$3&start=$4 [L]
+
+
+# News
+RewriteRule ^news/([^/]*)/([^/]*)-id([0-9]+).html$ index.php?module=news&id=$3 [L]
+RewriteRule ^news/([^/]*)/$ index.php?module=news&date=$1 [L]
+
+# Galeries
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)((/|/index.html)?)$ index.php?module=galeries&id=$2 [L]
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9\.]*)$ index.php?module=galeries&id=$2&photo=$3 [L]
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)/index-([0-9]+).html$ index.php?module=galeries&id=$2&param=$3 [L]
+
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9\.]*)-edit([0-9]+).html$ index.php?module=galeries&id=$2&photo=$3&edit=$4 [L]
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9\.]*)-quote([0-9]+).html$ index.php?module=galeries&id=$2&photo=$3&quote=$4 [L]
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9\.]*)-del([0-9]+).html$ index.php?module=galeries&id=$2&photo=$3&del=$4 [L]
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9\.]*)-edit([0-9]+)-start([0-9]+).html$ index.php?module=galeries&id=$2&photo=$3&edit=$4&start=$5 [L]
+RewriteRule ^galeries/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9\.]*)-quote([0-9]+)-start([0-9]+).html$ index.php?module=galeries&id=$2&photo=$3&quote=$4&start=$5 [L]
+
+
+# Download
+RewriteRule ^download/([a-zA-Z0-9-]*)-id([0-9]+)((/)?)$ index.php?module=download&cat=$2 [L]
+RewriteRule ^download/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9-]*)-id([0-9]+).html$ index.php?module=download&file=$4 [L]
+RewriteRule ^download/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9-]*)-id([0-9]+)-edit([0-9]+).html$ index.php?module=download&file=$4&edit=$5 [L]
+RewriteRule ^download/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9-]*)-id([0-9]+)-quote([0-9]+).html$ index.php?module=download&file=$4&quote=$5 [L]
+RewriteRule ^download/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9-]*)-id([0-9]+)-del([0-9]+).html$ index.php?module=download&file=$4&del=$5 [L]
+RewriteRule ^download/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9-]*)-id([0-9]+)-edit([0-9]+)-start([0-9]+).html$ index.php?module=download&file=$4&edit=$5&start=$6 [L]
+RewriteRule ^download/([a-zA-Z0-9-]*)-id([0-9]+)/([a-zA-Z0-9-]*)-id([0-9]+)-quote([0-9]+)-start([0-9]+).html$ index.php?module=download&file=$4&quote=$5&start=$6 [L]
+
+# Rss
+RewriteRule ^([^/]*)/(.*).rss$ index.php?module=rss&action=$1&param=$2 [L]
+
+# Search
+RewriteRule ^search/(.+)((/)?)$ index.php?module=search&action=$1 [L]
+
+# Blogs
+#RewriteRule ^blog/admin(.*) modules/blogs.dc/admin$1 [L]
+#RewriteRule ^blogs/admin(.*) modules/blogs.dc/admin$1 [L]
+
+RewriteRule ^blog/(.*) modules/blogs/$1 [L]
+RewriteRule ^blogs/(.*) modules/blogs/$1 [L]
+#RewriteRule ^blog/public(.*) modules/blogs.dc/public$1 [L]
+#RewriteRule ^blogs/public(.*) modules/blogs.dc/public$1 [L]
+#RewriteRule ^blog(/?)$ blogs/
+
+#Passage de la page demande entire sur le index.php/ (pour le "faire péter")
+#RewriteRule ^blogs/([a-zA-Z0-9-]+)(/?)(.*) modules/blogs.dc/index.php/$3 [L]
+#Redirige index.php vers index.php/ pour viter les 404 de DC
+#RewriteRule ^blogs/([a-zA-Z0-9-]+)/index.php$ modules/blogs.dc/index.php/
+
+#Passage de la page demande entire sur le index.php/ (pour le "faire péter")
+#RewriteRule ^blog/([a-zA-Z0-9-]+)(/?)(.*) modules/blogs.dc/index.php/$3 [L]
+#Redirige index.php vers index.php/ pour viter les 404 de DC
+#RewriteRule ^blog/([a-zA-Z0-9-]+)/index.php$ modules/blogs.dc/index.php/
+
+
+# Si pas .html ou .rss -> on sors
+RewriteRule \.([^html])([^rss]) - [L]
+
+# Trucs Génériques
+RewriteRule ^([^/]*).html$ index.php?module=$1 [L]
+RewriteRule ^([^/]*)/(.*)-([0-9]+).html$ index.php?module=$1&action=$2&param=$3 [L]
+RewriteRule ^([^/]*)/(.*)/(.*).html$ index.php?module=$1&action=$2&action2=$3 [L]
+RewriteRule ^([^/]*)/(.*).html$ index.php?module=$1&action=$2 [L]
+RewriteRule ^([^/]*)/$ index.php?module=$1 [L]
+RewriteRule ^([^/]*)$ index.php?module=$1 [L]

@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Role Manager\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-02-14 08:50+0100\n"
+"Last-Translator: Thomas Schneider\n"
+"Language-Team: im web gefunden http://www.im-web-gefunden.de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: role-manager.php:77
+msgid "Removing this permission from a role assigned to you could be a really bad idea.  Are you sure?"
+msgstr "Das Löschen dieser Berechtigung von einer Rolle, der auch Du angehörst, kann negative Auswirkungen haben. Bist Du sicher?"
+
+#: role-manager.php:171
+#: role-manager.php:383
+msgid "Capability granted"
+msgstr "Berechtigung zugewiesen"
+
+#: role-manager.php:171
+#: role-manager.php:385
+msgid "Capability denied"
+msgstr "Berechtigung verweigert"
+
+#: role-manager.php:255
+#: role-manager.php:263
+msgid "Rename Role"
+msgstr "Rolle umbenennen"
+
+#: role-manager.php:259
+msgid "New Name:"
+msgstr "Neuer Name:"
+
+#: role-manager.php:287
+msgid "You cannot delete the default role."
+msgstr "Die Standardrolle kann nicht gelöscht werden"
+
+#: role-manager.php:314
+msgid "Can't make "
+msgstr "Nicht ausführbar"
+
+#: role-manager.php:314
+msgid " the default. Not a role."
+msgstr "the default. Not a role."
+
+#: role-manager.php:317
+msgid "Default role changed."
+msgstr "Standardrolle geändert"
+
+#: role-manager.php:340
+msgid "Set user level of role."
+msgstr "Userlevel der Rolle setzen"
+
+#: role-manager.php:353
+msgid "Delete Role"
+msgstr "Rolle löschen"
+
+#: role-manager.php:354
+msgid "All users with this role will have it removed, and they will lose all capabilities from this role (unless other roles provide it). If a user has only this role, they will be assigned the default role, "
+msgstr "Alle Benutzer, die dieser Rolle angehören, werden die zu dieser Rolle gehörenden Berechtigungen verlieren, sofern sie nicht durch eine andere Rolle abgedeckt sind. Hat ein Benutzer nur diese Rolle, gehört er danach der Standardrolle an."
+
+#: role-manager.php:358
+msgid "Confirm Delete Role"
+msgstr "Löschen der Rolle bestätigen"
+
+#: role-manager.php:387
+msgid "New role created"
+msgstr "Neue Rolle angelegt"
+
+#: role-manager.php:389
+msgid "New capability created"
+msgstr "Neue Berechtigung angelegt"
+
+#: role-manager.php:391
+msgid "Unused capabilites purged"
+msgstr "Unbenutzte Berechtigungen unterdrückt"
+
+#: role-manager.php:393
+msgid "Role renamed"
+msgstr "Rolle umbenannt"
+
+#: role-manager.php:395
+msgid "Role deleted"
+msgstr "Rolle gelöscht"
+
+#: role-manager.php:397
+msgid "Default role changed"
+msgstr "Standardrolle geändert"
+
+#: role-manager.php:399
+msgid "Set user level of role"
+msgstr "Benutzerlevel der Rolle setzen"
+
+#: role-manager.php:403
+msgid "Manage Roles"
+msgstr "Rollen verwalten"
+
+#: role-manager.php:404
+msgid "This page is for editing what capabilities are associated with each role. To change the capabilities of a specific user, click on Authors &amp; Users, then click Edit next to the user you want to change. You can <a href=\"#new-role\">add new roles</a> as well."
+msgstr "Diese Seite ist zum Bearbeiten der Berechtigungen für jede Rolle. Zum Ändern der Berechtigungen eines speziellen Benutzers, klicke auf Autoren &amp; Benutzer. Danach klicke auf den benutzer, den Du ändern möchtest. Zusätzlich kannst Du hier auch <a href=\"#new-role\">neue Rollen anlegen</a>."
+
+#: role-manager.php:420
+msgid "rename"
+msgstr "Umbenennen"
+
+#: role-manager.php:424
+msgid "delete"
+msgstr "Löschen"
+
+#: role-manager.php:436
+#: role-manager.php:439
+msgid "Granted"
+msgstr "Zugewiesen"
+
+#: role-manager.php:443
+msgid "Denied"
+msgstr "Verweigert"
+
+#: role-manager.php:450
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: role-manager.php:460
+#, php-format
+msgid " User Level: %s"
+msgstr "Benutzerlevel: %s"
+
+#: role-manager.php:466
+msgid "Create a new Role"
+msgstr "Neue Rolle anlegen"
+
+#: role-manager.php:468
+msgid "Role Name:"
+msgstr "Rollenname:"
+
+#: role-manager.php:469
+msgid "Capabilities to be included:"
+msgstr "Hinzuzufügende Berechtigungen:"
+
+#: role-manager.php:477
+msgid "Create Role"
+msgstr "Rolle anlegen"
+
+#: role-manager.php:480
+msgid "Custom Capabilities"
+msgstr "Benutzerdefinierte Berechtigungen anlegen"
+
+#: role-manager.php:482
+msgid "New Capability Name:"
+msgstr "Name der neuen Berechtigung:"
+
+#: role-manager.php:483
+msgid "Create Capability"
+msgstr "Berechtigung anlegen"
+
+#: role-manager.php:486
+msgid "Purge Unused Capabilities"
+msgstr "Lösche unbenutzte Berechtigungen"
+
+#: role-manager.php:486
+msgid "If core capabilities are not currently assigned to any Role, then you must manually re-add them after this action if you want to use them.  Are you sure you want to do this?"
+msgstr "Wenn grundsätzliche Berechtigungen von WordPress keiner Rolle zugewiesen sind, mußt Du sie nach dieser Aktion manuell zuweisen wenn Du sie benötigst. Möchtest Du diese Aktion wirklich durchführen?"
+
+#: role-manager.php:496
+msgid "Assign extra capabilites"
+msgstr "Berechtigungen"
+

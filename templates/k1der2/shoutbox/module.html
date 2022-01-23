@@ -1,0 +1,24 @@
+<div id="shoutbox">
+<h2 class="rapid-chat">Rapid'Chat</h2>
+ <!-- BEGIN IDENT -->
+<form id="shoutbox_form" method="post" action="{REQUEST_URI}">
+ <fieldset>
+ <legend>Rediger un message</legend>
+  <label for="shoutbox_message">Message :</label><input type="text" id="shoutbox_message" name="shoutbox_message" />
+  <input id="shoutbox_submit" type="submit" value="Poster" />
+ </fieldset>
+</form>
+ <!-- END IDENT -->
+ <!-- BEGIN NOIDENT -->
+ <p>Il faut être identifié pour pouvoir poster</p>
+ <!-- END NOIDENT -->
+ <a id="shoutbox_reload" href="{REQUEST_URI}">Actualiser</a>
+<dl id="shoutbox_messages"><!-- BEGIN MESSAGE -->
+ <dt><a class="auteur" title="{messageDate}" href="membres/{messageAuteur}">{messageAuteur}</a> :</dt><dd{ddId}> {messageTxt}</dd>
+<!-- END MESSAGE -->
+</dl>
+<ul>
+ <li><a href="shoutbox/index.html">Historique</a></li>
+ <li>&middot; <a href="shoutbox/aide.html">Aide</a></li>
+</ul>
+</div>

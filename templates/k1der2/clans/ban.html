@@ -1,0 +1,34 @@
+<h3>Changer la bannière du clan</h3>
+<form action="{REQUEST_URI}" method="post">
+ <fieldset>
+ <legend>Bannière actuelle</legend>
+ <!-- BEGIN BANNIERE-SET -->
+ <div><img src="{clanBanniere}" alt="Bannière du clan {clanNom}" /></div>
+ <!-- END BANNIERE-SET -->
+ <!-- BEGIN BANNIERE-NOTSET -->
+ <div>Aucun bannière</div>
+ <!-- END BANNIERE-NOTSET -->
+ </fieldset>
+ <fieldset>
+ <legend>Changer la bannière du clan</legend>
+ <input id="nobanniere" name="banniere" type="radio" value="1"{checked1} />
+ <label class="lite" for="nobanniere">Ne pas utiliser de bannière</label><br />
+ <input id="banniere" name="banniere" type="radio" value="2"{checked2} />
+ <label class="lite" for="banniere">Utiliser une bannière personnalise</label><br />
+ <label class="lite" for="url">Entrez l'<acronym title="Uniform Resource Locator">URL</acronym> de l'image de votre bannière</label>
+ <br />
+ <input type="text" id="url" name="url" value="{clanBanniere}" size="40" onfocus="javascript:document.getElementById('banniere').checked=true;" />
+ <!-- BEGIN ERREUR-BANNIERE1 -->
+ <span class="erreur">Image introuvable, vrifiez que vous avez bien saisi l'<acronym title="Uniform Resource Locator">URL</acronym></span>
+ <!-- END ERREUR-BANNIERE1 -->
+ <!-- BEGIN ERREUR-BANNIERE2 -->
+ <span class="erreur">L'image slectionne ne correspond pas aux critres requis, Taille max. {maxWidth}x{maxHeight}, Poids max. {maxSize}ko</span>
+ <!-- END ERREUR-BANNIERE2 -->
+ <!-- BEGIN ERREUR-BANNIERE5 -->
+ <span class="erreur">Le fichier envoy n'est pas une image valide, les images doivent tre de type GIF, JPG ou PNG</span>
+ <!-- END ERREUR-BANNIERE5 -->
+ </fieldset>
+ <div>
+  <input type="submit" value="Valider les modifications" />
+ </div>
+</form>

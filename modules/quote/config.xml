@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration>
+	<pages>
+		<page page="random" condition="post[action](random)" />
+	</pages>
+	<actions>
+		<action action="addPhrase" condition="post[auteur],post[phrase]" />
+		<action action="editPhrase" condition="get[id],post[auteur],post[phrase]" />
+		<action action="delPhrase" condition="get[id]" />
+	</actions>
+	<admin titre="Phrases à la cons">
+		<menu titre="Ajouter" lien="admin/quote/ajouter.html" />
+		<menu titre="Liste des phrases" lien="admin/quote/liste.html" />
+	</admin>
+</configuration>

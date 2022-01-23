@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Galeries">
+	<pages>
+		<page page="photo" condition="get[id],get[photo]" />
+		<page page="galeries" condition="get[action](galeries)" />
+		<page page="galerie" condition="get[id]" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="addGallery" condition="post[nom],post[descr],post[jour],post[mois],post[annee],post[jour2],post[mois2],post[annee2]" />
+
+		<action action="addComm" condition="get[id],get[photo],post[message],post[note]" />
+		<action action="editComm" condition="get[id],get[photo],get[edit],post[message],post[note]" />
+		<action action="delComm" condition="get[id],get[photo],get[del]" />
+	</actions>
+	<admin titre="Galeries">
+		<menu titre="Ajouter une galerie" lien="admin/galeries/addgallery.html" />
+	</admin>
+</configuration>

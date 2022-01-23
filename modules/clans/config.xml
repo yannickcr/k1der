@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration>
+	<pages>
+		<page page="compolineup" condition="get[module],get[action](composition-line-up)" />
+		<page page="livesearchclan" condition="get[livesearchclan],get[q]" />
+		<page page="fiche" condition="get[clan]" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="create" condition="post[nom],post[tag],post[tagempl],post[site],post[irc],post[ircserver],infos[id]" />
+		<action action="edit" condition="post[nom],post[tag],post[tagempl],post[leader],post[site],post[irc],post[ircserver],infos[id]" />
+		<action action="changeBan" condition="post[url],infos[id]" />
+		<action action="addLineUp" condition="post[nom],infos[id]" />
+		<action action="majLineUp" condition="post[majlineup],infos[id]" />
+		<action action="newJoin" condition="post[clan],infos[id]" />
+		<action action="annulerJoin" condition="post[annuler],infos[id]" />
+		<action action="quit" condition="post[quit],infos[id]" />
+		<action action="close" condition="post[close],infos[id]" />
+
+		<action action="supprimerClans" condition="get[action](supprimer),get[id],infos[id]" />
+		<action action="configClans" condition="post[clan]" />
+
+	</actions>
+	<admin titre="Clans">
+		<menu titre="Liste des clans" lien="admin/clans/liste.html" acces="clans_lister" />
+		<menu titre="Rechercher un clan" lien="admin/clans/rechercher.html" acces="clans_search" />
+		<menu titre="Configuration" lien="admin/clans/configuration.html" acces="clans_config" />
+	</admin>
+</configuration>

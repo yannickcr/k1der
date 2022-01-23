@@ -1,0 +1,34 @@
+<div id="serveur">
+ <!-- BEGIN SERVEUR -->
+ <div id="serveur{i}">
+  <h2 class="serveur{i}">Serveur {i}</h2>
+  <h3>{serveurModname}</h3>
+  <img id="serveur{i}map" class="serveurmap" src="{serveurMapImg}" title="{serveurMap}" alt="{serveurMap}" />
+  {serveurMap}
+  <ul>
+   <li>Adresse :
+    <ul>
+     <li class="adresse"><a title="Rejoindre le serveur {serveurModname}" href="steam://connect/{serveurIp}:{serveurPort}">{serveurIp}:{serveurPort}</a></li>
+    </ul>
+   </li>
+   <li>Joueurs :
+    <ul>
+     <li id="serveur{i}_players" class="players">{serveurPlayers}/{serveurPlaces}</li>
+    </ul>
+   </li>
+   <li>Mot de passe :
+    <ul>
+     <li class="pass">{serveurPass}</li>
+    </ul>
+   </li>
+   <li>Statistiques :
+    <ul>
+     <li class="stats"><a href="{serveurStats}">Stats du serveur {serveurModname}</a></li>
+    </ul>
+   </li>
+  </ul>
+ </div>
+ <div class="players" id="serveur{i}_playerslist">
+ </div>
+ <!-- END SERVEUR -->
+</div>

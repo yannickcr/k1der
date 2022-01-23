@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="iMode">
+	<pages>
+		<page page="forum" condition="get[action](forum)" />
+		<page page="shoutbox" condition="get[action](shoutbox)" />
+		<page page="readnews" condition="get[action](news),get[param]" />
+		<page page="news" condition="get[action](news)" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+	</actions>
+	<admin titre="iMode">
+	</admin>
+</configuration>

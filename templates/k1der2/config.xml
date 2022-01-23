@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<layout>
+		<bloc name="header" />
+		<bloc name="titre" />
+		<bloc name="gauche" />
+		<bloc name="droite" />
+		<bloc name="centre" />
+		<bloc name="bas" />
+		<bloc name="footer" />
+	</layout>
+</configuration>

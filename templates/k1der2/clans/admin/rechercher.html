@@ -1,0 +1,55 @@
+<h3>Rechercher un clan</h3>
+<div class="message">
+ <fieldset>
+ <legend>Rechercher un clan</legend>
+ <table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+  <tbody>
+   <tr>
+    <td><input type="checkbox" id="rechnom" name="rechnom" value="1" />
+     <label class="after" for="rechnom">Nom</label></td>
+    <td><input type="text" id="rechnomchamp" name="rechnomchamp" /></td>
+   </tr>
+   <tr>
+    <td><input type="checkbox" id="rechtag" name="rechtag" value="1" />
+     <label class="after" for="rechtag">Tag</label></td>
+    <td><input type="text" id="rechtagchamp" name="rechtagchamp" /></td>
+   </tr>
+   <tr>
+    <td><input type="checkbox" id="rechlead" name="rechlead" value="1" />
+     <label class="after" for="rechlead">Leader</label></td>
+    <td><input type="text" id="rechleadchamp" name="rechleadchamp" /></td>
+   </tr>
+   <tr>
+    <td><input type="checkbox" id="rechdatecreate" name="rechdatecreate" value="1" />
+     <label class="after" for="rechdatecreate">Date de création</label></td>
+    <td><select id="rechdatecreatechamp" name="rechdatecreatechamp">
+      <option value="">Toutes</option>
+      <option value="aujourdhui">Aujourd'hui</option>
+      <option value="hier">Hier</option>
+      <option value="semaine">Il y a moins d'une semaine</option>
+      <option value="mois">Il y a moins d'un mois</option>
+      <option value="6mois">Il y a moins de 6 mois</option>
+      <option value="an">Il y a moins d'un an</option>
+     </select>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ </fieldset>
+ <table class="liste">
+  <thead>
+   <tr>
+    <th>Nom</th>
+    <th>Leader</th>
+    <th>Membre(s)</th>
+    <th>Modifier</th>
+    <th>Supprimer</th>
+   </tr>
+  </thead>
+  <tbody id="reponses">
+   <tr>
+    <td colspan="5">Aucun résultat</td>
+   </tr>
+  </tbody>
+ </table>
+</div>

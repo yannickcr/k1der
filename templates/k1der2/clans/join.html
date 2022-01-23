@@ -1,0 +1,40 @@
+<h3>Rejoindre un clan</h3>
+<!-- BEGIN POSTULDEJA -->
+<form action="{REQUEST_URI}" method="post">
+ <fieldset>
+ <legend>Rejoindre un clan</legend>
+ <p>Vous avez dj une demande en attente pour le clan {clan}.</p>
+ <p>Vous ne pouvez effectuer qu'une demande  la fois. Si vous voulez effectuer une nouvelle demande pour un autre clan vous devez annuler celle-ci.</p>
+ <div>
+  <input type="submit" id="annuler" name="annuler" value="Annuler la demande pour le clan {clan}" />
+ </div>
+ </fieldset>
+</form>
+<!-- END POSTULDEJA -->
+<!-- BEGIN NOPOSTUL -->
+<form action="{REQUEST_URI}" method="post">
+ <fieldset>
+ <legend>Rejoindre un clan</legend>
+ <p>Vous ne possdez actuelement aucun clan, vous pouvez donc postuler  un clan existant ou en <a href="membres/mon-profil-clancreate.html">créer un nouveau</a>.</p>
+ <p>Une fois votre demande envoye, le leader du clan choisi se rserve le droit de vous accepter ou non et cela sans justificatif. Lors de l'acceptation ou le refus de votre demande un message automatique vous sera envoy par message privé.</p>
+ <label for="to">Clan auquel postuler</label>
+ <input type="text" style="width:200px;" id="clan" name="clan" value="{clan}" />
+ <div id="LSResult" class="livesearch"></div>
+ <!-- BEGIN ERREUR-CLAN1 -->
+ <span class="erreur">Vous devez rentrer un nom de clan</span>
+ <!-- END ERREUR-CLAN1 -->
+ <!-- BEGIN ERREUR-CLAN2 -->
+ <span class="erreur">Clan inconnu</span>
+ <!-- END ERREUR-CLAN2 -->
+ <!-- BEGIN ERREUR-CLAN3 -->
+ <span class="erreur">Le nom d'un clan ne peut contenir que des caractères alphanumriques</span>
+ <!-- END ERREUR-CLAN3 -->
+ <!-- BEGIN ERREUR-CLAN4 -->
+ <span class="erreur">Le nom d'un clan a une longueur comprise entre 3 et 100 caractères</span>
+ <!-- END ERREUR-CLAN4 -->
+ </fieldset>
+ <div>
+  <input type="submit" value="Envoyer la demande" />
+ </div>
+</form>
+<!-- END NOPOSTUL -->

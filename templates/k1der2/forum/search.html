@@ -1,0 +1,48 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+{barrehaut}
+<h3>{forumTitre}</h3>
+<table summary="Sujets du forum {forumTitre}">
+<thead>
+<tr>
+  <th>&nbsp;</th>
+  <th id="sujet">Sujet</th>
+  <th id="auteur">Auteur</th>
+  <th id="reponses">Réponses</th>
+  <th id="lectures">Lectures</th>
+  <th id="dernier">Dernier Message</th>
+</tr>
+</thead>
+<tbody>
+<!-- BEGIN TOPIC -->
+<tr>
+	<td></td>
+	<td headers="sujet" class="sujet">
+	<!-- BEGIN NEW --><a href="forum/{topicLinkTitre}-t{topicId}-newpost.html"><img src="templates/{THEME}/images/forum/newpost.gif" alt="Aller au dernire message non lu" /></a><!-- END NEW -->
+	<!-- BEGIN PIN -->&Eacute;pinglé : <!-- END PIN -->
+	<!-- BEGIN POLL -->Sondage : <!-- END POLL -->
+	<!-- BEGIN PINPOLL -->Sondage épinglé : <!-- END PINPOLL -->
+	<a href="forum/{topicLinkTitre}-t{topicId}.html">{topicTitre}</a>
+	<!-- BEGIN TOPICPAGE.UN --><a class="apage" href="forum/{topicLinkTitre}-t{topicId}.html" title="Aller à la page 1">1</a><!-- END TOPICPAGE.UN -->
+	<!-- BEGIN TOPICPAGE.DEUX --><a class="apage" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.p}.html" title="Aller à la page 2">2</a><!-- END TOPICPAGE.DEUX -->
+	<!-- BEGIN TOPICPAGE.TROIS --><a class="apage" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.pp}.html" title="Aller à la page 3">3</a><!-- END TOPICPAGE.TROIS -->
+	<!-- BEGIN TOPICPAGE.QUATRE --><a class="{styleOfTopicPage}" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.l}.html" title="Aller à la dernière page">{numOfTopicPage}</a><!-- END TOPICPAGE.QUATRE -->
+	<p>{topicDescr}</p>
+	</td>
+	<td headers="auteur" class="auteur"><!-- BEGIN START1 --><a href="membres/{topicStarterName}"><!-- END START1 -->{topicStarterName}<!-- BEGIN START2 --></a><!-- END START2 --></td>
+	<td headers="reponses" class="nb">{topicNbPosts}</td>
+	<td headers="lectures" class="nb">{topicNbViews}</td>
+	<td headers="dernier" class="last"><p>{topicLastPostDate} à {topicLastPostHeure}</p>
+	  <p>Par : <!-- BEGIN LAST3 --><a href="membres/{topicLastPosterName}"><!-- END LAST3 -->{topicLastPosterName}<!-- BEGIN LAST4 --></a><!-- END LAST4 --></p>
+	</td>
+</tr>
+<!-- END TOPIC -->
+<!-- BEGIN NOTOPIC -->
+<tr>
+	<td class="no" colspan="6">Aucun sujet dans ce forum</td>
+</tr>
+<!-- END NOTOPIC -->
+</tbody>
+</table>
+{barrebas}
+</div>

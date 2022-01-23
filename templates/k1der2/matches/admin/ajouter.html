@@ -1,0 +1,122 @@
+<h3>Ajouter un match</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Informations générales</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+	<colgroup>
+		<col style="width:30%" />
+		<col style="width:70%" />
+	</colgroup>
+		<tr>
+			<td style="font-weight:bold;"><label for="jeu">Jeu</label></td>
+			<td>
+			<select id="jeu" name="jeu">
+			<!-- BEGIN JEUX -->
+				<option value="{matchJeuxShortName}">{matchJeux}</option>
+			<!-- END JEUX -->
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-weight:bold;"><label for="type">Type</label></td>
+			<td>
+			<select id="type" name="type">
+				<option value="unique" selected="selected">Match unique</option>
+				<option value="tournoi">Tournoi</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-weight:bold;"><label for="lieu">Lieu</label></td>
+			<td>
+			<select id="lieu" name="lieu">
+				<option value="internet" selected="selected">Internet</option>
+				<option value="lanparty">Lan Party</option>
+				<option value="sallejeux">Salle de jeux</option>
+			</select>
+			</td>
+		</tr>
+		<tr id="tournoiline">
+			<td style="font-weight:bold;"><label for="tournoi">Nom du tournoi</label></td>
+			<td><input type="text" style="width:200px;" id="tournoi" name="tournoi" />
+			</td>
+		</tr>
+		<tr id="lanpartyline">
+			<td style="font-weight:bold;"><label for="lanparty">Nom de la Lan party</label></td>
+			<td><input type="text" style="width:200px;" id="lanparty" name="lanparty" />
+			<div id="livesearchlan" class="livesearch"></div>
+			</td>
+		</tr>
+		<tr id="sallejeuxline">
+			<td style="font-weight:bold;"><label for="sallejeux">Nom de la Salle de jeux</label></td>
+			<td><input type="text" style="width:200px;" id="sallejeux" name="sallejeux" />
+			</td>
+		</tr>
+		<tr id="dateline">
+			<td style="font-weight:bold;">Date</td>
+			<td>
+				<select id="jour" name="jour">
+					<!-- BEGIN JOURS -->
+					<option value="{jour}"{selected}>{jour}</option>
+					<!-- END JOURS -->
+				</select>
+				<select id="mois" name="mois">
+					<!-- BEGIN MOISS -->
+					<option value="{mois}"{selected}>{nommois}</option>
+					<!-- END MOISS -->
+				</select>
+				<select id="annee" name="annee">
+					<!-- BEGIN ANNEES -->
+					<option value="{annee}"{selected2}>{annee}</option>
+					<!-- END ANNEES -->
+				</select>
+			</td>
+		</tr>
+		<tr id="datedebutline">
+			<td style="font-weight:bold;">Date de début</td>
+			<td>
+				<select id="jourdebut" name="jourdebut">
+					<!-- BEGIN JOURS -->
+					<option value="{jour}"{selected}>{jour}</option>
+					<!-- END JOURS -->
+				</select>
+				<select id="moisdebut" name="moisdebut">
+					<!-- BEGIN MOISS -->
+					<option value="{mois}"{selected}>{nommois}</option>
+					<!-- END MOISS -->
+				</select>
+				<select id="anneedebut" name="anneedebut">
+					<!-- BEGIN ANNEES -->
+					<option value="{annee}"{selected2}>{annee}</option>
+					<!-- END ANNEES -->
+				</select>
+			</td>
+		</tr>
+		<tr id="datefinline">
+			<td style="font-weight:bold;">Date de fin</td>
+			<td>
+				<select id="jourfin" name="jourfin">
+					<!-- BEGIN JOURS -->
+					<option value="{jour}"{selected}>{jour}</option>
+					<!-- END JOURS -->
+				</select>
+				<select id="moisfin" name="moisfin">
+					<!-- BEGIN MOISS -->
+					<option value="{mois}"{selected}>{nommois}</option>
+					<!-- END MOISS -->
+				</select>
+				<select id="anneefin" name="anneefin">
+					<!-- BEGIN ANNEES -->
+					<option value="{annee}"{selected2}>{annee}</option>
+					<!-- END ANNEES -->
+				</select>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<div id="matchdetails"></div>
+<div class="submit" style="text-align:center;"><input type="submit" name="submit" value="Ajouter un autre match" /><input type="submit" name="submit" value="Terminer" /></div>
+</form>
+</div>
+<div class="bas"></div>

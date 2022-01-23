@@ -1,0 +1,11 @@
+<div id="main">
+<!-- BEGIN NEWS -->
+<h3><span><img src="modules/news/cats/{newsType}.png" alt="{newsType}" />{newsTitre}</span></h3>
+<div class="newsmessage">{newsText}</div>
+<div class="newsbas">
+<div class="newsauteur">Publié par <a href="membres/{newsAuteur}" title="Voir le profil de {newsAuteur}">{newsAuteur}</a> le {newsDate}</div>
+<!-- BEGIN COMMENTS --><a href="forum/{newsCleanTitre}-t{newsId}.html">{newsNbComms} Commentaire{s}</a>, Dernier de <a href="membres/{newsLastPoster}" title="Voir le profil de {newsLastPoster}">{newsLastPoster}</a><!-- END COMMENTS -->
+<!-- BEGIN NOCOMMENTS --><a href="forum/{newsCleanTitre}-t{newsId}.html">Aucun Commentaire</a><!-- END NOCOMMENTS -->
+</div>
+<!-- END NEWS -->
+</div>

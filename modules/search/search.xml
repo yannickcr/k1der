@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+ <ShortName>K1der.net</ShortName>
+ <Description>Rechercher sur K1der.net</Description>
+ <Tags>k1der clan breton bretagne cs counter-strike lan</Tags>
+ <Image height="16" width="16" type="image/x-icon">http://www.k1der.net/favicon.ico</Image>
+ <Url type="text/html" method="GET"  template="http://www.k1der.net/search/?cx=014004053154253715234%3Afuebx-3lq-g&amp;q={searchTerms}&amp;sa=Rechercher&amp;cof=FORID%3A9"/>
+ <InputEncoding>UTF-8</InputEncoding>
+ <AdultContent>false</AdultContent>
+</OpenSearchDescription>

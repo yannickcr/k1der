@@ -1,0 +1,32 @@
+<h3>Gérer les lines up du clan</h3>
+<!-- BEGIN LINEUPS -->
+<form action="{REQUEST_URI}" method="post">
+ <!-- BEGIN LINEUP -->
+ <fieldset>
+ <legend>{lineupName}<a class="confdel" href="membres/mon-profil-clanlineup-del{linenum}.html" title="Supprimer la line up"><img src="templates/{THEME}/images/del.png" alt="X" /></a></legend>
+ <!-- BEGIN MEMBRE -->
+ <input type="checkbox" id="lineup_{line}_membre_{membreId}" name="lineup_{line}_membre_{membreId}" value="1"{checked} />
+ <label class="lite" for="lineup_{line}_membre_{membreId}">{membrePseudo}</label><br />
+ <!-- END MEMBRE -->
+ </fieldset>
+ <!-- END LINEUP -->
+ <div>
+  <input type="submit" name="majlineup" value="Valider les modifications" />
+ </div>
+</form>
+<!-- END LINEUPS -->
+<form action="{REQUEST_URI}" method="post">
+ <fieldset>
+ <legend>Ajouter une nouvelle line up</legend>
+ <label for="nom">Nom<sup><a href="membres/mon-profil-clanlineup.html#tips1" title="Information">1</a></sup></label>
+ <input type="text" id="nom" name="nom" value="{nom}" />
+ <!-- BEGIN ERREUR-NOM -->
+ <span class="erreur">Ce nom de line up est déjà utilisé</span>
+ <!-- END ERREUR-NOM -->
+ </fieldset>
+ <div>
+  <input type="submit" value="Ajouter" />
+ </div>
+</form>
+<p class="tips"><a id="tips1">1</a>.&nbsp;Le nom de la line up doit tre unique  chaque line up, il peut contenir toute sorte de caractères.<br/>
+</p>

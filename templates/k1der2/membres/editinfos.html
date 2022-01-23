@@ -1,0 +1,93 @@
+<h3>&Eacute;diter mes informations</h3>
+ <form action="{REQUEST_URI}" method="post">
+  <fieldset>
+  <legend>Informations personnelles</legend>
+  <label for="nom">Nom</label>
+  <input type="text" id="nom" name="nom" value="{nom}" /><br />
+  <label for="prenom">Prénom</label>
+  <input type="text" id="prenom" name="prenom" value="{prenom}" /><br />
+  <span class="label">Date de naissance</span>
+  <label class="lite" for="jour">Jour :</label>
+  <select id="jour" name="jour">
+   <option value=""></option>
+   <!-- BEGIN JOURS -->
+   <option value="{jour}"{selected}>{jour}</option>
+   <!-- END JOURS -->
+  </select>
+  <label class="lite" for="mois">Mois :</label>
+  <select id="mois" name="mois">
+   <option value=""></option>
+   <!-- BEGIN MOISS -->
+   <option value="{mois}"{selected}>{nommois}</option>
+   <!-- END MOISS -->
+  </select>
+  <label class="lite" for="annee">Année :</label>
+  <select id="annee" name="annee">
+   <option value=""></option>
+   <!-- BEGIN ANNEES -->
+   <option value="{annee}"{selected}>{annee}</option>
+   <!-- END ANNEES -->
+  </select><br />
+  <label for="natio">Nationalité</label>
+  <select id="natio" name="natio">
+   <option value=""></option>
+   <!-- BEGIN NATIOS -->
+   <option value="{natioval}"{selected}>{natio}</option>
+   <!-- END NATIOS -->
+  </select><br />
+  <label for="www">Site perso</label>
+  <input type="text" id="www" name="www" value="{www}" /><br />
+  </fieldset>
+  <fieldset>
+  <legend>Contact</legend>
+  <label for="mail"><img src="templates/{THEME}/images/mail.png" alt="E-mail" />E-mail</label>
+  <input type="text" id="mail" name="mail" value="{mail}" />
+  <!-- BEGIN ERREUR-MAIL1 -->
+  <span class="erreur">Vous devez entrer un e-mail</span>
+  <!-- END ERREUR-MAIL1 -->
+  <!-- BEGIN ERREUR-MAIL2 -->
+  <span class="erreur">Cet e-mail est déjà utilisé par un autre compte</span>
+  <!-- END ERREUR-MAIL2 -->
+  <!-- BEGIN ERREUR-MAIL3 -->
+  <span class="erreur">Vous devez entrer un e-mail valide</span>
+  <!-- END ERREUR-MAIL3 --><br />
+  <label for="msn"><img src="templates/{THEME}/images/msn.png" alt="Msn" />Msn</label>
+  <input type="text" id="msn" name="msn" value="{msn}" /><br />
+  <!-- BEGIN ERREUR-MSN -->
+  <span class="erreur">Vous devez entrer une adresse MSN valide</span>
+  <!-- END ERREUR-MSN -->
+  <label for="icq"><img src="templates/{THEME}/images/icq.png" alt="Icq" />Icq</label>
+  <input type="text" id="icq" name="icq" value="{icq}" /><br />
+  <label for="yahoo"><img src="templates/{THEME}/images/yahoo.png" alt="Yahoo" />Yahoo</label>
+  <input type="text" id="yahoo" name="yahoo" value="{yahoo}" /><br />
+  <label for="aim"><img src="templates/{THEME}/images/aim.png" alt="Aim" />Aim</label>
+  <input type="text" id="aim" name="aim" value="{aim}" /><br />
+  <label for="skype"><img src="templates/{THEME}/images/skype.png" alt="Skype" />Skype</label>
+  <input type="text" id="skype" name="skype" value="{skype}" /><br />
+  <label for="xfire"><img src="templates/{THEME}/images/xfire.png" alt="XFire" />XFire</label>
+  <input type="text" id="xfire" name="xfire"  value="{xfire}" /><br />
+  <label for="gtalk"><img src="templates/{THEME}/images/gtalk.png" alt="Google Talk" />Google Talk</label>
+  <input type="text" id="gtalk" name="gtalk"  value="{gtalk}" />
+  <!-- BEGIN ERREUR-GTALK -->
+  <span class="erreur">Vous devez entrer une adresse Google Talk valide</span>
+  <!-- END ERREUR-GTALK --><br />
+  </fieldset>
+  <fieldset>
+  <legend>Matériel et connexion</legend>
+  <label for="hard_1">Processeur</label>
+  <input type="text" id="hard_1" name="hard_1" value="{hard_1}" /><br />
+  <label for="hard_2">Carte Graphique</label>
+  <input type="text" id="hard_2" name="hard_2" value="{hard_2}" /><br />
+  <label for="hard_3">Capacité disque</label>
+  <input type="text" id="hard_3" name="hard_3" value="{hard_3}" /><br />
+  <label for="hard_4">Clavier</label>
+  <input type="text" id="hard_4" name="hard_4" value="{hard_4}" /><br />
+  <label for="hard_5">Souris</label>
+  <input type="text" id="hard_5" name="hard_5" value="{hard_5}" /><br />
+  <label for="hard_6"><acronym title="Operating System">OS</acronym></label>
+  <input type="text" id="hard_6" name="hard_6" value="{hard_6}" /><br />
+  <label for="hard_7">Connexion internet</label>
+  <input type="text" id="hard_7" name="hard_7" value="{hard_7}" /><br />
+  </fieldset>
+  <div><input type="submit" value="Valider les modifications" /></div>
+ </form>

@@ -1,0 +1,58 @@
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+}
+
+#main h4 {
+	margin-top:1em;
+	padding:0.2em;
+	color:#FFF;
+	border:1px solid #BBB;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border-bottom:0;
+	font-size:1em;
+}
+
+#main .message {
+	border:1px solid #BBB;
+	padding:.5em;
+}
+
+#main a.details:link, #main a.details:visited { 
+	display:block;
+	text-align:right;
+	font-size:.85em;
+}
+
+#main .head {
+	font-size:0.9em;
+	padding:8px 0 5px 1em;
+	border:1px solid #BBB;
+}
+
+#main .message dl {
+	margin-left:80px;
+}
+
+#main dt { height:20px; font-weight:bold; float:left; width:12em; padding:0.2em 0.2em 0.2em 1em; }
+#main dd { height:20px; padding:0.2em; }
+#main dt img, #main dd img { vertical-align:middle; }
+
+#main dl.infos, #main div.infos {
+	border:1px solid #BBB;
+	margin:0 1px;
+}
+
+#clan ul {
+	padding:0;
+}
+#clan li {
+	display:inline;
+	margin:0;
+	padding:2px;
+}

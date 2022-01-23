@@ -1,0 +1,24 @@
+form.role-manager label {
+  display: block;
+  margin-bottom: 1em
+}
+form.cap_form, label.cap-label, form.userlevel_form {
+  display: block;
+  float: left;
+  width: 15em;
+  height: 2.5em;
+  margin-bottom: auto;
+}
+h3.roles_name {
+  clear: both;
+  margin: 0px;
+  padding: 1em 0em 0em;
+}
+h2#new-role {
+  clear: both;
+  padding-top: 40px;
+}
+a.roledefaulter {
+  text-decoration:none;
+  border:0px;
+}

@@ -1,0 +1,38 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <div style="float:left; width:100%;">
+  <div id="forum">
+   <h3 class="litetitre"><a title="Flux RSS des derniers messages du forum" href="forum/derniers-messages.rss"><img src="templates/{THEME}/images/icons/feed.png" alt="RSS" height="16" width="16" /></a>Derniers messages du forum</h3>
+   <ul>
+    <!-- BEGIN FORUMTOPICS -->
+    <li>{forumTitre}: <a class="title" href="forum/{topicCleanTitre}-t{topicId}.html">{topicTitre}</a> par <a class="author" href="membres/{topicLastPosterName}">{topicLastPosterName}</a><span title="{topicPosts} rponse(s)  ce sujet" class="posts">({topicPosts})</span></li>
+    <!-- END FORUMTOPICS -->
+   </ul>
+   <a href="forum/">Accéder au forum</a> </div>
+  <div id="matches">
+   <h3 class="litetitre"><a title="Flux RSS des derniers matches" href="matches/matches.rss"><img src="templates/{THEME}/images/icons/feed.png" alt="RSS" height="16" width="16" /></a>Derniers matches</h3>
+   <div>
+    <ul>
+     <!-- BEGIN MATCHES -->
+     <li class="{matchStatus}" style="background-image:url(modules/matches/jeux/{matchJeu}/{matchJeu}.png);"><span>{matchAdversaire}</span><span title="{matchComms} commentaire(s) sur ce matche" class="posts">({matchComms})</span>{matchScore1} - {matchScore2}<a title="Dtails du match contre {matchAdversaire}" href="matches/{matchCleanClan}-vs-{matchCleanAdversaire}-id{matchId}.html">Détails &raquo;</a></li>
+     <!-- END MATCHES -->
+    </ul>
+   </div>
+  </div>
+  <hr />
+  <!-- BEGIN NEWS -->
+  <h3>{newsTitre}</h3>
+  <span class="round3"></span><span class="round4"></span>
+  <p class="infos"><img src="templates/{THEME}/images/icons/page_white_edit.png" alt="News" height="16" width="16" /> Publié par <a href="membres/{newsAuteur}" title="Voir le profil de {newsAuteur}">{newsAuteur}</a> le {newsDate}<br />
+   <img src="templates/{THEME}/images/icons/comment.png" alt="Commentaires" height="16" width="16" />
+   <!-- BEGIN COMMENTS -->
+   <a href="forum/{newsCleanTitre}-t{newsId}.html">{newsNbComms} Commentaire{s}</a>, Dernier de <a href="membres/{newsLastPoster}" title="Voir le profil de {newsLastPoster}">{newsLastPoster}</a>
+   <!-- END COMMENTS -->
+   <!-- BEGIN NOCOMMENTS -->
+   <a href="forum/{newsCleanTitre}-t{newsId}.html">Aucun Commentaire</a>
+   <!-- END NOCOMMENTS -->
+  </p>
+  <div class="news">{newsText}</div>
+  <!-- END NEWS -->
+ </div>
+</div>

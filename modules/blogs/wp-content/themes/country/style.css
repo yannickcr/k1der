@@ -1,0 +1,365 @@
+/*  
+Theme Name: Country
+Theme URI: http://blog.k1der.net/country
+Description: The Country's Blog theme
+Version: 1.0
+Author: Yannick Croissant
+Author URI: http://blog.k1der.net/country
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+* { margin:0; padding:0; }
+fieldset, img { border:0; }
+
+a, a:visited {
+	color:#6699FF;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	text-decoration:underline;
+}
+
+/* Menu d'Ã©vitement */
+#prelude { margin-left:-1000em; height:20px; }
+
+/* Layout */
+html {
+	background:#FFF;
+	color:#000;
+}
+
+body {
+	background: url(images/back-v.png) no-repeat 392px 138px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.7em;
+	line-height:1.8em;
+}
+
+#page {
+	background: url(images/back-h.png) repeat-y 381px 0;
+}
+
+h1 {
+	background:#36F url(images/title.png) no-repeat left top;
+	height:123px;
+	text-indent:-1000em;
+	border:0;
+}
+h1 a { display:block;height:123px;width:400px;text-decoration:none;border:0; }
+
+#prelude { background: url(images/shadow.png) repeat-x left top; }
+
+#content {
+	float:left;
+	background: url(images/top.png) no-repeat 1px 0;
+	width:552px;
+	margin-left:380px !important; /* Hack IE */
+	margin-left:190px;
+	margin-top:-63px;
+	padding:10px 30px 10px !important; /* Hack IE */
+	padding:20px 30px 10px;
+	min-height:800px;
+	height:auto !important; /* Hack IE */
+	height:800px;
+}
+
+#sidebar {
+	position:absolute;
+	left:106px;
+	padding:1em 2em 1em;
+	width:254px;
+}
+
+#sidebar h2 {
+	border:1px solid #F5F5F5;
+	border-left:0;
+	border-right:0;
+	padding:.2em .2em .2em 160px;
+	margin:1em 1em 1em -160px;
+	font-size:1em;
+	color:#000;
+	clear:both;
+}
+
+#content h2 { font-size:1.5em; }
+
+#footer {
+	clear:both; 
+	background:#FFF url(images/bottom.png) no-repeat 381px 0;
+	min-height:48px;
+	padding-top:48px;
+	text-align:center;
+}
+
+.pub { display:none; }
+
+#sidebar ul { margin:10px 0; }
+
+/* Zones sidebar */
+#text-1 h2 { background: url(../../../../../templates/k1der2/images/icons/vcard.png) no-repeat 138px 50%; }
+h2.lastfm { background: url(images/nice_favicon.png) no-repeat 138px 50%; }
+#text-2 h2 { background: url(../../../../../templates/k1der2/images/icons/feed.png) no-repeat 138px 50%; }
+#text-2 li { background-image:url(../../../../../templates/k1der2/images/icons/feed.png); }
+#links h2 { background: url(../../../../../templates/k1der2/images/icons/link.png) no-repeat 138px 50%; }
+#search h2 { background: url(../../../../../templates/k1der2/images/icons/magnifier.png) no-repeat 138px 50%; }
+#pages h2 { display:none; }
+#pages ul { clear:both; }
+
+/* Last.fm */
+.lastfm li { background-image:url(../../../../../templates/k1der2/images/icons/music.png); }
+
+/* MyBlogLog */
+#text-3 h2 { background: url(../../../../../templates/k1der2/images/icons/user.png) no-repeat 138px 50%; }
+#sidebar table#MBL_COMM { border:0; width:auto; }
+
+/* Brèves */
+#text-4 h2 { background: url(../../../../../templates/k1der2/images/icons/page_white_text.png) no-repeat 138px 50%; }
+#text-4 li { background-image:url(../../../../../templates/k1der2/images/icons/attach.png); }
+
+#searchform {
+	margin:30px 0 20px;
+}
+
+#searchform #s { 
+	background: url(../../../../../templates/k1der2/images/icons/magnifier.png) no-repeat 2px 50%;
+	width:130px;
+	border:1px solid #CCC;
+	padding:4px 2px 0 20px;
+	vertical-align:middle;
+	height:16px;
+	text-transform:none;
+}
+
+#searchform br { display:none; }
+
+#searchform input {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid #CCC;
+	border-left:0;
+	background-color:#F5F5F5;
+	padding:0 2px 2px;
+	height:22px;
+	line-height:22px;
+	font-size:11px;
+	margin-left:-4px;
+	vertical-align:middle;
+	text-transform:uppercase;
+}
+
+/* Billets */
+#content h2 { margin:.5em 0 .2em; }
+
+#content a.feed {
+	padding:2px 2px 2px 20px;
+	background: url(../../../../../templates/k1der2/images/icons/feed.png) no-repeat left center;
+}
+
+.day-date {
+	float:right;
+	background: url(../../../../../templates/k1der2/images/icons/calendar_view_day.png) no-repeat right center;
+	padding-right:20px;
+	font-size:.9em;
+	color:#666;
+	-moz-opacity:.5;
+	opacity:.5;
+	filter:alpha(opacity=50);
+}
+
+.read-it { clear:both; }
+
+.day-date:hover { color:#000; -moz-opacity:1; opacity:1; filter:alpha(opacity=100); cursor:default; }
+.post-info {
+	margin-left:10px;
+	padding-left:20px;
+	font-size:.9em;
+	background: url(../../../../../templates/k1der2/images/icons/page_white_edit.png) no-repeat left center;
+}
+
+.post-info a {
+	padding-left:20px;
+	background: url(../../../../../templates/k1der2/images/icons/link.png) no-repeat left center;
+}
+
+.post-excerpt { clear:both; }
+.post-content { padding:1em 0; }
+
+	.post-content h3, .post-excerpt h3 { margin:1em 0; }
+	.post-content p, .post-excerpt p { margin:1em 0; }
+	.post-content pre, .post-excerpt pre, #comments pre {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		padding:.5em .5em .5em 3em;
+		border:1px solid #DDD;
+		background:#EEE url(images/num.png) no-repeat left top;
+		overflow-x:auto;
+	}
+	.post-content blockquote {
+		background:#E5E5E5;
+		margin:0 10px;
+		padding:1px 10px;
+	}
+	.post-content code {
+		background:#E5E5E5;
+        padding:0 3px;
+        font-size:1.2em;
+	}
+
+.post-info-co { text-align:right; }
+
+.comment_count {
+	padding:2px 0 2px 20px;
+	background: url(../../../../../templates/k1der2/images/icons/comments.png) no-repeat 0 50%;
+}
+
+.ping_count {
+	padding:2px 0 2px 20px;
+	background: url(../../../../../templates/k1der2/images/icons/world_link.png) no-repeat 0 50%;
+}
+
+
+.post {
+	margin:1em 0 2em;
+	border-bottom:1px dashed #999;
+	padding-bottom:1em;
+}
+
+.post-tags {
+	padding:.5em;
+	margin:0 0 0 20px;
+	height:20px;
+
+}
+
+.post-tags li {	float:left; padding:0; background-image:none; }
+
+.post-tags li a {
+	background: url(../../../../../templates/k1der2/images/icons/tag_blue.png) no-repeat 0 2px;
+	padding:2px 10px 2px 20px;
+}
+
+/* Commentaires */
+#comments h3 {
+	float:left;
+	padding-left:20px;
+	background: url(../../../../../templates/k1der2/images/icons/comments.png) no-repeat 0 2px;
+	margin-bottom:1em;
+}
+
+#comments-feed {
+	float:right;
+	margin-bottom:1em;
+}
+
+#comments dl, #comment-form { clear:both; }
+
+#comments dd, #pr .comment-preview, #ajax-comment-preview dd {
+	padding:.5em;
+	background:#EEE;
+	margin-bottom:1em;
+	overflow:auto;
+	zoom:1; /* IE */
+}
+
+#comments dd img.gravatar { float:right; margin-bottom:5px; }
+
+#comments dd.me { background:#CCC; }
+
+#comment-form p.field { padding:.5em; }
+
+#comment-form p.field label {
+	float:left;
+	width:15em;
+	text-align:right;
+	margin-right:.5em;
+}
+
+#comment {
+	width:100%;
+}
+
+.form-help {
+	padding-left:20px;
+	background: url(../../../../../templates/k1der2/images/icons/help.png) no-repeat 0 2px;
+	font-style:italic;
+	font-size:.9em;
+	margin:.5em;
+}
+
+#acp-preview, #content .submit {
+	background:#6699FF;
+	color:#FFF;
+	padding:.2em;
+	font-size:.9em;
+	text-transform:capitalize;
+	border:1px solid #000;
+	border-left-color:#CCC;
+	border-top-color:#CCC;
+	margin:10px;
+}
+
+#comment-form h3 {
+	padding-left:20px;
+	background: url(../../../../../templates/k1der2/images/icons/comment_add.png) no-repeat 0 2px;
+	margin:1em 0;
+}
+
+#pr h3 {
+	clear:both;
+	padding-left:20px;
+	background: url(../../../../../templates/k1der2/images/icons/user_comment.png) no-repeat 0 2px;
+	margin:1em 0;
+}
+
+#pr.message {
+	clear:both;
+	background-color:#DDFFDD;
+	padding:.5em;
+	margin:1em;
+}
+
+/* Pings */
+#pings h3 {
+	padding-left:20px;
+	background: url(../../../../../templates/k1der2/images/icons/world.png) no-repeat 0 2px;
+	margin:1em 0;
+}
+
+#pings dl { clear:both; }
+
+#pings dd {
+	padding:.5em;
+	background:#EEE;
+	margin-bottom:1em;
+}
+
+#ping-url {
+	padding-left:40px;
+	background: url(../../../../../templates/k1der2/images/icons/world_link.png) no-repeat 20px 2px;
+	margin:1em 0;
+}
+
+
+/* Elements */
+ul {
+	margin:10px;
+	list-style-type:none;
+}
+
+ol { margin:10px; }
+
+sup, sub { font-weight:normal; }
+
+ul li {
+	padding-left:26px;
+	background: url(../../../../../templates/k1der2/images/icons/bullet_go.png) no-repeat 0 2px;
+}
+
+/* Vcard */
+.vcard {
+	font-size:.9em;
+}
+.vcard img { float:left; margin:0 4px 5px 0; }
+.geo { display:none; }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Informations">
+	<pages>
+		<page page="about" condition="get[action](about)" />
+		<page page="ie-c-mal" condition="get[action](ie-c-mal)" />
+	</pages>
+	<actions>
+	</actions>
+	<admin titre="Pages d'informations">
+	</admin>
+</configuration>

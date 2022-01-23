@@ -1,0 +1,64 @@
+<h3>Ajouter une galerie</h3>
+<div class="message">
+ <form action="{REQUEST_URI}" method="post">
+  <fieldset>
+  <label for="nom">Nom</label>
+  <input type="text" id="nom" name="nom" value="{nom}" />
+  <!-- BEGIN ERRORNOM -->
+  <span class="erreur">Vous devez rentrer un nom pour la galerie.</span>
+  <!-- END ERRORNOM -->
+  <!-- BEGIN ERRORNOM2 -->
+  <span class="erreur">Une galerie existe déjà avec ce nom ou un nom proche.</span>
+  <!-- END ERRORNOM2 -->
+  <br />
+  <label for="descr">Description</label>
+  <textarea id="descr" name="descr" rows="4" cols="40">{descr}</textarea>
+  <br />
+  <span class="label">Date de début</span>
+  <label class="lite" for="jour">Jour :</label>
+  <select id="jour" name="jour">
+   <!-- BEGIN JOURS -->
+   <option value="{jour}"{selected}>{jour}</option>
+   <!-- END JOURS -->
+  </select>
+  <label class="lite" for="mois">Mois :</label>
+  <select id="mois" name="mois">
+   <!-- BEGIN MOISS -->
+   <option value="{mois}"{selected}>{nommois}</option>
+   <!-- END MOISS -->
+  </select>
+  <label class="lite" for="annee">Annee :</label>
+  <select id="annee" name="annee">
+   <!-- BEGIN ANNEES -->
+   <option value="{annee}"{selected}>{annee}</option>
+   <!-- END ANNEES -->
+  </select>
+  <!-- BEGIN ERRORDATE -->
+  <span class="erreur">La date de début doit tre antrieure  la date de fin.</span>
+  <!-- END ERRORDATE -->
+  <br />
+  <span class="label">Date de fin</span>
+  <label class="lite" for="jour2">Jour :</label>
+  <select id="jour2" name="jour2">
+   <!-- BEGIN JOURS2 -->
+   <option value="{jour}"{selected2}>{jour}</option>
+   <!-- END JOURS2 -->
+  </select>
+  <label class="lite" for="mois2">Mois :</label>
+  <select id="mois2" name="mois2">
+   <!-- BEGIN MOISS2 -->
+   <option value="{mois}"{selected2}>{nommois}</option>
+   <!-- END MOISS2 -->
+  </select>
+  <label class="lite" for="annee2">Annee :</label>
+  <select id="annee2" name="annee2">
+   <!-- BEGIN ANNEES2 -->
+   <option value="{annee}"{selected2}>{annee}</option>
+   <!-- END ANNEES2 -->
+  </select>
+  </fieldset>
+  <div>
+   <input type="submit" value="Ajouter" />
+  </div>
+ </form>
+</div>

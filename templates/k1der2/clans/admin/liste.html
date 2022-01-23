@@ -1,0 +1,56 @@
+    <h3>Liste des clans</h3>
+    <div class="message"><!-- BEGIN PAGINNATIONTOPIC -->
+     <p class="topicpagination">
+      <!-- BEGIN PAGES.NUM --><span class="forum-pagen">{nbpages} pages</span><!-- END PAGESTNUM -->
+      <!-- BEGIN PAGES.FIRST --><a class="forum-firstlast" href="admin/clans/liste.html" title="Aller  la premire page">&laquo;</a><!-- END PAGES.FIRST -->
+      <!-- BEGIN PAGES.PREV --><a class="forum-prevnext" href="admin/clans/liste-{num.m}.html" title="Aller  la page précédente">&lt;</a><!-- END PAGES.PREV -->
+      <!-- BEGIN PAGES.MM --><a class="forum-pagen" href="admin/clans/liste-{num.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a><!-- END PAGES.MM -->
+      <!-- BEGIN PAGES.M --><a class="forum-pagen" href="admin/clans/liste-{num.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a><!-- END PAGES.M -->
+      <!-- BEGIN PAGES.C --><span class="forum-current">{numpage0}</span><!-- END PAGES.C -->
+      <!-- BEGIN PAGES.P --><a class="forum-pagen" href="admin/clans/liste-{num.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a><!-- END PAGES.P -->
+      <!-- BEGIN PAGES.PP --><a class="forum-pagen" href="admin/clans/liste-{num.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a><!-- END PAGES.PP -->
+      <!-- BEGIN PAGES.NEXT --><a class="forum-prevnext" href="admin/clans/liste-{num.p}.html" title="Aller  la page suivante">&gt;</a><!-- END PAGES.NEXT -->
+      <!-- BEGIN PAGES.LAST --><a class="forum-firstlast" href="admin/clans/liste-{num.last}.html" title="Aller  la dernire page">&raquo;</a><!-- END PAGES.LAST -->
+     </p><!-- END PAGINNATIONTOPIC -->
+     <table class="liste">
+      <colgroup>
+       <col style="width:20%;" />
+       <col style="width:20%;" />
+       <col style="width:20%;" />
+       <col style="width:20%;" />
+       <col style="width:20%;" />
+      </colgroup>
+      <thead>
+       <tr>
+        <th>Nom</th>
+        <th>Leader</th>
+        <th>Membre(s)</th>
+        <th>Modifier</th>
+        <th>Supprimer</th>
+       </tr>
+      </thead>
+      <tbody><!-- BEGIN CLAN -->
+       <tr>
+        <td><a href="clans/{clanCleanNom}">{clanNom}</a></td>
+        <td><a href="membres/{clanLeader}">{clanLeader}</a></td>
+        <td>{clanMembres}</td>
+        <td><a href="admin/clans/modifier-id{clanId}.html">Fiche</a> / <a href="admin/clans/banniere-id{clanId}.html">Bannière</a></td>
+        <td><a class="confdel" href="admin/clans/supprimer-id{clanId}.html">Supprimer</a></td>
+       </tr><!-- END CLAN -->
+      </tbody>
+     </table><!-- BEGIN PAGINNATIONTOPIC -->
+     <p class="topicpagination">
+      <!-- BEGIN PAGES.NUM --><span class="forum-pagen">{nbpages} pages</span><!-- END PAGESTNUM -->
+      <!-- BEGIN PAGES.FIRST --><a class="forum-firstlast" href="admin/clans/liste.html" title="Aller  la premire page">&laquo;</a><!-- END PAGES.FIRST -->
+      <!-- BEGIN PAGES.PREV --><a class="forum-prevnext" href="admin/clans/liste-{num.m}.html" title="Aller  la page précédente">&lt;</a><!-- END PAGES.PREV -->
+      <!-- BEGIN PAGES.MM --><a class="forum-pagen" href="admin/clans/liste-{num.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a><!-- END PAGES.MM -->
+      <!-- BEGIN PAGES.M --><a class="forum-pagen" href="admin/clans/liste-{num.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a><!-- END PAGES.M -->
+      <!-- BEGIN PAGES.C --><span class="forum-current">{numpage0}</span><!-- END PAGES.C -->
+      <!-- BEGIN PAGES.P --><a class="forum-pagen" href="admin/clans/liste-{num.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a><!-- END PAGES.P -->
+      <!-- BEGIN PAGES.PP --><a class="forum-pagen" href="admin/clans/liste-{num.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a><!-- END PAGES.PP -->
+      <!-- BEGIN PAGES.NEXT --><a class="forum-prevnext" href="admin/clans/liste-{num.p}.html" title="Aller  la page suivante">&gt;</a><!-- END PAGES.NEXT -->
+      <!-- BEGIN PAGES.LAST --><a class="forum-firstlast" href="admin/clans/liste-{num.last}.html" title="Aller  la dernire page">&raquo;</a><!-- END PAGES.LAST -->
+     </p><!-- END PAGINNATIONTOPIC -->
+     <hr />
+	</div>
+    <div class="bas"></div>

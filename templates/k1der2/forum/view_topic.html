@@ -1,0 +1,262 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main"> {barrehaut}
+ <!-- BEGIN POLL -->
+ <form action="{REQUEST_URI}" method="post">
+  <h3>{topicTitre}
+   <!-- BEGIN DESCR -->
+   <span>, {topicDescr}</span>
+   <!-- END DESCR -->
+  </h3>
+  <table summary="Sondage {pollQuestion}">
+   <thead>
+    <tr>
+     <th>{pollQuestion}</th>
+    </tr>
+   </thead>
+   <tfoot>
+    <tr>
+     <td></td>
+    </tr>
+   </tfoot>
+   <tbody>
+    <!-- BEGIN CHOIX -->
+    <tr>
+     <td><input type="radio" name="choix" id="choix{poll.id}" value="{poll.id}" />
+      <label for="choix{poll.id}">{poll.choix}</label></td>
+    </tr>
+    <!-- END CHOIX -->
+    <tr>
+     <td><input type="submit" id="vote" name="vote" value="Voter"/>
+      <input id="showvotes" name="showvotes" type="submit" value="Afficher les rsultats"/>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </form>
+ <!-- END POLL -->
+ <!-- BEGIN POLL2 -->
+ <form action="{REQUEST_URI}" method="post">
+  <h3 class="lite">{topicTitre}
+   <!-- BEGIN DESCR -->
+   <span>, {topicDescr}</span>
+   <!-- END DESCR -->
+  </h3>
+  <table summary="Rsultats du sondage {pollQuestion}">
+   <thead>
+    <tr>
+     <th colspan="3">{pollQuestion}</th>
+    </tr>
+   </thead>
+   <tfoot>
+    <tr>
+     <td class="sep" colspan="3"></td>
+    </tr>
+   </tfoot>
+   <tbody>
+    <!-- BEGIN RESULTS -->
+    <tr>
+     <td>{pollChoix}</td>
+     <td>[ {pollResult} ]</td>
+     <td><img src="templates/{THEME}/images/poll_left.gif" alt="" /><img style="width:{pollWidth}px;height:9px;" src="templates/{THEME}/images/poll_middle.gif" alt="" /><img src="templates/{THEME}/images/poll_right.gif" alt="" />&nbsp;{pollPercent}</td>
+    </tr>
+    <!-- END RESULTS -->
+    <tr>
+     <td colspan="3">Total des votes: {pollVotes}</td>
+    </tr>
+    <!-- BEGIN SHOWOPTIONS -->
+    <tr>
+     <td colspan="3"><input type="submit" id="showoptions" name="showoptions" value="Afficher les options de vote" />
+     </td>
+    </tr>
+    <!-- END SHOWOPTIONS -->
+    <!-- BEGIN SHOWMESSAGE -->
+    <tr>
+     <td colspan="3"> Vous devez tre identifiés pour pouvoir voter </td>
+    </tr>
+    <!-- END SHOWMESSAGE -->
+   </tbody>
+  </table>
+ </form>
+ <!-- END POLL2 -->
+ <h3 class="lite">{topicTitre}
+  <!-- BEGIN DESCR -->
+  <span>, {topicDescr}</span>
+  <!-- END DESCR -->
+ </h3>
+ <table>
+  <tbody>
+   <!-- BEGIN FORUM.POSTS -->
+   <tr>
+    <td class="postauteur"><!-- BEGIN AUTEUR.PROFIL -->
+     <a href="membres/{postAuteurName}">{postAuteurName}</a>
+     <!-- END AUTEUR.PROFIL -->
+     <!-- BEGIN AUTEUR.PROFIL2 -->
+     <span>{postAuteurName}</span>
+     <!-- END AUTEUR.PROFIL2 -->
+    </td>
+    <td class="infos"><div>
+      <!-- BEGIN SUPPR -->
+      <a href="forum/{topicLinkTitre}-t{topicId}-del{postId}.html"><img src="templates/{THEME}/images/forum/b_supprimer.gif" alt="Supprimer le message" /></a>
+      <!-- END SUPPR -->
+      <!-- BEGIN TEDIT -->
+      <a href="forum/{forumLinkTitre}-f{forumId}-edit{topicId}.html"><img src="templates/{THEME}/images/forum/b_editer.gif" alt="&Eacute;diter le message" /></a>
+      <!-- END TEDIT -->
+      <!-- BEGIN EDIT -->
+      <a href="forum/{topicLinkTitre}-t{topicId}-edit{postId}.html"><img src="templates/{THEME}/images/forum/b_editer.gif" alt="&Eacute;diter le message" /></a>
+      <!-- END EDIT -->
+      <a href="forum/{topicLinkTitre}-t{topicId}-reply-quote{postId}.html"><img src="templates/{THEME}/images/forum/b_citer.gif" alt="Citer le contenu de ce message" /></a></div>
+     <a id="post{postId}" href="{REQUEST_URI}#post{postId}">#{postId}</a><span>Ecrit le :</span> {postDate}  {postHeure}</td>
+   </tr>
+   <tr>
+    <td class="profil" rowspan="2"><!-- BEGIN AUTEUR.INFOS -->
+     <!-- BEGIN AVATAR -->
+     <img class="avatar" src="{membreAvatar}" alt="Avatar de {postAuteurName}" />
+     <!-- END AVATAR -->
+     <div>
+      <!-- BEGIN LEVEL -->
+      <p>{membreDesignation}<br />
+       <!-- BEGIN PIPES -->
+       <img src="templates/{THEME}/images/membres/{membrePipe}" alt="." />
+       <!-- END PIPES -->
+      </p>
+      <!-- END LEVEL -->
+      Messages : {membreNbPosts}<br />
+      Inscrit le : {membreDateIns}<br />
+      Nationalité : <img src="templates/{THEME}/images/flags/{membreNatio}.gif" alt="{membreNatio}" /><br />
+      <!-- BEGIN AGE -->
+      Age : {membreDateNes}
+      <!-- END AGE -->
+     </div>
+     <!-- END AUTEUR.INFOS -->
+    </td>
+    <td class="message"
+    
+    <!-- BEGIN LIVEEDIT -->
+    title="Double-cliquez pour éditer" id="message{postId}"
+    <!-- END LIVEEDIT -->
+    >
+    {postPost}
+    </td>
+   </tr>
+   <tr>
+    <td class="sign"><!-- BEGIN AUTEUR.SIGN -->
+     <!-- BEGIN HR -->
+     <hr />
+     <!-- END HR -->
+     {membreSignature}
+     <!-- END AUTEUR.SIGN -->
+     <!-- BEGIN BUTTONS -->
+     <!-- BEGIN MP -->
+     <a href="membres/mon-profil-rediger-message-{postAuteurName}.html" title="Envoyer un message privé à l'auteur"><img src="templates/{THEME}/images/forum/b_mp.gif" alt="MP" /></a>
+     <!-- END MP -->
+     <!-- BEGIN EMAIL -->
+     <a href="membres/{postAuteurName}/email.html" title="Envoyer un e-mail  l'auteur"><img src="templates/{THEME}/images/forum/b_email.gif" alt="e-mail" /></a>
+     <!-- END EMAIL -->
+     <!-- BEGIN AIM -->
+     <a href="aim:addbuddy?{aimNick}" title="Ajouter l'auteur à ses contacts AIM"><img src="templates/{THEME}/images/forum/b_aim.gif" alt="AIM" /></a>
+     <!-- END AIM -->
+     <!-- BEGIN YAHOO -->
+     <a href="ymsgr:addfriend?{yahooNick}" title="Ajouter l'auteur à ses contacts Yahoo Messenger"><img src="templates/{THEME}/images/forum/b_yim.gif" alt="YIM" /></a>
+     <!-- END YAHOO -->
+     <!-- BEGIN MSN -->
+     <a href="membres/{postAuteurName}" title="Voir l'adresse MSN de l'auteur"><img src="templates/{THEME}/images/forum/b_msn.gif" alt="MSN" /></a>
+     <!-- END MSN -->
+     <!-- BEGIN ICQ -->
+     <a href="http://www.icq.com/whitepages/msg.php?uin={icqId}&amp;send=yes" title="Contacter l'auteur via ICQ"><img src="templates/{THEME}/images/forum/b_icq.gif" alt="ICQ" /></a>
+     <!-- END ICQ -->
+     <!-- BEGIN SKYPE -->
+     <a href="skype://{skypeNick}?add" title="Contacter l'auteur via Skype"><img src="templates/{THEME}/images/forum/b_skype.gif" alt="Skype" /></a>
+     <!-- END SKYPE -->
+     <!-- BEGIN XFIRE -->
+     <a href="http://profile.xfire.com/{xfireNick}" title="Voir le profil Xfire de {postAuteurName}"><img src="templates/{THEME}/images/forum/b_xfire.gif" alt="Xfire" /></a>
+     <!-- END XFIRE -->
+     <!-- BEGIN WWW -->
+     <a href="http://{sitePerso}" title="Visiter le site web de l'auteur"><img src="templates/{THEME}/images/forum/b_www.gif" alt="Site perso" /></a>
+     <!-- END WWW -->
+     <!-- END BUTTONS -->
+    </td>
+   </tr>
+   <!-- END FORUM.POSTS -->
+  </tbody>
+ </table>
+ {barrebas}
+ <!-- BEGIN OPEN3 -->
+ <form id="rep-rap" action="forum/{topicLinkTitre}-t{topicId}-reply.html" method="post">
+  <h3 class="lite">Réponse rapide</h3>
+  <table summary="Formulaire de réponse rapide">
+   <!-- BEGIN VISITEUR -->
+   <tr>
+    <td><label for="pseudo">Pseudo</label></td>
+    <td><input type="text" id="pseudo" name="pseudo" /></td>
+   </tr>
+   <!-- END VISITEUR -->
+   <tr>
+    <td><label for="message">Message</label></td>
+    <td><textarea name="message" id="message" cols="50" rows="10"></textarea>
+     <div>
+      <input type="submit" id="valider" name="valider" value="Valider" />
+      <input id="previsualiser" name="previsualiser" type="submit" value="Prévisualisation" />
+     </div></td>
+   </tr>
+  </table>
+ </form>
+ <!-- END OPEN3 -->
+ <!-- BEGIN SIMILARTABLE -->
+ <h3 class="lite">Sujets similaires</h3>
+ <table summary="Sujets similaires">
+  <thead>
+   <tr>
+    <th>&nbsp;</th>
+    <th id="sujet">Sujet</th>
+    <th id="auteur">Auteur</th>
+    <th id="reponses">Réponses</th>
+    <th id="lectures">Lectures</th>
+    <th id="dernier">Dernier Message</th>
+   </tr>
+  </thead>
+  <tbody>
+   <!-- BEGIN SIMILAR -->
+   <tr>
+    <td><img src="templates/{THEME}/images/forum/{similarNew}" alt="{similarNewText}" /></td>
+    <td headers="sujet" class="sujet"><!-- BEGIN NEW -->
+     <a href="forum/{similarTopicLinkTitre}-t{similarTopicId}-newpost.html"><img src="templates/{THEME}/images/forum/newpost.gif" alt="Aller au dernire message non lu" /></a>
+     <!-- END NEW -->
+     <a href="forum/{similarTopicLinkTitre}-t{similarTopicId}.html">{similarTopicTitre}</a>
+     <!-- BEGIN TOPICPAGE.UN -->
+     <a class="apage" href="forum/{similarTopicLinkTitre}-t{similarTopicId}.html" title="Aller  la page 1">1</a>
+     <!-- END TOPICPAGE.UN -->
+     <!-- BEGIN TOPICPAGE.DEUX -->
+     <a class="apage" href="forum/{similarTopicLinkTitre}-t{similarTopicId}-start{numpost.p}.html" title="Aller  la page 2">2</a>
+     <!-- END TOPICPAGE.DEUX -->
+     <!-- BEGIN TOPICPAGE.TROIS -->
+     <a class="apage" href="forum/{similarTopicLinkTitre}-t{similarTopicId}-start{numpost.pp}.html" title="Aller  la page 3">3</a>
+     <!-- END TOPICPAGE.TROIS -->
+     <!-- BEGIN TOPICPAGE.QUATRE -->
+     <a class="{styleOfTopicPage}" href="forum/{similarTopicLinkTitre}-t{similarTopicId}-start{numpost.l}.html" title="Aller  la dernire page">{numOfTopicPage}</a>
+     <!-- END TOPICPAGE.QUATRE -->
+     <p>{similarTopicDescr}</p></td>
+    <td headers="auteur" class="auteur"><a href="membres/{similarTopicStarterId}">{similarTopicStarterName}</a></td>
+    <td headers="reponses" class="nb">{similarTopicNbPosts}</td>
+    <td headers="lectures" class="nb">{similarTopicViews}</td>
+    <td headers="dernier" class="last"><p>{similarTopicLastPostDate}  {similarTopicLastPostHeure}</p>
+     <p>Dernier message par : <a href="membres/{similarTopicLastPosterId}">{similarTopicLastPosterName}</a></p></td>
+   </tr>
+   <!-- END SIMILAR -->
+  </tbody>
+ </table>
+ <!-- END SIMILARTABLE -->
+ <!-- BEGIN MODO -->
+ <form id="modo" action="{REQUEST_URI}" method="post" >
+  <p>
+   <label for="option">Options de modération : </label>
+   <select id="option" name="option">
+    <option value="move">Déplacer ce sujet</option>
+    <option value="del">Supprimer ce sujet</option>
+    <option value="{openCloseValue}">{openClose} ce sujet</option>
+    <option value="{pinUnpinValue}">{pinUnpin} ce sujet</option>
+   </select>
+   <input type="submit" id="submit" name="submit" value="Ok" />
+  </p>
+ </form>
+ <!-- END MODO -->
+</div>

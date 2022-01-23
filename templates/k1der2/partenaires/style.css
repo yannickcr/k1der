@@ -1,0 +1,35 @@
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+}
+
+#main h4 {
+	font-size:1.4em;
+}
+
+#main dl {
+	border:1px solid #BBB;
+}
+
+#main dt {
+	float:left;
+	width:150px;
+	text-align:center;
+	padding:1em;
+	margin-right:1em;
+	height:120px;
+}
+
+#main dt img { border:1px solid #000; }
+
+#main dd { text-align:justify; height:120px; padding:1em; }
+
+#main p {
+	font-size:0.9em;
+	margin:.5em;
+}

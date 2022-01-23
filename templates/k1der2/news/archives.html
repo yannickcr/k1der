@@ -1,0 +1,23 @@
+<div id="main">
+<h3>Archives des news</h3>
+<div class="message">
+<h4>Par catégorie</h4>
+<table id="archivescat">
+<colgroup>
+	<col style="width:20%;" span="5" />
+</colgroup>
+ <tr><!-- BEGIN CATEGORIES -->
+  <td><img src="modules/news/cats/{catIcon}.png" /><br />{catNom}<span style="display:block; font-size:0.8em;"> ({catNb} news) </span></td><!-- BEGIN NEWLINE -->
+ </tr>
+ <tr><!-- END NEWLINE --><!-- END CATEGORIES -->
+ </tr>
+</table>
+<h4>Par Date</h4>
+<ul id="archivesan">
+<!-- BEGIN ANNEES --><li>{archAnnee}</li><!-- END ANNEES -->
+</ul>
+<h4>Par une recherche</h4>
+<a href="recherche/">Rechercher une news sur le site</a>
+</div>
+<div class="bas"></div>
+</div>

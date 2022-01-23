@@ -1,0 +1,151 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <h3>T&eacute;l&eacute;chargements</h3>
+ <div class="message">
+  <div class="download">
+   <h4>{dlNom}</h4>
+   <img class="illus" src="{dlIllus}" alt="{dlNom}" />
+   <p>{dlDescr}</p>
+   <table class="liste">
+    <tr>
+     <th>Taille</th>
+     <td>{dlSize}</td>
+    </tr>
+    <tr>
+     <th>Note</th>
+     <td><!-- BEGIN STAR -->
+      <img src="templates/{THEME}/images/star.png" alt="*" />
+      <!-- END STAR -->
+      <!-- BEGIN HALFSTAR -->
+      <img src="templates/{THEME}/images/halfstar.png" alt="&frac12;" />
+      <!-- END HALFSTAR -->
+      <!-- BEGIN EMPTYSTAR -->
+      <img src="templates/{THEME}/images/emptystar.png" alt="" />
+      <!-- END EMPTYSTAR -->
+      ({dlVote} votes) </td>
+    </tr>
+    <tr>
+     <th>T&eacute;l&eacute;charg&eacute;</th>
+     <td>{dlDl} fois</td>
+    </tr>
+   </table>
+   <a id="dl{dlId}" class="dlcount" href="{dlLink}">T&eacute;l&eacute;charger</a>
+   <!-- BEGIN COMMS -->
+   <h5 id="comms">{dlComms} Commentaire{dlCommsS}</h5>
+   <table class="comms">
+    <!-- BEGIN COMM -->
+    <tr>
+     <td class="postauteur"><!-- BEGIN AUTEURPROFIL1 -->
+      <a href="membres/{commAuteur}">
+      <!-- END AUTEURPROFIL1 -->
+      {commAuteur}
+      <!-- BEGIN AUTEURPROFIL2 -->
+      </a>
+      <!-- END AUTEURPROFIL2 -->
+     </td>
+     <td class="infos"><div>
+       <!-- BEGIN DEL-COMM -->
+       <a href="download/{dlCat}-id{dlCatId}/{dlCleanNom}-id{dlId}-del{commId}.html#comm"><img src="templates/k1der2/images/forum/b_supprimer.gif" alt="Supprimer ce commentaire" /></a>
+       <!-- END DEL-COMM -->
+       <!-- BEGIN EDIT-COMM -->
+       <a href="download/{dlCat}-id{dlCatId}/{dlCleanNom}-id{dlId}-edit{commId}.html#comm"><img src="templates/k1der2/images/forum/b_editer.gif" alt="&Eacute;diter le commentaire" /></a>
+       <!-- END EDIT-COMM -->
+       <!-- BEGIN QUOTE-COMM -->
+       <a href="download/{dlCat}-id{dlCatId}/{dlCleanNom}-id{dlId}-quote{commId}.html#comm"><img src="templates/k1der2/images/forum/b_citer.gif" alt="Citer le contenu de ce commentaire" /></a>
+       <!-- END QUOTE-COMM -->
+      </div>
+      <span>Ecrit le :</span> {commDate} </td>
+    </tr>
+    <tr>
+     <td{rowspan} class="profil">
+     <!-- BEGIN AVATARIMG -->
+     <a href="membres/{commAuteur}"><img src="{commAvatar}" alt="Avatar de {commAuteur}" /></a>
+     <!-- END AVATARIMG -->
+     </td>
+     <td colspan="2" class="comm{nonote}">{commMessage}</td>
+    </tr>
+    <!-- BEGIN COMM-NOTE -->
+    <tr>
+     <td colspan="2" class="note"><span>Note :</span>
+      <!-- BEGIN COMMSTAR -->
+      <img src="templates/{THEME}/images/star.png" alt="*" />
+      <!-- END COMMSTAR -->
+      <!-- BEGIN COMMHALFSTAR -->
+      <img src="templates/{THEME}/images/halfstar.png" alt="&frac12;" />
+      <!-- END COMMHALFSTAR -->
+      <!-- BEGIN COMMEMPTYSTAR -->
+      <img src="templates/{THEME}/images/emptystar.png" alt="" />
+      <!-- END COMMEMPTYSTAR --></td>
+    </tr>
+    <!-- END COMM-NOTE -->
+    <tr>
+     <td colspan="3" class="sep"></td>
+    </tr>
+    <!-- END COMM -->
+   </table>
+   <!-- END COMMS -->
+   <!-- BEGIN ADD-COMMTITLE -->
+   <h5>Ajouter un commentaire</h5>
+   <!-- END ADD-COMMTITLE -->
+   <!-- BEGIN EDIT-COMMTITLE -->
+   <h5>Editer un commentaire</h5>
+   <!-- END EDIT-COMMTITLE -->
+   <!-- BEGIN ADD-COMM -->
+   <form method="post" action="{REQUEST_URI}#comm">
+    <fieldset>
+    <table>
+     <!-- BEGIN NOLOG -->
+     <tr>
+      <td class="pseudo" colspan="2"><label for="pseudo">Pseudo</label>
+       <input type="text" id="pseudo" name="pseudo" value="{pseudo}" />
+       <!-- BEGIN ERREUR-PSEUDO -->
+       <span class="erreur">Vous devez entrer un pseudo</span>
+       <!-- END ERREUR-PSEUDO -->
+       <!-- BEGIN ERREUR-PSEUDO2 -->
+       <span class="erreur">Votre pseudo ne doit contenir que des caractères alphanumriques</span>
+       <!-- END ERREUR-PSEUDO2 --></td>
+     </tr>
+     <!-- END NOLOG -->
+     <tr>
+      <td colspan="2"><a id="comm"></a> {miseEnForme}</td>
+     </tr>
+     <tr>
+      <td class="messagetd"><!-- BEGIN ERREUR-MESSAGE -->
+       <span class="erreur">Vous devez entrer un message valide</span>
+       <!-- END ERREUR-MESSAGE -->
+       <textarea id="message" name="message" cols="50" rows="10">{message}</textarea></td>
+      <td style="white-space:nowrap;"><span>Note :</span><br />
+       <input type="radio" name="note" id="note5" value="5"{checked5} />
+       <label for="note5"> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /></label>
+       <br />
+       <input type="radio" name="note" id="note4" value="4"{checked4} />
+       <label for="note4"> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /></label>
+       <br />
+       <input type="radio" name="note" id="note3" value="3"{checked3} />
+       <label for="note3"> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /></label>
+       <br />
+       <input type="radio" name="note" id="note2" value="2"{checked2} />
+       <label for="note2"> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /></label>
+       <br />
+       <input type="radio" name="note" id="note1" value="1"{checked1} />
+       <label for="note1"> <img src="templates/{THEME}/images/star.png" alt="*" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /></label>
+       <br />
+       <input type="radio" name="note" id="note0" value="0"{checked0} />
+       <label for="note0"> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /> <img src="templates/{THEME}/images/emptystar.png" alt="" /></label>
+       <br />
+       <input type="radio" name="note" id="nonote" value="-1"{checked-1} />
+       <label for="nonote"> Pas de note</label>
+      </td>
+     </tr>
+    </table>
+    <input type="submit" value="Poster le commentaire" />
+    </fieldset>
+   </form>
+   <!-- END ADD-COMM -->
+   <!-- BEGIN NOADD-COMM -->
+   <p class="noaddcomm">Vous devez tre <a href="membres/inscription.html">inscrits</a> et identifi pour poster un commentaire</p>
+   <!-- END NOADD-COMM -->
+  </div>
+  <hr class="clear" />
+ </div>
+</div>

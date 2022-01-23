@@ -1,0 +1,92 @@
+#main h3.litetitre {
+	font-size:1.2em;
+	text-align:left;
+}
+
+#main h3.litetitre a:link, #main h3.litetitre a:visited {
+	float:right;
+	margin-top:-1px;
+}
+
+#main #forum, #main #matches {
+	margin-bottom:3em;
+	text-align:right;
+	font-size:.8em;
+	width:49%;
+}
+
+#main #forum {
+	float:left;
+	margin-right:1%;
+}
+
+#main #matches {
+	float:right;
+	margin-left:1%;
+}
+
+.posts {
+	margin-left:.5em;
+	color:#5D5D5D;
+}
+
+/**
+ * Bloc Forum
+ */
+#main #forum ul {
+	list-style-type:none;
+	margin:0 1px;
+	padding:0;
+	border:1px solid #CCC;
+	border-bottom:0;
+	border-top:0;
+	text-align:left;
+}
+
+#main #forum ul li {
+	border-bottom:1px solid #CCC;
+	padding:.4em;
+	white-space:normal;
+}
+
+#main #forum li a.author:link, #main #forum li a.author:visited {
+	color:#000;
+	font-weight:bold;
+}
+
+#main #forum li a.title:link, #main #forum li a.title:visited {
+	font-weight:bold;
+}
+
+/**
+ * Bloc Matches
+ */
+#main #matches ul {
+	list-style-type:none;
+	margin:0 1px;
+	padding:0;
+	border:1px solid #CCC;
+	border-bottom:0;
+	border-top:0;
+}
+
+#main #matches ul li {
+	border-bottom:1px solid #CCC;
+	background:  no-repeat .2em center;
+	padding:5px .5em 5px 30px;
+	font-weight:bold;
+}
+
+#main #matches ul li.win { background-color:#E8FFE8; }
+#main #matches ul li.draw { background-color:#ECECFF; }
+#main #matches ul li.lose { background-color:#FFE8E8; }
+
+#main #matches ul a:link ,#main #matches ul a:visited {
+	margin-left:6em;
+	font-weight:normal;
+}
+
+#main #matches ul span {
+	float:left;
+	font-weight:normal;
+}

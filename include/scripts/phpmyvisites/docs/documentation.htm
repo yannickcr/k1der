@@ -1,0 +1,1324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-15">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.0  (Linux)">
+	<META NAME="CREATED" CONTENT="20051128;15423100">
+	<META NAME="CHANGEDBY" CONTENT="Matthieu Aubry">
+	<META NAME="CHANGED" CONTENT="20051206;3090500">
+	<META NAME="SDFOOTNOTE" CONTENT=";;;;P">
+	<META NAME="SDENDNOTE" CONTENT="ARABIC">
+	<STYLE>
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		P { margin-bottom: 0.21cm; text-align: justify }
+		P.western { font-family: "Arial", sans-serif; font-size: 10pt }
+		H1 { margin-bottom: 0.21cm }
+		H1.western { font-family: "Arial", sans-serif; font-size: 16pt }
+		H1.cjk { font-family: "MS Mincho"; font-size: 16pt }
+		H1.ctl { font-family: "Tahoma"; font-size: 16pt }
+		H3 { margin-bottom: 0.21cm }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="fr-FR" DIR="LTR">
+<H1 CLASS="western">Pr&eacute;sentation</H1>
+<P CLASS="western" ALIGN=JUSTIFY>phpMyVisites est une application
+libre de statistiques et de mesure d&rsquo;audience de sites
+Internet.</P>
+<P CLASS="western" ALIGN=JUSTIFY>Libre et gratuit, phpMyVisites
+propose de tr&egrave;s nombreuses options d&rsquo;analyses (visites,
+pages vues, temps de visite, analyse des pages d&rsquo;entr&eacute;es/sorties,
+suivi du visiteur, pays d&rsquo;origine, configurations mat&eacute;rielles,
+analyses des mots cl&eacute;s et moteurs, etc.), une interface
+agr&eacute;able et pratique, une installation enti&egrave;rement
+automatis&eacute;e, la gestion de plusieurs sites, la possibilit&eacute;
+de g&eacute;rer finement plusieurs utilisateurs, et une
+configuration/personnalisation pouss&eacute;e. phpMyVisites est
+international et de nombreuses langues sont utilisables.</P>
+<P CLASS="western" ALIGN=JUSTIFY>Apr&egrave;s l&rsquo;avoir install&eacute;
+sur votre serveur internet (la phase d&rsquo;installation est
+enti&egrave;rement automatis&eacute;e et ne requiert aucune
+connaissance technique), vous devrez ins&eacute;rer un court code
+Javascript (qu&rsquo;il vous suffira de copier-coller) sur les pages
+dont vous souhaitez obtenir les statistiques&nbsp;: la mise en oeuvre
+est simple et imm&eacute;diate.</P>
+<P CLASS="western" ALIGN=JUSTIFY>Tout webmaster, quel que soit son
+niveau, pourra ais&eacute;ment utiliser &amp; configurer phpMyVisites
+sur son site, la prise en main globale est ais&eacute;e et tr&egrave;s
+rapide. Les webmasters professionnels trouveront dans phpMyVisites
+l'outil id&eacute;al pour l'analyse de leur audience, phpMyVisites
+permet d'am&eacute;liorer significativement les statistiques des
+sites Internet, si les r&eacute;sultats sont correctement analys&eacute;s.
+Cette pr&eacute;sente documentation a pour but de fournir une vision
+globale de l'application, et vous en apprendrez beaucoup sur
+l'analyse m&ecirc;me de statistiques dans la partie d&eacute;di&eacute;e&nbsp;:
+Fonctionnalit&eacute;s de phpMyVisites et analyse des r&eacute;sultats.</P>
+<P CLASS="western" ALIGN=JUSTIFY>D'une mani&egrave;re g&eacute;n&eacute;rale,
+phpMyVisites est un outil complet et simple &agrave; mettre en oeuvre
+et &agrave; utiliser. Il vous permettra &agrave; la fois de consulter
+en un coup d'oeil les statistiques essentielles, et vous pourrez &agrave;
+loisir analyser plus profond&eacute;ment chaque r&eacute;sultat afin
+de tirer des conclusions sur votre site, et de l'am&eacute;liorer en
+cons&eacute;quence.</P>
+<H1 CLASS="western" STYLE="page-break-before: always">Installation et
+Mise &agrave; jour</H1>
+<P CLASS="western" ALIGN=JUSTIFY>Configuration requise 
+</P>
+<P CLASS="western" ALIGN=JUSTIFY>phpMyVisites est un logiciel
+s'installant sur un serveur web. Votre serveur doit supporter PHP &gt;
+4.3 et doit proposer une base MySQL accessible en &eacute;criture.
+Pour profiter des graphiques de phpMyVisites, vous devez disposer du
+module graphique GD &gt; 2. Cette configuration est propos&eacute;e
+par la quasi-totalit&eacute; des h&eacute;bergeurs gratuits et
+professionnels. Votre site ne doit pas n&eacute;cessairement &ecirc;tre
+&eacute;crit en PHP, un site enti&egrave;rement en HTML sera
+parfaitement index&eacute; par les statistiques (tout comme un site
+en ASP, JSP, Perl, etc.). 
+</P>
+<P CLASS="western" ALIGN=JUSTIFY>phpMyVisites fonctionne correctement
+sur tous types de serveur (Apache/IIS), sur diff&eacute;rents OS
+(Linux/Windows/MacOs).</P>
+<P CLASS="western" ALIGN=JUSTIFY>Configuration optimale</P>
+<P CLASS="western" ALIGN=JUSTIFY>Pour des performances optimales,
+nous conseillons d'utiliser 
+</P>
+<UL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>le syst&egrave;me
+	d'exploitation Linux (modularit&eacute; et stabilit&eacute;
+	exemplaire)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>le serveur web Apache (solution
+	serveur la plus s&ucirc;re, la plus stable et la plus r&eacute;pandue
+	sur le march&eacute;)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>PHP en version 5 (am&eacute;liorations
+	significatives sur la vitesse d'execution des scripts)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>MySQL en version 5 (rapidit&eacute;
+	am&eacute;lior&eacute;e)</P>
+</UL>
+<P CLASS="western" ALIGN=JUSTIFY>Les essais de phpMyVisites sur des
+sites &agrave; fort trafic disposant de cette configuration se sont
+d&eacute;roul&eacute;s avec succ&egrave;s. Veillez aussi &agrave;
+respecter les r&egrave;gles de s&eacute;curit&eacute; pr&eacute;sent&eacute;es
+dans cette pr&eacute;sente documentation.</P>
+<P CLASS="western" ALIGN=JUSTIFY>Etapes de l'installation 
+</P>
+<P CLASS="western" ALIGN=JUSTIFY>T&eacute;l&eacute;chargement et
+upload de phpMyVisites 
+</P>
+<P CLASS="western" ALIGN=JUSTIFY>Pour installer phpMyVisites sur
+votre serveur web, il suffit de suivre les &eacute;tapes suivantes : 
+</P>
+<UL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>t&eacute;l&eacute;charger
+	l'archive de la derni&egrave;re version sur le site officiel :
+	<A HREF="http://www.phpmyvisites.net/">http://www.phpmyvisites.net/</A></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>une fois cette archive
+	t&eacute;l&eacute;charg&eacute;e, d&eacute;compressez l&agrave; sur
+	votre ordinateur. Vous devriez obtenir un r&eacute;pertoire nomm&eacute;
+	&laquo;&nbsp;phpmv2&nbsp;&raquo; contenant des fichiers et des
+	r&eacute;pertoires (index.php, phpmyvisites.php, CHANGELOG, /libs/,
+	/core/, etc.)</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>uploadez sur votre serveur web
+	le r&eacute;pertoire &laquo;&nbsp;phpmv2&nbsp;&raquo; obtenu lors de
+	la d&eacute;compression. Patientez que l'upload soit termin&eacute;e,
+	cela peut prendre quelques minutes. Une fois l'upload termin&eacute;e,
+	v&eacute;rifiez que tous les r&eacute;pertoires &agrave; la racine
+	de &laquo;&nbsp;phpmv2&nbsp;&raquo; ont &eacute;t&eacute;
+	correctement transf&eacute;r&eacute;s.</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>pour lancer la phase
+	d'installation, rendez vous avec votre navigateur favori (Firefox
+	donc) sur http://www.your_web_site.com/phpmv2/ (ou une autre
+	adresse, cela d&eacute;pend de l'endroit o&ugrave; vous avez upload&eacute;
+	le r&eacute;pertoire</P>
+</UL>
+<P CLASS="western" ALIGN=JUSTIFY>Phase d'installation web guid&eacute;e</P>
+<P CLASS="western" ALIGN=JUSTIFY>La phase d'installation se d&eacute;roule
+en 9 &eacute;tapes simples et rapides.</P>
+<UL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>Bienvenue</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>Configuration requise. Cette
+	&eacute;tape pr&eacute;sente les pr&eacute;-requis &agrave;
+	l'installation de phpMyVisites. Elle v&eacute;rifie la version de
+	PHP, la pr&eacute;sence du module MySQL, et les droits d'&eacute;criture
+	sur les r&eacute;pertoires de configuration et de donn&eacute;es. La
+	partie optionnel pr&eacute;sente les modules suppl&eacute;mentaires
+	facultatifs (pour plus d'informations, consultez la rubrique
+	&laquo;&nbsp;Configuration &gt; Informations du serveur web&nbsp;&raquo;
+	de cette pr&eacute;sente documentation). Si vous avez un probl&egrave;me
+	de droit d'&eacute;criture sur un r&eacute;pertoire de
+	configuration, il suffit de faire un &laquo;&nbsp;chmod 755&nbsp;&raquo;
+	avec votre logiciel FTP sur les r&eacute;pertoires concern&eacute;s.</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>Configuration base de donn&eacute;es.
+	Cette &eacute;tape permet de configurer l'acc&egrave;s &agrave; la
+	base de donn&eacute;es. Pour plus d'informations, consultez la
+	rubrique &laquo;&nbsp;Configuration &gt; <FONT FACE="Arial, sans-serif">Configuration
+	base de donn&eacute;es&nbsp;&raquo;</FONT> de cette pr&eacute;sente
+	documentation.</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>Cr&eacute;ation des tables.
+	Cette &eacute;tape permet la cr&eacute;ation des tables dans la base
+	de donn&eacute;es configur&eacute;e. Il suffit de valider pour cr&eacute;er
+	les tables. Si les tables de phpMyVisites sont d&eacute;j&agrave;
+	pr&eacute;sentes, elles sont automatiquement d&eacute;tect&eacute;es
+	par le syst&egrave;me et vous avez le choix entre &laquo;&nbsp;Supprimer
+	les tables existantes&nbsp;&raquo; ou refaire une nouvelle
+	installation.</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>Configuration g&eacute;n&eacute;rale.
+	Cette &eacute;tape permet l'enregistrement du Super Utilisateur, qui
+	sera le seul administrateur de phpMyVisites. Pour plus
+	d'informations sur la notion de Super Utilisateur, consultez la
+	rubrique &laquo;&nbsp;Configuration &gt; <FONT FACE="Arial, sans-serif">G&eacute;n&eacute;ralit&eacute;s
+	sur le Super Utilisateur&nbsp;&raquo;</FONT> de cette pr&eacute;sente
+	documentation. Pour plus d'informations sur les informations
+	requises &agrave; cette &eacute;tape,  <FONT FACE="Arial, sans-serif">consultez
+	la rubrique &laquo;&nbsp;Configuration &gt; Configuration g&eacute;n&eacute;rale&nbsp;&raquo;
+	de cette pr&eacute;sente documentation.</FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif">Cr&eacute;ation
+	du fichier de configuration. Cette &eacute;tape permet
+	l'enregistrement des informations saisies dans un fichier de
+	configuration (Disponible sur /config/config.php)</FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif">Ajout
+	du site Internet. Cette &eacute;tape permet d'ajouter votre premer
+	site Internet &agrave; auditer. Pour plus d'informations sur les
+	informations requises &agrave; cette &eacute;tape,  consultez la
+	rubrique &laquo;&nbsp;Configuration &gt; Administration Site &gt;
+	Gestion des sites&nbsp;&raquo; de cette pr&eacute;sente
+	documentation.</FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif">Affichage
+	du code Javascript. Cette &eacute;tape pr&eacute;sente le code
+	Javascript &agrave; copier coller sur toutes les pages du site &agrave;
+	auditer,</FONT> entre les balises <CODE>&lt;body&gt;</CODE> et
+	<CODE>&lt;/body&gt;</CODE> des pages de votre site (de pr&eacute;f&eacute;rence
+	juste avant le <CODE>&lt;/body&gt;</CODE>). Il est indispensable de
+	ne changer aucune ligne de ce code.</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>Fini !. Cette &eacute;tape est
+	la derni&egrave;re &eacute;tape de l'installation. Si vous avez
+	install&eacute; le code Javascript sur les pages de votre site, vous
+	aurez acc&egrave;s &agrave; vos premi&egrave;res statistiques dans
+	la minute qui suit. Bonne utilisation de phpMyVisites ! N'oubliez
+	pas d'en parler autour de vous.</P>
+</UL>
+<P CLASS="western" ALIGN=JUSTIFY>Mettre &agrave; jour depuis une
+ancienne version</P>
+<P CLASS="western" ALIGN=JUSTIFY>Le processus de mise &agrave; jour
+de phpMyVisites a &eacute;t&eacute; simplifi&eacute; : la mise &agrave;
+jour est d&eacute;sormais un processus rapide et s&ucirc;r. Il est
+hautement conseill&eacute; de faire r&eacute;guli&egrave;rement les
+mises &agrave; jour : vous profiterez des derni&egrave;res
+corrections de bugs (dont les &eacute;ventuels corrections de
+s&eacute;curit&eacute; !) et derni&egrave;res fonctionnalit&eacute;s.
+</P>
+<P CLASS="western" ALIGN=JUSTIFY>Pour mettre &agrave; jour
+phpMyVisites, suivez les &eacute;tapes suivantes :</P>
+<UL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>t&eacute;l&eacute;chargez
+	depuis votre installation de phpMyVisite sur votre serveur web le
+	r&eacute;pertoire /config/ qui contient toutes vos informations de
+	configuration. Sauvegardez le sur votre ordinateur.</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>uploadez la nouvelle version de
+	phpMyVisites sur votre serveur, en &eacute;crasant votre ancien
+	r&eacute;pertoire (vous avez pr&eacute;c&eacute;demment sauvegard&eacute;
+	le r&eacute;pertoire /config/ qui est la seule information &agrave;
+	conserver lors d'une mise &agrave; jour, donc n'ayez crainte).</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>une fois l'upload des nouveaux
+	fichiers termin&eacute;e, uploadez sur votre serveur le r&eacute;pertoire
+	/config/ que vous aviez sauvegard&eacute;.</P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY>rendez vous sur votre
+	phpMyVisites. Il vous proposera de faire la mise &agrave; jour, il
+	suffit de cliquer sur Continuer et la mise &agrave; jour est
+	valid&eacute;e.</P>
+</UL>
+<P CLASS="western" ALIGN=JUSTIFY>Vous avez maintenant acc&egrave;s &agrave;
+votre nouvelle version de phpMyVisites. Bonne utilisation !</P>
+<P CLASS="western" ALIGN=JUSTIFY><BR><BR>
+</P>
+<H1 CLASS="western" STYLE="page-break-before: always">Fonctionnalit&eacute;s
+</H1>
+<P CLASS="western" ALIGN=JUSTIFY><BR>- Mise en oeuvre rapide et
+imm&eacute;diate : l'installation est guid&eacute;e et intuitive,
+l'insertion d'un simple Code Javascript sur les pages du site
+entraine imm&eacute;diatement la comptabilisation des visiteurs<BR>-
+Une interface a&eacute;r&eacute;e, claire et accessible, pour
+pr&eacute;senter des donn&eacute;es en facilitant l'analyse des
+r&eacute;sultats<BR>- Des graphiques clairs et pr&eacute;cis,
+pr&eacute;sentant des informations essentielles de mani&egrave;re
+compr&eacute;hensible<BR>- Gratuit : phpMyVisites est enti&egrave;rement
+gratuit, l'affichage d'un logo est facultatif<BR>- S&eacute;curis&eacute;
+: la s&eacute;curit&eacute; est une composante essentielle du
+d&eacute;veloppement, phpMyVisites est prot&eacute;g&eacute; au
+maximum de toute intrusion ou attaque externe<BR>- Multi Sites :
+possibilit&eacute; d'ajout de plusieurs sites Internet, avec &eacute;tude
+pr&eacute;cise et distincte pour chacun des sites<BR>- Multi
+Utilisateurs : ajoutez un nombre infini d'utilisateurs, g&eacute;rez
+finement les droits pour chacun d'entre eux (droit de consultation ou
+d'administration sur certains sites)<BR>- International :
+phpMyVisites est disponible en plus de 25 langues<BR>- Libre : le
+code source &eacute;tant disponible, il est possible de participer au
+projet, de cr&eacute;er de nouveaux modules, de personnaliser
+l'interface, etc. 
+</P>
+<P CLASS="western" ALIGN=JUSTIFY><BR><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY>Pr&eacute;sentation des rapports
+d'audience</P>
+<P CLASS="western" ALIGN=JUSTIFY>Fonctionnalit&eacute;s de mesure
+d'audience<BR>- Statistiques pr&eacute;cises de visites, d'&eacute;volution
+sur la p&eacute;riode (jour/semaine/mois/ann&eacute;e)<BR>- Fr&eacute;quence
+de visites : nouveaux visiteurs et visiteurs connus, assiduit&eacute;
+des visiteurs, etc.<BR>- Gestion des statistiques sur les pages et
+tout type de fichiers (PDF, Image, etc.)<BR>- Possibilit&eacute;s de
+classer les pages et fichiers par groupes, sous groupes, etc.<BR>-
+Suivi du visiteur, &eacute;tude des pages &agrave; fort taux de
+sortie (pages qui font fuir les visiteurs), des pages d'entr&eacute;es
+principales, etc.<BR>- Etude de la provenance g&eacute;ographique,
+classement par Continent / Pays (Mappemonde interactive)<BR>- Etude
+des configurations techniques des visiteurs (Navigateurs, R&eacute;solution,
+Plugins g&eacute;r&eacute;s, etc.)<BR>- Etude pr&eacute;cise et
+compl&egrave;te des affluents au site Internet : comment les
+visiteurs arrivent sur le site ?<BR>- Distinction entre 5 types
+d'affluents : Moteurs de recherche, Sites Internet, Sites
+partenaires, Newsletters, Entr&eacute;e directe<BR>- D&eacute;tection
+de plus de 300 moteurs de recherche internationaux et des mots cl&eacute;s
+associ&eacute;s<BR>- Possibilit&eacute; de d&eacute;finir des sites
+comme &eacute;tant sites partenaires, d'ajouter un nombre infini de
+newsletters...<BR>- Bilan multi sites pr&eacute;sentant en un clin
+d'oeil les statistiques essentielles de tous les sites enregistr&eacute;s<BR>-
+Notion d'int&eacute;r&ecirc;ts de visites en fonction de crit&egrave;res
+pr&eacute;cis : vous pouvez savoir l'int&eacute;r&ecirc;t des
+visiteurs (nombre de pages vues, temps de visite, etc.) en fonction
+de crit&egrave;res pertinents comme le mot cl&eacute; qu'ils ont tap&eacute;
+dans le moteur de recherche, leur r&eacute;solution (votre site
+repousse t'il les petites r&eacute;solutions ?), le site Internet
+ayant apport&eacute; le visiteur, etc.<BR><BR><BR>
+</P>
+<H1 CLASS="western" STYLE="page-break-before: always">Fonctionnalit&eacute;s
+g&eacute;n&eacute;rales</H1>
+<DL>
+	<DD STYLE="margin-left: 0cm; text-align: justify"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Nommer
+	les pages </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Il est possible de nommer les pages avec un nom choisi par le
+	webmaster (ou g&eacute;n&eacute;r&eacute; automatiquement). Il
+	suffit pour cela de donner la valeur du nom de page &agrave; la
+	variable &laquo;&nbsp;var pagename=''&nbsp;&raquo; dans le tag
+	javascript. Par exemple si le code javascript contient &laquo;&nbsp;var
+	pagename='Accueil site'&nbsp;&raquo;, alors la page sera nomm&eacute;
+	&laquo;&nbsp;Accueil site&nbsp;&raquo; dans les statistiques de page
+	dans phpMyVisites. </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Par
+	d&eacute;faut, phpMyVisites utilise l'adresse physique d'une page
+	pour donner un nom &agrave; cette page : &laquo;&nbsp;index.php?var1=contacts&nbsp;&raquo;
+	devient le nom de la page dans les statistiques. Il est possible de
+	faire plusieurs op&eacute;rations automatiques sur les variables des
+	page (inclure seulement certaines variables, exclure certaines
+	variables, etc. Consultez &laquo;&nbsp;Configuration &gt; Gestion
+	des sites &gt; Ajout d'un site&nbsp;&raquo; pour plus d'informations
+	sur la gestion des variables de l'URL). Ce comportement par d&eacute;faut
+	n'est pas toujours suffisant, les noms de page physiques manquant
+	parfois de signification.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>phpMyVisites offre la
+	puissante possibilit&eacute; de nommer les pages avec un nom choisi
+	par le webmaster. Il est possible de d&eacute;finir des noms aux
+	pages via la variable &laquo;&nbsp;var pagename=''&nbsp;&raquo; dans
+	le code Javascript. Vous pouvez remplir cette valeur par un script
+	externe par exemple, que vous devez d&eacute;velopper (demandez au
+	d&eacute;veloppeur du site Internet si vous n'avez pas les
+	comp&eacute;tences n&eacute;cessaires). Par exemple, si vos URLs
+	sont de la forme &laquo;&nbsp;index.php?rubrique=jardinage&amp;id=1100&nbsp;&raquo;,
+	et que vous aimeriez que vos noms de page soient de la forme
+	&laquo;&nbsp;rubrique id&nbsp;&raquo;, donc dans ce cas &laquo;&nbsp;jardinage
+	1100&nbsp;&raquo;, il vous suffit d'&eacute;crire dans votre code
+	javascript &laquo;&nbsp;var pagename = '&lt;?=$_GET['rubrique'].'
+	'.$_GET['id']?&gt;'&nbsp;&raquo;. Le script charg&eacute; de nommer
+	la page est ici en PHP mais vous pouvez utiliser n'importe quel
+	langage dynamique. Ce script doit bien s&ucirc;r &ecirc;tre am&eacute;lior&eacute;
+	pour une utilisation r&eacute;elle, il faut par exemple tester les
+	cas limites (cas o&ugrave; les variables GET ne sont pas assign&eacute;es),
+	pr&eacute;voir le code pour les parties du site o&ugrave; les
+	variables sont diff&eacute;rentes, etc. </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Un cas simple &agrave;
+	mettre en oeuvre pourrait &ecirc;tre de donner au nom de page la
+	valeur de la balise &lt;title&gt; de la page courante. Pour cela, il
+	suffit de mettre dans le code javascript &laquo;&nbsp;var
+	pagename=document.title&nbsp;&raquo;.<BR>Sur un site plus complexe
+	ou peu homog&egrave;ne (au niveau des variables de l'URL), le script
+	&agrave; d&eacute;velopper est plus complexe : il peut faire appel &agrave;
+	une base de donn&eacute;es par exemple. Pour avoir un nommage propre
+	des pages, il faut r&eacute;fl&eacute;chir pr&eacute;cis&eacute;ment
+	au fonctionnement d'un tel script, qui n'est pas trivial.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>L'int&eacute;r&ecirc;t
+	g&eacute;n&eacute;ral de ce syst&egrave;me est qu'il permet de
+	donner un nom &agrave; toutes vos pages automatiquement. Ajouter de
+	nouvelles pages ne posera pas probl&egrave;me : leur nom sera g&eacute;n&eacute;r&eacute;
+	par le script et le travail de maintenance sera nul !</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Classer les pages par
+	groupes </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Il est possible de classer les pages dans des groupes, il suffit de
+	donner un nom &agrave; la page (via la variable pagename du code
+	javascript), et de s&eacute;parer les groupes et pages par le
+	caract&egrave;re slash &laquo;&nbsp;/&nbsp;&raquo;. Par exemple, le
+	code &laquo;&nbsp;var pagename='Magasin/Jonglage/Balles/Achat'&nbsp;&raquo;
+	dans le tag javascript classera la page &laquo;&nbsp;Achat&nbsp;&raquo;
+	dans les groupes &laquo;&nbsp;Magasin&nbsp;&raquo;, dans le sous
+	groupe &laquo;&nbsp;Jonglage&nbsp;&raquo;, dans le sous-sous groupe
+	&laquo;&nbsp;Balles&nbsp;&raquo;.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Sur des
+	sites proposant un nombre de pages important, il est tr&egrave;s
+	difficile d'analyser les statistiques de contenu si toutes les pages
+	sont au m&ecirc;me niveau, sans &ecirc;tre hi&eacute;rarchis&eacute;es.
+	La majorit&eacute; des sites sont organis&eacute;s par rubriques
+	(th&eacute;matiques par exemple) : il est possible de retranscrire
+	cette organisation dans phpMyVisites dans la consultation des
+	statistiques de pages, avec le m&eacute;canisme de groupes de pages.
+	</FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Si votre site a une
+	organisation &laquo;&nbsp;physique&nbsp;&raquo;, dans le sens o&ugrave;
+	il y a plusieurs r&eacute;pertoires &agrave; la racine du site,
+	phpMyVisites organisera automatiquement les groupes en utilisant les
+	r&eacute;pertoires. Par exemple,
+	&laquo;&nbsp;http://www.phpmyvisites.net/faq/index.php&nbsp;&raquo;
+	classera automatiquement la page &laquo;&nbsp;index.php&nbsp;&raquo;
+	dans le groupe de pages &laquo;&nbsp;faq&nbsp;&raquo;. Ce classement
+	automatique permet d'obtenir une hierarchie coh&eacute;rente tr&egrave;s
+	facilement, sur les sites pr&eacute;sentant une arborescence
+	compatible.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>De plus en plus, les
+	sites Internet ont un point d'acc&egrave;s unique (une m&ecirc;me
+	page), avec une suite de variables par fois complexe. Il n'existe
+	donc pas de r&eacute;pertoire sur le site, puisque toute requ&ecirc;te
+	acc&egrave;de &agrave; cette m&ecirc;me page &laquo;&nbsp;index.php&nbsp;&raquo;.
+	Dans ce cas, il est n&eacute;cessaire d'&eacute;crire un script qui
+	g&eacute;n&egrave;rera automatiquement les groupes de pages en
+	fonction, par exemple, des param&egrave;tres de l'URL. G&eacute;n&eacute;ralement,
+	l'URL pr&eacute;sente des &eacute;l&eacute;ments permettant de
+	classer les pages par groupe : une variable &laquo;&nbsp;partie&nbsp;&raquo;
+	ou &laquo;&nbsp;rubrique&nbsp;&raquo; par exemple. Pour reprendre
+	l'exemple du nommage de pages, si vos URLs sont de la forme
+	&laquo;&nbsp;index.php?rubrique=jardinage&amp;id=1100&nbsp;&raquo;,
+	et que vous aimeriez classer vos pages de la forme &laquo;&nbsp;rubrique/id&nbsp;&raquo;
+	(donc dans ce cas : &laquo;&nbsp;jardinage/1100&nbsp;&raquo;, la
+	page 1100 &eacute;tant dans le groupe jardinage), il vous suffit
+	d'&eacute;crire dans votre code javascript &laquo;&nbsp;var pagename
+	= '&lt;?=$_GET['rubrique'].'/'.$_GET['id']?&gt;'&nbsp;&raquo;. Le
+	d&eacute;veloppement d'un tel script peut &ecirc;tre fait dans tout
+	langage dynamique. Un tel script peut &ecirc;tre difficile &agrave;
+	mettre en oeuvre, il n&eacute;cessite une bonne connaissance du
+	fonctionnement du site. </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>A noter qu'il est
+	possible d'avoir un niveau de profondeur de groupes infini.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Int&eacute;r&ecirc;ts de
+	visites par crit&egrave;res </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Vous pouvez conna&icirc;tre pr&eacute;cis&eacute;ment les int&eacute;r&ecirc;ts
+	des visiteurs pour le site Internet, en fonction par exemple du
+	moteur de recherche utilis&eacute;, du mot cl&eacute; saisi dans le
+	moteur, ou encore en fonction du pays du visiteur. Cette notion
+	d'int&eacute;r&ecirc;t de visites en fonction des diff&eacute;rents
+	crit&egrave;res propos&eacute;s permet une analyse fine des
+	performances de votre site en fonction des diff&eacute;rentes
+	populations.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Les outils
+	de statistiques standards proposent des statistiques basiques de la
+	forme &laquo;&nbsp;Nombre de visiteurs venant de Gooogle&nbsp;&raquo;,
+	&laquo;&nbsp;Nombre de visiteurs venant d'Inde&nbsp;&raquo;. Ces
+	statistiques sont importantes, mais insuffisantes pour une vraie
+	analyse en profondeur des performances des visites en fonction de
+	crit&egrave;res pr&eacute;cis. phpMyVisites va plus loin en
+	proposant une analyse de l'int&eacute;r&ecirc;t des visiteurs, en
+	fonction de diff&eacute;rents crit&egrave;res. L'int&eacute;r&ecirc;t
+	d'un visiteur est caract&eacute;ris&eacute; par plusieurs
+	statistiques : le nombre de visites total, le nombre de pages par
+	visite, le nombre de pages vues par visite significative (visites o&ugrave;
+	les visiteurs ont consult&eacute; plus d'une page), le taux de
+	visites &agrave; une page et le temps moyen de visite. Vous pouvez
+	conna&icirc;tre les int&eacute;r&ecirc;ts des visiteurs en fonction
+	de nombreux crit&egrave;res : leur pays, leur configuration
+	mat&eacute;rielle (Navigateur utilis&eacute;, Syst&egrave;me
+	d'exploitation, R&eacute;solution, etc.), en fonction de leur
+	affluent (Moteurs de recherche, mot cl&eacute; utilis&eacute;, Site
+	internet, Newsletter, Site partenaire).</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Cette analyse permet par
+	exemple de conna&icirc;tre les performances de votre site Internet
+	dans diff&eacute;rents pays, ou encore la qualit&eacute; des
+	visiteurs apport&eacute;s par tel ou tel moteur de recherche. Vous
+	pouvez &eacute;galement voir si les mots cl&eacute;s pour lesquels
+	vous avez travaill&eacute; le r&eacute;f&eacute;rencement portent
+	vraiment leurs fruits (les visiteurs arrivant via ces mots cl&eacute;
+	sont ils vraiment plus int&eacute;ress&eacute;s dans le site que les
+	visiteurs classiques ?). </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Cette fonctionnalit&eacute;
+	puissante permet une mesure pr&eacute;cise des performances de votre
+	site face aux diff&eacute;rentes populations de personnes. Ne
+	n&eacute;gligez pas l'analyse !</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Exclusion des faibles
+	populations </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Par d&eacute;faut, phpMyVisite exclue les petites populations de
+	visiteurs des statistiques. Il est en effet ind&eacute;sirable de
+	voir ces populations dans les analyses, puisqu'elles ne sont pas
+	repr&eacute;sentatives de l'ensemble du site Internet.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Si vous
+	souhaitez analyser l'int&eacute;r&ecirc;t des visiteurs en fonction
+	de leur pays par exemple, vous allez d&eacute;cider de classer les
+	pays en fonction du taux de visites &agrave; une page. Si votre site
+	est visit&eacute; par de nombreux pays diff&eacute;rents, il est
+	possible que des pays apparaissent avec un taux de visites &agrave;
+	1 page de 100% venant polluer les statistiques, alors que seul 1
+	visiteur de ce pays ait effectivement visit&eacute; le site sur la
+	p&eacute;riode. Ce visiteur n'est pas significatif et est
+	ind&eacute;sirables dans les statistiques. Par d&eacute;faut, ces
+	faibles populations sont exclues pour permettre une analyse globale.
+	Le seuil d'exclusion automatique varie en fonction des statistiques,
+	mais est g&eacute;n&eacute;ralement situ&eacute; aux alentours des
+	1%. Il est possible d'inclure les populations exclues en cliquant
+	sur le lien &laquo;&nbsp;Inclure toute la population dans les
+	statistiques&nbsp;&raquo;</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Comptabiliser le
+	t&eacute;l&eacute;chargement de fichiers</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Il est possible de comptabiliser avec phpMyVisites le t&eacute;l&eacute;chargement
+	de fichiers. Les fichiers t&eacute;l&eacute;charg&eacute;s sont
+	pr&eacute;sent&eacute;s dans le m&ecirc;me tableau que les pages
+	vues. Il est possible de classer les fichiers dans des groupes (m&ecirc;me
+	syst&egrave;me que pour les pages).</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Pour
+	comptabiliser un t&eacute;l&eacute;chargement, il suffit de changer
+	le lien pointant vers le fichier avec un lien de la forme
+	&laquo;&nbsp;http://votresite.com/votrerepertoire_phpmv/phpmyvisites.php?url=URL_COMPLETE_DU_FICHIER&amp;</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Variables modulaire par
+	page </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	phpMyVisites propose un syst&egrave;me puissant d'analyse pouss&eacute;e
+	par page vue en fonction de variables librement d&eacute;finissables
+	par le webmaster. Cette fonctionnalit&eacute; est r&eacute;serv&eacute;e
+	aux utilisateurs avanc&eacute;s.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Il est
+	possible de d&eacute;finir des variables associ&eacute;es &agrave;
+	des pages via le code Javascript. Ces variables peuvent prendre des
+	valeurs diff&eacute;rentes en fonction de crit&egrave;res divers :
+	en fonction du visiteur (sa langue, son anciennet&eacute;, etc.), de
+	l'heure de visite, du contenu de la page, etc. L'objectif est de
+	permettre une analyse fine des statistiques sur le contenu du site. </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Sur un intranet par
+	exemple, si il existe plusieurs types d'internautes &laquo;&nbsp;Admin&nbsp;&raquo;,
+	&laquo;&nbsp;D&eacute;veloppeurs&nbsp;&raquo;, &laquo;&nbsp;Journalistes&nbsp;&raquo;,
+	&laquo;&nbsp;Direction&nbsp;&raquo;, vous pouvez d&eacute;finir une
+	variable &laquo;&nbsp;type&nbsp;&raquo; qui prend les valeurs
+	&laquo;&nbsp;Admin&nbsp;&raquo;, &laquo;&nbsp;Journalistes&nbsp;&raquo;,
+	etc. en fonction de la personne actuellement en train de surfer sur
+	l'intranet. Dans les pages vues, il est possible d'analyser (sur les
+	pages ou les groupes de pages) les valeurs des variables, et le
+	nombre de hits par valeur de variable. Cela permet, dans l'exemple,
+	de savoir les pages plus visit&eacute;es par tel ou tel type de
+	personne sur l'Intranet : le groupe de pages
+	&laquo;&nbsp;/organisation/journal/&nbsp;&raquo; sera par exemple
+	plus visit&eacute; par les personnes de type &laquo;&nbsp;Journaliste&nbsp;&raquo;.
+	Ceci est un exemple basique de ce qu'il est possible de mettre en
+	place, mais les possibilit&eacute;s sont infinies.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<A NAME="line520"></A><FONT SIZE=2><FONT FACE="Arial, sans-serif">Techniquement,
+	la d&eacute;finition de variables a lieu dans le code javascript. Il
+	existe une variable javascript de type tableau &laquo;&nbsp;var
+	a_vars = Array();&nbsp;&raquo;. La d&eacute;finition de variables
+	est simple, il suffit d'indexer le tableau par le nom de la
+	variable, et d'associer la valeur de la variable. Par exemple, pour
+	d&eacute;finir une variable &laquo;&nbsp;type&nbsp;&raquo; qui peut
+	prendre comme valeur &laquo;&nbsp;journaliste&nbsp;&raquo;
+	&laquo;&nbsp;admin&nbsp;&raquo;, le code javascript sera de la forme
+	</FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>&laquo;&nbsp;var
+	a_vars['type'] = 'journaliste'&nbsp;&raquo; ou bien &laquo;&nbsp;var
+	a_vars['type'] = 'admin'&nbsp;&raquo;. Il est possible d'associer
+	des valeurs num&eacute;riques &laquo;&nbsp;var a_vars['commande'] =
+	30&nbsp;&raquo;. Il est possible de d&eacute;finir plusieurs
+	variables pour une m&ecirc;me page : vous pouvez avoir une variable
+	&laquo;&nbsp;type&nbsp;&raquo;, une variable &laquo;&nbsp;commande&nbsp;&raquo;
+	et une variable &laquo;&nbsp;fidelite&nbsp;&raquo; par exemple.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Pour consulter les
+	statistiques en fonction de ces variables, il suffit de cliquer sur
+	le signe &laquo;&nbsp;+&nbsp;&raquo; rouge qui appara&icirc;t
+	automatiquement &agrave; c&ocirc;t&eacute; des pages pour lesquelles
+	des variables ont &eacute;t&eacute; d&eacute;finies. Un tableau
+	contenant les valeurs des variables appara&icirc;t alors, permettant
+	en un clin d'oeil de visionner les valeurs de variables pour le
+	groupe ou la page s&eacute;lectionn&eacute;.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Affluent de type
+	newsletter </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Apr&egrave;s avoir enregistr&eacute; une newsletter dans
+	l'administration, vous pouvez ajouter un param&egrave;tre dans l'URL
+	des liens de votre newsletter pour que phpMyVisites d&eacute;tecte
+	une arriv&eacute;e comme provenant d'une newsletter.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Il est
+	possible de d&eacute;finir des affluents de type newsletter pour
+	comptabiliser les visiteurs arrivant sur votre site via un lien dans
+	une newsletter. Vous trouverez toutes les informations relatives &agrave;
+	l'ajout/modification d'une newsletter dans la rubrique
+	&laquo;&nbsp;Configuration &gt; Administration Site &gt; Gestion des
+	newsletters&nbsp;&raquo; de cette pr&eacute;sente documentation.
+	Chaque newsletter est associ&eacute;e &agrave; un identifiant (que
+	vous pouvez voir en visitant la rubrique &laquo;&nbsp;Modifier une
+	newsletter&nbsp;&raquo;, o&ugrave; vous trouverez le nom de la
+	newsletter et l'identifiant). </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Pour d&eacute;tecter un
+	lien comme &eacute;tant un lien d'une newsletter, il suffit
+	d'ajouter le param&egrave;tre &laquo;&nbsp;nid&nbsp;&raquo; dans les
+	liens de la newsletter. Par exemple,
+	&laquo;&nbsp;http://www.phpmyvisites.net/&nbsp;&raquo; devient
+	&laquo;&nbsp;http://www.phpmyvisites.net/?nid=3&nbsp;&raquo; si 3
+	est l'identifiant de la newsletter. Pour une page contenant d&eacute;j&agrave;
+	des param&egrave;tres, par exemple
+	&laquo;&nbsp;http://www.phpmyvisites.net/index.php?part=download&amp;lang=fr&nbsp;&raquo;,
+	cela devient
+	&laquo;&nbsp;http://www.phpmyvisites.net/index.php?part=download&amp;lang=fr&amp;nid=3&nbsp;&raquo;.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Affluent Site partenaire
+	</FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Apr&egrave;s avoir enregistr&eacute; un Site Partenaire dans
+	l'administration, vous pouvez demander &agrave; ce site partenaire
+	d'ajouter un param&egrave;tre dans les URLs poitant vers votre site,
+	ou bien vous pouvez utiliser ses URLs pour le d&eacute;tecter comme
+	site partenaire.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : Pour
+	visionner plus facilement et analyser plus pr&eacute;cis&eacute;ment
+	l'apport en visiteurs (et en visiteurs de qualit&eacute;) de vos
+	sites partenaires, il est possible de d&eacute;finir des sites
+	partenaires par leurs noms et leurs URLs. Il existe 2 m&eacute;thodes
+	pour d&eacute;tecter un site comme &eacute;tant un site partenaire.
+	Vous pouvez demander &agrave; ce partenaire d'ajouter un param&egrave;tre
+	aux URLs qui poitent vers votre site. Ce param&egrave;tre s'appelle
+	&laquo;&nbsp;pid&nbsp;&raquo;. Consultez la rubrique pr&eacute;c&eacute;dente
+	relatives aux newsletters (&laquo;&nbsp;Fonctionnalit&eacute;s
+	g&eacute;n&eacute;rales &gt; Affluent Newsletter&nbsp;&raquo;) pour
+	plus d'explications sur l'ajout de param&egrave;tres dans une URL.
+	Il est &eacute;galement possible de d&eacute;tecter un site
+	partenaire simplement par son URL. Il suffit pour cela d'enregistrer
+	dans l'administration toutes les URLs du site partenaire, et les
+	visiteurs provenant de ce site seront automatiquement d&eacute;tect&eacute;s.
+	Cette 2&egrave;me m&eacute;thode est plus simple &agrave; mettre en
+	oeuvre.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Archivage </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	phpMyVisites propose un syst&egrave;me d'archivage des donn&eacute;es.
+	Les statistiques sont calcul&eacute;es une fois par jour : les
+	consultations de statistiques sont donc tr&egrave;s rapides.</FONT></FONT></DD></DL>
+<P CLASS="western" ALIGN=JUSTIFY>
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2>L'archivage consiste &agrave;
+calculer toutes les statistiques de visites &agrave; partir des
+informations brutes enregistr&eacute;es pour chaque utilisateur lors
+de leur visite sur le site web. Les r&eacute;sultats des calculs sont
+alors stock&eacute;s d&eacute;finitivement dans la base de donn&eacute;es.</FONT></FONT></P>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>L&rsquo;archivage
+dynamique des donn&eacute;es a de nombreux avantages&nbsp;: il permet
+une forte diminution de l&rsquo;espace disque de la base de donn&eacute;es
+(20% &agrave; 40%), &eacute;conomise les ressources serveurs (les
+calculs d&rsquo;une p&eacute;riode termin&eacute;e ne sont effectu&eacute;s
+qu&rsquo;une seule fois) et surtout un gain de performances
+saisissant&nbsp;: le temps d&rsquo;ex&eacute;cution est de 5 &agrave;
+20 fois plus court, ce qui permet l&rsquo;acc&egrave;s &agrave; des
+statistiques plus pouss&eacute;es dans certains domaines (suivi du
+visiteur par exemple). </FONT></FONT>
+</P>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>phpMyVisites
+est la seule application libre &agrave; proposer cette puissante
+alternative, qui rend possible la consultation des statistiques temps
+r&eacute;el sur des sites &agrave; fort trafic, et le d&eacute;veloppement
+de nouvelles analyses.</FONT></FONT></P>
+<H3 STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Comment
+fonctionne t-il&nbsp;?</FONT></FONT></H3>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Son
+fonctionnement est simple&nbsp;: lors de la consultation d&rsquo;une
+journ&eacute;e, l&rsquo;archivage dynamique se lance automatiquement
+et calcule toutes les informations (toutes les donn&eacute;es qui
+apparaissent lors de la consultation des statistiques) pour cette
+journ&eacute;e. La masse de calcul est consid&eacute;rable, notamment
+pour les sites &agrave; fort trafic, puisque la totalit&eacute; des
+informations &rsquo;pr&eacute; calcul&eacute;es&rsquo; peut
+repr&eacute;senter plusieurs centaines de milliers de caract&egrave;res.
+Le tout est ensuite stock&eacute;e sous forme de texte dans la base
+de donn&eacute;es. Il ne reste alors qu&rsquo;&agrave; faire une
+simple s&eacute;lection des donn&eacute;es (proc&eacute;d&eacute;
+tr&egrave;s rapide &agrave; r&eacute;aliser pour le serveur, donc qui
+utilise tr&egrave;s peu de ressources) et &agrave; mettre en forme
+ces tableaux de donn&eacute;es. Une fois les calculs effectu&eacute;s
+avec succ&egrave;s, les champs de la table des logs sont supprim&eacute;s&nbsp;;
+ils ne seront plus utilis&eacute;s. Le gain d&rsquo;espace disque est
+cons&eacute;quent.</FONT></FONT></P>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Pourquoi
+l&rsquo;archivage syst&eacute;matique&nbsp;?</FONT></FONT></P>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Bien
+que l&rsquo;archivage d&rsquo;une journ&eacute;e puisse n&eacute;cessiter
+plusieurs secondes de calcul, le calcul est effectu&eacute; une seule
+fois pour toujours (il est stock&eacute; dans la base de donn&eacute;es).
+Ainsi le serveur, &agrave; chaque consultation des diff&eacute;rents
+statistiques pour la m&ecirc;me date, ne doit pas r&eacute;-effectuer
+les m&ecirc;mes masses de calcul comme ce serait le cas sans
+l&rsquo;archivage. Le temps de calcul ne pose aucun probl&egrave;me
+sur des sites &agrave; faible trafic (entendons moins de 100 visites
+par jour), l&rsquo;archivage a donc pour ceux-ci une fonction
+principale de &rsquo;purge des donn&eacute;es&rsquo; et l&rsquo;&eacute;conomie
+des ressources serveurs. La rapidit&eacute; peut devenir
+probl&eacute;matique sur des sites &agrave; trafic moyen (300 visites
+par jour par exemple) et constitue l&rsquo;ennemi principal des sites
+&agrave; fort trafic, lesquels ne peuvent pas calculer leurs
+statistiques dans un temps acceptable.</FONT></FONT></P>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Archivage
+d&rsquo;une p&eacute;riode</FONT></FONT></P>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>La
+premi&egrave;re fois que vous consultez les donn&eacute;es d&rsquo;une
+semaine ou d&rsquo;un mois, l&rsquo;archivage dynamique calcule les
+donn&eacute;es pour cette p&eacute;riode. Il base son calcul sur le
+calcul de chaque jour de la p&eacute;riode&nbsp;; cela signifie donc
+que si vous n&rsquo;avez consult&eacute; aucun jour de la p&eacute;riode,
+l&rsquo;archivage calculera et stockera les donn&eacute;es de chaque
+jour s&eacute;par&eacute;ment avant de calculer la p&eacute;riode
+s&eacute;lectionn&eacute;. La dur&eacute;e du calcul est l&agrave;
+encore fonction du trafic&nbsp;: il est normal que sur une p&eacute;riode
+comme la semaine, l&rsquo;archivage mette quelques secondes &agrave;
+s&rsquo;effectuer.</FONT></FONT></P>
+<P CLASS="western"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Constatez
+ensuite par vous m&ecirc;me la rapidit&eacute; de chargement de
+toutes les pages&nbsp;; une telle rapidit&eacute; ne serait pas
+possible sans la phase d&rsquo;archivage pr&eacute;alable.</FONT></FONT></P>
+<DL>
+	<DD STYLE="margin-left: 0cm; text-align: justify"><BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Statistiques par mail </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	phpMyVisites envoie automatiquement tous les jours par email, aux
+	utilisateurs l'ayant demand&eacute;, les statistiques simplifi&eacute;s
+	de tous les sites enregistr&eacute;s.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : A partir
+	de minuit, les statistiques des sites pour la journ&eacute;e
+	pr&eacute;c&eacute;dente sont calcul&eacute;s automatiquement. Un
+	email est alors envoy&eacute; aux utilisateurs ayant coch&eacute; la
+	case &laquo;&nbsp;Recevoir un email chaque jour contenant les
+	statistiques des sites&nbsp;&raquo;. Cet email contient le tableau
+	r&eacute;capitulatif des donn&eacute;es essentielles du site pour la
+	journ&eacute;e termin&eacute;e. <BR>Cet envoi de mails
+	r&eacute;capitulatifs permet &agrave; tous les utilisateurs de
+	conna&icirc;tre les statistiques des sites de mani&egrave;re rapide
+	et pratique : il n'est plus n&eacute;cessaire d'aller consulter le
+	phpMyVisites. Si vous souhaitez analyser plus pr&eacute;cis&eacute;ment
+	les statistiques, il suffit de cliquer sur le lien &laquo;&nbsp;Statistiques
+	d&eacute;taill&eacute;es&nbsp;&raquo; dans le mail pour lancer votre
+	navigateur pr&eacute;f&eacute;r&eacute; (Firefox) sur le
+	phpMyVisites.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Statistiques par fil RSS
+	</FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>R&eacute;sum&eacute; :
+	Recevez dans votre lecteur RSS, tous les jours, les statistiques des
+	sites pour la journ&eacute;e termin&eacute;e.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication : De
+	nombreux sites proposent de recevoir un &laquo;&nbsp;Fil RSS&nbsp;&raquo;
+	contenant les dernieres news (m&eacute;dias, blogs, etc.).
+	phpMyVisites, service &agrave; la pointe de la technologie, propose
+	&eacute;galement de recevoir dans un lecteur de fils RSS
+	(L'excellent Thunderbird par exemple), les statistiques des sites de
+	votre phpMyVisites facilement. Vous n'avez plus &agrave; visiter le
+	phpMyVisites pour visionner vos statistiques : vous les recevez
+	chaque matin dans le lecteur RSS. Un lien dans le fil vous permet de
+	vous rendre directement sur la page du phpMyVisites contenant les
+	statistiques d&eacute;taill&eacute;s.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; text-align: justify">
+	<BR>
+	</DD><DD STYLE="margin-left: 0cm; margin-bottom: 0.5cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Multi-Sites<BR><BR>R&eacute;sum&eacute;
+	: Ajoutez plusieurs sites dans phpMyVisites dans l'administration.
+	Acc&eacute;dez &agrave; un r&eacute;sum&eacute; d'audience des sites
+	enregistr&eacute;s. Enregistrez des utilisateurs qui n'ont le droit
+	de visionner que certains sites. Goutez &agrave; la puissance du
+	multi-sites de phpMyVisites.</FONT></FONT></DD><DD STYLE="margin-left: 0cm; margin-bottom: 0.5cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Explication :
+	phpMyVisites permet de g&eacute;rer simultan&eacute;ment un nombre
+	infini de sites. Il suffit d'ajouter ces sites dans l'administration
+	(consultez la rubrique &laquo;&nbsp;Configuration &gt;
+	Administration Site &gt; Ajout de site&nbsp;&raquo; pour plus
+	d'informations). Le code Javascript &agrave; ins&eacute;rer sur les
+	pages change pour chaque site, n'oubliez pas de le copier coller
+	pr&eacute;cis&eacute;ment. Il est &eacute;galement possible de
+	d&eacute;finir des utilisateurs ayant le droit de visionner les
+	statistiques (ou d'administrer) certains sites (Consultez la
+	rubrique &laquo;&nbsp;Gestion des utilisateurs &gt; Gestion des
+	groupes (permissions)&nbsp;&raquo; pour plus d'informations). </FONT></FONT>
+	</DD><DD STYLE="margin-left: 0cm; margin-bottom: 0.5cm; text-align: justify">
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=2>Vous pouvez acc&eacute;der
+	&agrave; un r&eacute;sum&eacute; des statistiques de tous les sites
+	enregistr&eacute;s en cliquant sur &laquo;&nbsp;R&eacute;sum&eacute;&nbsp;&raquo;
+	dans le champ de s&eacute;lection du site. Ce r&eacute;sum&eacute;
+	permet en un clin d'oeil de visionner les statistiques essentielles
+	des sites enregistr&eacute;s. </FONT></FONT>
+	</DD></DL>
+<H1 CLASS="western" STYLE="page-break-before: always">
+Configuration</H1>
+<P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif">G&eacute;n&eacute;ralit&eacute;s
+sur le Super Utilisateur<BR>Le Super Utilisateur a tous les droits
+dans phpMyVisites. Il ne peut exister qu'un seul Super Utilisateur.
+Lui seul a acc&egrave;s aux informations relatives &agrave;
+l'installation de phpMyVisites, comme les configurations (g&eacute;n&eacute;rales
+et bases de donn&eacute;es), la gestion des utilisateurs, l'ajout de
+nouveaux sites Internet, etc.<BR><BR>Configuration g&eacute;n&eacute;rale<BR>Cette
+rubrique permet de configuration les informations g&eacute;n&eacute;rales
+relatives &agrave; votre phpMyVisites. Le login d'acc&egrave;s &agrave;
+l'administration est l'identifiant qui vous servira &agrave;
+l'authentification en tant que  Super Utilisateur. Le mot de passe
+choisi doit &ecirc;tre compliqu&eacute;, au minimum 6 caract&egrave;res
+et doit contenir au moins 1 chiffre. Ces pr&eacute;cautions sont
+prises pour &eacute;viter &agrave; un utilisateur malveillant
+d'utiliser un dictionnaire de mots de passe pour se connecter &agrave;
+phpMyVisites. L'email Super Utilisateur permettra, si vous cochez la
+case &quot;Recevoir un bilan des statistiques par email&quot;, de
+recevoir chaque jour les statistiques de chaque site enregistr&eacute;
+dans phpMyVisites (1 mail par site). Le chemin d'acc&egrave;s &agrave;
+votre r&eacute;pertoire phpMyVisites est tr&egrave;s important, car
+il est utilis&eacute; dans la g&eacute;n&eacute;ration du code
+Javascript &agrave; ins&eacute;rer sur les pages du site audit&eacute;
+: cette adresse doit donc &ecirc;tre parfaitement exacte, et ne pas
+finir par un slash (/).<BR><BR>Configuration base de donn&eacute;es<BR>Cette
+rubrique permet de g&eacute;rer l'acc&egrave;s et la connexion de
+phpMyVisites &agrave; la base de donn&eacute;es utilis&eacute;es pour
+l'enregistrement des statistiques et autres informations. Pour
+l'instant, seul MySQL est g&eacute;r&eacute; dans la version 2.0 de
+phpMyVisites, mais dans le futur nous pr&eacute;voyons d'inclure la
+gestion d'autres SGBD (PostreSQL, Oracle). Le login, mot de passe
+MySQL et serveur MySQL doit &ecirc;tre fourni par votre h&eacute;bergeur.
+La base de donn&eacute;es doit &ecirc;tre cr&eacute;e auparavant par
+vos soins, ou vous pouvez utiliser une base de donn&eacute;es
+existantes. Le pr&eacute;fixe des tables permet de donner un nom
+distinct aux tables de phpMyVisites afin de ne pas interf&eacute;rer
+avec les autres tables de votre base de donn&eacute;es (par exemple
+la table 'visit' devient 'phpmv_visit' avec le pr&eacute;fixe
+'phpmv').<BR><BR>Gestion des utilisateurs<BR>Gestion des groupes
+(permissions)<BR>Cette rubrique permet de g&eacute;rer les
+permissions accord&eacute;es aux utilisateurs enregistr&eacute;s dans
+phpMyVisites. Il existe 3 types de groupes de permissions:<BR>-
+&quot;admin&quot;<BR>- &quot;view&quot;<BR>- &quot;no permission&quot;<BR><BR>Le
+groupe &quot;admin&quot; donne &agrave; un utilisateur, pour un site
+donn&eacute;, les droits d'administration des informations relatives
+&agrave; ce site, ainsi que les droits de visionner les statistiques.
+Cet utilisateur sera donc un administrateur de ce site dans
+phpMyVisites. Il pourra modifier ses caract&eacute;ristiques, ajouter
+un cookie pour ne pas &ecirc;tre pris en compte dans les
+statistiques, g&eacute;rer les plages d'IP &agrave; exclure des
+statistiques, g&eacute;rer les alias d'URLs du site, g&eacute;rer les
+newsletters et partenaires enregistr&eacute;s.<BR><BR>Le groupe
+&quot;view&quot; donne &agrave; un utilisateur, pour un site donn&eacute;,
+le droit de visionner les statistiques de ce site. Il n'a aucun droit
+d'administrateur et ne peut donc pas &eacute;diter les informations
+de ce site.<BR><BR>Le groupe &quot;no permission&quot; correspond au
+cas par d&eacute;faut : l'utilisateur n'a aucun droit sur le site en
+question. Il ne pourra pas visionner les statistiques ou &eacute;diter
+les caract&eacute;ristiques.<BR><BR>Un m&ecirc;me utilisateur peut
+bien s&ucirc;r appartenir &agrave; diff&eacute;rents groupes de
+permissions selon les sites. L'utilisateur &quot;Moli&egrave;re&quot;
+peut &ecirc;tre &quot;admin&quot; du site 1 et 3, mais seulement
+avoir le droit &quot;view&quot; sur le site 4. Il sera &quot;no
+permission&quot; sur le site 2.<BR><BR>Le panel de gestion des
+groupes utilisateurs permet, pour un site donn&eacute;, de changer
+les groupes des utilisateurs. Vous devez donc, avant toute chose,
+s&eacute;lectionner un site pour lequel vous allez modifier les
+droits des utilisateurs. Ensuite, il suffit de s&eacute;lectionner
+les utilisateurs dont vous d&eacute;sirez changer le groupe, puis de
+s&eacute;lectionner dans la liste &quot;D&eacute;placer dans le
+groupe :&quot; le groupe dans lequel vous souhaitez d&eacute;placer
+les utilisateurs. Validez votre choix.<BR><BR>Ajouter un
+utilisateur<BR>Cette rubrique permet d'ajouter un nouvel utilisateur.
+Les informations &agrave; saisir sont le login (identifiant), le
+password (6 caract&egrave;res minimum et contenant au moins 1
+chiffre), l'alias (Nom complet), l'adresse email (obligatoirement
+valide), et le choix de recevoir ou non un mail par jour contenant
+les statistiques de la veille.<BR><BR>Modifier un utilisateur<BR>Cette
+rubrique permet de modifier les informations relatives aux
+utilisateurs enregitr&eacute;es. S&eacute;lectionnez un utilisateur,
+&eacute;ditez ses informations, puis validez.<BR><BR>Supprimer un
+utilisateur<BR>Cette rubrique permet de supprimer des utilisateurs
+enregistr&eacute;es. Attention, toute suppression est
+d&eacute;finitive.<BR><BR>Informations du serveur web<BR><BR>Informations
+du serveur web<BR>Cette rubrique donne des informations importantes
+relatives &agrave; votre serveur web. Les informations sont s&eacute;par&eacute;es
+en 3 rubriques distinctes.<BR>- La partie &quot;Requis&quot; pr&eacute;sente
+les caract&eacute;ristiques minimales requises pour faire fonctionner
+phpMyVisites (version minimale de PHP, pr&eacute;sence de MySQL,
+droits d'&eacute;criture sur les r&eacute;pertoires de configurations
+et donn&eacute;es).<BR>- La partie &quot;Optionnel&quot; pr&eacute;sente
+les modules ou fonctions permettant une utilisation optimale de
+phpMyVisites. La librairie GD &gt; 2.x permet l'affichage des
+graphiques. La librairie Freetype permet l'&eacute;criture des textes
+sur les graphiques (l&eacute;gendes, titres, etc.). La limite de
+m&eacute;moire, conseill&eacute;e &agrave; 20M, permet de faire
+fonctionner phpMyVisites sur des sites Internet &agrave; forte
+audience. Si cette limite de m&eacute;moire est inf&eacute;rieure &agrave;
+la limite conseill&eacute;e, et que vous n'avez pas de message
+d'erreur relatives &agrave; la m&eacute;moire dans l'utilisation de
+phpMyVisites, vous n'avez pas &agrave; vous en pr&eacute;occuper. La
+fonction set_time_limit() permet de changer la limite du temps
+d'execution des scripts de phpMyVisites, cette fonction est
+indispensable pour les archivages de donn&eacute;es sur les sites &agrave;
+fort traffic : la limite par d&eacute;faut &agrave; 30s peut ne pas
+permettre de faire tous les calculs. La fonction mail() permet
+l'envoi de mails contenant les statistiques.<BR>- La partie
+&quot;Informations&quot; pr&eacute;sente des informations g&eacute;n&eacute;rales
+sur le serveur web : type de serveur, syst&egrave;me d'exploitation
+du serveur, heure du serveur, Uptime (temps depuis lequel le serveur
+est allum&eacute;).<BR><BR>Autre<BR>Envoyer les statistiques par
+email<BR>Cette rubrique permet d'envoyer sur demande des emails
+contenant les statistiques aux utilisateurs. Seuls les utilisateurs
+ayant activ&eacute; l'option d'envoi d'emails recevront un mail
+contenant les statistiques, et seulement pour les sites pour lesquels
+ils ont les droits de consulter les statistiques. Le Super
+Utilisateur recevra un email pour chaque site
+enregistr&eacute;.<BR><BR>Statistiques dans un Fil RSS<BR>Cette
+rubrique permet de g&eacute;n&eacute;rer un flux RSS contenant les
+statistiques de tous les sites pour lesquels l'utilisateur a les
+droits de consultation des statistiques. Il suffit d'enregistrer le
+flux RSS dans un logiciel de lecture de news, comme Thunderbird
+(</FONT><A HREF="http://www.getthunderbird.com/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.getthunderbird.com/</FONT></A><FONT FACE="Arial, sans-serif">),
+ou d'utiliser Firefox (</FONT><A HREF="http://www.getfirefox.com/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.getfirefox.com/</FONT></A><FONT FACE="Arial, sans-serif">)
+qui permet en un clic sur le flux d'enregistrer un marque page
+dynamique.<BR><BR>Administration Site<BR></FONT><BR><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif">Gestion
+des sites<BR>Ajouter un site<BR>Cette rubrique permet d'ajouter un
+nouveau site Internet dans phpMyVisites. Il est possible d'ajouter un
+nombre illimit&eacute; de sites Internet. Les informations &agrave;
+saisir sont le Nom du site, l'URL du site (du type
+</FONT><A HREF="http://www.adressesite.com/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.adressesite.com</FONT></A><FONT FACE="Arial, sans-serif">)
+sans slash &agrave; la fin. Vous pouvez choisir d'afficher ou non le
+logo sur les pages de votre site (vous pouvez l'afficher sur votre
+site personnel et choisir de ne pas mettre de logo sur votre site
+professionnel par exemple). Vous avez le choix entre plusieurs
+dizaines de logos disponibles (n'h&eacute;sitez pas &agrave; en
+envoyer des nouveaux &agrave; l'&eacute;quipe de d&eacute;veloppement
+qui se fera un plaisir de les ajouter &agrave; la liste !). Autoriser
+l'affichage du logo sur votre site permettra &agrave; phpMyVisites de
+mieux se faire conna&icirc;tre de tous et d'&eacute;voluer plus
+rapidement : c'est une mani&egrave;re de remercier l'&eacute;quipe de
+d&eacute;veloppement qui a pass&eacute; de tr&egrave;s nombreuses
+heures &agrave; d&eacute;velopper cette application libre et
+gratuite.<BR>Pour les utilisateurs avanc&eacute;s, il est possible de
+choisir d'enregistrer ou non les variables de type GET des URLs. Vous
+avez le choix entre 4 options :<BR>- &quot;Enregistrer toutes les
+variables&quot; est l'option par d&eacute;faut. Toute les variables
+de l'URL sont conserv&eacute;es.
+&quot;</FONT><A HREF="http://url.com/index.php?p=1&amp;toto=2" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://url.com/index.php?p=1&amp;toto=2</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+sera enregistr&eacute;e tel quel dans la base.<BR>- &quot;Ne pas
+enregistrer les variables&quot; permet d'enlever toutes les variables
+de l'URL. &quot;</FONT><A HREF="http://url.com/index.php?p=1&amp;toto=2" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://url.com/index.php?p=1&amp;toto=2</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+sera enregistr&eacute; comme &quot;</FONT><A HREF="http://url.com/index.php" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://url.com/index.php</FONT></A><FONT FACE="Arial, sans-serif">&quot;<BR>-
+&quot;Enregistrer seulement les variables sp&eacute;cifi&eacute;es&quot;
+permet de sp&eacute;cifier la liste des variables de l'URL &agrave;
+conserver. Si vous sp&eacute;cifiez par exemple la liste de variables
+&quot;page;id&quot;, l'URL
+&quot;</FONT><A HREF="http://site.com/index?page=toto&amp;other=mama" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://site.com/index?page=toto&amp;other=mama</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+deviendra &quot;</FONT><A HREF="http://site.com/index?page=toto" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://site.com/index?page=toto</FONT></A><FONT FACE="Arial, sans-serif">&quot;<BR>-
+&quot;Enregistrer toutes les variables sauf celles sp&eacute;cifi&eacute;es&quot;
+permet de sp&eacute;cifier la liste des variables &agrave; exclure de
+l'URL. Si vous sp&eacute;cifiez par exemple la liste de variables
+&quot;page;id&quot;, l'URL
+&quot;</FONT><A HREF="http://site.com/index?page=toto&amp;other=mama&amp;id=3" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://site.com/index?page=toto&amp;other=mama&amp;id=3</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+deviendra &quot;</FONT><A HREF="http://site.com/index?other=mama"><FONT FACE="Arial, sans-serif">http://site.com/index?other=mama</FONT></A><FONT FACE="Arial, sans-serif">&quot;</FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif">Apr&egrave;s
+avoir ajout&eacute; un site Internet, n'oubliez pas d'afficher le
+code Javascript correspondant &agrave; ce site, et de l'ajouter sur
+toutes les pages &agrave; auditer. Vos statistiques sont alors
+directement accessibles.<BR><BR>Modifier un site<BR>Cette rubrique
+permet d'&eacute;diter les informations d'un site enregistr&eacute;
+dans phpMyVisites. Modifiez les informations et validez pour
+enregistrer les changements.<BR><BR>Supprimer un site<BR>Cette
+rubrique permet de supprimer un site enregistr&eacute; dans
+phpMyVisites. Attention, cette op&eacute;ration est d&eacute;finitive
+!<BR><BR>Autre<BR><BR>Afficher le code javascript &agrave; ins&eacute;rer
+sur les pages<BR>Cette rubrique permet d'afficher, selon le site
+s&eacute;lectionn&eacute;, le code Javascript n&eacute;cessaire pour
+l'enregistrement des statistiques. Le positionnement de ce code
+Javascript sur toute les pages du site audit&eacute; est
+indispensable. Il est conseill&eacute; de coller le code dans le bas
+des pages audit&eacute;es, avant le &lt;/body&gt;, afin de ne
+comptabiliser que les statistiques des pages qui ont &eacute;t&eacute;
+enti&egrave;rement affich&eacute;es.<BR><BR>Ne pas vous prendre en
+compte dans les statistiques<BR>Cette rubrique permet d'ajouter un
+cookie pour que vos visites ne soient pas comptabilis&eacute;es dans
+les statistiques d&rsquo;acc&egrave;s. Ce cookie sera automatiquement
+d&eacute;tect&eacute; lors de votre visite sur le site, et
+phpMyVisites ne vous comptabilisera pas. Pour annuler et effacer le
+cookie, refaire la d&eacute;marche en sens inverse. Si vous utilisez
+plusieurs navigateurs, il vous faudra installer le cookie sur chaque
+navigateur s&eacute;par&eacute;ment. De m&ecirc;me, n'oubliez pas
+d'installer un cookie via votre logiciel WYSIWYG de cr&eacute;ation
+de sites qui constitue encore un autre navigateur.<BR><BR>Exclude des
+IP/plages d'ips des statistiques<BR>Cette rubrique permet d'exclure
+de l'enregistrement des statistiques des IPs ou plages d'Ips
+compl&egrave;tes. Dans le cas d'une entreprise ou d'un r&eacute;seau
+quelconque disposant de plusieurs ordinateurs, l'installation du
+cookie sur tous les ordinateurs du r&eacute;seau n'est pas une
+solution pratique. Pour cela, il est possible d'exclure des plages
+d'IP enti&egrave;res, ou simplement des IPs. Par d&eacute;faut, il
+est possible de configurer 10 plages d'adresses IP. Entrez dans le
+formulaire de gauche la borne inf&eacute;rieure de l'IP, et dans le
+formulaire de droite la borne maximale. Par exemple &quot;</FONT><A HREF="http://192.168.0.0/" TARGET="_blank"><FONT FACE="Arial, sans-serif">192.168.0.0</FONT></A><FONT FACE="Arial, sans-serif">
+=&gt; </FONT><A HREF="http://192.168.2.255/" TARGET="_blank"><FONT FACE="Arial, sans-serif">192.168.2.255</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+excluera toutes les ips situ&eacute;es entre ces 2 bornes.<BR><BR>Gestion
+des alias d'Urls<BR>Cette rubrique permet d'ajouter, pour le site
+s&eacute;lectionn&eacute;, plusieurs URLs alias. Un site Internet
+peut en effet &ecirc;tre accessible de plusieurs adresses
+diff&eacute;rentes, par exemple &quot;</FONT><A HREF="http://site.com/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://site.com</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+&quot;</FONT><A HREF="http://www.site.org/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.site.org</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+&quot;</FONT><A HREF="http://www.site.com/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.site.com</FONT></A><FONT FACE="Arial, sans-serif">&quot;
+&quot;</FONT><A HREF="http://site.net/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://site.net</FONT></A><FONT FACE="Arial, sans-serif">&quot;.
+Enregistrer ces adresses comme appartenant au site enregistr&eacute;
+permettra de ne pas afficher les visites de ces diff&eacute;rentes
+adresses dans la partie &quot;Acc&egrave;s par un site Internet&quot;
+de la rubrique &quot;Affluents&quot;, mais de les consid&eacute;rer
+comme &quot;Acc&egrave;s direct&quot;.<BR><BR>Newsletters<BR><BR>G&eacute;n&eacute;ralit&eacute;s
+sur les newsletters<BR>phpMyVisites permet de diff&eacute;rencier les
+visites en provenance d'une newsletter. Les visiteurs ayant cliqu&eacute;
+sur un lien dans la newsletter seront comptabilis&eacute;s avec un
+affluent de type &quot;Newsletters&quot; dans la rubrique
+&quot;Affluents&quot;. Cette diff&eacute;renciation permet de faire
+une analyse pr&eacute;cise des performances des diff&eacute;rents
+moyens de communication utilis&eacute;s.<BR><BR>Ajouter une
+newsletter<BR>Cette rubrique permet d'ajouter une nouvelle newsletter
+pour le site s&eacute;lectionn&eacute;. Une newsletter est d&eacute;finie
+par son nom.<BR><BR>Modifier une newsletter<BR>Cette rubrique permet
+de modifier le nom d'une newsletter. La modification du nom de la
+newsletter prendra effet pour les futures archives (les p&eacute;riodes
+d&eacute;j&agrave; archiv&eacute;es conserveront les m&ecirc;mes noms
+de newsletter).<BR><BR>Supprimer une newsletter<BR>Cette rubrique
+permet de supprimer une newsletter d'un
+site.<BR><BR>Partenaires<BR><BR>G&eacute;n&eacute;ralit&eacute;s sur
+les partenaires<BR>phpMyVisites permet de diff&eacute;rencier les
+visites en provenances de sites enregistr&eacute;s comme &eacute;tant
+des sites partenaires. Les visiteurs acc&eacute;dant au site
+s&eacute;lectionn&eacute;, &agrave; partir d'un site partenaire,
+seront d&eacute;tect&eacute;s avec un affluent de type &quot;Partenaire&quot;
+dans la rubrique &quot;Affluents&quot;. Cette diff&eacute;renciation
+des provenances permet, tout comme les newsletters, d'observer avec
+pr&eacute;cision l'efficacit&eacute; des diff&eacute;rents moyens de
+communication du site Internet.<BR><BR>Ajouter un partenaire<BR>Cette
+rubrique permet d'ajouter un nouveau site partenaire dans l'interface
+de phpMyVisites. Un site partenaire est d&eacute;fini par son nom et
+par ses URLs. Tout comme un site dans phpMyVisites peut avoir
+plusieurs Urls, un site partenaire peut &eacute;galement avoir
+plusieurs adresses distinctes. Afin de d&eacute;tecter l'ensemble de
+ces adresses comme appartenant au m&ecirc;me site partenaire,
+enregistrez les dans le formulaire.<BR><BR>Modifier le nom/url d'un
+partenaire<BR>Cette rubrique permet de modifier le nom et les URLs du
+site partenaire s&eacute;lectionn&eacute;. Tout comme la modification
+du nom d'une newsletter, les nouvelles caract&eacute;ristiques du
+site partenaire seront prises en compte pour les futures
+archives.<BR><BR>Supprimer un partenaire<BR>Cette rubrique permet de
+supprimer un site partenaire. Les visites en provenance de ce site
+seront comptabilis&eacute;es comme un site Internet classique (partie
+&quot;Sites Internet&quot; de la rubrique &quot;Affluents&quot;).</FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY><BR><BR>
+</P>
+<H1 CLASS="western" STYLE="page-break-before: always">S&eacute;curit&eacute;</H1>
+<P CLASS="western" ALIGN=JUSTIFY><BR>Au sein de phpMyVisites<BR>La
+s&eacute;curit&eacute; dans phpMyVisites est un domaine sur lequel
+l'&eacute;quipe de d&eacute;veloppement travaille constamment. Nous
+avons con&ccedil;u phpMyVisites en pensant constamment aux probl&egrave;mes
+de s&eacute;curit&eacute; et de protection des donn&eacute;es. Les
+mots de passe (que l'on force &agrave; &ecirc;tre complexe) sont
+cod&eacute;s via un proc&eacute;d&eacute; inviolable (md5) en base de
+donn&eacute;es. De nombreux tests sont r&eacute;alis&eacute;s afin
+d'emp&ecirc;cher toute tentative de hacking via phpMyVisites (SQL
+Injection ou Cross Site Scripting).<BR>En cas de probl&egrave;me,
+nous serions tr&egrave;s r&eacute;actifs sur la rapidit&eacute; de
+r&eacute;ponse et de publication de nouvelle version. 
+</P>
+<P CLASS="western" ALIGN=JUSTIFY><BR>Au sein de votre serveur web<BR>Il
+convient de respecter les r&egrave;gles suivantes afin de minimiser
+les probl&egrave;mes :<BR>- ne pas permettre l'affichage de
+phpinfo(); sur aucune page visible de votre site<BR>- mettre &laquo;
+register_globals &raquo; &agrave; &laquo; off &raquo; dans votre
+configuration php<BR>- mettre &laquo; display_errors &raquo; &agrave;
+&laquo; off &raquo;, et &laquo; log_errors &raquo; &agrave; &laquo;
+on &raquo;. C'est tr&egrave;s important car les messages d'erreur
+sont une source d'informations tr&egrave;s riche pour un pirate. M&ecirc;me
+si en temps normal aucune erreur ne s'affiche sur votre site, le
+pirate fait en sorte d'afficher les erreurs lui-m&ecirc;me, et il en
+tire de nombreuses informations.<BR>- faire des sauvegardes
+r&eacute;guli&egrave;res de sa base de donn&eacute;es (donc des
+donn&eacute;es des tables de phpMyVisites), cela &eacute;vite de tout
+perdre en cas d'attaque<BR>- le mot de passe admin NE DOIT PAS &ecirc;tre
+le m&ecirc;me que le ftp et/ou le mysql (ce que l'on voit trop
+souvent).<BR>- faire attention aux autres logiciels que vous utilisez
+sur le serveur web (forums, CMS, etc.) et v&eacute;rifiez
+r&eacute;guli&egrave;rement la pr&eacute;sence de nouvelles versions
+plus s&eacute;curis&eacute;es</P>
+<P CLASS="western" ALIGN=JUSTIFY>- v&eacute;rifiez la pr&eacute;sence
+de nouvelles versions de phpMyVisites corrigeant un probl&egrave;me
+de s&eacute;curit&eacute; et faire la mise &agrave; jour 
+</P>
+<H1 CLASS="western" STYLE="page-break-before: always">Support</H1>
+<P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif"><BR>Poser
+une question et obtenir une r&eacute;ponse<BR>Si vous avez une
+question &agrave; propos de phpMyVisites, que ce soit au niveau des
+statistiques fournies ou de l'utilisation m&ecirc;me du logiciel
+(probl&egrave;me d'ergonomie, fonctions non comprises, etc.),
+n'h&eacute;sitez pas &agrave; la soumettre sur le forum &laquo;
+Suggestions et questions diverses &raquo; du site officiel. N&eacute;anmoins
+assurez vous que votre question, ou une question similaire, n'ait pas
+d&eacute;j&agrave; &eacute;t&eacute; pos&eacute;e (pour cela
+effectuez une recherche sur le forum). Lisez aussi attentivement la
+FAQ (foire aux questions) qui contient la liste de toutes les
+questions r&eacute;guli&egrave;rement pos&eacute;es sur l'utilisation
+de phpMyVisites, elle est disponible sur
+<A HREF="http://www.phpmyvisites.net/faq/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.phpmyvisites.net/faq/</FONT></A><FONT FACE="Arial, sans-serif">.<BR>Si
+une question similaire a d&eacute;j&agrave; &eacute;t&eacute; pos&eacute;e
+mais qu'elle ne correspond pas parfaitement, essayez de pr&eacute;ciser
+votre demande au sein du sujet d&eacute;j&agrave; existant : cela ne
+sert &agrave; rien de dupliquer les sujets du forum, sauf &agrave;
+faire perdre du temps &agrave; l'&eacute;quipe et aux utilisateurs
+!<BR>Bien s&ucirc;r, pour obtenir une r&eacute;ponse, il faut que
+votre demande soit claire et pr&eacute;cise. N'oubliez pas non plus
+d'&ecirc;tre un minimum poli, les personnes qui vous r&eacute;pondront
+le feront sur leur temps libre.<BR><BR>Soumettre un bug<BR>Il est
+fortement conseill&eacute;, si vous rencontrez un bug dans
+l'utilisation de phpMyVisites, de soumettre ce bug &agrave; l'&eacute;quipe
+de d&eacute;veloppement. Il est pour nous tr&egrave;s important de
+corriger tous les bugs connus pour rendre phpMyVisites le plus stable
+et s&ucirc;r possible.<BR>phpMyVisites dispose d'un BugTracker,
+logiciel permettant de g&eacute;rer les bugs soumis par les
+utilisateurs, disponible sur </FONT><A HREF="http://www.phpmyvisites.net/bugtracker/" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.phpmyvisites.net/bugtracker/</FONT></A><FONT FACE="Arial, sans-serif">.
+Voici quelques recommandations &agrave; prendre en compte avant de
+soumettre un bug dans le bugtracker :<BR>- Tout d'abord assurez-vous
+que le bug soit reproduisible ; un bug reproduisible est un bug
+solutionnable. Si il ne l'est pas, efforcez vous de d&eacute;crire le
+plus pr&eacute;cis&eacute;ment possible le contexte dans lequel il
+est apparu (rubrique parcouru, type de p&eacute;riode s&eacute;lectionn&eacute;,
+action pr&eacute;c&eacute;dente, etc.). Si vous parvenez &agrave;
+r&eacute;p&eacute;ter le bug, d&eacute;crivez pr&eacute;cis&eacute;ment
+le protocole pour le reproduire. Accessoirement donnez l'adresse de
+votre site et de votre installation de phpMyVisites afin que l'&eacute;quipe
+puisse directement voir le probl&egrave;me.<BR>- Ensuite il est
+indispensable d'effectuer une recherche dans le forum ET dans la FAQ
+(foire aux questions) pour voir si votre bug a d&eacute;j&agrave; &eacute;t&eacute;
+soumis. Il est tr&egrave;s d&eacute;conseill&eacute; de poster un
+m&ecirc;me bug plusieurs fois dans le bugtracker, cela n'aura pour
+but que de ralentir l'&eacute;quipe ; le temps perdu &agrave; faire
+le tri le sera sur la correction. Si votre bug est d&eacute;j&agrave;
+soumis, essayez de compl&eacute;ter la description du probl&egrave;me
+en r&eacute;pondant au sujet du bug correspondant : faites alors
+votre propre description si elle semble diff&eacute;rente de la
+description d&eacute;j&agrave; pr&eacute;sente.<BR>- Si votre bug n'a
+pas &eacute;t&eacute; encore soumis par un autre utilisateur, vous
+pouvez alors cr&eacute;er un nouveau bug report. Le titre du sujet
+doit &ecirc;tre tr&egrave;s clair et doit parler du probl&egrave;me
+rencontr&eacute; ; interdisez vous par exemple les sujets &laquo; it
+doesn't work &raquo; ou &laquo; bug in phpmyvisites &raquo;, pr&eacute;f&eacute;rez
+&laquo; inversed data in newsletter table &raquo; ou &laquo; month
+archive : wrong results &raquo;. Dans les caract&eacute;ristiques du
+bug, n'oubliez pas de pr&eacute;ciser (si vous en avez connaissance)
+:<BR>- votre type de serveur et la version. Ex : Apache 1.2.22, IIS
+4, Sambar, etc.<BR>- la version de PHP ET les librairies install&eacute;es
+et configur&eacute;es. Ex : PHP 5.1 avec GD2 et FreeType<BR>- votre
+version de base de donn&eacute;es. Ex : MySQL 5.0.10<BR><BR>Pour
+obtenir ces informations, le plus simple et rapide est de cr&eacute;er
+un fichier 'phpinfo.php' sur votre serveur contenant le code suivant
+: &lt;?php phpinfo(); ?&gt; Rendez vous ensuite sur ce fichier avec
+votre navigateur et vous trouverez toutes les informations
+n&eacute;cessaires pr&eacute;c&eacute;dentes relatives &agrave; votre
+configuration. Il faut &ecirc;tre le plus rigoureux possible lors de
+la description du bug. Comme expliqu&eacute; ci-dessus, une bonne
+description fera gagner &eacute;norm&eacute;ment de temps et le bug
+pourra &ecirc;tre rapidement corrig&eacute;. Une fois le bug corrig&eacute;,
+vous serez averti sur le forum et par email de la solution ; vous
+pourrez alors la corriger vous m&ecirc;me ou attendre la prochaine
+version. Merci d'avance de votre aide !<BR><BR>Sugg&eacute;rer une
+am&eacute;lioration<BR>Si une fonctionnalit&eacute; non pr&eacute;sente
+dans phpMyVisites vous serait utile, ou si une fonctionnalit&eacute;
+d&eacute;j&agrave; pr&eacute;sente ne vous semble pas pratique
+&nbsp;n'h&eacute;sitez pas &agrave; en faire part &agrave; l'&eacute;quipe
+de d&eacute;veloppement. Il vous suffit de poser un message dans le
+forum &laquo; Suggestions et questions diverses &raquo; sur le site
+officiel. Assurez vous au pr&eacute;alable que votre requ&ecirc;te
+n'a pas d&eacute;j&agrave; &eacute;t&eacute; effectu&eacute;e par un
+autre utilisateur (faites une recherche sur le forum).<BR>Si votre
+demande semble pertinente, elle pourra &ecirc;tre prise en compte par
+l'&eacute;quipe de d&eacute;veloppement qui l'ajoutera &agrave; la
+liste des fonctionnalit&eacute;s &agrave; impl&eacute;menter dans une
+prochaine version. N'h&eacute;sitez pas, de nombreuses nouvelles
+fonctionnalit&eacute;s ont &eacute;t&eacute; impl&eacute;ment&eacute;es
+suite &agrave; des demandes de la part des utilisateurs. Gardez bien
+s&ucirc;r &agrave; l'esprit que les d&eacute;veloppeurs sont
+volontaires et non r&eacute;mun&eacute;r&eacute;s, aucune garantie
+n'est donn&eacute;e sur la suite de votre demande. Si une
+fonctionnalit&eacute; vous manque semble vraiment indispensable, le
+plus simple est de participer au d&eacute;veloppement, toute
+contribution est accueillie avec enthousiasme et l'&eacute;quipe de
+d&eacute;veloppeurs vous soutiendra et vous aidera avec plaisir. Il y
+a aussi la possibilit&eacute; de r&eacute;mun&eacute;rer un membre de
+l'&eacute;quipe de d&eacute;veloppement pour un d&eacute;veloppement
+pr&eacute;cis. Contactez nous via le formulaire sur le site Officiel
+(rubrique </FONT>Contacts). </FONT>
+</P>
+<H1 CLASS="western" STYLE="page-break-before: always">A propos</H1>
+<P CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, sans-serif"><BR>Licence
+de la documentation<BR>La pr&eacute;sente documentation est
+distribu&eacute;e sous licence GFDL.<BR><BR>Licence du
+logiciel<BR>phpMyVisites est un logiciel libre, distribu&eacute; sous
+licence GNU/GPL. Vous pouvez trouver cette licence sur
+</FONT><A HREF="http://www.gnu.org/copyleft/gpl.html" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.gnu.org/copyleft/gpl.html</FONT></A><FONT FACE="Arial, sans-serif">
+en version originale, ou sur
+</FONT><A HREF="http://www.linux-france.org/article/these/gpl.html" TARGET="_blank"><FONT FACE="Arial, sans-serif">http://www.linux-france.org/article/these/gpl.html</FONT></A><FONT FACE="Arial, sans-serif">
+en traduction non officielle.<BR><BR>Equipe de d&eacute;veloppement<BR>Le
+cr&eacute;ateur du projet, principal d&eacute;veloppeur et r&eacute;dacteur
+de la pr&eacute;sente documentation est Matthieu Aubry. Marc Boussard
+est co-d&eacute;veloppeur de phpMyVisites, il a d&eacute;velopp&eacute;
+d'importantes mises &agrave; jour (validation XHTML,
+internationalisation des versions 1.x). Natsimhan a particip&eacute;
+ponctuellement &agrave; l'&eacute;volution du logiciel, via ses
+int&eacute;ressantes remarques et observations sur le code source.
+Florent Chantret s'est &eacute;galement impliqu&eacute; via le
+d&eacute;veloppement de la reconnaissance des plugins, de la
+proc&eacute;dure de mise &agrave; jour des bases de donn&eacute;es.
+Xavier a aid&eacute; pendant le d&eacute;veloppement de la version
+2.0, a permis de consolider le syst&egrave;me de modules de
+phpMyVisites, et a aid&eacute; pour la mise en place de
+Smarty.<BR><BR>Historique<BR><BR>La premi&egrave;re version de
+phpMyVisites, appel&eacute;e &agrave; l'&eacute;poque &laquo; b&ecirc;ta
+0.1 &raquo;, a &eacute;t&eacute; d&eacute;velopp&eacute;e de Juillet
+&agrave; Septembre 2002, puis en Mars-Avril 2003, afin d'&ecirc;tre
+pr&eacute;sent&eacute;e au &laquo; Concours europ&eacute;en des
+jeunes cr&eacute;ateurs multim&eacute;dia &raquo;, le concours &laquo;
+SoftQuiPeut &raquo;, qui se d&eacute;roulait les 4 et 5 Avril 2003 au
+palais des congr&egrave;s du Futuroscope. Elue vainqueur du prix des
+concurrents, j'ai gagn&eacute; (avec un ami) un stage de 5 semaines
+au Qu&eacute;bec, &agrave; Montr&eacute;al.<BR>Ce stage, effectu&eacute;
+dans une entreprise de b&ecirc;ta-test de jeux vid&eacute;os, m'a
+permis de me consacrer au d&eacute;veloppement de la version 1.0 de
+phpMyVisites ; le directeur de l'entreprise &eacute;tait en effet
+tr&egrave;s int&eacute;ress&eacute; par les statistiques de son site
+Internet, et souhaitait disposer d'un outil complet qui r&eacute;ponde
+&agrave; ses principales interrogations. J'ai ainsi pu travailler
+l'&eacute;quivalent d'un plein temps pendant 3 semaines sur
+phpMyVisites. La premi&egrave;re version, la b0.1, souffraient de
+nombreux probl&egrave;mes, principalement dus &agrave; des erreurs de
+conception de l'architecture du logiciel. Le d&eacute;veloppement de
+la version 1.0 a n&eacute;cessit&eacute; une totale r&eacute;&eacute;criture
+du code source ; elle a &eacute;t&eacute; publi&eacute;e, apr&egrave;s
+de nombreux tests sur des sites partenaires, le 10 Octobre 2003.<BR><BR>La
+version 1.1 publi&eacute;e en version stable le 25 D&eacute;cembre
+propose d'int&eacute;ressantes am&eacute;liorations (choix des
+variables GET, ne pas prendre en compte le webmaster dans les
+statistiques) mais surtout corrige de nombreux petits bugs qui
+rendent cette version particuli&egrave;rement stable et s&ucirc;re.
+La version 1.2 est un grand pas pour phpMyVisites, puisque dor&eacute;navant
+les traductions sont r&eacute;alisables dans toutes les langues
+existantes. Cette caract&eacute;ristique a n&eacute;cessit&eacute;
+&eacute;norm&eacute;ment de travail (partag&eacute; entre Marc et
+Matthieu), et l'application a aussi &eacute;t&eacute; convertie
+int&eacute;gralement en XHTML/CSS valide ; plus modulaire, plus
+compl&egrave;te (ajout de statistiques), plus ergonomique (de
+nombreuses corrections suite &agrave; des suggestions
+d'utilisateurs), plus s&eacute;curis&eacute;e (de nombreuses
+am&eacute;liorations dans ce sens), et plus rapide (requ&ecirc;tes
+SQL optimis&eacute;es pour un gain de performance de 30%), la version
+1.2 repr&eacute;sente la plus grande &eacute;volution de phpMyVisites
+depuis 1.0. La version 1.3 n'apporte aucune r&eacute;volution mais
+quelques nouveaut&eacute;s : phpMyVisites s'internationalise et est
+maintenant disponible en 16 langues. La proc&eacute;dure de mise &agrave;
+jour de la base de donn&eacute;es est instaur&eacute;e. La principale
+am&eacute;lioration est la prise en compte des plugins des
+visiteurs.<BR><BR>En &eacute;t&eacute; 2005, sponsoris&eacute; par un
+grand groupe Fran&ccedil;ais, j'ai d&eacute;velopp&eacute; la version
+2.0 pendant 3 mois &agrave; plein temps. Cette version 2.0 tient
+parti de l'exp&eacute;rience acquise sur le d&eacute;veloppement de
+la version 1 de phpMyVisites. J'ai enti&egrave;rement r&eacute;&eacute;cris
+le code source, en orientant le tout en objet, en utilisant la
+librairie PEAR et le moteur de template Smarty. Apr&egrave;s un cycle
+de beta long (5 version beta) publi&eacute;es r&eacute;guli&egrave;rement
+de septembre &agrave; novembre, la version 2.0 est particuli&egrave;rement
+stable. Les am&eacute;liorations sont consid&eacute;rables (des
+dizaines de nouvelles fonctionnalit&eacute;s), l'interface a &eacute;t&eacute;
+revue pour une meilleure exp&eacute;rience, la stabilit&eacute; est
+exemplaire. Le fonctionnement est optimis&eacute; pour des sites
+Internet &agrave; tr&egrave;s fort traffic. La version 2.0 de
+phpMyVisites a pour ambition de concurrencer les outils payant et
+professionnels du march&eacute;, la r&eacute;action tr&egrave;s
+positive de la communaut&eacute; nous fait croire que nous avons un
+r&ocirc;le important &agrave; jouer dans la mesure d'audience de
+l'Internet. </FONT>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY><BR><BR>
+</P>
+</BODY>
+</HTML>

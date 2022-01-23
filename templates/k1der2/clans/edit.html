@@ -1,0 +1,64 @@
+<h3>&Eacute;diter les informations du clan</h3>
+<form action="{REQUEST_URI}" method="post">
+ <fieldset>
+ <legend>Informations générales</legend>
+ <label for="nom">Nom<sup><a href="membres/mon-profil-clanedit.html#tips1" title="Information">1</a></sup></label>
+ <input type="text" id="nom" name="nom" maxlength="100" value="{nom}" />
+ <!-- BEGIN ERREUR-CLAN1 -->
+ <span class="erreur">Vous devez rentrer un nom de clan</span>
+ <!-- END ERREUR-CLAN1 -->
+ <!-- BEGIN ERREUR-CLAN2 -->
+ <span class="erreur">Un clan existe déjà avec ce nom</span>
+ <!-- END ERREUR-CLAN2 -->
+ <!-- BEGIN ERREUR-CLAN3 -->
+ <span class="erreur">Le nom d'un clan ne peut contenir que des caractères alphanumriques et des espaces</span>
+ <!-- END ERREUR-CLAN3 -->
+ <!-- BEGIN ERREUR-CLAN4 -->
+ <span class="erreur">Le nom d'un clan doit avoir une longueur comprise entre 3 et 100 caractères</span>
+ <!-- END ERREUR-CLAN4 -->
+ <br />
+ <label for="tag">Tag</label>
+ <input type="text" id="tag" name="tag" maxlength="20" value="{tag}" />
+ <!-- BEGIN ERREUR-CLAN5 -->
+ <span class="erreur">Vous devez rentrer un tag pour le clan</span>
+ <!-- END ERREUR-CLAN5 -->
+ <!-- BEGIN ERREUR-CLAN6 -->
+ <span class="erreur">Le tag d'un clan doit avoir une longueur infrieure  20 caractères</span>
+ <!-- END ERREUR-CLAN6 -->
+ <!-- BEGIN ERREUR-CLAN7 -->
+ <span class="erreur">Un clan existe déjà avec ce tag</span>
+ <!-- END ERREUR-CLAN7 -->
+ <br />
+ <span class="label">Emplacement du tag </span><span id="tagpreview">{tagpreview}</span>
+ <input type="radio" id="before" name="tagempl" value="1"{empl1} />
+ <label class="lite" for="before">Avant</label>
+ <input type="radio" id="after" name="tagempl" value="2"{empl2} />
+ <label class="lite" for="after">Après</label>
+ <br />
+ <label for="leader">Leader<sup><a href="membres/mon-profil-clanedit.html#tips2" title="Information">2</a></sup></label>
+ <select id="leader" name="leader">
+  <!-- BEGIN LEADERS -->
+  <option value="{leaderId}"{selected}>{leaderNom}</option>
+  <!-- END LEADERS -->
+ </select>
+ </fieldset>
+ <fieldset>
+ <legend>Contact</legend>
+ <label for="site">Site web</label>
+ <input type="text" id="site" name="site" maxlength="255" value="{site}" />
+ <br />
+ <label for="irc">Channel IRC </label>
+ <input type="text" id="irc" name="irc" maxlength="100" value="{irc}" />
+ <label class="lite" for="ircserver"> sur </label>
+ <select id="ircserver" name="ircserver">
+  <!-- BEGIN IRCSERVERS -->
+  <option value="{ircServer}"{selected2}>{ircServerName}</option>
+  <!-- END IRCSERVERS -->
+ </select>
+ </fieldset>
+ <div>
+  <input type="submit" value="Valider les modifications" />
+ </div>
+</form>
+<p class="tips"><a id="tips1">1</a>.&nbsp;Le nom de l'équipe ne peut contenir que des caractères alphanumriques ainsi que des espaces.</p>
+<p class="tips"><a id="tips2">2</a>.&nbsp;Si vous changez de leader vous perdez tous les droits d'administration du clan (gestions des lines up, des postulants, etc...) et ne pourrez les récuprer que par l'intermédiaire du nouveau leader. </p>

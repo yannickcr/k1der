@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration>
+	<pages>
+		<page page="fiche" condition="get[file]" />
+		<page page="cat" condition="get[cat]" />
+		<page page="count" condition="post[id]" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="addComm" condition="get[file],post[message],post[note]" />
+		<action action="editComm" condition="get[file],get[edit],post[message],post[note]" />
+		<action action="delComm" condition="get[file],get[del]" />
+		
+		<action action="addFile" condition="post[nom],post[cat],post[descr],post[miroir],infos[id]" />
+		<action action="addCat" condition="post[cat],post[nom],post[descr],infos[id]" />
+		<action action="editCat" condition="post[cat],post[nom],post[descr],get[id],infos[id]" />
+		<action action="editFile" condition="post[nom],post[cat],post[descr],post[miroir],get[id],infos[id]" />
+		<action action="delCat" condition="get[id]" />
+		<action action="delFile" condition="get[id]" />
+		<action action="moveCat" condition="get[id],get[action2]" />
+		<action action="moveFile" condition="get[id],get[action2]" />
+	</actions>
+	<admin titre="Téléchargements">
+		<menu titre="Ajouter une catégorie" lien="admin/download/addcat.html"/>
+		<menu titre="Ajouter un fichier" lien="admin/download/addfile.html"/>
+		<menu titre="Gérer des téléchargements" lien="admin/download/gerercat.html"/>
+	</admin>
+</configuration>

@@ -1,0 +1,1407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simpletagging\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-06-01 23:59+0200\n"
+"Last-Translator: İzzet Emre Erkan <kara@karalamalar.net>\n"
+"Language-Team: karalamalar.net <kara@karalamalar.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\Documents and Settings\\Amaury.HP-AMO\\Bureau\\Simple Tagging\\branches\\1.6.6\n"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:88
+#: Tagging\branches\1.6.6/simpletagging.admin.php:103
+msgid "Select"
+msgstr "Seç"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:124
+msgid "Simple Tagging"
+msgstr "Basit Etiketleme"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:124
+#: Tagging\branches\1.6.6/simpletagging.admin.php:319
+msgid "Tags"
+msgstr "Etiketler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:125
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1100
+msgid "Simple Tagging: Manage Tags"
+msgstr "Basit Etiketleme: Etiketleri Yönet"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:125
+msgid "Manage Tags"
+msgstr "Etiketleri Yönet"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:126
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1394
+msgid "Simple Tagging: Not Tagged Articles"
+msgstr "Basit Etiketleme: Etiketlenmemiş Yazılar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:126
+msgid "Not Tagged Articles"
+msgstr "Etiketlenmemiş Yazılar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:127
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1220
+msgid "Simple Tagging: Import Tags"
+msgstr "Basit Etiketleme: Etiketleri İçe Aktar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:127
+msgid "Import Tags"
+msgstr "Etiketleri İçe Aktar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:128
+msgid "Simple Tagging: General Options"
+msgstr "Basit Etiketleme: Genel Ayarlar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:128
+#: Tagging\branches\1.6.6/simpletagging.admin.php:689
+msgid "General Options"
+msgstr "Genel Seçenekler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:129
+msgid "Simple Tagging: Cloud Options"
+msgstr "Basit Etiketleme: Bulut Ayarları"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:129
+msgid "Cloud Options"
+msgstr "Bulut ayarları"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:130
+#: Tagging\branches\1.6.6/simpletagging.admin.php:890
+msgid "Simple Tagging: Related Options"
+msgstr "Basit Etiketleme: İlişkili Ayarlar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:130
+msgid "Related Options"
+msgstr "İlişkili Ayarlar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:246
+msgid "No (suggested) tags founds."
+msgstr "(Önerilebilecek) Etiket bulunamadı."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:312
+msgid "Tags (comma separated list)"
+msgstr "Etiketler (virgül ile ayrılmıl liste halinde)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:319
+msgid "Suggested Tags"
+msgstr "Önerilen Etiketler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:425
+#, php-format
+msgid "Deleted the following tag(s): %s"
+msgstr "Şu etiket(ler) silindi: %s"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:427
+#, php-format
+msgid "Could not find tag(s) in database: %s"
+msgstr "Veritabanında şu etiket(ler) bulunamadı: %s"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:444
+msgid "No new tag specified!"
+msgstr "Yeni etiket belirtilmedi!"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:481
+#, php-format
+msgid "Renamed tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;"
+msgstr "Değiştirilen etiket(ler) &laquo;%1$s&raquo; etiketleri şunlar ile &laquo;%2$s&raquo; değiştirildi"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:483
+#, php-format
+msgid "Added tag(s) &laquo;%s&raquo; to all posts."
+msgstr "&laquo;%s&raquo; etiket(ler)i tüm yazılara eklendi"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:485
+#, php-format
+msgid "Added tag(s) &laquo;%1$s&raquo; to posts tagged with &laquo;%2$s&raquo;"
+msgstr "&laquo;%2$s&raquo; ile etiketlenmiş yazılara  &laquo;%1$s&raquo; etiketleri eklendi"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:487
+msgid "No posts found matching tag(s):"
+msgstr "Etiketler için eşleşen yazı bulunamadı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:551
+#, php-format
+msgid "Converting categories to tags was successful, %s categories converted :)"
+msgstr "Kategorileri etikete dönüştürme işlemi tamamlandı %s kategori dönüştürüldü. :)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:553
+msgid "No categories found so nothing was converted."
+msgstr "Kategori bulunamadı, dolayısıyla dönüştürme yapılmadı."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:594
+#, php-format
+msgid "Importing Tags of Jerome's Keywords 1.9 was successful, %s tags imported :)"
+msgstr "Jerome's Keywords 1.9'dan etiket aktarma tamamlandı, %s etiket içeri aktarıldı :)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:596
+#: Tagging\branches\1.6.6/simpletagging.admin.php:631
+#: Tagging\branches\1.6.6/simpletagging.admin.php:680
+msgid "No tags found so nothing was imported."
+msgstr "Etiket bulunamadı, dolayısıyla dönüştürme yapılmadı."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:629
+#, php-format
+msgid "Importing Tags from Jerome's Keywords 2.0 Beta was successful, %s tags imported :)"
+msgstr "Jerome's Keywords 2.0 Beta'dan etiket aktarma tamamlandı, %s etiket içeri aktarıldı :)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:678
+#, php-format
+msgid "Importing Tags from Ultimate Tag Warrior was successful, %s tags imported :)"
+msgstr "Ultimate Tag Warrior'dan etiket aktarma tamamlandı, %s etiket içeri aktarıldı :)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:690
+msgid "Tag search base:"
+msgstr "Etiket arama:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:690
+msgid "Please don't enter a leading or trailing slash. <br />Output: "
+msgstr "Lütfen düz ya da ters kesme işareti kullanmayın. <br />Çıktı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:691
+msgid "Include trailing slash on tag urls:"
+msgstr "Etiket adreslerinde kesme işareti kullanın:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:692
+msgid "This will add a trailing slash on tag urls, so \"<code>/tag/sometag</code>\" becomes \"<code>/tag/sometag/</code>\". It will work only if you are using <a href=\"http://codex.wordpress.org/Using_Permalinks\">pretty permalinks</a>."
+msgstr "Bu işlem etiket adreslerine kesme karakteri ekleyecektir, yani \"<code>/etiket/herhangi-bir-etiket</code>\" adresi \"<code>/etiket/herhangi-bir-etiket/</code>\" şekline dönüşecektir. Bu işlem sadece <a href=\"http://codex.wordpress.org/Using_Permalinks\">Kalıcı bağlantılar</a> kullanıyorsanız işe yarar."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:693
+msgid "Use hyphens as space separator:"
+msgstr "Tire işaretini boşluk ayracı olarak kullan:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:693
+msgid "This will convert spaces to hyphens \"-\" instead of underscores \"_\". A tag name like 'Hello World' is per default converted to the URL 'Hello_World', this makes it possible that you can also use hyphens \"-\" in tag names like 'plug-in', 're-import' etc. However, if you enable this option, then spaces will be replaced with hyphens \"-\", but this will also disable the use of hyphens in tag names and will convert tags like 're-import' into 're import'."
+msgstr "Bu işlem boşluk karakterlerini alt çizgi \"_\" ile değiştirmek yerine  tire karakteri \"-\" ile değiştirmenizi sağlar. Normalde 'Merhaba Dünya' gibi bit etiket adres çubuğunda 'Merhaba_Dunya' şeklinde gözükür, ki bu da sizin etiketleriniz içinde tire \"-\" karakterini kullanabilmenize olanak sağlar ('plug-in','re-import' vb). Ne var ki, eğer bu seçeneği aktifleştirirseniz boşluk karakterleri tire \"-\" ile değiştirilecek ve içinde tire \"-\" karakteri geçen etiketlerin düzgün görüntülenmemesine sebep olacaktır."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:694
+msgid "Search results template file:"
+msgstr "Arama dosyası için şablon dosyası:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:695
+msgid "Create a template file with this name in your theme's directory to display custom results. Otherwise, search tag results will use 'tags.php' if it exists, or your category template."
+msgstr "Özel sonuçları gösterebilmek için şablon klasörünüzde bu isimle bir dosya oluşturun. Diğer türlü etiket arama sonuçlar varsa 'tags.php' dosyasını yoksa da kategori şablonunu kullanacaktır."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:697
+msgid "Feed Options"
+msgstr "Besleme ayarları"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:698
+msgid "Include tags as categories in feeds:"
+msgstr "Beslemelere kategörileri etiket olarak dahil et:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:699
+msgid "This will index your tags with <a href=\"http://technorati.com/tag\">Technorati</a>."
+msgstr "Bu etiketlerinizi <a href=\"http://technorati.com/tag\">Technorati</a> ile indekslemenizi sağlayacak."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:701
+msgid "Meta Keyword Options"
+msgstr "Meta anahtar kelime ayarları"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:702
+msgid "Automatically include in header:"
+msgstr "Otomatik başlığa ekle:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:703
+msgid "Includes the meta keywords tag automatically in your header (most, but not all, themes support this). These keywords are sometimes used by search engines."
+msgstr "Meta anahtar kelimelerini başlık kısmına otomatik olarak eklemeye yarar(çoğunlukla ama her zaman değil, tema destekliyorsa). Bu anahtar kelimeler kimi zaman arama motorları tarafından kullanılır."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:704
+msgid "Always add these keywords:"
+msgstr "Her zaman bu anahtar kelimeleri ekle:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:705
+msgid "Include categories as keywords:"
+msgstr "Kategorileri anahtar kelime olarak dahil et:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:706
+msgid "'Default' = includes all categories on the homepage, and only categories for posts in the current view for all other pages.<br/>'All' = includes all categories in every view.<br/> 'None' = never includes categories in the meta keywords."
+msgstr "'Varsayılan' = Ana sayfadaki tüm kategoriler ve diğer sayfaların mevcut görünümünde kullanılan kategoriler.<br />'Hepsi' = Her görünümdeki tüm kategoriler.<br />'Hiçbiri' = Meta anahtar kelimelerine kategorileri eklemez."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:708
+msgid "Display Tags of the Current Post"
+msgstr "Geçerli yazı için etiketleri göster"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:709
+msgid "Post tag link format:"
+msgstr "Yazı etiketi bağlantı formatı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:711
+msgid "<code>%tagname%</code> &ndash; Replaced by the name of the tag, e.g. <em>Coffee and Tea</em>."
+msgstr "<code>%tagname%</code> &ndash; Etiket ismiyle değiştirilecek, Örneğin <em>Kahve ve Çay</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:712
+#: Tagging\branches\1.6.6/simpletagging.admin.php:909
+msgid "<code>%fulltaglink%</code> &ndash; Replaced by the full link, e.g. <em>http://site.com/tag/Coffee+and+Tea</em>."
+msgstr "<code>%fulltaglink%</code> &ndash; Tam bağlantı ile değiştirilecek, örneğin <em>http://site.com/etiket/Kahve+ve+Cay</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:713
+#: Tagging\branches\1.6.6/simpletagging.admin.php:911
+msgid "<code>%taglink%</code> &ndash; Replaced by the link, e.g. <em>Coffee_and_Tea</em>. Can be used to create links e.g. to Technorati."
+msgstr "<code>%taglink%</code> &ndash; Bağlantı ile değiştirilecek, örneğin <em>Kahve_ve_Cay</em>. Technorati vb sistemlere bağlantı üretirken kullanılabilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:714
+msgid "<code>%flickr%</code> &ndash; Replaced by the link for Flickr compatibility, e.g. <em>coffeeandtea</em>."
+msgstr "<code>%flickr%</code> &ndash; Flickr uyumluluğu için kullanılacak bağlantı ile değiştirilir, örneğin <em>kahvevecay</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:715
+msgid "<code>%delicious%</code> &ndash; Replaced by the link for de.icio.us compatibility, e.g. <em>CoffeeandTea</em>."
+msgstr "<code>%delicious%</code> &ndash; del.icio.us uyumluluğu için kullanılacak bağlantı ile değiştirilir, örneğin <em>KahveveCay</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:717
+msgid "Post tag separator string:"
+msgstr "Yazı etiketi ayraç metni:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:718
+msgid "Include categories in tag list:"
+msgstr "Etiket listesine kategorileri dahil et:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:719
+msgid "Automatically display tag list at end of post:"
+msgstr "Yazının sonunda otomatik olarak etiket listesini göster:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:720
+msgid "Text to display before automatically tags list:"
+msgstr "Otomatik etiket listesinden önce gösterilecek metin:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:721
+msgid "Text to display after automatically tags list:"
+msgstr "Otomatik etiket listesinden sonra gösterilecek metin:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:722
+#: Tagging\branches\1.6.6/simpletagging.admin.php:949
+msgid "Text to display if no tags found:"
+msgstr "Hiç etiket bulunamazsa gösterilecek metin:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:724
+msgid "Administration"
+msgstr "Yönetim"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:725
+msgid "Maximum number of tags:"
+msgstr "En fazla etiket sayısı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:725
+msgid "The maximum number of tags displayed under <em>Write > Post</em>. Zero (0) means no limit and shows all tags."
+msgstr "<em>Yaz &gt; Yazı</em> başlığı altında gösterilecek en fazla etiket sayısı. Limti koymamak, tüm etiketleri göstermek için sıfır (0) kullanın."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:726
+msgid "Display suggested tags only:"
+msgstr "Sadece önerilen etiketleri göster:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:727
+msgid "Displays suggested tags only instead of all tags. Tags will be suggested if they are part of the post. In adddition, tags that are used more often will be considered first."
+msgstr "Tüm etiketler yerine sadece önerilen etiketleri gösterir. Etiketler yazının bir parçası iseler gösterilirler. Ayrıca daha çok kullanılan etiketler daha önlerde gösterilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:728
+#: Tagging\branches\1.6.6/simpletagging.admin.php:924
+msgid "Tag cloud sort order:"
+msgstr "Etiket bulutu sıralama düzeni:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:730
+#: Tagging\branches\1.6.6/simpletagging.admin.php:808
+msgid "<code>Alpha</code> &ndash; alphabetic order."
+msgstr "<code>Alfa</code> &ndash; alfabetik sıralama."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:731
+msgid "<code>Relevance</code> &ndash; most relevant/used tags first."
+msgstr "<code>İlinti</code> &ndash; En çok ilintili etiket daha önce gösterilsin."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:734
+msgid "Embedded Tags"
+msgstr "Gömülü etiketler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:735
+msgid "Use embedded tags:"
+msgstr "Gömülü etiketleri kullan:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:735
+msgid "Enabling this will cause Wordpress to look for embedded tags when saving and displaying posts. Such set of tags is marked <code>[tags]like this, and this[/tags]</code>, and is added to the post when the post is saved, but does not display on the post."
+msgstr "Bu seçeneği aktif etmek WordPress'in yazı kaydederken ve görüntülerken gömülü etiketlere bakmasını sağlar. Bu tip etiket setleri <code>[tags]bunun ve bunun gibi[/tags]</code> işaretlenir ve yazı kaydedildiğinde yazıya eklenir, ama yazı gösterilirken gösterilmez."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:736
+msgid "Prefix for embedded tags:"
+msgstr "Gömülü etiketler için önek:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:737
+msgid "Suffix for embedded tags:"
+msgstr "Gömülü etiketler için sonek:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:751
+#: Tagging\branches\1.6.6/simpletagging.admin.php:861
+#: Tagging\branches\1.6.6/simpletagging.admin.php:963
+msgid "Simple Tagging options saved"
+msgstr "Basit Etiketleme ayarları kaydedildi."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:754
+#: Tagging\branches\1.6.6/simpletagging.admin.php:864
+#: Tagging\branches\1.6.6/simpletagging.admin.php:966
+msgid "Simple Tagging options resetted to default options!"
+msgstr "Basit Etiketleme ayarları varsayılan ayarlara döndürüldü!"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:768
+#: Tagging\branches\1.6.6/simpletagging.admin.php:878
+#: Tagging\branches\1.6.6/simpletagging.admin.php:980
+msgid "Update Options"
+msgstr "Ayarları Güncelle"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:769
+#: Tagging\branches\1.6.6/simpletagging.admin.php:879
+#: Tagging\branches\1.6.6/simpletagging.admin.php:981
+msgid "Do you really want to restore the default options?"
+msgstr "Varsayılan ayarları geri yüklemek istediğinizden emin misiniz?"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:769
+#: Tagging\branches\1.6.6/simpletagging.admin.php:879
+#: Tagging\branches\1.6.6/simpletagging.admin.php:981
+msgid "Reset Options"
+msgstr "Ayarları sıfırla"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:780
+msgid "Simple Tagging: Options"
+msgstr "Basit Etiketleme: Ayarlar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:781
+#: Tagging\branches\1.6.6/simpletagging.admin.php:891
+#: Tagging\branches\1.6.6/simpletagging.admin.php:994
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1101
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1224
+msgid "Visit the <a href=\"http://trac.herewithme.fr/project/simpletagging/\">plugin's homepage</a> for further details."
+msgstr "Daha detaylı bilgi için <a href=\"http://trac.herewithme.fr/project/simpletagging/\">eklentinin sayfasını</a> inceleyin."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:795
+msgid "Related Posts"
+msgstr "İlişkili yazılar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:796
+msgid "Related Posts format:"
+msgstr "İlişkili yazılar formayı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:798
+msgid "<code>%date%</code> &ndash; Replaced by the post date."
+msgstr "<code>%date%</code> &ndash; Yazının yazıldığı tarih ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:799
+msgid "<code>%permalink%</code> &ndash; Replaced by the post's permalink."
+msgstr "<code>%permalink%</code> &ndash; Yazının kalıcı bağlantısı ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:800
+msgid "<code>%title%</code> &ndash; Replaced by the post's title."
+msgstr "<code>%title%</code> &ndash; Yazının başlığı ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:801
+msgid "<code>%commentcount%</code> &ndash; Replaced by the number of comments of the post."
+msgstr "<code>%commentcount%</code> &ndash; Replaced by the number of comments of the post."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:803
+msgid "Related posts separator(s):"
+msgstr "İlişkili yazılar ayracı/ayraçları:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:804
+msgid "Related Posts sort order:"
+msgstr "İlişkili yazılar sıralama düzeni:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:806
+msgid "<code>Date-desc</code> &ndash; sorting by post date, descending."
+msgstr "<code>Tarih-Azalan</code> &ndash; yazı tarihine göre azalan sıralama."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:807
+msgid "<code>Date-asc</code> &ndash; sorting by post date, ascending."
+msgstr "<code>Tarih-Artan</code> &ndash; yazı tarihine göre artan sıralama."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:809
+#: Tagging\branches\1.6.6/simpletagging.admin.php:931
+msgid "<code>Random</code> &ndash; randomized every time the page is loaded."
+msgstr "<code>Rastgele</code> &ndash; Sayfa her yüklendiğinde değişir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:811
+msgid "Maximum number of related posts to display:"
+msgstr "Gösterilecek en fazla ilişkili yazı sayısı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:812
+#: Tagging\branches\1.6.6/simpletagging.admin.php:923
+msgid "Maximum number of days to be considered:"
+msgstr "Dikkate alınacak en fazla gün sayısı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:813
+msgid "'365' means that related posts of the past 365 days are being considered."
+msgstr "'365' demek, ilişkili yazılar gösterilirken geçtiğimiz 365 gün içerisinde yazılan yazılar dikkate alınacak demektir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:814
+msgid "Format of the post’s date '%date%':"
+msgstr "Yazı tarihinin formatı '%date%':"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:815
+msgid "Check out <a href=\"http://www.php.net/date\">Formatting Date and Time</a> and <a href=\"http://www.php.net/date\">PHP manual for date()</a> to see which format character you can use here."
+msgstr "<a href=\"http://www.php.net/date\">Tarih ve Saat formatlama [İNG]</a> sayfasından tarih formatlamak için kullanabileceğiniz karakterleri öğrenebilirsiniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:816
+msgid "Text to display if no related posts found:"
+msgstr "İlişkili yazı bulunamadığında kullanılacak metin:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:817
+msgid "Categories to excluded"
+msgstr "Hariç tutulacak kategoriler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:817
+msgid "Category ID separated with a comma."
+msgstr "Virgül ile ayrılmış kategori no'ları."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:818
+msgid "Tags to excluded"
+msgstr "Hariç tutulacak etiket(ler):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:818
+msgid "Tag separated with a comma."
+msgstr "Virgül ile ayrılmış etiketler."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:819
+msgid "Include pages in related posts list:"
+msgstr "İlişkili yazılar listesine eklenecek sayfalar:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:821
+msgid "Related Tags"
+msgstr "İlişkili etiketler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:822
+msgid "Related Tags format:"
+msgstr "İlişkili etiketlerin formatı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:824
+msgid "<code>%count%</code> &ndash; Replaced by the number of posts that do have this tag."
+msgstr "<code>%count%</code> &ndash; Bu etikete sahip olan yazıların sayısı ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:825
+#: Tagging\branches\1.6.6/simpletagging.admin.php:844
+msgid "<code>%tagname%</code> &ndash; Replaced by the tag name."
+msgstr "<code>%tagname%</code> &ndash; Etiketin ismi ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:826
+msgid "<code>%taglink%</code> &ndash; Replaced by the tag link."
+msgstr "<code>%taglink%</code> &ndash; Etiketin bağlantısı ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:827
+msgid "<code>%taglink_plus%</code> &ndash; Replaced by the tag link that adds the current tag to the currently browsing tag(s)."
+msgstr "<code>%taglink_plus%</code> &ndash; O an görüntülenen etiketlere eklenecek etiketin bağlantısı ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:829
+msgid "Related tag separator(s):"
+msgstr "İlişkili etiket ayracı/ayraçları:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:830
+msgid "Related Tags sort order:"
+msgstr "İlişkili etiketler için sıralama düzeni:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:832
+msgid "<code>Alpha-asc</code> &ndash; alphabetic order."
+msgstr "<code>Alfa-artan</code> &ndash; Alfabetik sıralama."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:833
+msgid "<code>Count-desc</code> &ndash; descending order by number of tags."
+msgstr "<code>Sayı-Azalan</code> &ndash; etiket sayısına göre azalan sıralama."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:834
+msgid "<code>Count-asc</code> &ndash; ascending order by number of tags."
+msgstr "<code>Sayı-Artan</code> &ndash; etiket sayısına göre artan sıralama"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:835
+msgid "<code>Alpha-desc</code> &ndash; descending alphabetic order."
+msgstr "<code>Alfa-azalan</code> &ndash; Alfabetik sıralama, tersten."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:837
+msgid "Maximum number of related tags to display:"
+msgstr "Gösterilecek en fazla ilişkili yazı sayısı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:838
+msgid "Text to display if no related tags found:"
+msgstr "İlişkili etiket bulunamadığında gösterilecek metin:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:840
+msgid "Related Tags: Links for Removing Tags"
+msgstr "İlişkili etiketler: Etiketleri kaldırmak için bağlantılar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:841
+msgid "Format for 'removing tag' links:"
+msgstr "'Etikerleri kaldır' bağlantısı için format:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:843
+msgid "<code>%url%</code> &ndash; Replaced by the permalink of the URL without the appropriate tag."
+msgstr "<code>%url%</code> &ndash; Gerekli etiket olmadan kalıcı bağlantı adresi ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:846
+msgid "Separator(s) for removing tags:"
+msgstr "Etiket kaldırmak için ayraç(lar):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:847
+msgid "Text to display if there are no tags to remove:"
+msgstr "Kaldıralacak etiket yoksa görüntülenecek metin:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:905
+msgid "Tag Cloud"
+msgstr "Etiket bulutu"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:906
+msgid "Cloud tag link format:"
+msgstr "Etiket bulutu bağlantı formatı"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:908
+msgid "<code>%tagname%</code> &ndash; Replaced by the name of the tag."
+msgstr "<code>%tagname%</code> &ndash; Etiketin ismi ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:910
+msgid "<code>%feedtaglink%</code> &ndash; Replaced by the feed link, e.g. <em>http://site.com/tag/Coffee+and+Tea/feed</em>."
+msgstr "<code>%feedtaglink%</code> &ndash; Besleme bağlantısı ile değiştirilecek, örneğin <em>http://site.com/etiket/Kahve+ve+Cay/feed</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:912
+msgid "<code>%flickr%</code> &ndash; Replaced by the encoded version of the tag which conforms to Flickr link standards., e.g. <em>coffeeandtea</em>."
+msgstr "<code>%flickr%</code> &ndash; Flickr bağlantı standartlarını yakalamak için kodlanmış etiket ile değiştirilir, örneğin <em>kahvevecay</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:913
+msgid "<code>%delicious%</code> &ndash; Replaced by the encoded version of the tag which conforms to del.icio.us link standards., e.g. <em>coffeeandtea</em>."
+msgstr "<code>%delicious%</code> &ndash; del.icio.us bağlantı standartlarını yakalamak için kodlanmış etiket ile değiştirilir, örneğin <em>kahvevecay</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:914
+msgid "<code>%count%</code> &ndash; Replaced by the actual number of times the tag has been used."
+msgstr "<code>%count%</code> &ndash; Etiketin kullanım sayısı ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:915
+msgid "<code>%scale%</code> &ndash; Replaced by the value the tag is scaled to."
+msgstr "<code>%scale%</code> &ndash; Etiketin ölçeklendirildiği değer ile değiştirilir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:916
+msgid "<code>%color%</code> &ndash; Replaced by the color of the tag, e.g. <em>color: #CCCCCC;</em>."
+msgstr "<code>%color%</code> &ndash; Etiketin rengiyle değiştirilecek, Örneğin <em>color: #CCCCCC;</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:917
+msgid "<code>%size%</code> &ndash; Replaced by the size of the tag, e.g. <em>font-size: 14px;</em>."
+msgstr "<code>%size%</code> &ndash; Etiketin yazıtipi boyutuyla değiştirilecek, Örneğin <em>font-size: 14px;</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:918
+msgid "<code>%colorsize%</code> &ndash; Replaced by the color <strong>and</strong> size of the tag, e.g. <em>color: #CCCCCC; font-size: 14px;</em>."
+msgstr "<code>%colorsize%</code> &ndash; Etiketin rengi <strong>ve</strong> yazıtipi boyutuyla değiştirilecek, Örneğin <em>color: #CCCCCC; font-size: 14px;</em>."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:920
+msgid "Cloud tag separator(s):"
+msgstr "Etiket bulutu ayracı/ayraçları:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:921
+msgid "Include categories in tag cloud:"
+msgstr "Kategorileri etiket bulutuna dahil et:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:922
+msgid "Excludes specified categories in tag cloud:"
+msgstr "Belirlenmiş kategorileri etiket bulutundan hariç tutar:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:922
+msgid "ID separated with a comma."
+msgstr "Virgül ile ayrılmış no'lar."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:923
+msgid "'365' means that tags of the past 365 days are being considered."
+msgstr "'365' demek, geçtiğimiz 365 gün içerisinde yazılan yazılar dikkate alınacak demektir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:926
+msgid "<code>Natural</code> &ndash; natural case sorting (i.e. treats capital & non-capital the same)."
+msgstr "<code>Doğal</code> &ndash; Doğal Büyük/küçük harf sıralaması (örneğin büyük ya da küçük harfleri aynıymış gibi kabul eder)."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:927
+msgid "<code>Countup/Asc</code> &ndash; ascending order by tag usage."
+msgstr "<code>Sayı/Artan</code> &ndash; Kullanım sayısına göre artan sıralama."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:928
+msgid "<code>Countdown/Desc</code> &ndash; descending order by tag usage."
+msgstr "<code>Sayı/Azalan</code> &ndash; Kullanım sayısına göre azalan sıralama"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:929
+msgid "<code>Alpha Asc</code> &ndash; strict alphabetic order (capitals first)."
+msgstr "<code>Alpha Artan</code> &ndash; Alfabetik sıralama (Büyük harfler önce)."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:930
+msgid "<code>Alpha Desc</code> &ndash; strict alphabetic order (capitals first), descending."
+msgstr "<code>Alpha Azalan</code> &ndash; Alfabetik sıralama (Büyük harfler önce), tersten."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:933
+msgid "Maximum number of tags to display:"
+msgstr "Gösterilecek en fazla etiket sayısı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:934
+msgid "Set to zero (0) to show all tags."
+msgstr "Bütün etiketleri göstermek için sıfır(0) olarak belirleyin."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:935
+msgid "Minimum tag count required:"
+msgstr "Gerekli en az etiket sayısı:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:936
+msgid "Tags must be used at least this many times to show up in the cloud."
+msgstr "Etiket bulutunda gösterilebilmesi için etiketin en az kaç kere kullanılacağı."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:937
+msgid "Tag count scaling maximum:"
+msgstr "Etiket ölçeklendirme için en büyük değer:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:938
+msgid "Set to zero (0) to disable tag scaling and color cloud."
+msgstr "Etiket ölçeklendirme ve bulut renklendirmesi yapılmaması için sıfır(0) olarak belirleyin."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:939
+msgid "Tag count scaling minimum:"
+msgstr "Etiket ölçeklendirme için en küçük değer:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:940
+msgid "Use with the maximum scale to limit the range between your most popular and least popular tags."
+msgstr "En çok kullanılan ve en az kullanılan etiketleriniz arasında bir sınır belirlemek için en büyük ölçek ile beraber kullanın."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:941
+msgid "Most popular color:"
+msgstr "En popüler renk:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:942
+msgid "The colours are hexadecimal colours,  and need to have the full six digits (#eee is the shorthand version of #eeeeee)."
+msgstr "Renkler onaltılık düzendedir, ve 6 hanenin tamamı gereklidir. (#eee, #eeeeee'nin kısaltılmış versiyonudur.)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:943
+msgid "Least popular color:"
+msgstr "En az popüler olanlar için renk:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:944
+msgid "Most popular font size:"
+msgstr "En çok popüler olanlar için yazıtipi boyutu:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:945
+msgid "The two font sizes are the size of the largest and smallest tags."
+msgstr "İki yazıtipi boyutu en büyük ve en küçük etiketlerin boyutlarıdır."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:946
+msgid "Least popular font size:"
+msgstr "En az popüler olanlar için yazıtipi boyutu:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:947
+msgid "The units to display the font sizes with, on tag clouds:"
+msgstr "Etiket bulutunda gösterilecek yazıtipi boyutlarının birimi::"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:948
+msgid "The font size units option determines the units that the two font sizes use."
+msgstr "Yazıtipi boyutu birimleri, kullanılan iki yazıtipi boyutu için ayarları belirler."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:993
+msgid "Simple Tagging: Tags Cloud Options"
+msgstr "Basit Etiketleme: Etiket bulutu seçenekleri"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1007
+msgid "&copy; Copyright 2007 <a href=\"http://www.herewithme.fr/\" title=\"Here With Me\">Amaury Balmer</a> (Based on the excellent work of <a href=\"http://sw-guide.de\">Michael W&ouml;hrer</a>)"
+msgstr "&copy; Copyright 2007 <a href=\"http://www.herewithme.fr/\" title=\"Here With Me\">Amaury Balmer</a> (<a href=\"http://sw-guide.de\">Michael W&ouml;hrer</a>'in harika çalışmaları üzerine)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1082
+msgid "Sort Order:"
+msgstr "Sıralama düzeni:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1083
+msgid "Most&nbsp;Popular"
+msgstr "En popüler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1083
+msgid "Least&nbsp;Used"
+msgstr "En az kullanılan"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1083
+msgid "Alphabetical"
+msgstr "Alfabetik"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1094
+#, php-format
+msgid "View all posts tagged with %s"
+msgstr "%s ile etiketlenmiş tüm yazıları göster"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1105
+msgid "Existing Tags"
+msgstr "Var olan etiketler"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1110
+msgid "Rename Tag"
+msgstr "Etiketi değiştir"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1111
+msgid "Enter the tag to rename and its new value.  You can use this feature to merge tags too. Click \"Rename\" and all posts which use this tag will be updated."
+msgstr "Değiştirilecek etiketi ve yeni değerini yazın. Bu özelliği etiketleri birleştirmek için de kullanabilirsiniz. \"Değiştir\" tuşuna basın ve bu etiketi kullanan tüm yazılar güncellensin."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1112
+msgid "You can specify multiple tags to rename by separating them with commas."
+msgstr "Virgül ile ayırarak birden çok etiketi isim değişikliği için belirtebilirsiniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1116
+msgid "Tag(s) to Rename:"
+msgstr "Değiştirilecek etiket(ler):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1117
+msgid "New Tag Name(s):"
+msgstr "Yeni etiket ismi/isimleri:"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1118
+msgid "Rename"
+msgstr "Değiştir"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1122
+msgid "Delete Tag"
+msgstr "Etiketi sil"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1123
+msgid "Enter the name of the tag to delete.  This tag will be removed from all posts."
+msgstr "Silinecek etiketin ismini giriniz. Bu etiket tüm yazılardan silinecektir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1124
+msgid "You can specify multiple tags to delete by separating them with commas"
+msgstr "Silmek istediğiniz etiketleri virgülle ayırarak yazarsanız hepsini bir kerede silebilirsiniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1128
+msgid "Tag(s) to Delete:"
+msgstr "Silinecek etiket(ler):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1129
+msgid "Delete"
+msgstr "Sil"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1133
+msgid "Add Tag"
+msgstr "Etiket Ekle"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1134
+msgid "This feature lets you add one or more new tags to all posts which match any of the tags given."
+msgstr "Bu seçenek size bir ya da daha fazla etiketi, verilen etiketlerden herhangi biriyle eşleşen tüm yazılara ekleyebilme olanağını sağlar."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1135
+msgid "You can specify multiple tags to add by separating them with commas.  If you want the tag(s) to be added to all posts, then don't specify any tags to match."
+msgstr "Virgül ile ayırarak birden çok etiket belirtebilirsiniz. Eğer tüm yazılara eklenmelerini istiyorsanız eşleşecek etiket belirtmeyin."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1139
+msgid "Tag(s) to Match:"
+msgstr "Eşleşecek etiket(ler):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1140
+msgid "Tag(s) to Add:"
+msgstr "Eklenecek etiket(ler):"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1141
+msgid "Add"
+msgstr "Ekle"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1191
+msgid "Error: You clicked the &laquo;Category&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Hata: &laquo;Kategori&raquo; aktarma tuşuna bastınız ancak veritabanını yedeklediğinize dair gerekli kutucuğu işaretlemediniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1196
+msgid "Error: You clicked the &laquo;UTW&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Hata: &laquo;UTW&raquo; aktarma tuşuna bastınız ancak veritabanını yedeklediğinize dair gerekli kutucuğu işaretlemediniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1201
+msgid "Error: You clicked the &laquo;Jerome's Keywords 1.9&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Hata: &laquo;Jerome's Keywords 1.9&raquo; aktarma tuşuna bastınız ancak veritabanını yedeklediğinize dair gerekli kutucuğu işaretlemediniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1206
+msgid "Error: You clicked the &laquo;Jerome's Keywords 2.0&raquo; import button but you did not confirm that you have backuped your database."
+msgstr "Hata: &laquo;Jerome's Keywords 2.0&raquo; aktarma tuşuna bastınız ancak veritabanını yedeklediğinize dair gerekli kutucuğu işaretlemediniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1221
+msgid "Howdy! Here you can import tags from several different sources."
+msgstr "Merhabalar! Burada bir çok değişik kaynaktan etiketleri içe aktarabilirsiniz."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1222
+msgid "These importers are smart enough not to import duplicates, so you can run these multiple times without worry if — for whatever reason — they don't finish."
+msgstr "Bu içeri aktarma araçları tekrar kayıt oluşturmayacak kadar akıllıdırlar, dolayısıyla -her ne sebepten olursa olsun- gerekirse birden çok kez çalıştırmaktan çekinmeyin."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1223
+msgid "<strong>Please note</strong> that importing tags could break your entire blog. Make sure you back up your database before clicking the button."
+msgstr "<strong>Lütfen dikkat</strong>, etiketleri içeri aktarmak tüm blogunuzu kullanılmaz hale getirebilir. İşlemi başlatmadan önce tüm veritabanınızın yedeğini aldığınızdan emin olun."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1228
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1236
+msgid "Convert Categories to Tags"
+msgstr "Kategorileri etiketlere dönüştür"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1233
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1262
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1287
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1310
+msgid "I've backuped my database."
+msgstr "Veritabanımın yedeğini aldım."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1242
+msgid "Ultimate Tag Warrior Plugin (UTW) Version 3.141"
+msgstr "Ultimate Tag Warrior Eklentisi (UTW) Sürüm 3.141"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1252
+#, php-format
+msgid "<p>A supported UTW installation could not be found, missing table(s): <code>%s</code></p>"
+msgstr "<p>Desteklenen bir UTW yüklemesi bulunamadı, eksik tablo(lar): <code>%s</code></p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1256
+msgid "This function has been tested with UTW version 3.141 only, other versions may not work and if you use another version it is even more important to back up your database before you click the button."
+msgstr "Bu fonksiyon sadece UTW sürüm 3.141 ile test edilmiştir, diğer sürümler çalışmayabilir ve eğer başka bir sürüm kullanacaksanız işleme başlamadan önce veritabanınızı yedeklemeniz daha da önemlidir."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1265
+msgid "Import from UTW"
+msgstr "UTW'den içeri aktar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1275
+msgid "Jerome's Keywords Plugin Version 1.9"
+msgstr "Jerome's Keywords Eklentisi Sürüm 1.9"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1290
+msgid "Import from Jerome's Keywords 1.9"
+msgstr "Jerome's Keywords 1.9'dan içeri aktar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1295
+msgid "<p>Tags from Jerome's Keywords Plugin version 1.9 have not been found...</p>"
+msgstr "<p>Jerome's Keywords eklentisi sürüm 1.9'da herhangi bir etiket bulunamadı...</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1299
+msgid "Jerome's Keywords Plugin Version 2.0 Beta 3"
+msgstr "Jerome's Keywords Eklentisi Sürüm 2.0 Beta 3"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1303
+msgid "<p>A supported Jerome's Keywords 2.0 installation could not be found.</p>"
+msgstr "<p>Desteklenen bir Jerome's Keywords 2.0 yüklemesi bulunamadı.</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1313
+msgid "Import from Jerome's Keywords 2.0 Beta"
+msgstr "Jerome's Keywords 2.0 Beta'dan içeri aktar"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1339
+msgid "Sort by Title"
+msgstr "Başlığa göre sırala"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1340
+msgid "Sort by Date Descending"
+msgstr "Tarihe göre sırala (Azalan)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1341
+msgid "Sort by Date Ascending"
+msgstr "Tarihe göre sırala (Artan)"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1344
+msgid "Show Posts"
+msgstr "Yazıları göster"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1345
+msgid "Show Pages"
+msgstr "Sayfaları göster"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1346
+msgid "Show Posts and Pages"
+msgstr "Yazılar ve sayfaları göster"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1388
+msgid "Edit Post"
+msgstr "Yazıyı düzenle"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1388
+msgid "Edit"
+msgstr "Düzenle"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1405
+msgid "Show"
+msgstr "Göster"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1411
+msgid "<p>Every article is tagged :-)</p>"
+msgstr "<p>Tüm yazılar etiketlenmiş :-)</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.admin.php:1413
+msgid "<p>The following articles are not tagged:</p>"
+msgstr "<p>Şu yazılar etiketlenmemiş:</p>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:331
+msgid "<a href=\"%fulltaglink%\" title=\"Browse for %tagname%\" rel=\"tag\">%tagname%</a>"
+msgstr "<a href=\"%fulltaglink%\" title=\"%tagname% için gözat\" rel=\"tag\">%tagname%</a>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:334
+msgid "none"
+msgstr "Hiçbiri"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:335
+msgid "<br /><strong>Tags:</strong> "
+msgstr "<br /><strong>Etiketler:</strong> "
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:340
+msgid "<a style=\"%colorsize%\" class=\"%scale%\" title=\"Tag: %tagname% (%count%)\" href=\"%fulltaglink%\">%tagname%</a>"
+msgstr "<a style=\"%colorsize%\" class=\"%scale%\" title=\"Etiket: %tagname% (%count%)\" href=\"%fulltaglink%\">%tagname%</a>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:355
+msgid "No tags were found that match the criteria given."
+msgstr "Girilen kriterlere uygun etiket bulunamadı."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:358
+msgid "<li><a href=\"%permalink%\" title=\"%title% (%date%)\">%title%</a> (%commentcount%)</li>"
+msgstr "<li><a href=\"%permalink%\" title=\"%title% (%date%)\">%title%</a> (%commentcount%)</li>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:364
+msgid "<li>None</li>"
+msgstr "<li>Hiçbiri</li>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:370
+msgid "<li><span>%count%</span> <a href=\"%taglink_plus%\">+</a> <a href=\"%taglink%\">%tagname%</a></li>"
+msgstr "<li><span>%count%</span> <a href=\"%taglink_plus%\">+</a> <a href=\"%taglink%\">%tagname%</a></li>"
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:373
+msgid "No related tags found."
+msgstr "İlişkili etiket bulunamadı."
+
+# D:\Documents
+#: and Settings\Amaury.HP-AMO\Bureau\Simple
+#: Tagging\branches\1.6.6/simpletagging.php:374
+msgid "<li>&raquo; <a href=\"%url%\">remove %tagname%</a></li>"
+msgstr "<li>&raquo; <a href=\"%url%\">%tagname% sil</a></li>"
+

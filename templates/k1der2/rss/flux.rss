@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+<channel>
+  <title>{title}</title>
+  <link>{link}</link>
+  <description></description>
+  <language>fr</language>
+  <copyright></copyright>
+  <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+  <generator>K1der.net</generator>
+  <!-- BEGIN ITEMS -->
+  <item>
+    <title>{itemTitle}</title>
+    <link>{itemLink}</link>
+    <guid isPermaLink="true">{itemLink}</guid>
+    <pubDate>{itemDate}</pubDate>
+
+    <dc:creator>{itemCreator}</dc:creator>
+    <description>{itemDescription}</description>
+  </item>
+  <!-- END ITEMS -->
+</channel>
+</rss>

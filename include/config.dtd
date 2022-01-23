@@ -1,0 +1,25 @@
+<!ELEMENT configuration (pages,(actions)*,(admin)*) >
+<!ATTLIST page
+	titre			CDATA			#IMPLIED
+>
+<!ELEMENT pages (page)+>
+<!ELEMENT page EMPTY>
+<!ATTLIST page
+	page			CDATA			#REQUIRED
+	condition		CDATA			""
+>
+<!ELEMENT actions (action)*>
+<!ELEMENT action EMPTY>
+<!ATTLIST action
+	action			CDATA			#REQUIRED
+	condition		CDATA			""
+>
+<!ELEMENT admin (menu)*>
+<!ATTLIST admin
+	titre			CDATA			#REQUIRED
+>
+<!ELEMENT menu EMPTY>
+<!ATTLIST menu
+	titre			CDATA			#REQUIRED
+	lien			CDATA			#REQUIRED
+>

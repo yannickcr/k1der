@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Administration">
+	<pages>
+		<page page="whois" condition="get[ip]" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="configSite" condition="post[defpage],infos[id]" />
+		<action action="changeTheme" condition="post[changetheme],infos[id]" />
+		<action action="changeSmileys" condition="post[smiley_0],post[smiley_0_txt],infos[id]" />
+		<action action="placeModules" condition="post[ordre],infos[id]" />
+	</actions>
+	<admin titre="Administration du site">
+		<menu titre="Configuration" lien="admin/configuration.html" acces="admin_config" />
+		<menu titre="Apparence" lien="admin/apparence.html" acces="admin_apparence" />
+		<menu titre="Placement des modules" lien="admin/modules.html" />
+		<menu titre="Accès" lien="admin/acces.html" acces="admin_acces" />
+		<menu titre="Smileys" lien="admin/smileys.html" acces="admin_smileys" />
+	</admin>
+</configuration>

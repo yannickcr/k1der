@@ -1,0 +1,17 @@
+cf:25
+ff:Standard Items$#$fieldsetstart$#$0$#$0$#$0$#$0+++text-only, no class or style associated other than the default$#$textonly$#$0$#$0$#$0$#$0+++Msg goes to#Jane#John#Tim$#$emailtobox$#$0$#$0$#$0$#$0+++Email$#$textfield$#$0$#$1$#$0$#$0+++Message$#$textarea$#$0$#$0$#$0$#$0+++Left Label Only$#$checkbox$#$0$#$0$#$0$#$0+++|fieldsetclose$#$textonly$#$0$#$0$#$0$#$0+++Check and Radio Boxes$#$fieldsetstart$#$0$#$0$#$0$#$0+++#Right Label and \"requried\"$#$checkbox$#$1$#$0$#$0$#$0+++A Few Radio Buttons#Radio 1#Radio 2#Radio 3$#$radiobuttons$#$0$#$0$#$0$#$0+++|fieldsetclose$#$textonly$#$0$#$0$#$0$#$0+++Check Box Groups!$#$fieldsetstart$#$0$#$0$#$0$#$0+++Grouped Check Boxes#A Wider Item#Narrow##Item3#Item4##Item5$#$checkboxgroup$#$0$#$0$#$0$#$0+++|fieldsetclose$#$textonly$#$0$#$0$#$0$#$0+++Drop Down Boxes$#$fieldsetstart$#$0$#$0$#$0$#$0+++Select One#Make your choice!|-First#Second#Third$#$selectbox$#$1$#$0$#$0$#$0+++Select Many#This#That#The Other$#$multiselectbox$#$0$#$0$#$0$#$0+++|fieldsetclose$#$textonly$#$0$#$0$#$0$#$0+++Visitor Verification$#$fieldsetstart$#$0$#$0$#$0$#$0+++--$#$verification$#$0$#$0$#$0$#$0+++Your Code$#$captcha$#$0$#$0$#$0$#$0+++|fieldsetclose$#$textonly$#$0$#$0$#$0$#$0+++Send Options$#$fieldsetstart$#$0$#$0$#$0$#$0+++Attach a file?$#$upload$#$0$#$0$#$0$#$0+++CC: me please$#$ccbox$#$0$#$0$#$0$#$0+++
+rq:(required)
+er:(valid email required)
+ac:0
+jx:1
+fn:Dark Theme Demo
+cs:Re: Your note
+cm:Dear Sender,$n$Thank you for your note!$n$We will get back to you as soon as possible.
+em:oliver.seidel@deliciousdays.com
+sj:A comment from a site visitor
+su:Submit
+sc:Thank you for your comment!
+fl:Please fill in all the required fields.
+wo:One moment please...
+pp:nn
+sp:yn

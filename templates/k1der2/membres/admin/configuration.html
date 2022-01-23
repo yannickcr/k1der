@@ -1,0 +1,46 @@
+<h3>Configuration des membres</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Inscriptions</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;">Ouvertes</td>
+			<td style="width:70%;">
+			<input type="radio" id="inscr1" name="inscr" value="open" {checked1} /><label for="inscr1">Oui</label>
+			<input type="radio" id="inscr2" name="inscr" value="close" {checked2} /><label for="inscr2">Non</label>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<fieldset>
+	<legend>E-mail envoyé lors de l'inscription</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="mailtitle">Titre</label></td>
+			<td style="width:70%;">
+			<input type="text" id="mailtitle" name="mailtitle" value="{mailtitle}" />
+			</td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;">
+			<label for="mailtxt">Texte</label>
+			<div class="speedhelp">
+			Variables disponibles :
+			<ul>
+			<li>[pseudo] : Pseudo du membre</li>
+			<li>[pass] : Mot de passe du membre</li>
+			<li>[activation] : Lien d'activation du compte</li>
+			</ul>
+			</div>
+			</td>
+			<td style="width:70%;">
+			<textarea id="mailtxt" name="mailtxt" rows="10" cols="10">{mailtxt}</textarea>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>
+<div class="bas"></div>

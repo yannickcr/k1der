@@ -1,0 +1,155 @@
+<h3>&Eacute;diter les infos d'un membre</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Informations personnelles</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="nom">Nom</label></td>
+			<td style="width:70%;"><input type="text" id="nom" name="nom" value="{nom}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="prenom">Prénom</label></td>
+			<td style="width:70%;"><input type="text" id="prenom" name="prenom" value="{prenom}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;">Date de naissance</td>
+			<td style="width:70%;"><label for="jour">Jour :</label>
+				<select id="jour" name="jour">
+					<option value=""></option>
+					<!-- BEGIN JOURS -->
+					<option value="{jour}"{selected}>{jour}</option>
+					<!-- END JOURS -->
+				</select>
+				<label for="mois">Mois :</label>
+				<select id="mois" name="mois">
+					<option value=""></option>
+					<!-- BEGIN MOISS -->
+					<option value="{mois}"{selected}>{nommois}</option>
+					<!-- END MOISS -->
+				</select>
+				<label for="annee">Annee :</label>
+				<select id="annee" name="annee">
+					<option value=""></option>
+					<!-- BEGIN ANNEES -->
+					<option value="{annee}"{selected}>{annee}</option>
+					<!-- END ANNEES -->
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="natio">Nationalit</label></td>
+			<td style="width:70%;">
+				<select id="natio" name="natio">
+					<option value=""></option>
+					<!-- BEGIN NATIOS -->
+					<option value="{natioval}"{selected}>{natio}</option>
+					<!-- END NATIOS -->
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="www">Site perso</label></td>
+			<td style="width:70%;"><input type="text" id="www" name="www" value="{www}" /></td>
+		</tr>
+	</table>
+</fieldset>
+<fieldset>
+	<legend>Contact</legend>
+	<table cellpadding="0" cellspacing="5" style="width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="mail"><img src="templates/{THEME}/images/message.gif" alt="E-mail" />E-mail</label></td>
+			<td style="width:70%;">
+				<input type="text" id="mail" name="mail" value="{mail}" />
+				<!-- BEGIN ERREUR-MAIL1 --><span class="erreur">Vous devez entrer un e-mail</span><!-- END ERREUR-MAIL1 -->
+				<!-- BEGIN ERREUR-MAIL2 --><span class="erreur">Cet e-mail est déjà utilisé par un autre compte</span><!-- END ERREUR-MAIL2 -->
+				<!-- BEGIN ERREUR-MAIL3 --><span class="erreur">Vous devez entrer un e-mail valide</span><!-- END ERREUR-MAIL3 -->
+			</td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="msn"><img src="templates/{THEME}/images/msn.png" alt="Msn" />Msn</label></td>
+			<td style="width:70%;"><input type="text" id="msn" name="msn" value="{msn}" /><!-- BEGIN ERREUR-MSN --><span class="erreur">Vous devez entrer une adresse MSN valide</span><!-- END ERREUR-MSN --></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="icq"><img src="templates/{THEME}/images/icq.png" alt="Icq" />Icq</label></td>
+			<td style="width:70%;"><input type="text" id="icq" name="icq" value="{icq}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="yahoo"><img src="templates/{THEME}/images/yahoo.png" alt="Yahoo" />Yahoo</label></td>
+			<td style="width:70%;"><input type="text" id="yahoo" name="yahoo" value="{yahoo}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="aim"><img src="templates/{THEME}/images/aim.png" alt="Aim" />Aim</label></td>
+			<td style="width:70%;"><input type="text" id="aim" name="aim" value="{aim}" /></td>
+		</tr>
+		<tr>
+		    <td style="width:30%;font-weight:bold;"><label for="skype"><img src="templates/{THEME}/images/skype.png" alt="Skype" />Skype</label></td>
+		    <td style="width:70%;"><input type="text" id="skype" name="skype" value="{skype}" /></td>
+		    </tr>
+		<tr>
+		    <td style="width:30%;font-weight:bold;"><label for="xfire"><img src="templates/{THEME}/images/xfire.png" alt="XFire" />XFire</label></td>
+		    <td style="width:70%;"><input type="text" id="xfire" name="xfire"  value="{xfire}" /></td>
+		    </tr>
+		<tr>
+		    <td style="width:30%;font-weight:bold;"><label for="gtalk"><img src="templates/{THEME}/images/gtalk.png" alt="Google Talk" />Google Talk</label></td>
+		    <td style="width:70%;"><input type="text" id="gtalk" name="gtalk"  value="{gtalk}" /><!-- BEGIN ERREUR-GTALK --><span class="erreur">Vous devez entrer une adresse Google Talk valide</span><!-- END ERREUR-GTALK --></td>
+		    </tr>
+	</table>
+</fieldset>
+<fieldset>
+	<legend>Matériel et connexion</legend>
+	<table cellpadding="0" cellspacing="5" style="width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="hard_1">Processeur</label></td>
+			<td style="width:70%;"><input type="text" id="hard_1" name="hard_1" value="{hard_1}" />
+			</td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="hard_2">Carte Graphique</label></td>
+			<td style="width:70%;"><input type="text" id="hard_2" name="hard_2" value="{hard_2}" />
+			</td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="hard_3">Capacité disque</label></td>
+			<td style="width:70%;"><input type="text" id="hard_3" name="hard_3" value="{hard_3}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="hard_4">Clavier</label></td>
+			<td style="width:70%;"><input type="text" id="hard_4" name="hard_4" value="{hard_4}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="hard_5">Souris</label></td>
+			<td style="width:70%;"><input type="text" id="hard_5" name="hard_5" value="{hard_5}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="hard_6">Systme d'exploitation</label></td>
+			<td style="width:70%;"><input type="text" id="hard_6" name="hard_6" value="{hard_6}" /></td>
+		</tr>
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="hard_7">Connexion internet</label></td>
+			<td style="width:70%;"><input type="text" id="hard_7" name="hard_7" value="{hard_7}" /></td>
+		</tr>
+	</table>
+</fieldset>
+<fieldset>
+	<legend>Signature actuelle</legend>
+	<!-- BEGIN SIGNATURE-SET -->{signatureHtml}<!-- END SIGNATURE-SET -->
+	<!-- BEGIN SIGNATURE-NOTSET --><div style="text-align:center;">Aucune signature</div><!-- END SIGNATURE-NOTSET -->
+</fieldset>
+<fieldset>
+	<legend>&Eacute;diter la signature</legend>
+	<table cellpadding="0" cellspacing="5" style="width:100%;">
+		<tr>
+			<td class="miseenforme" style="font-size:0.9em;">{miseEnForme}</td>
+		</tr>
+		<tr>
+			<td>
+			<textarea name="message" id="message" style="margin:5px 0px 25px;width:100%;height:150px;" cols="50" rows="10">{signature}</textarea>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>
+<div class="bas"></div>

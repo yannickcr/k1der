@@ -1,0 +1,31 @@
+<h3>Smileys</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+ <legend>Smileys</legend>
+ <p>Les changements effectués dans les smileys affecteront tout le site (news, forum, shoutbox, etc...).</p>
+ <table class="liste">
+  <tr>
+   <th>Image de remplacement</th>
+   <th>Texte à remplacer</th>
+  </tr>
+  <!-- BEGIN SMILEYS -->
+  <tr>
+   <td id="smileytd_{smileyNb}"><input type="text" id="smiley_{smileyNb}" name="smiley_{smileyNb}" value="{smileyImg}" /></td>
+   <td><input type="text" id="smiley_{smileyNb}_txt" name="smiley_{smileyNb}_txt" value="{smileyTxt}" /></td>
+  </tr>
+  <!-- END SMILEYS -->
+  <tr>
+   <td id="smileytd_{newSmileyNb}"><input type="text" id="smiley_{newSmileyNb}" name="smiley_{newSmileyNb}" /></td>
+   <td><input type="text" id="smiley_{newSmileyNb}_txt" name="smiley_{newSmileyNb}_txt" /></td>
+  </tr>
+ </table>
+ <select id="inputsource">
+  <!-- BEGIN SMILEYLIST -->
+  <option style="background-image:url(templates/{THEME}/images/smileys/{smileyImg});" value="{smileyImg}"{selected}>{smileyImg}</option>
+  <!-- END SMILEYLIST -->
+ </select>
+</fieldset>
+<div><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>

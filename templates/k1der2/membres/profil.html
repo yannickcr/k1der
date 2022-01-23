@@ -1,0 +1,203 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main" class="vcard">
+ <h3>Profil de <span class="nickname">{membrePseudo}</span></h3>
+ <div class="head">
+  <fieldset style="display:none;">
+  <legend>Actions disponibles</legend>
+  <ul>
+   <li>Ajouter ce membre  mes amis</li>
+   <li>Ignorer ce membre</li>
+   <li>Trouver tous les messages de ce membre</li>
+   <li>Trouver tous les sujets de ce membre</li>
+  </ul>
+  </fieldset>
+  <img class="photo" src="{header.base}{membreAvatar}" alt="Avatar de {membrePseudo}" />
+  <dl>
+   <dt>Clan</dt>
+   <dd
+   
+   
+   <!-- BEGIN CLAN1 -->
+   ><a href="clans/{membreCleanClan}">
+   <!-- END CLAN1 -->
+   {membreClan}
+   <!-- BEGIN CLAN2 -->
+   </a>
+   <!-- END CLAN2 -->
+   </dd>
+   <dt>Groupe</dt>
+   <dd>{membreGroupe}</dd>
+   <dt>Inscrit le</dt>
+   <dd>{membreDateIns}</dd>
+  </dl>
+ </div>
+ <h4><img src="templates/{THEME}/images/icons/user.png" alt="icone informations personnelles" />Informations personnelles</h4>
+ <span class="fn n"><span{membrePrenomClass}>{membrehCardPrenom}</span> <span{membreNomClass}>{membrehCardNom}</span> </span>
+ <dl class="infos">
+  <dt>Nom</dt>
+  <dd{membreNom}
+  
+  
+  
+  </dd>
+  <dt>Prénom</dt>
+  <dd{membrePrenom}
+  
+  
+  </dd>
+  <dt>Date de naissance</dt>
+  <dd{membreDateNesClass} title="{membreDateNesFormat}"{membreDateNes}
+  
+  
+  </dd>
+  <dt>Age</dt>
+  <dd{membreAge}
+  
+  
+  </dd>
+  <dt>Nationalitée</dt>
+  <dd class="adr"
+  
+  
+  <!-- BEGIN NATIO1 -->
+  ><img src="templates/{THEME}/images/flags/<!-- END NATIO1 -->{membreNatio}<!-- BEGIN NATIO2 -->.gif" alt="{membreNatio}" /><span class="country-name">{membrePays}</span>
+  <!-- END NATIO2 -->
+  </dd>
+  <dt class="last">Site web</dt>
+  <dd class="last"
+  
+  
+  <!-- BEGIN WWW1 -->
+  ><a class="url" href="http://{membreWww}">
+  <!-- END WWW1 -->
+  {membreWww}
+  <!-- BEGIN WWW2 -->
+  </a>
+  <!-- END WWW2 -->
+  </dd>
+ </dl>
+ <h4><img src="templates/{THEME}/images/icons/email_open.png" alt="icone contact" />Contact</h4>
+ <dl class="infos">
+  <dt class="first"><img src="templates/{THEME}/images/msn.png" alt="Msn" title="Msn" /> Msn</dt>
+  <dd class="first"
+  
+  
+  <!-- BEGIN MSN1 -->
+  ><img src="<!-- END MSN1 -->{membreMsn}<!-- BEGIN MSN2 -->" alt="Adresse MSN de {membrePseudo}" />
+  <!-- END MSN2 -->
+  </dd>
+  <dt><img src="templates/{THEME}/images/yahoo.png" alt="Yahoo" title="Yahoo" /> Yahoo</dt>
+  <dd
+  
+  
+  <!-- BEGIN YAHOO1 -->
+  ><img src="<!-- END YAHOO1 -->{membreYahoo}<!-- BEGIN YAHOO2 -->" alt="Adresse Yahoo de {membrePseudo}" />
+  <!-- END YAHOO2 -->
+  </dd>
+  <dt><img src="templates/{THEME}/images/icq.png" alt="Icq" title="Icq" /> Icq</dt>
+  <dd
+  
+  
+  <!-- BEGIN ICQ1 -->
+  ><img src="<!-- END ICQ1 -->{membreIcq}<!-- BEGIN ICQ2 -->" alt="Adresse Icq de {membrePseudo}" />
+  <!-- END ICQ2 -->
+  </dd>
+  <dt><img src="templates/{THEME}/images/aim.png" alt="Aim" title="Aim" /> Aim</dt>
+  <dd
+  
+  
+  <!-- BEGIN AIM1 -->
+  ><img src="<!-- END AIM1 -->{membreAim}<!-- BEGIN AIM2 -->" alt="Adresse Aim de {membrePseudo}" />
+  <!-- END AIM2 -->
+  </dd>
+  <dt><img src="templates/{THEME}/images/skype.png" alt="Skype" title="Skype" /> Skype</dt>
+  <dd
+  
+  
+  <!-- BEGIN SKYPE1 -->
+  ><a href="skype://{membreSkype}?add" title="Contacter l'auteur via Skype">
+  <!-- END SKYPE1 -->
+  {membreSkype}
+  <!-- BEGIN SKYPE2 -->
+  </a>
+  <!-- END SKYPE2 -->
+  </dd>
+  <dt><img src="templates/{THEME}/images/xfire.png" alt="Xfire" title="Xfire" /> Xfire</dt>
+  <dd
+  
+  
+  <!-- BEGIN XFIRE1 -->
+  ><a href="http://profile.xfire.com/{membreXfire}" title="Profil Xfire de {membrePseudo}">
+  <!-- END XFIRE1 -->
+  {membreXfire}
+  <!-- BEGIN XFIRE2 -->
+  </a>
+  <!-- END XFIRE2 -->
+  </dd>
+  <dt><img src="templates/{THEME}/images/gtalk.png" alt="Google Talk" title="Google Talk" /> Google Talk</dt>
+  <dd
+  
+  
+  <!-- BEGIN GTALK1 -->
+  ><img src="<!-- END GTALK1 -->{membreGtalk}<!-- BEGIN GTALK2 -->" alt="Adresse Google Talk de {membrePseudo}" />
+  <!-- END GTALK2 -->
+  </dd>
+  <dt><img src="templates/{THEME}/images/mail.png" alt="Enveloppe" title="Message" /> E-mail</dt>
+  <dd>Le contacter par e-mail</dd>
+  <dt class="last"><img src="templates/{THEME}/images/mail.png" alt="Enveloppe" title="Message" /> Message privé</dt>
+  <dd class="last"><a href="membres/mon-profil-rediger-message-{membrePseudo}.html">Le contacter par message privé</a></dd>
+ </dl>
+ <h4><img src="templates/{THEME}/images/icons/chart_bar.png" alt="icone statistiques" />Statistiques</h4>
+ <dl class="infos">
+  <dt class="first">Total des messages</dt>
+  <dd class="first">{membreStatsTotal}</dd>
+  <dt>Plus actif dans</dt>
+  <dd><a href="forum/{membreStatsLinkMoreAct2}-f{membreStatsMoreAct1}.html">{membreStatsMoreAct2}</a></dd>
+  <dt>Dernière activitée</dt>
+  <dd>{membreStatsLastAct}</dd>
+  <dt>Dernière visite</dt>
+  <dd>{membreStatsLastVis}</dd>
+  <dt class="last">Statut</dt>
+  <dd class="last">{membreStatsStatut}</dd>
+ </dl>
+ <h4><img src="templates/{THEME}/images/icons/computer.png" alt="icone matriel et connexion" />Matériel et connexion</h4>
+ <dl class="infos">
+  <dt class="first">Processeur</dt>
+  <dd class="first"{membreHard1}
+  
+  
+  </dd>
+  <dt>Carte Graphique</dt>
+  <dd{membreHard2}
+  
+  
+  </dd>
+  <dt>Capacité disque</dt>
+  <dd{membreHard3} 
+  
+  
+  </dd>
+  <dt>Clavier</dt>
+  <dd{membreHard4}
+  
+  
+  </dd>
+  <dt>Souris</dt>
+  <dd{membreHard5}
+  
+  
+  </dd>
+  <dt><acronym title="Operating System">OS</acronym></dt>
+  <dd{membreHard6}
+  
+  
+  </dd>
+  <dt class="last">Connexion internet</dt>
+  <dd class="last"{membreHard7}
+  
+  
+  </dd>
+ </dl>
+ <h4><img src="templates/{THEME}/images/icons/text_signature.png" alt="icone signature" />Signature</h4>
+ <div class="infos">{membreSignature}</div>
+</div>

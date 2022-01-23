@@ -1,0 +1,134 @@
+#wpa-container {
+	position:absolute;
+	top:121px;
+	right:0;
+	height:100%;
+}
+#wpa-toggle {
+	height:24px;
+	width:24px;
+	position:absolute;
+	top:4px;
+	right:2px;
+	text-decoration:none;
+	border:0;
+}
+.wpa-open {
+	background:url(../images/wpaopen.png) no-repeat;
+}
+.wpa-close {
+	background:url(../images/wpaclose.png) no-repeat;
+}
+#wpa {
+	display:none;
+	width:260px;
+	margin:0;
+	padding:5px 0;
+	border-left:1px solid #666;
+	background:#fff;
+	height:100%;
+}
+#wpa-loading {
+	position: fixed !important;
+	position: absolute; 
+	top:0; 
+	right:0; 
+	font-size:8pt; 
+	color: white; 
+	background: red; 
+	padding: 2px;
+}
+#wpa form {
+	margin:0;
+	padding:0 0 0 5px;
+}
+#wpa input {
+	font-size:.9em;
+}
+#wpa-go {
+	padding:0px;
+	border:3px double;
+	border-color: #ccc #999 #999 #ccc;
+	background:#fff;
+}
+.wpa-prodimg {
+	float:left;
+	padding: 0 5px 5px 0;
+}
+#wpa-blended {
+	margin:0;
+	padding: 5px 0 0 0;
+}
+#wpa-blended dd {
+	overflow:auto;
+	margin:0;
+	padding:0;
+}
+#wpa-blended dt {
+	line-height: 20px;
+	background:#448ABD;
+	border-top: 1px solid #83B4D8;
+	border-bottom: 1px solid #14568A;
+	padding: 0 5px;
+	font-size:.9em;
+	font-weight: normal;
+	color: #fff;
+        cursor:pointer !important;
+}
+.wpa-prod {
+	border-spacing:0;
+}
+.wpa-prod td {
+	padding:4px;
+	vertical-align:top;
+	font-size:.85em;
+	font-weight:normal;
+}
+.wpa-prod-title {
+	width:75%;
+}
+.wpa-prod p {
+	margin:0;
+	padding:0;
+}
+.wpa-prod-img {
+	width:25%;
+	text-align:center;
+}
+.wpa-prod-imgs-other {
+	white-space:nowrap;
+}
+.wpa-prod-img img {
+	background:#fff;
+	padding:3px;
+	border:1px solid #999;
+}
+.wpa-prod-img a {
+	border:0;
+}
+#wpa-prod-img-preview {
+	position:absolute;
+	top:0;
+	text-align:right;
+	padding:5px;
+	border:1px solid #000;
+	background:#fff;
+}
+#wpa-prod-img-preview div {
+	padding:5px;
+}
+#wpa-prod-img-preview a {
+	border:0;
+}
+.wpa-accordian-active {
+	background:#00369F;
+}
+.wpa-accordian-hover {
+	background:#678ACF;
+}
+.wpa-descrs {
+	display:none;
+}
+#wpa-preview-close {
+  cursor:pointer;
+}

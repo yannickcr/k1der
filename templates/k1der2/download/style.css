@@ -1,0 +1,126 @@
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+}
+
+#main h4 {
+	font-size:1.4em;
+	border-bottom:1px solid #C00;
+	margin-bottom:3%;
+	text-align:left;
+}
+
+#main h5 {
+	font-size:1.3em;
+}
+
+#main .message { border:1px solid #BBB; padding:0.5em; text-align:center; }
+
+#main div.discover { float:left;text-align:left; }
+#main .illus { float:left; margin-right:.5em; }
+
+#main div.cats { width:58%; float:left; margin-right:2%; text-align:left; }
+#main div.new { width:37%; float:left; border-left:1px dashed #CCC; padding-left:2%; text-align:left; }
+
+/**
+ * Tableau
+ */
+#main table { clear:left; width:99%; margin:.5em; text-align:left; }
+
+#main table, #main table td, #main table tr, #main table th {
+	padding: 5px 10px;
+	border-collapse: collapse;
+	border:1px solid #DDD;
+}
+#main table th, #main table td.comms { text-align:center; }
+#main table td { background-color:#F5F5F5; }
+#main table img { vertical-align:middle; }
+
+
+/**
+ * Lien de tlchargement
+ */
+a.dlcount:link,a.dlcount:visited {
+	display:block;
+	margin:1em auto;
+	font-weight:bold;
+	text-align:center;
+	background: url(../images/bouton-download.png) no-repeat center top;
+	height:43px;
+	width:167px;
+	text-indent:-2000em;
+	text-decoration:none;
+}
+
+a.dlcount:hover,a.dlcount:active {
+	background-position: center -43px;
+}
+
+/**
+ * Catégories
+ */
+ 
+#main .cats dl { font-size:0.9em; }
+#main .cats dt { font-weight:bold; font-size:1.2em; }
+#main .cats dd { padding-left:.5em; margin-bottom:1em; }
+
+/**
+ * Nouveautes
+ */
+ 
+#main .new h5 { font-size:0.9em; }
+#main .new p { font-size:0.8em; }
+
+/**
+ * Catégorie
+ */
+ 
+#main .cat { float:left; text-align:left; padding-bottom:.5em; }
+#main .cat h5 { font-size:0.9em; }
+#main .cat p { font-size:0.8em; }
+#main .cat p.subs { font-size:1em; }
+#main .cat .illus { margin-bottom:.5em; }
+
+/**
+ * Download
+ */
+#main .download { float:left; }
+#main .download p { text-align:left; }
+#main .download h5 { margin-top:1em; text-align:left; }
+#main .download .illus { margin-bottom:.5em; }
+
+/**
+ *Commentaire
+ */
+#main .postauteur { font-weight:bold; width:15%; background-color:#FEE; text-align:center; }
+#main .postauteur a:link, #main .postauteur a:visited, #main .postauteur span { color:#000; }
+#main td.infos { background-color:#FEE; font-size:0.8em; padding:8px 5px 2px; }
+#main td.infos span { font-weight:bold; padding-left:5px; }
+#main td.infos div { float:right; margin-top:-5px; }
+
+#main .comm { vertical-align:top; background-color:#FFF; border-bottom:0; }
+#main .commnonote { vertical-align:top; background-color:#FFF; }
+
+#main .note { vertical-align:bottom;  background-color:#FFF; border-top:0; }
+
+#main .profil { text-align:center; vertical-align:top; background-color:#FFF; }
+#main td.sep { border:0; background-color:transparent; }
+#main table.comms, #main table.comms tr { border:0; }
+
+#main p.barreactions { margin-top:0; padding-top:0; text-align:right; }
+
+#main .pseudo label { width:10em; float:left; display:block; line-height:2em; }
+
+#main .messagetd { width:100%; }
+#main #message {
+	margin:5px 0px 25px;
+	width:98%;
+	height:150px;
+}
+
+#main fieldset { border:0; }

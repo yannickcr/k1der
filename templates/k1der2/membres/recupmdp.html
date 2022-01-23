@@ -1,0 +1,21 @@
+<div id="main">
+<h3>Récupération de mot de passe</h3>
+<div class="message">
+Afin de rcuprer un nouveau mot de passe rentrez votre e-mail ci-dessous :<br /><br />
+<form action="{REQUEST_URI}" method="post">
+<table>
+	<tr>
+	<td style="width:30%;font-weight:bold;"><label for="email">E-mail</label></td>
+	<td style="width:70%;">
+		<input type="text" id="email" name="email" value="{insEmail}" />
+		<!-- BEGIN ERREUR-MAIL1 --><span class="erreur">Vous devez entrer un e-mail</span><!-- END ERREUR-MAIL1 -->
+		<!-- BEGIN ERREUR-MAIL2 --><span class="erreur">Aucun compte n'est associ  cet e-mail ou votre compte n'est pas activ</span><!-- END ERREUR-MAIL2 -->
+		<!-- BEGIN ERREUR-MAIL3 --><span class="erreur">Vous devez entrer un e-mail valide</span><!-- END ERREUR-MAIL3 -->
+	</td>
+	</tr>
+</table>
+<div style="text-align:center;margin:5px;"><input type="submit" value="Valider" /></div>
+</form>
+</div>
+<div class="bas"></div>
+</div>

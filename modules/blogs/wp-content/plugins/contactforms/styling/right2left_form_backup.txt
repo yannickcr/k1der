@@ -1,0 +1,17 @@
+cf:6
+ff:** is not shown anyway...$#$fieldsetstart$#$0$#$0$#$0$#$0+++Message$#$textarea$#$0$#$0$#$0$#$0+++Your Name|Your Name$#$textfield$#$1$#$0$#$1$#$0+++Email$#$textfield$#$1$#$1$#$0$#$0+++Website|http://$#$textfield$#$0$#$0$#$0$#$0+++* Please fill in all required fields|infotext$#$textonly$#$0$#$0$#$0$#$0+++
+rq:*
+er:*
+ac:0
+jx:1
+fn:My Custom RTL Form
+cs:Re: Your note
+cm:Dear Sender,$n$Thank you for your note!$n$We will get back to you as soon as possible.
+em:\"oliver\" <oliver.seidel@deliciousdays.com>
+sj:A comment from a site visitor
+su:Submit
+sc:Thank you for your comment!
+fl:Please fill in all the required fields.
+wo:One moment please...
+pp:nn
+sp:yn

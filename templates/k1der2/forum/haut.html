@@ -1,0 +1,121 @@
+<!-- BEGIN NAVIDENT -->
+<div id="membre">
+ <div id="ident">Connecté en tant que : <span>{mbrPseudo}</span> ( <a href="membres/logout.html">Déconnexion</a> )</div>
+ <ul id="nav">
+  <!-- BEGIN ADMIN -->
+  <li><a href="admin/">Administration</a></li>
+  <!-- END ADMIN -->
+  <li><a href="membres/mon-profil.html">Mon profil</a></li>
+  <li><a href="forum/recherche-nouveaux.html">Nouveaux messages</a></li>
+  <li><a href="membres/mon-profil-boite-de-reception.html">{mbrMessPv} message{mbrMessPvS} privé{mbrMessPvS}</a></li>
+ </ul>
+</div>
+<!-- END NAVIDENT -->
+<!-- BEGIN NAVNOIDENT -->
+<form id="identform" action="{REQUEST_URI}" method="post">
+ <div>
+  <label for="loginpseudo">Identification : </label>
+  <input type="text" name="loginpseudo" id="loginpseudo" />
+  <input type="password" name="loginpass" id="loginpass" />
+  <input type="submit" value="Ok" />
+ </div>
+</form>
+<!-- END NAVNOIDENT -->
+<ul id="ariane">
+ <li><a href="forum/" title="Retour  la racine du forum">-=K1der=- Forum</a></li>
+ <!-- BEGIN LEVELONE -->
+ <li>&gt;&gt; <a href="forum/{catLinkTitre}-c{catId}.html" title="Retour  liste des forums de la catégorie {catTitre}">{catTitre}</a></li>
+ <!-- END LEVELONE -->
+ <!-- BEGIN LEVELTWO -->
+ <li>&gt;&gt; <a href="forum/{forumLinkTitre}-f{forumId}.html" title="Retour  la liste des sujets du forum {forumTitre}">{forumTitre}</a></li>
+ <!-- END LEVELTWO -->
+</ul>
+<form id="search" action="http://www.k1der.net/search/" method="get">
+ <p>
+  <label for="q">Recherche rapide : </label>
+  <input type="hidden" name="cx" value="014004053154253715234:fuebx-3lq-g" />
+  <input type="text" id="q" name="q" />
+  <input type="submit" id="ok" name="sa" value="Ok" />
+  <input type="hidden" name="cof" value="FORID:9" /><br />
+ </p>
+</form>
+<!-- BEGIN BARREACTIONS -->
+<div class="barreactions">
+ <!-- BEGIN PAGINNATIONFORUM -->
+ <p class="pagination">
+  <!-- BEGIN PAGESF.NUM -->
+  <span class="pagen">{nbpages} pages</span>
+  <!-- END PAGESF.NUM -->
+  <!-- BEGIN PAGESF.FIRST -->
+  <a class="firstlast" href="forum/{forumLinkTitre}-f{forumId}.html" title="Aller  la premire page">&laquo;</a>
+  <!-- END PAGESF.FIRST -->
+  <!-- BEGIN PAGESF.PREV -->
+  <a class="prevnext" href="forum/{forumLinkTitre}-f{forumId}-start{numpost.m}.html" title="Aller  la page précédente">&lt;</a>
+  <!-- END PAGESF.PREV -->
+  <!-- BEGIN PAGESF.MM -->
+  <a class="pagen" href="forum/{forumLinkTitre}-f{forumId}-start{numpost.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a>
+  <!-- END PAGESF.MM -->
+  <!-- BEGIN PAGESF.M -->
+  <a class="pagen" href="forum/{forumLinkTitre}-f{forumId}-start{numpost.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a>
+  <!-- END PAGESF.M -->
+  <!-- BEGIN PAGESF.C -->
+  <span class="current">{numpage0}</span>
+  <!-- END PAGESF.C -->
+  <!-- BEGIN PAGESF.P -->
+  <a class="pagen" href="forum/{forumLinkTitre}-f{forumId}-start{numpost.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a>
+  <!-- END PAGESF.P -->
+  <!-- BEGIN PAGESF.PP -->
+  <a class="pagen" href="forum/{forumLinkTitre}-f{forumId}-start{numpost.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a>
+  <!-- END PAGESF.PP -->
+  <!-- BEGIN PAGESF.NEXT -->
+  <a class="prevnext" href="forum/{forumLinkTitre}-f{forumId}-start{numpost.p}.html" title="Aller  la page suivante">&gt;</a>
+  <!-- END PAGESF.NEXT -->
+  <!-- BEGIN PAGESF.LAST -->
+  <a class="firstlast" href="forum/{forumLinkTitre}-f{forumId}-start{numpost.last}.html" title="Aller  la dernire page">&raquo;</a>
+  <!-- END PAGESF.LAST -->
+ </p>
+ <!-- END PAGINNATIONFORUM -->
+ <!-- BEGIN PAGINNATIONTOPIC -->
+ <p class="pagination">
+  <!-- BEGIN PAGEST.NUM -->
+  <span class="pagen">{nbpages} pages</span>
+  <!-- END PAGEST.NUM -->
+  <!-- BEGIN PAGEST.FIRST -->
+  <a class="firstlast" href="forum/{topicLinkTitre}-t{topicId}.html" title="Aller  la premire page">&laquo;</a>
+  <!-- END PAGEST.FIRST -->
+  <!-- BEGIN PAGEST.PREV -->
+  <a class="prevnext" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.m}.html" title="Aller  la page précédente">&lt;</a>
+  <!-- END PAGEST.PREV -->
+  <!-- BEGIN PAGEST.MM -->
+  <a class="pagen" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a>
+  <!-- END PAGEST.MM -->
+  <!-- BEGIN PAGEST.M -->
+  <a class="pagen" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a>
+  <!-- END PAGEST.M -->
+  <!-- BEGIN PAGEST.C -->
+  <span class="current">{numpage0}</span>
+  <!-- END PAGEST.C -->
+  <!-- BEGIN PAGEST.P -->
+  <a class="pagen" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a>
+  <!-- END PAGEST.P -->
+  <!-- BEGIN PAGEST.PP -->
+  <a class="pagen" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a>
+  <!-- END PAGEST.PP -->
+  <!-- BEGIN PAGEST.NEXT -->
+  <a class="prevnext" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.p}.html" title="Aller  la page suivante">&gt;</a>
+  <!-- END PAGEST.NEXT -->
+  <!-- BEGIN PAGEST.LAST -->
+  <a class="firstlast" href="forum/{topicLinkTitre}-t{topicId}-start{numpost.last}.html" title="Aller  la dernire page">&raquo;</a>
+  <!-- END PAGEST.LAST -->
+ </p>
+ <!-- END PAGINNATIONTOPIC -->
+ <p>
+  <!-- BEGIN CLOSE1 -->
+  <img src="templates/{THEME}/images/forum/b_ferme.gif" alt="Sujet Ferm" />
+  <!-- END CLOSE1 -->
+  <!-- BEGIN OPEN1 -->
+  <a href="forum/{topicLinkTitre}-t{topicId}-reply.html"><img src="templates/{THEME}/images/forum/b_repondre.gif" alt="Rpondre" /></a>
+  <!-- END OPEN1 -->
+  <a href="forum/{forumLinkTitre}-f{forumId}-new.html"><img src="templates/{THEME}/images/forum/b_nouveau-topic.gif" alt="Nouveau Topic" /></a> <a href="forum/{forumLinkTitre}-f{forumId}-newpoll.html"><img src="templates/{THEME}/images/forum/b_nouveau-sondage.gif" alt="Nouveau Sondage" /></a> </p>
+</div>
+<!-- END BARREACTIONS -->

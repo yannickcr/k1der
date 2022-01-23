@@ -1,0 +1,22 @@
+<h3>Configuration des clans</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Configuration générale</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="clan">Clan du site</label></td>
+			<td style="width:70%;"><input type="text" style="width:200px;" id="clan" name="clan" value="{clan}" />
+			<div id="LSResult" class="livesearch"></div>
+			<!-- BEGIN ERREUR-CLAN1 --><span class="erreur">Vous devez rentrer un nom de clan</span><!-- END ERREUR-CLAN1 -->
+			<!-- BEGIN ERREUR-CLAN2 --><span class="erreur">Clan inconnu</span><!-- END ERREUR-CLAN2 -->
+			<!-- BEGIN ERREUR-CLAN3 --><span class="erreur">Le nom d'un clan ne peut contenir que des caractères alphanumriques</span><!-- END ERREUR-CLAN3 -->
+			<!-- BEGIN ERREUR-CLAN4 --><span class="erreur">Le nom d'un clan a une longueur comprise entre 3 et 100 caractères</span><!-- END ERREUR-CLAN4 -->
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>
+<div class="bas"></div>

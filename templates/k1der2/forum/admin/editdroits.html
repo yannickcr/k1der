@@ -1,0 +1,54 @@
+<h3>Modifier les droits d'accès</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Modifier les droits d'accès</legend>
+	<table>
+		<tr>
+          <th rowspan="5" style="width:28%;">Droits d'acc&egrave;s<br />
+              <span class="forum-descr">Le forum sera cach&eacute; si les droits de lecture ne sont pas activ&eacute;s.</span></th>
+		  <th style="width:12%;">&nbsp;</th>
+          <th style="width:12%;text-align:center;">Lire</th>
+          <th style="width:12%;text-align:center;">R&eacute;pondre</th>
+          <th style="width:12%;text-align:center;">Commencer</th>
+		  <th style="width:12%;text-align:center;">&Eacute;diter</th>
+		  <th style="width:12%;text-align:center;">Supprimer</th>
+		</tr>
+		<tr class="trdroits">
+		  <td style="text-align:right;">Administrateurs</td>
+		  <td class="backcolor1"><label for="readA">Lire</label><input name="readA" type="checkbox" id="readA" value="1" {readA}/></td>
+		  <td class="backcolor2"><label for="replyA">Rpondre</label><input name="replyA" type="checkbox" id="replyA" value="1" {replyA}/></td>
+		  <td class="backcolor3"><label for="startA">Commencer</label><input name="startA" type="checkbox" id="startA" value="1" {startA}/></td>
+		  <td class="backcolor4"><label for="editA">&Eacute;diter</label><input name="editA" type="checkbox" id="editA" value="1" {editA}/></td>
+		  <td class="backcolor5"><label for="delA">Supprimer</label><input name="delA" type="checkbox" id="delA" value="1" {delA}/></td>
+		</tr>
+		<tr class="trdroits">
+		  <td style="text-align:right;">Membres</td>
+		  <td class="backcolor1"><label for="readM">Lire</label><input name="readM" type="checkbox" id="readM" value="1" {readM}/></td>
+		  <td class="backcolor2"><label for="replyM">Rpondre</label><input name="replyM" type="checkbox" id="replyM" value="1" {replyM}/></td>
+		  <td class="backcolor3"><label for="startM">Commencer</label><input name="startM" type="checkbox" id="startM" value="1" {startM}/></td>
+		  <td class="backcolor4"><label for="editM">&Eacute;diter</label><input name="editM" type="checkbox" id="editM" value="1" {editM}/></td>
+		  <td class="backcolor5"><label for="delM">Supprimer</label><input name="delM" type="checkbox" id="delM" value="1" {delM}/></td>
+		</tr>
+		<tr class="trdroits">
+		  <td style="text-align:right;">Visiteurs</td>
+		  <td class="backcolor1"><label for="readV">Lire</label><input name="readV" type="checkbox" id="readV" value="1" {readV}/></td>
+		  <td class="backcolor2"><label for="replyV">Rpondre</label><input type="checkbox" name="replyV" value="1" id="replyV" {replyV}/></td>
+		  <td class="backcolor3"><label for="startV">Commencer</label><input type="checkbox" name="startV" value="1" id="startV" {startV}/></td>
+		  <td class="backcolor4"><label for="editV">&Eacute;diter</label><input name="editV" type="checkbox" value="1" id="editV" {editV}/></td>
+		  <td class="backcolor5"><label for="delV">Supprimer</label><input name="delV" type="checkbox" value="1" id="delV" {delV}/></td>
+		</tr>
+		<tr class="trdroits">
+		  <td style="text-align:right;">Bannis</td>
+		  <td class="backcolor1"><label for="readB">Lire</label><input type="checkbox" name="readB" value="1" id="readB" {readB}/></td>
+		  <td class="backcolor2"><label for="replyB">Rpondre</label><input type="checkbox" name="replyB" value="1" id="replyB" {replyB}/></td>
+		  <td class="backcolor3"><label for="startB">Commencer</label><input type="checkbox" name="startB" value="1" id="startB" {startB}/></td>
+		  <td class="backcolor4"><label for="editB">&Eacute;diter</label><input name="editB" type="checkbox" value="1" id="editB" {editB}/></td>
+		  <td class="backcolor5"><label for="delB">Supprimer</label><input name="delB" type="checkbox" value="1" id="delB" {delB}/></td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" name="submit" /></div>
+</form>
+</div>
+<div class="bas"></div>

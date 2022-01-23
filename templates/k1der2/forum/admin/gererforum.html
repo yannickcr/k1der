@@ -1,0 +1,41 @@
+<h3>Gérer le forum</h3>
+<div class="message">
+	<table>
+		<colgroup span="4">
+			<col style="width:40%;" span="1" />
+			<col style="width:20%;" span="3" />
+		</colgroup>
+		<tr>
+			<th>Nom</th>
+			<th></th>
+			<th>Ordonner</th>
+			<th></th>
+		</tr>
+		<!-- BEGIN CATS -->
+		<tr>
+			<th class="cat">{catNom}</th>
+			<th class="catact1"><a href="admin/forum/rencat-id{catId}.html">Renommer</a></th>
+			<th class="catord">
+				<a href="admin/forum/gererforum-id{catId}-ctop.html"><img src="templates/{THEME}/images/s-top.png" alt="Tout en haut" style="vertical-align:middle;" /></a>
+				<a href="admin/forum/gererforum-id{catId}-cup.html"><img src="templates/{THEME}/images/s-up.png" alt="Plus haut" style="vertical-align:middle;" /></a>
+				<a href="admin/forum/gererforum-id{catId}-cdown.html"><img src="templates/{THEME}/images/s-down.png" alt="Plus bas" style="vertical-align:middle;" /></a>
+				<a href="admin/forum/gererforum-id{catId}-cbottom.html"><img src="templates/{THEME}/images/s-bottom.png" alt="Tout en bas" style="vertical-align:middle;" /></a>
+			</th>
+			<th class="catact2"><a href="admin/forum/delcat-id{catId}.html">Supprimer</a></th>
+		</tr>
+		<!-- BEGIN FORUMS -->
+		<tr>
+			<th scope="row" class="name">{forNom}<br /><span class="forum-descr">{forDescr}</span></th>
+			<td class="lite"><a href="admin/forum/editforum-id{forId}.html">Modifier les paramètres</a><div style="height:5px;"></div><a href="admin/forum/editdroits-id{forId}.html">Modifier les droits</a></td>
+			<td class="ord">
+				<a href="admin/forum/gererforum-id{forId}-f{catId}-top.html"><img src="templates/{THEME}/images/top.png" alt="Tout en haut" style="vertical-align:middle;" /></a>
+				<a href="admin/forum/gererforum-id{forId}-f{catId}-up.html"><img src="templates/{THEME}/images/up.png" alt="Plus haut" style="vertical-align:middle;" /></a>
+				<a href="admin/forum/gererforum-id{forId}-f{catId}-down.html"><img src="templates/{THEME}/images/down.png" alt="Plus bas" style="vertical-align:middle;" /></a>
+				<a href="admin/forum/gererforum-id{forId}-f{catId}-bottom.html"><img src="templates/{THEME}/images/bottom.png" alt="Tout en bas" style="vertical-align:middle;" /></a>
+			</td>
+			<td class="lite"><a href="admin/forum/delforum-id{forId}.html">Supprimer</a><div style="height:5px;"></div><a href="admin/forum/emptyforum-id{forId}.html">Vider</a></td>
+		</tr>
+		<!-- END FORUMS -->
+		<!-- END CATS -->
+	</table>
+</div>

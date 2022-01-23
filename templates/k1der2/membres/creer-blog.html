@@ -1,0 +1,33 @@
+<h3>Cr&eacute;er un blog</h3>
+<!-- BEGIN NOBLOG -->
+<form action="{REQUEST_URI}" method="post">
+  <p>Cette page vous permet de vous créer un blog sur K1der.net</p>
+  <p>L'adresse de votre blog sera alors http://blog.k1der.net/{pseudo}</p>
+  <p>Description des blogs :</p>
+  <ul>
+    <li>Blogs propulsés par <a href="http://www.dotclear.net">DotClear 2</a></li>
+    <li>Nombreux plugins pré-installés</li>
+    <li>Nombreux thèmes pré-définits</li>
+    <li>Possibilité de créer son propre thème</li>
+    <li>Espace pour le stockage de vos images</li>
+    <li>etc.</li>
+  </ul>
+  <fieldset>
+  <p>Pour créer votre blog, re-saisissez ci-dessous le mot de passe de votre compte :</p>
+  <label for="pass">Mot de passe</label>
+  <input type="password" id="pass" name="pass" />
+  <!-- BEGIN ERRORPASS2 --><span class="erreur">Vous devez rentrez votre mot de passe</span><!-- END ERRORPASS2 -->
+  <!-- BEGIN ERRORPASS3 --><span class="erreur">Mot de passe incorrect</span><!-- END ERRORPASS3 -->
+  <br />
+  <label for="pass">Confirmation</label>
+  <input type="password" id="pass2" name="pass2" />
+  <!-- BEGIN ERRORPASS1 --><span class="erreur">La confirmation du mot de passe a échouée</span><!-- END ERRORPASS1 -->
+  </fieldset>
+  <div>
+    <input name="blog" type="submit" value="Cr&eacute;er mon blog maintenant !" />
+  </div>
+</form>
+<!-- END NOBLOG -->
+<!-- BEGIN BLOG -->
+<p>Vous possédez déjà un blog sur K1der.net</p>
+<!-- END BLOG -->

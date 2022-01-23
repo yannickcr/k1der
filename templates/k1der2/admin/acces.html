@@ -1,0 +1,38 @@
+<h3>Accs</h3>
+<div class="message">
+ <form action="{REQUEST_URI}" method="post">
+  <fieldset>
+  <legend>Modification des accès</legend>
+  <table>
+   <thead>
+    <tr>
+     <th scope="col"></th>
+     <th scope="col">Administrateurs</th>
+     <th scope="col">Membres</th>
+     <th scope="col">Visiteurs</th>
+     <th scope="col">Bannis</th>
+    </tr>
+   </thead>
+   <tbody>
+    <!-- BEGIN LISTE -->
+    <!-- BEGIN MODULE -->
+    <tr>
+     <th class="cat" scope="col" colspan="5">{accesModule}</th>
+    </tr>
+    <!-- END MODULE -->
+    <tr>
+     <th class="name" scope="row"><!-- BEGIN ADMIN --><img src="templates/{THEME}/images/admin.gif" title="Page de l'administration" alt="Page admin" /><!-- END ADMIN --> {accesDescr}</th>
+     <td class="lite"><label for="accesA_{accesId}">Administrateurs</label><input type="checkbox" id="accesA_{accesId}" name="accesA_{accesId}" value="{accesId}"{checkedA} /></td>
+     <td class="lite"><label for="accesM_{accesId}">Membres</label><input type="checkbox" id="accesM_{accesId}" name="accesM_{accesId}" value="{accesId}"{checkedM} /></td>
+     <td class="lite"><label for="accesV_{accesId}">Visiteurs</label><input type="checkbox" id="accesV_{accesId}" name="accesV_{accesId}" value="{accesId}"{checkedV} /></td>
+     <td class="lite"><label for="accesB_{accesId}">Bannis</label><input type="checkbox" id="accesB_{accesId}" name="accesB_{accesId}" value="{accesId}"{checkedB} /></td>
+    </tr>
+    <!-- END LISTE -->
+   </tbody>
+  </table>
+  </fieldset>
+  <div>
+   <input type="submit" name="submit" value="Valider les modifications" />
+  </div>
+ </form>
+</div>

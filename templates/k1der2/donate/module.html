@@ -1,0 +1,30 @@
+<div id="donate">
+	<a id="donatelink" href="#don">Faire un don au clan</a>
+	<div id="don" class="donatehide">
+		<h2><label for="amount">Faire un don</label></h2>
+		<p>Si vous aimez les dessins de Maxi, si vous aimez nos serveurs de jeux ou si vous nous aimez tout court...</p>
+		<p>Vous pouvez nous faire un don, ça serait mignon tout plein.</p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<fieldset>
+				<input type="hidden" name="cmd" value="_xclick" />
+				<input type="hidden" name="business" value="donate@k1der.net" />
+				<input type="hidden" name="item_name" value="Don pour le clan K1der" />
+				<select id="amount" name="amount">
+					<option value="1.00">1 &euro;</option>
+					<option value="2.00">2 &euro;</option>
+					<option value="3.00">3 &euro;</option>
+					<option value="4.00">4 &euro;</option>
+					<option value="5.00">5 &euro;</option>
+					<option value="">Autre montant</option>
+				</select>
+				<input type="hidden" name="no_shipping" value="2" />
+				<input type="hidden" name="no_note" value="1" />
+				<input type="hidden" name="currency_code" value="EUR" />
+				<input type="hidden" name="tax" value="0" />
+				<input type="hidden" name="lc" value="FR" />
+				<input type="hidden" name="bn" value="PP-DonationsBF" />
+				<input type="submit" name="submit" value="Valider" />
+			</fieldset>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,210 @@
+/**
+ * Titres
+ */
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+	text-align:left;
+}
+
+#main h4 {
+	margin:1em 0 .5em;
+	font-size:1em;
+	text-align:left;
+}
+
+/**
+ * Liste des matches
+ */
+#main ul {
+	list-style-type:none;
+	margin:0 1px;
+	padding:0;
+	border:1px solid #CCC;
+	border-bottom:0;
+	border-top:0;
+}
+
+#main ul li {
+	border-bottom:1px solid #CCC;
+	background:  no-repeat .2em center;
+	padding:5px .5em 5px 30px;
+	font-weight:bold;
+}
+
+#main ul li.win { background-color:#DFD; }
+#main ul li.draw { background-color:#DDF; }
+#main ul li.lose { background-color:#FDD; }
+
+#main ul a:link ,#main ul a:visited {
+	margin-left:6em;
+	font-weight:normal;
+}
+
+#main ul span {
+	float:left;
+	font-weight:normal;
+}
+
+/**
+ * Bloc central
+ */
+#main { text-align:center; } 
+
+#main .message { border:1px solid #BBB; padding:0.5em; text-align:center; }
+
+#main .message p { text-align:left; }
+
+/**
+ * Listes de dfinitions
+ */
+#main dl {
+	border-top:1px solid #CCC;
+	text-align:left;
+	list-style-type:none;
+	margin:1% 0 2%;
+}
+
+#main dl.top {
+	width:48%;
+}
+
+#main dl dd {
+	line-height:2em;
+	border:1px solid #CCC;
+	border-top:0;
+	white-space:nowrap;
+	background-color:#F5F5F5;
+}
+
+#main dl dt {
+	display:block;
+	float:left;
+	width:12em;
+	border-right:1px solid #CCC;
+	border-left:1px solid #CCC;
+	margin-right:.5em;
+	padding-right:.5em;
+	font-weight:bold;
+	text-align:right;
+	line-height:2em;
+	background-color:#FFF;
+}
+
+#main dl dd img {
+	vertical-align:middle;
+	margin-bottom:4px;
+}
+
+/**
+ * Score
+ */
+#main div#score { 
+	float:right;
+	width:50%;
+	text-align:center;
+	color:#FFF;
+	font-size:.1em;
+}
+
+#main div#score span {
+	display:block;
+	font-size:60px;
+	font-weight:bold;
+	color:#000;
+}
+
+/**
+ * Tableaux génériques
+ */
+#main table { width:99%; margin:.5em; text-align:left; }
+
+#main table, #main table td, #main table tr, #main table th {
+	padding: 5px 10px;
+	border-collapse: collapse;
+	border:1px solid #DDD;
+}
+#main table th, #main table td.comms { text-align:center; }
+#main table td { background-color:#F5F5F5; }
+#main table img { vertical-align:middle; }
+
+/**
+ * Commentaire
+ */
+#main h4#adedcomms, #main h4#comms {
+	font-size:1.3em;
+	text-align:left;
+}
+
+#main .postauteur { font-weight:bold; width:15%; background-color:#FEE; text-align:center; }
+#main .postauteur a:link, #main .postauteur a:visited, #main .postauteur span { color:#000; }
+#main td.infos { background-color:#FEE; font-size:0.8em; padding:8px 5px 2px; }
+#main td.infos span { font-weight:bold; padding-left:5px; }
+#main td.infos div { float:right; margin-top:-5px; }
+
+#main .comm { vertical-align:top; background-color:#FFF; border-bottom:0; }
+#main .commnonote { vertical-align:top; background-color:#FFF; }
+
+#main .note { vertical-align:bottom;  background-color:#FFF; border-top:0; }
+
+#main .profil { text-align:center; vertical-align:top; background-color:#FFF; }
+#main td.sep { border:0; background-color:transparent; }
+#main table.comms, #main table.comms tr { border:0; }
+
+#main p.barreactions { margin-top:0; padding-top:0; text-align:right; }
+
+#main .pseudo label { width:10em; float:left; display:block; line-height:2em; }
+
+#main .messagetd { width:100%; }
+#main #message {
+	margin:5px 0px 25px;
+	width:98%;
+	height:150px;
+}
+
+#main fieldset { border:0; }
+
+/**
+ * Tableaux des scores
+ */
+#main table.scores {
+	border-collapse:collapse;
+	width:75%;
+	border:0;
+	background-color:#FFF;
+}
+
+#main td.mapscreen {
+	width:160px;
+	padding-right:1em;
+}
+
+#main table.scores tr { border:0; }
+#main table.scores td { 
+	padding-bottom:1em;
+	background-color:#FFF;
+	border:0;
+}
+
+#main table.map {
+	border:1px solid #CCC;
+	border-collapse:collapse;
+	width:100%;
+}
+
+#main table.map th, #main table.map td {
+	border:1px solid #CCC;
+	padding:.2em;
+	width:33%;
+	text-align:center;
+}
+
+#main table.map td { background-color:#F5F5F5; }
+#main table.scores h4 { margin-top:0; }
+
+#main table.map tfoot { border-top:2px solid #999; }

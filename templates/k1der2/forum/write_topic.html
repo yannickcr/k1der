@@ -1,0 +1,81 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main"> {barrehaut}
+ <!-- BEGIN PREVIEW -->
+ <h3 class="lite">Prévisualisation</h3>
+ <table>
+  <tbody>
+   <tr>
+    <td>{message}</td>
+   </tr>
+  </tbody>
+ </table>
+ <!-- END PREVIEW -->
+ <form action="{REQUEST_URI}" method="post">
+  <h3 class="lite">Nouveau sujet dans : {forumTitre}</h3>
+  <table summary="Nouveau sujet dans : {forum.titre}">
+   <tbody>
+    <!-- BEGIN VISITEUR -->
+    <tr>
+     <td><label for="pseudo">Pseudo</label></td>
+     <td><input type="text" id="pseudo" name="pseudo" value="{pseudo}" />
+      <!-- BEGIN ERREUR-PSEUDO -->
+      <span class="erreur">Vous devez entrer un pseudo valide</span>
+      <!-- END ERREUR-PSEUDO --></td>
+    </tr>
+    <!-- END VISITEUR -->
+    <tr>
+     <td><label for="titre">Titre</label></td>
+     <td><input type="text" id="titre" name="titre" value="{titremessage}" />
+      <!-- BEGIN ERREUR-TITRE -->
+      <span class="erreur">Vous devez entrer un titre valide pour le sujet</span>
+      <!-- END ERREUR-TITRE --></td>
+    </tr>
+    <tr>
+     <td><label for="descr">Description</label></td>
+     <td><input type="text" id="descr" name="descr" value="{descrmessage}" /></td>
+    </tr>
+   {special}
+   <!-- BEGIN POLL -->
+   <tr>
+    <td><label for="quest">Question du sondage</label></td>
+    <td><input type="text" id="quest" name="quest" value="{questsondage}" /></td>
+   </tr>
+   <tr>
+    <td><label for="choix"> Choix du sondage<br />
+     Une réponse par ligne.<br />
+     15 réponses au maximum.<br />
+     </label>
+    </td>
+    <td><textarea name="choix" id="choix" cols="50" rows="10">{choixsondage}</textarea>
+     <!-- BEGIN ERREUR-CHOIX -->
+     <span class="erreur">Vous devez retrer au moins 2 choix</span>
+     <!-- END ERREUR-CHOIX --></td>
+   </tr>
+   <!-- END POLL -->
+   <tr >
+    <td>&nbsp;</td>
+    <td>{miseEnForme}</td>
+   </tr>
+   <tr>
+    <td class="smileys"> Smileys Cliquables
+     <div>
+      <!-- BEGIN FORUM.SMILEYS -->
+      <img src="templates/{THEME}/images/smileys/{image}" alt="{alt}" title="{alt}" onclick="javascript:add_smiley('{smiley}');" />
+      <!-- END FORUM.SMILEYS -->
+     </div>
+	</td>
+    <td class="redac"><!-- BEGIN ERREUR-MESSAGE -->
+     <span class="erreur">Vous devez entrer un message valide</span>
+     <!-- END ERREUR-MESSAGE -->
+     <textarea name="message" id="message" cols="50" rows="10">{bbmessage}</textarea>
+     <div>
+      <input type="submit" id="valider" name="valider" value="Valider"/>
+      <input id="previsualiser" name="previsualiser" type="submit" value="Prévisualisation"/>
+     </div>
+	</td>
+   </tr>
+   </tbody>
+   
+  </table>
+ </form>
+</div>

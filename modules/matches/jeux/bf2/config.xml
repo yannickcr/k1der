@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE jeu SYSTEM "../jeu.dtd">
+<jeu name="Battlefield 2" shortname="bf2">
+	<gametype nom="8 vs 8" type="Team" nbplayer="8" team1="USA" team2="Méchants" round="2" minmaps="1" maxmaps="3" />
+	<maps>
+		<map nom="Dragon valley" image="maps/dragon-valley.jpg" />
+		<map nom="Wake Island 2007" image="maps/wake-island-2007.jpg" />
+	</maps>
+</jeu>

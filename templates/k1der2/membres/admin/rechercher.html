@@ -1,0 +1,72 @@
+<h3>Rechercher un membre</h3>
+<div class="message">
+        <fieldset>
+        <legend>Rechercher un membre</legend>
+        <table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" id="rechpseudo" name="rechpseudo" value="1" /><label class="after" for="rechpseudo">Pseudo</label></td>
+                    <td><input type="text" id="rechpseudochamp" name="rechpseudochamp" /></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="rechnbpart" name="rechnbpart" value="1" /><label class="after" for="rechnbpart">Participation comprise entre</label></td>
+                    <td><input type="text" id="rechnbpartchamp1" name="rechnbpartchamp1" /><label class="after" for="rechnbpartmax"> et </label><input type="text" id="rechnbpartchamp2" name="rechnbpartchamp3" /></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="rechdateins" name="rechdateins" value="1" /><label class="after" for="rechdateins">Date d'inscription</label></td>
+                    <td><select id="rechdateinschamp" name="rechdateinschamp">
+						<option value="">Toutes</option>
+						<option value="aujourdhui">Aujourd'hui</option>
+						<option value="hier">Hier</option>
+						<option value="semaine">Il y a moins d'une semaine</option>
+						<option value="mois">Il y a moins d'un mois</option>
+						<option value="6mois">Il y a moins de 6 mois</option>
+						<option value="an">Il y a moins d'un an</option>
+					</select>
+					</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="rechdatevisit" name="rechdatevisit" value="1" /><label class="after" for="rechdatevisit">Dernière visite</label></td>
+                    <td><select id="rechdatevisitchamp" name="rechdatevisitchamp">
+						<option value="">Toutes</option>
+						<option value="aujourdhui">Aujourd'hui</option>
+						<option value="hier">Hier</option>
+						<option value="semaine">Il y a moins d'une semaine</option>
+						<option value="mois">Il y a moins d'un mois</option>
+						<option value="6mois">Il y a moins de 6 mois</option>
+						<option value="an">Il y a moins d'un an</option>
+					</select>
+					</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="rechgroupe" name="rechgroupe" value="1" /><label class="after" for="rechgroupe">Groupe</label></td>
+                    <td><select id="rechgroupechamp" name="rechgroupechamp">
+						<option value="">Tous</option>
+						<!-- BEGIN GROUPES -->
+						<option value="{groupId}">{groupNom}</option>
+						<!-- END GROUPES -->
+					</select>
+					</td>
+                </tr>
+            </tbody>
+        </table>
+        </fieldset>
+        <table class="liste">
+			<thead>
+                <tr>
+                    <th>Pseudo</th>
+                    <th>Groupe</th>
+                    <th>Participation</th>
+                    <th>Modifier</th>
+                    <th>Supprimer</th>
+                </tr>
+			</thead>
+            <tbody id="reponses">
+                <tr>
+                    <td colspan="5">Aucun résultat</td>
+                </tr>
+            </tbody>
+        </table>
+<hr />
+</div>
+<div class="bas"></div>

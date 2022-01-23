@@ -1,0 +1,120 @@
+<data>
+<fieldset>
+	<legend>Détails du match</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+	<colgroup>
+		<col style="width:30%" />
+		<col style="width:70%" />
+	</colgroup>
+		<tr>
+			<td style="font-weight:bold;"><label for="mode">Mode de jeu</label></td>
+			<td>
+			<select id="mode" name="mode">
+			<!-- BEGIN MODE -->
+				<option value="{matchJeuxMode}"{modeselected}>{matchJeuxMode}</option>
+			<!-- END MODE -->
+			</select>
+			</td>
+		</tr>
+		<tr id="tdadv">
+			<td style="font-weight:bold;"><label for="adver">Equipe adverse</label></td>
+			<td>
+			<input type="text" style="width:200px;" id="adver" name="adver" value="{matchAdv}" /><br />
+			<div id="livesearchadver" class="livesearch"></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-weight:bold;"><label for="matchlevel">Niveau du match</label></td>
+			<td>
+			<select id="matchlevel" name="matchlevel">
+				<option value="0"{level0selected}>PCW</option>
+				<option value="1"{level1selected}>Amical</option>
+				<option value="2"{level2selected}>Ladder</option>
+				<option value="3"{level3selected}>Poules</option>
+			<optgroup label="Winner"> 
+				<option value="4"{level4selected}>16èmes</option>
+				<option value="5"{level5selected}>8èmes</option>
+				<option value="6"{level6selected}>Quarts</option>
+				<option value="7"{level7selected}>Demi</option>
+				<option value="8"{level8selected}>Finale</option>
+			</optgroup>
+			<optgroup label="Looser"> 
+				<option value="9"{level9selected}>16èmes</option>
+				<option value="10"{level10selected}>8èmes</option>
+				<option value="11"{level11selected}>Quarts</option>
+				<option value="12"{level12selected}>Demi</option>
+				<option value="13"{level13selected}>Finale</option>
+			</optgroup>
+				<option value="14"{level14selected}>Grande Finale</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-weight:bold;"><label for="nbmaps">Nombre de cartes</label></td>
+			<td id="tdnbmaps">
+			<select id="nbmaps" name="nbmaps">
+				<!-- BEGIN NBMAPS -->
+				<option value="{nbMap}"{selected}>{nbMap}</option>
+				<!-- END NBMAPS -->
+			</select>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<fieldset style="float:left;">
+	<legend>Line up K1der<img id="addplayer" title="Ajouter un joueur" src="templates/{THEME}/images/plus.gif" alt="[+]" /><img id="delplayer" title="Retirer un joueur" src="templates/{THEME}/images/moin.gif" alt="[-]" /></legend>
+	<div id="tdlineup1">
+	<!-- BEGIN LINEUP1 -->
+		<input type="text" style="width:200px;" id="joueur{lineup1i}" name="joueur{lineup1i}" value="{lineup1value}" /><br />
+		<div id="choixjoueur{lineup1i}" class="livesearch"></div>
+	<!-- END LINEUP1 -->
+	</div>
+</fieldset>
+<fieldset style="float:right;">
+	<legend>Line up Adversaires<img id="addadv" title="Ajouter un adversaire" src="templates/{THEME}/images/plus.gif" alt="[+]" /><img id="deladv" title="Retirer un adversaire" src="templates/{THEME}/images/moin.gif" alt="[-]" /></legend>
+	<div id="tdlineup2">
+	<!-- BEGIN LINEUP2 -->
+		<input type="text" style="width:200px;" id="adv{lineup2i}" name="adv{lineup2i}" value="{lineup2value}" /><br />
+		<div id="choixadv{lineup2i}" class="livesearch"></div>
+	<!-- END LINEUP2 -->
+	</div>
+</fieldset>
+<!-- BEGIN CARTE -->
+<fieldset id="carte{carteNb}" style="clear:both;">
+	<legend>{carteNb}{carteNbExt} carte</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+	<colgroup>
+		<col style="width:30%" />
+		<col style="width:70%" />
+	</colgroup>
+		<tr>
+			<td style="font-weight:bold;"><label for="mapCarte{carteNb}">Carte</label></td>
+			<td>
+			<select id="mapCarte{carteNb}" name="mapCarte{carteNb}">
+			<!-- BEGIN MAPS -->
+				<option value="{matchJeuxMaps}"{mapselected}>{matchJeuxMaps}</option>
+			<!-- END MAPS -->
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-weight:bold;">Scores</td>
+			<td id="tdnbscores{carteNb}">
+				<!-- BEGIN TEAMORDUEL -->
+				<input type="text" id="rnd1score1Carte{carteNb}" name="rnd1score1Carte{carteNb}" /> - <input type="text" id="rnd1score2Carte{carteNb}" name="rnd1score2Carte{carteNb}" />
+				<!-- END TEAMORDUEL -->
+				
+				<!-- BEGIN TEAMRND2 -->
+				Côté {team1} :<input type="text" id="rnd1score1Carte{carteNb}" name="rnd1score1Carte{carteNb}" value="{rnd1score1value}" /> - <input type="text" id="rnd1score2Carte{carteNb}" name="rnd1score2Carte{carteNb}" value="{rnd1score2value}" /><br />
+				Côté {team2} :<input type="text" id="rnd2score1Carte{carteNb}" name="rnd2score1Carte{carteNb}" value="{rnd2score1value}" /> - <input type="text" id="rnd2score2Carte{carteNb}" name="rnd2score2Carte{carteNb}" value="{rnd2score2value}" />
+				<!-- END TEAMRND2 -->
+				
+				<!-- BEGIN DM -->
+				<label for="score{playerId}Carte1" id="score{playerId}">{player} :</label><input type="text" id="score{playerId}Carte1" name="score{playerId}Carte1" value="{score}" /><br id="br{playerId}" />
+				<!-- END DM -->
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<!-- END CARTE -->
+</data>

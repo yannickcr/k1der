@@ -1,0 +1,15 @@
+#quote span {
+	position:absolute;
+	right:115px;
+	padding-right:0;
+}
+
+h1 span {
+	font-size:0.3em;
+}
+
+#main .message { float:none; }
+#main .message .discover { float:none; }
+#main .message .discover table { clear:none; width:97%; }
+#main .message .download { float:none; }
+#main .message .download table { clear:none; width:97%; }

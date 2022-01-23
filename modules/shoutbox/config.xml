@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Rapid'Chat">
+	<pages>
+		<page page="aide" condition="get[action](aide)" />
+		<page page="liveedit" condition="get[action](liveedit)" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="postMessage" condition="post[shoutbox_message],infos[id]" />
+		<action action="editMessage" condition="get[id],post[message]" />
+		<action action="delMessage" condition="get[id]" />
+		<action action="config" condition="post[maxcaract],post[maxlength]" />
+	</actions>
+	<admin titre="Shoutbox">
+		<menu titre="Configuration" lien="admin/shoutbox/configuration.html" />
+		<menu titre="Liste des messages" lien="admin/shoutbox/liste.html" />
+	</admin>
+</configuration>

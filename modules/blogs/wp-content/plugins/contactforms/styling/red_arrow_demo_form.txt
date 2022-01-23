@@ -1,0 +1,25 @@
+cf:9
+ff:My Fieldset$#$fieldsetstart$#$0$#$0$#$0$#$0+++My Fieldset|customlegend$#$textonly$#$0$#$0$#$0$#$0+++Your Name|Your Name$#$textfield$#$1$#$0$#$1$#$0+++Email$#$textfield$#$1$#$1$#$0$#$0+++Website|http://$#$textfield$#$0$#$0$#$0$#$0+++Message$#$textarea$#$0$#$0$#$0$#$0+++Visitor verification$#$fieldsetstart$#$0$#$0$#$0$#$0+++Visitor verification|customlegend$#$textonly$#$0$#$0$#$0$#$0+++New Field$#$captcha$#$0$#$0$#$0$#$0+++
+rq:*
+er:**
+ac:0
+jx:1
+fn:Demo Form for Red-Arrow
+cs:Re: Your note
+cm:Dear {Your Name},$n$Thank you for your note!$n$We will get back to you as soon as possible.
+em:oliver.seidel@deliciousdays.com
+sj:A comment from {Your Name}
+su:Send Comment
+sc:Thank you for your comment!
+fl:Please fill in all the required fields.
+wo:One moment please...
+pp:nn
+sp:yn
+rd:0
+rp:http://redirect.to.this.page
+hd:A new submission (form: \"{Form Name}\")$n$============================================$n$Submitted on: {Date}$n$Via: {Page}$n$By {IP} (visitor IP).$n$.
+pc:30
+at:0
+ud:
+ue:txt,zip,doc,rtf,xls
+us:1024

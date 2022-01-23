@@ -1,0 +1,12 @@
+h2.search {
+	background:url('../images/titres/rechercher.png') no-repeat center bottom;
+	text-indent:-1000em;
+	font-size:0;
+	height:22px;
+	padding-top:48px;
+}
+
+h2.search label { display:block; height:22px; }
+
+#search fieldset { border:0; text-align:center; }
+#search input[type=text] { width:90%; }

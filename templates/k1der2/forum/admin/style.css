@@ -1,0 +1,17 @@
+
+.backcolor1, .backcolor2, .backcolor3, .backcolor4, .backcolor5 { text-align:center; }
+.backcolor1 { background-color:#9AF; }
+.backcolor2 { background-color:#9FA; }
+.backcolor3 { background-color:#FA9; }
+.backcolor4 { background-color:#FFA; }
+.backcolor5 { background-color:#FAF; }
+
+.trdroits {
+	height:30px;
+	width:12%;
+}
+.forum-descr {
+	font-size:0.8em;
+	font-weight:normal;
+}
+

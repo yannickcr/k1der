@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "http://www.k1der.net/include/config.dtd">
+<configuration>
+	<pages>
+		<page page="inscription" condition="get[module],get[inscription](1)" />
+		<page page="inscriptionfinish" condition="get[module],get[inscription](2)" />
+		<page page="reglement" condition="get[module],get[action](reglement)" />
+		<page page="recupmdp" condition="get[module],get[action](recupmdp)" />
+		<page page="recupmdpfinish" condition="get[module],get[action](recupmdpfinish)" />
+		<page page="activer" condition="get[module],get[activer]" />
+		<page page="newmdp" condition="get[module],get[newmdp]" />
+		<page page="newmdpfinish" condition="get[module],get[action](newmdpfinish)" />
+		<page page="logout" condition="get[logout]" />
+		<page page="mon-profil" condition="get[profil]" />
+		<page page="livesearch" condition="get[livesearch],get[q]" />
+		<page page="profil" condition="get[membre]" />
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+		<action action="changeAvatar" condition="post[avatar],post[url],infos[id]" />
+		<action action="editInfos" condition="post[nom],post[prenom],post[www],post[jour],post[mois],post[annee],post[natio],post[mail],post[msn],post[icq],post[aim],post[yahoo],post[hard_1],post[hard_2],post[hard_3],post[hard_4],post[hard_5],infos[id]" />
+		<action action="editSignature" condition="post[message],infos[id]" />
+		<action action="inscription" condition="post[pseudo],post[email],post[reglement]" />
+		<action action="recupMDP" condition="post[email]" />
+		<action action="newMDP" condition="post[pass],post[confpass]" />
+		<action action="changeMDP" condition="post[pass],post[confpass]" />
+		<action action="makeMessage" condition="post[to],post[sujet],post[message]" />
+		
+		<action action="markMessages" condition="post[message],post[mark]" />
+		<action action="delMessages" condition="post[message],post[del]" />
+
+		<action action="configMembres" condition="post[inscr],post[mailtitle],post[mailtxt]" />
+		<action action="niveauxMembres" condition="post[points1],post[design1],post[image1]" />
+		<action action="editMembres" condition="post[nom],post[prenom],post[www],post[jour],post[mois],post[annee],post[natio],post[mail],post[msn],post[icq],post[aim],post[yahoo],post[hard_1],post[hard_2],post[hard_3],post[hard_4],post[hard_5]" />
+		<action action="supprimerMembres" condition="get[action](supprimer),get[id]" />
+		<action action="changeMembresAvatar" condition="post[avatar],post[url],infos[id]" />
+		<action action="modifierMessage" condition="post[messagetxt],post[messagetitle],infos[id]" />
+		<action action="updateAcces" condition="post[submit]" />
+		<action action="creerBlog" condition="post[blog],post[pass],post[pass2]" />
+	</actions>
+	<admin titre="Membres">
+		<menu titre="Liste des membres" lien="admin/membres/liste.html"/>
+		<menu titre="Rechercher un membre" lien="admin/membres/rechercher.html"/>
+		<menu titre="Niveaux des membres" lien="admin/membres/niveaux.html"/>
+		<menu titre="Messages automatiques" lien="admin/membres/liste-messages.html"/>
+		<menu titre="Configuration" lien="admin/membres/configuration.html"/>
+	</admin>
+</configuration>

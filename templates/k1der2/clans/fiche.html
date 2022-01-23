@@ -1,0 +1,80 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <h3>Fiche du clan {clanNom}</h3>
+ <div class="head">
+  <!-- BEGIN BANNIERE -->
+  <!-- BEGIN SITE3 -->
+  <a href="http://{clanSite}">
+  <!-- END SITE3 -->
+  <img src="{clanBanniere}" alt="Bannière du clan {clanNom}" />
+  <!-- BEGIN SITE4 -->
+  </a>
+  <!-- END SITE4 -->
+  <!-- END BANNIERE -->
+  <dl>
+   <dt>Nom</dt>
+   <dd>{clanNom}</dd>
+   <dt>Tag</dt>
+   <dd>{clanTag}</dd>
+   <dt>Leader</dt>
+   <dd><a href="membres/{clanLeaderPseudo}">{clanLeaderPseudo}</a></dd>
+   <dt>Nombre de membre</dt>
+   <dd>{clanNbMembres}</dd>
+   <dt>Site web</dt>
+   <dd
+   <!-- BEGIN SITE1 -->
+   ><a href="http://{clanSite}">
+   <!-- END SITE1 -->
+   {clanSite}
+   <!-- BEGIN SITE2 -->
+   </a>
+   <!-- END SITE2 -->
+   </dd>
+   <dt>Channel IRC</dt>
+   <dd
+   <!-- BEGIN IRC1 -->
+   ><a href="irc://{clanIrcServer}/{clanIrc}">#
+   <!-- END IRC1 -->
+   {clanIrc}
+   <!-- BEGIN IRC2 -->
+   </a> sur {clanIrcServerName}
+   <!-- END IRC2 -->
+   </dd>
+  </dl>
+ </div>
+ <!-- BEGIN MEMBRE -->
+ <div style="float:{side};width:49%;">
+  <h4>{membrePseudo2}{clanTag}{membrePseudo1}</h4>
+  <div class="message">
+   <!-- BEGIN AVATAR -->
+   <img style="float:left; " src="{membreAvatar}" alt="Avatar de {membrePseudo}" />
+   <!-- END AVATAR -->
+   <dl>
+   <dt>Pseudo</dt>
+   <dd><a href="membres/{membrePseudo}">{membrePseudo}</a></dd>
+   <dt>Nom</dt>
+   <dd{membreNom}</dd>
+   <dt>Prénom</dt>
+   <dd{membrePrenom}</dd>
+   <dt>Date de naissance</dt>
+   <dd{membreDateNes}</dd>
+   <dt>Age</dt>
+   <dd{membreAge}</dd>
+   <dt>Nationalitée</dt>
+   <dd<!-- BEGIN NATIO1 -->
+     ><img src="templates/{THEME}/images/flags/<!-- END NATIO1 -->{membreNatio}<!-- BEGIN NATIO2 -->.gif" alt="{membreNatio}" />
+     <!-- END NATIO2 --></dd>
+   <dt>Site web</dt>
+   <dd<!-- BEGIN WWW1 -->
+     ><a href="http://{membreWww}">
+     <!-- END WWW1 -->
+     {membreWww}
+     <!-- BEGIN WWW2 -->
+     </a>
+     <!-- END WWW2 --></dd>
+   </dl>
+  </div>
+  <a class="details" href="membres/{membrePseudo}">Fiche dtaille</a>
+ </div>
+ <!-- END MEMBRE -->
+</div>

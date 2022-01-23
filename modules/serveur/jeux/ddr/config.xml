@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE jeu SYSTEM "../jeu.dtd">
+<jeu name="Dance Dance Revolution" shortname="ddr">
+	<gametype nom="Duel" type="Duel" nbplayer="1" minmaps="1" maxmaps="3" />
+	<maps>
+		<map nom="Inconnue" />
+	</maps>
+</jeu>

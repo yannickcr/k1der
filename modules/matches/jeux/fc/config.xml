@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE jeu SYSTEM "../jeu.dtd">
+<jeu name="Far Cry" shortname="fc">
+	<gametype nom="Duel" type="Duel" nbplayer="1" minmaps="1" maxmaps="3" />
+	<gametype nom="5 vs 5" type="Team" nbplayer="5" minmaps="1" maxmaps="3" />
+	<gametype nom="Deathmatch" type="Deathmatch" nbplayer="8" minmaps="1" maxmaps="1" />
+	<maps>
+		<map nom="mp_radio" image="maps/mp_radio.jpg" />
+		<map nom="mp_surf" image="maps/mp_surf.jpg" />
+	</maps>
+</jeu>

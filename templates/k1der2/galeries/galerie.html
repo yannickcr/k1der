@@ -1,0 +1,101 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <ul id="ariane">
+  <li><a href="galeries/" title="Retour aux galeries">Galeries</a></li>
+ </ul>
+ <h3>{galerieNom}</h3>
+ <div class="infos">
+  <p>{galerieDate}</p>
+  <p class="descr">{galerieDescr}</p>
+  <p>Tags : {galerieTags}</p>
+ </div>
+ <!-- BEGIN PAGINNATION -->
+ <div class="barreactions">
+  <p class="pagination">
+   <!-- BEGIN PAGES.NUM -->
+   <span class="pagen">{nbpages} pages</span>
+   <!-- END PAGESTNUM -->
+   <!-- BEGIN PAGES.FIRST -->
+   <a class="firstlast" href="galeries/{galerieCleanNom}-id{galerieId}/" title="Aller  la premire page">&laquo;</a>
+   <!-- END PAGES.FIRST -->
+   <!-- BEGIN PAGES.PREV -->
+   <a class="prevnext" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.m}.html" title="Aller  la page précédente">&lt;</a>
+   <!-- END PAGES.PREV -->
+   <!-- BEGIN PAGES.MM -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a>
+   <!-- END PAGES.MM -->
+   <!-- BEGIN PAGES.M -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a>
+   <!-- END PAGES.M -->
+   <!-- BEGIN PAGES.C -->
+   <span class="current">{numpage0}</span>
+   <!-- END PAGES.C -->
+   <!-- BEGIN PAGES.P -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a>
+   <!-- END PAGES.P -->
+   <!-- BEGIN PAGES.PP -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a>
+   <!-- END PAGES.PP -->
+   <!-- BEGIN PAGES.NEXT -->
+   <a class="prevnext" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.p}.html" title="Aller  la page suivante">&gt;</a>
+   <!-- END PAGES.NEXT -->
+   <!-- BEGIN PAGES.LAST -->
+   <a class="firstlast" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.last}.html" title="Aller  la dernire page">&raquo;</a>
+   <!-- END PAGES.LAST -->
+  </p>
+ </div>
+ <!-- END PAGINNATION -->
+ <div id="photos">
+  <!-- BEGIN PHOTO -->
+  <div class="photo"> <a href="galeries/{galerieCleanNom}-id{galerieId}/{photoNom}"><img src="{photoPath}" alt="{photoNom}" /></a>
+   <p>
+    <!-- BEGIN STAR -->
+    <img src="templates/{THEME}/images/mini-star.png" alt="*" />
+    <!-- END STAR -->
+    <!-- BEGIN HALFSTAR -->
+    <img src="templates/{THEME}/images/mini-halfstar.png" alt="&frac12;" />
+    <!-- END HALFSTAR -->
+    <!-- BEGIN EMPTYSTAR -->
+    <img src="templates/{THEME}/images/mini-emptystar.png" alt="" />
+    <!-- END EMPTYSTAR --></p>
+    <p>{photoComms} commentaire{s}</p>
+  </div>
+  <!-- END PHOTO -->
+ </div>
+ <!-- BEGIN PAGINNATION -->
+ <div class="barreactions">
+  <p class="pagination">
+   <!-- BEGIN PAGES.NUM -->
+   <span class="pagen">{nbpages} pages</span>
+   <!-- END PAGESTNUM -->
+   <!-- BEGIN PAGES.FIRST -->
+   <a class="firstlast" href="galeries/{galerieCleanNom}-id{galerieId}/" title="Aller  la premire page">&laquo;</a>
+   <!-- END PAGES.FIRST -->
+   <!-- BEGIN PAGES.PREV -->
+   <a class="prevnext" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.m}.html" title="Aller  la page précédente">&lt;</a>
+   <!-- END PAGES.PREV -->
+   <!-- BEGIN PAGES.MM -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a>
+   <!-- END PAGES.MM -->
+   <!-- BEGIN PAGES.M -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a>
+   <!-- END PAGES.M -->
+   <!-- BEGIN PAGES.C -->
+   <span class="current">{numpage0}</span>
+   <!-- END PAGES.C -->
+   <!-- BEGIN PAGES.P -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a>
+   <!-- END PAGES.P -->
+   <!-- BEGIN PAGES.PP -->
+   <a class="pagen" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a>
+   <!-- END PAGES.PP -->
+   <!-- BEGIN PAGES.NEXT -->
+   <a class="prevnext" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.p}.html" title="Aller  la page suivante">&gt;</a>
+   <!-- END PAGES.NEXT -->
+   <!-- BEGIN PAGES.LAST -->
+   <a class="firstlast" href="galeries/{galerieCleanNom}-id{galerieId}/index-{num.last}.html" title="Aller  la dernire page">&raquo;</a>
+   <!-- END PAGES.LAST -->
+  </p>
+ </div>
+ <!-- END PAGINNATION -->
+</div>

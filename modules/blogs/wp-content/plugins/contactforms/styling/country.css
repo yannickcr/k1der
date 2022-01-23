@@ -1,0 +1,22 @@
+.cform legend {
+ display:none;
+}
+
+.cform li { list-style:none; clear:both; padding:.5em 0; }
+
+.cform label {
+ float:left;
+ width:10em;
+}
+
+.linklove { display:none; }
+
+#usermessagea.failure {
+ color:#F00;
+ font-weight:bold;
+}
+
+#usermessagea.success {
+ color:#0C0;
+ font-weight:bold;
+}

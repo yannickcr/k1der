@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /statistiques/
+Disallow: /admin/
+Disallow: /bordel/
+Disallow: /country/

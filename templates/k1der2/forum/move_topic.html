@@ -1,0 +1,22 @@
+<div id="main">
+{barrehaut}
+	<h4>Confirmation de dplacement</h4>
+	<table class="liste">
+	<tr class="forumsepposts">
+		<td style="text-align:center; font-size:1.2em;">
+		<form action="{REQUEST_URI}" method="post">
+			<label for="forum">{message}</label>
+			<input type="hidden" id="option" name="option" value="{option}" />
+			<select id="forum" name="forum">
+				<!-- BEGIN GROUP -->
+				<optgroup label="{groupNom}">
+					<!-- BEGIN OPTIONS --><option value="{optionsId}">{optionsTitre}</option><!-- END OPTIONS -->
+				</optgroup>
+				<!-- END GROUP -->
+			</select><br />
+			<div class="forumsub"><input type="submit" id="valider" name="valider" style="margin-top:10px; font-size:0.8em;" value="Déplacer le sujet"/></div>
+		</form>
+	   </td>
+	</tr>
+	</table>
+</div>

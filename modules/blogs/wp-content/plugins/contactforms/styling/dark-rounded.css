@@ -1,0 +1,361 @@
+/*                                                     */
+/*  PLEASE NOTE:                                       */
+/*                                                     */
+/*  if you have multiple fieldsets, you need to edit   */
+/*  line 47 (search for "multiple fieldsets") &        */
+/*  add a new TEXT-ONLY field BEFORE EACH              */
+/*  'NEW FIELDSET'!!   field name:  |fieldsetclose     */
+/*                                                     */
+
+
+/*                                                    */
+/*  main 'top-level' form elements                    */
+/*                                                    */
+
+.fieldsetclose {
+	background: url(../images/customform_dark_bg_bottom.jpg) no-repeat bottom left;
+}
+
+.cform { 
+	width: 410px; 
+	padding-bottom:8px;
+	margin:10px auto 0 auto;
+	background: url(../images/customform_dark_bg_bottom.jpg) no-repeat bottom left;
+}
+
+.cform fieldset	{ 
+	margin:10px 0 0 0; 
+	padding:9px 0 0 0; 
+	border:none;
+	background: url(../images/customform_dark_bg_top.jpg) no-repeat top left;
+	}
+
+.cform fieldset.cf_hidden { 
+	border:none!important;
+	background:none!important;
+	padding:0!important;
+	margin:0!important;
+}
+
+.cform legend { 
+	display:none;
+}
+
+ol.cf-ol { 
+	margin:0; 
+	padding:0 0 10px 0; 
+/*	padding:0 0 0 0; 	/*  use this one if you have multiple fieldsets support !!!  */ 
+	background: url(../images/customform_dark_bg.jpg) repeat-y; 
+}
+ol.cf-ol li	{ 
+	margin:0!important; /*some themes may interfere otherwise*/
+	padding:5px 0; 
+	list-style:none!important; 
+	text-align:left;
+}
+
+
+/*                                                    */
+/* just for text-only fields (no input)               */
+/*                                                    */
+
+ol.cf-ol li.textonly {
+	color: white;
+	padding:5px 0; 
+	text-align:center;
+}
+
+
+/*                                                    */
+/* global definitions for field labels                */
+/*                                                    */
+
+.cform label {
+	color: white;
+	width:90px; 
+	margin:2px 10px 0 0; 
+	display:-moz-inline-box; /*for mozilla*/
+	display:inline-block; /*for Opera & IE*/
+	text-align:right;
+	vertical-align:top;
+}
+.cform label span {
+	width:90px; /* must be the same as above!*/
+	display:block;
+}
+
+label.cf-before {
+	margin:0 10px 0 0; 
+}
+
+label.cf-after 	{
+	margin:0 0 0 6px;
+	width:200px;
+	text-align:left;
+}
+
+label.cf-after span {
+	width:200px;
+	display:block;
+}
+
+label.cf-group-after {
+	margin:0 0 0 2px;
+	width:60px;
+	text-align:left;
+}
+label.cf-group-after span {
+	width:60px;
+	display:block;
+}
+
+/*                                                    */
+/*   FORM FIELDS general formatting                   */
+/*                                                    */
+
+.cform input,
+.cform textarea,
+.cform select { 
+	padding:1px 3px;
+	background: #f9f9f9; 
+	border: 1px solid #888888; 
+}
+.cform input:hover,
+.cform textarea:hover,
+.cform select:hover	{
+	background:#CEDDDF; 
+}
+
+.cform input:focus,
+.cform textarea:focus,
+.cform select:focus	{ 
+	background:#F3F8F8; 
+}
+
+.cform textarea,
+.cform input {
+	width:150px; 
+}
+.cform select {
+	width:158px; /* attempt to have equal length */
+}  
+
+.cform select.cfselectmulti	{ 
+	height:7.5em; 
+}
+
+.cform textarea {
+	overflow:auto;
+}
+
+/*                                                    */
+/* formatting for text:  "(required)"  & other        */
+/*                                                    */
+
+span.reqtxt,
+span.emailreqtxt { 
+	color:#bbbbbb;
+	margin:3px 5px 0 0;
+	font-size:0.9em;
+	display: -moz-inline-box; 
+	vertical-align:top;
+}
+
+
+/*                                                    */
+/*   radio button title                               */
+/*                                                    */
+
+ol.cf-ol li.cf-box-title {
+	color: white;
+	padding-left:100px; /* check with label 'width' incl. */
+}
+
+/*                                                    */
+/*   check boxes                                      */
+/*                                                    */
+
+input.cf-box-a,
+input.cf-box-b 	{ 
+	margin:2px 0 0 0; 
+	width:16px; 
+	border:none; 
+}
+
+input.cf-box-a 	{ 
+	margin-left:100px; /* check with label 'width' incl. */
+} 
+
+
+/*                                                    */
+/* check box groups                                   */
+/*                                                    */
+
+ol.cf-ol li.cf-box-group {
+	padding: 0 0 5px 100px; 
+} 
+
+
+/*                                                    */
+/*   FORM submit button                               */
+/*                                                    */
+
+p.cf-sb {
+	margin: 0;
+}
+.cform input.sendbutton	{ 
+	width:410px; 
+	height:26px; 
+	padding:0; 
+	margin:0;
+	border:none!important;
+	background:url(../images/customform_dark_submit.jpg) no-repeat; 
+}
+
+
+/*                                                    */
+/*   formatting for invalid user inputs               */
+/*                                                    */
+
+.cform .error 		{ color:red!important; border:1px solid #FF0000!important; padding:1px 3px; }
+.cform .errortxt,
+.mailerr	    	{ color:red!important; }
+
+
+/*                                                    */
+/* 'visitor verification' related styles              */
+/*                                                    */
+
+label.seccap {
+	margin-top: 6px;
+}
+label.secq,
+label.secq span {
+	display:inline;
+	width:auto;
+}
+label.secq {
+	margin-left:10px;
+	vertical-align:middle;
+}
+
+input.secinput {
+	width:45px;
+	margin: 3px 0 0 10px;
+	vertical-align:middle;
+}
+
+#cforms_captcha5,
+#cforms_captcha4,
+#cforms_captcha3,
+#cforms_captcha2,
+#cforms_captcha {
+	height:15px;
+	width:50px;
+	padding: 4px 4px;
+	margin: 0;
+	vertical-align:top;
+}
+
+img.captcha	{
+	margin:0 0 0 10px!important;
+	padding:0!important;
+	border:none!important;
+}
+
+
+/*                                                    */
+/* change formatting of response msgs here            */
+/*                                                    */
+
+p.info 		{
+	margin:10px 0;
+	text-align:center;
+}
+p.success 	{
+	color:green;
+}
+p.failure 	{
+	color:red;
+}
+
+/*                                                    */
+/* disabled fields [disabled] does not work on IE!    */
+/*                                                    */
+
+[disabled] {
+	color:#dddddd;
+	border-color:#dddddd!important;
+	background:none!important;
+}
+.disabled {
+	border-color:#dddddd!important;
+}
+
+/*                                                    */
+/* upload box styling                                 */
+/*                                                    */
+
+.cform input.cf_upload  {
+	background: #f9f9f9;
+	border:1px solid #888888;
+}
+
+/*                                                    */
+/*  Other: link love                                  */
+/*                                                    */
+.linklove {
+	margin:0 0 10px 0!important;
+	padding:0!important;	
+	text-align:center!important;;
+}
+.linklove a,
+.linklove a:visited {
+	font-size: 0.8em;
+	font-family: Tahoma;
+	color:#aaaaaa;
+}
+
+/*                                                    */
+/*  Other: browser hacks                              */
+/*                                                    */
+* html span.reqtxt,
+* html span.emailreqtxt { 
+	display: inline-block;  /*for ie6*/
+}
+*+html .cform label,
+*+html span.reqtxt,
+*+html span.emailreqtxt {
+	display: inline-block; /*for ie7*/
+}
+* html .cform fieldset.cf_hidden { 
+	border:none!important;
+	background:none!important;
+	padding:0!important;
+	margin:0!important;
+}
+
+* html .cform legend { 
+	position:absolute; 
+	top: -10px; 
+	left: 10px; 
+	margin-left:0;
+}
+* html .cform fieldset {
+/*	position: relative;
+	margin-top:15px;
+	padding-top:25px; */
+}
+* html img.captcha	{
+	margin-top:1px;
+}
+*+html input.cf-box-a,
+*+html input.cf-box-b { 
+	background:none;
+	margin-top:0;
+}
+* html input.cf-box-a,
+* html input.cf-box-b { 
+	background:none;
+	margin-top:0;
+}

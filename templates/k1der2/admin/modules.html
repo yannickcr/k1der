@@ -1,0 +1,38 @@
+<h3>Placement des modules</h3>
+<div class="message">
+ <div id="colleft">
+  <h4>Côté gauche</h4>
+  <ul id="left" class="sortable boxy">
+   <li style="display:none;"></li>
+   <!-- BEGIN LISTEMODULELEFT -->
+   <li id="{moduleLeft}">{moduleLeft}</li>
+   <!-- END LISTEMODULELEFT -->
+  </ul>
+ </div>
+ <div id="colright">
+  <h4>Côté droit</h4>
+  <ul id="right" class="sortable boxy">
+   <li style="display:none;"></li>
+   <!-- BEGIN LISTEMODULERIGHT -->
+   <li id="{moduleRight}">{moduleRight}</li>
+   <!-- END LISTEMODULERIGHT -->
+  </ul>
+ </div>
+ <div id="coltrash">
+  <h4>Modules désactivés</h4>
+  <ul id="trash" class="sortable boxy">
+   <li style="display:none;"></li>
+   <!-- BEGIN LISTEMODULETRASH -->
+   <li id="{moduleTrash}">{moduleTrash}</li>
+   <!-- END LISTEMODULETRASH -->
+  </ul>
+ </div>
+ <hr />
+ <form action="{REQUEST_URI}" method="post">
+  <div style="text-align:center;">
+   <input name="ordre" id="ordre" type="hidden" />
+   <input type="submit" id="submit" value="Mettre  jour le placement" />
+  </div>
+ </form>
+</div>
+<div class="bas"></div>

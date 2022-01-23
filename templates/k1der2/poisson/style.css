@@ -1,0 +1,11 @@
+/**
+ * Rectification de la mise en page
+ */
+body, #footer { background-image:none; }
+#main { margin:10em;padding:0.6em 1em 1em; }
+#main { border:5px solid #000; }
+
+
+p { margin:1em; }
+
+ul {margin-left:2em; }

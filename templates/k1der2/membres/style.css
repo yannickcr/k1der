@@ -1,0 +1,174 @@
+#main h3 {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FFF;
+	padding:3px;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border:1px solid #BBB;
+	border-bottom:0;
+}
+
+#main h3.lite { border:0; border-bottom:1px solid #BBB; font-size:1em; }
+
+#main h4 {
+	margin:1em 1px 0 1px;
+	padding:0.2em;
+	color:#FFF;
+	border:1px solid #BBB;
+	background:#C00 url(../images/forum/titre.gif) repeat-x left top;
+	border-bottom:0;
+	font-size:1em;
+}
+#main h4 img { vertical-align:middle; margin-right:0.2em; }
+
+#main .head {
+	font-size:0.9em;
+	padding:8px 0 5px 1em;
+	border:1px solid #BBB;
+	height:107px;
+}
+#main div.head img { float:left; }
+
+#main dt { height:20px; font-weight:bold; float:left; width:12em; padding:0.2em 0.2em 0.2em 1em; }
+#main dd { height:20px; padding:0.2em; }
+#main dt img, #main dd img { vertical-align:middle; }
+
+#main dl.infos, #main div.infos {
+	border:1px solid #BBB;
+	margin:0 1px;
+}
+
+/**
+ * Menu profil
+ */
+
+#main .menu {
+	float:left;
+	width:190px;
+	border:1px solid #BBB;
+}
+
+#main .menu ul { padding:.5em 0 .5em .5em; list-style-type:none; font-weight:bold; }
+#main .menu ul ul { padding-left:2em; list-style-type:square; font-size:0.85em; font-weight:normal; }
+
+/**
+ * Profil
+ */
+#tagpreview { float:right; }
+#checker { cursor:pointer; }
+#main .content #valider { margin-right:5em; }
+#main .content #previsualiser { margin-left:5em; }
+
+#main .content .tips { margin:.4em; padding:0; font-size:0.8em; }
+#main .content .tips a { color:#C00; }
+
+/**
+ * Tableau
+ */
+#main table { width:96%; margin:2%; }
+
+#main table, #main table td, #main table tr, #main table th {
+	padding: 5px 10px;
+	border-collapse: collapse;
+	border:1px solid #DDD;
+}
+
+#main table td { background-color:#F5F5F5; }
+#main table img { vertical-align:middle; margin-right:.2em; }
+
+#main table td.no { text-align:center; }
+
+/**
+ * Livesearch
+ */
+#main form div.livesearch {
+	display:none;
+	position:absolute; 
+	background-color:#FFFFFF; 
+	border:1px solid #626463;
+	width:18.7em; 
+	margin:-0.8em 0 0 16em; 
+	font-size:0.85em;
+	border:1px solid #999;
+	text-align:left;
+}
+#main a.livesearch:link,#main a.livesearch:visited,#main a.livesearch:hover,#main a.livesearch:active {
+	display:block;
+	padding:.5em;
+}
+#main a.livesearch:link,#main a.livesearch:visited {
+	color:#000;
+	text-decoration:none;
+}
+#main a.livesearch:hover,#main a.livesearch:active {
+	background-color:#36C;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/**
+ * Message privé
+ */
+#main .postauteur { width:15%; background-color:#FEE; text-align:center; }
+#main .postauteur a:link, #main .postauteur a:visited, #main .postauteur span {
+	font-weight:bold;
+	color:#000;
+}
+#main td.infos { background-color:#FEE; font-size:0.8em; padding:8px 5px 2px; }
+#main td.infos span { font-weight:bold; padding-left:5px; }
+#main td.infos div { float:right; margin-top:-5px; }
+
+#main .message { vertical-align:top; background-color:#FFF; }
+#main #message { margin-top:2px; }
+#main .profil { vertical-align:top; font-size:0.8em; padding-bottom:5em; background-color:#FFF; }
+#main .profil img { vertical-align:middle; }
+#main .avatar { display:block; margin:0 auto 1em; }
+#main .country-name { margin-left:.5em; }
+#main .fn { display:none; }
+
+#main p.barreactions { margin-top:0; padding-top:0; text-align:right; }
+
+/**
+ * Mise en forme du message
+ */
+#main blockquote {
+	font-size:0.9em;
+	padding: 1em 2em 1em 3.5em;
+	margin: 1em;
+	background:#EEE url(images/quote.gif) no-repeat 0.5em 0.5em;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+#main pre {
+	padding: 1em;
+	margin: 1em;
+	font-size: 1.2em;
+	background: #EEE;
+	width: 90%;
+	overflow: auto;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+#main .classement,#main .classement td,#main .classement tr {
+	margin:0px;
+	padding:5px 10px;
+	border:0.1em solid #DDDDDD;
+	border-collapse:collapse;
+}
+
+#main .classement th {
+	background-image:none;
+	background-color:#EEEEEE;
+	font-weight:bold;
+	color:#000;
+	padding:4px 10px;
+	white-space: nowrap;
+}
+#main .classement {
+	width:200px;
+}
+#main .classement .col1 {
+	width:50px;
+}

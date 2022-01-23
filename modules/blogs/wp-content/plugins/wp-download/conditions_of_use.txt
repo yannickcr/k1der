@@ -1,0 +1,10 @@
+Tous les fichiers mis à disposition sur ce site le sont pour une utilisation personnelle dans le cadre de la vie privée et d’internet. Vous êtes libre de modifier les sources et de faire évoluer celle-ci à votre guise. Aucun copyright ou lien n’est obligatoire mais si vous êtes satisfait de ce site, n’hésitez pas à faire un peu de pub. Dans le cas où vous ferez évoluer les sources, un petit mail pour me tenir au courant des nouvelles fonctionnalités, corrections de bugs, ou autre serait le bienvenue.
+
+Aucune utilisation à des fins commerciales n’est autorisée sauf indications contraires, que ce soit de façon directe ou indirecte. Sont donc à proscrire :
+
+- L’utilisation des sources au sein de site web professionel 
+- La vente et ou la redistribution des sources 
+- L’utilisation sur des produits dérivés 
+- etc… (liste non exhaustive) 
+
+En téléchargeant un fichier sur SurPrise'S Project, vous vous engagez à respecter les conditions d’utilisation énnoncées précèdement.

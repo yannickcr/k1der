@@ -1,0 +1,32 @@
+<data>
+<!-- BEGIN NBMAPS -->
+<select id="nbmaps" name="nbmaps">
+	<!-- BEGIN NBMAPSOPT -->
+	<option value="{nbMap}"{selected}>{nbMap}</option>
+	<!-- END NBMAPSOPT -->
+</select>
+<!-- END NBMAPS -->
+
+<!-- BEGIN LINEUP1 -->
+	<input type="text" style="width:200px;" id="joueur{i}" name="joueur{i}" /><br />
+	<div id="choixjoueur{i}" class="livesearch"></div>
+<!-- END LINEUP1 -->
+
+<!-- BEGIN LINEUP2 -->
+	<input type="text" style="width:200px;" id="adv{i}" name="adv{i}" /><br />
+	<div id="choixadv{i}" class="livesearch"></div>
+<!-- END LINEUP2 -->
+
+
+<!-- BEGIN SCORES -->
+	<!-- BEGIN TEAMORDUEL -->
+	<input type="text" id="rnd1score1Carte1" name="rnd1score1Carte1" /> - <input type="text" id="rnd1score2Carte1" name="rnd1score2Carte1" />
+	<!-- END TEAMORDUEL -->
+	
+	<!-- BEGIN TEAMRND2 -->
+	<label for="rnd1score1Carte1">Côté {team1}</label> :<input type="text" id="rnd1score1Carte1" name="rnd1score1Carte1" /> - <input type="text" id="rnd1score2Carte1" name="rnd1score2Carte1" /><br />
+	<label for="rnd2score1Carte1">Côté {team2}</label> :<input type="text" id="rnd2score1Carte1" name="rnd2score1Carte1" /> - <input type="text" id="rnd2score2Carte1" name="rnd2score2Carte1" />
+	<!-- END TEAMRND2 -->
+	
+<!-- END SCORES -->
+</data>

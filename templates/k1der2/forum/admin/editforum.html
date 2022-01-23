@@ -1,0 +1,45 @@
+<h3>Modifier un forum</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Emplacement</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="cat">Catégorie</label></td>
+			<td style="width:70%;">
+				<select id="cat" name="cat">
+					<!-- BEGIN CATS -->
+					<option value="{catId}"{selected}>{catNom}</option>
+					<!-- END CATS -->
+				</select>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<fieldset>
+	<legend>Nom et description</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="nom">Nom</label></td>
+			<td style="width:70%;"><input type="text" id="nom" name="nom" value="{nom}" /></td>
+		</tr>
+		<tr>
+		  <td style="width:30%;font-weight:bold;"><label for="descr">Description</label><br />
+			<span class="forum-descr">BBCode autoris</span></td>
+			<td style="width:70%;"><textarea id="descr" name="descr" rows="4" cols="40">{descr}</textarea></td>
+		</tr>
+	</table>
+</fieldset>
+<fieldset>
+	<legend>Options spciales</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;text-align:right;"><label for="news">News</label></td>
+			<td style="width:70%;"><input id="news" name="news" type="checkbox" value="1"{checkedNews} /></td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>
+<div class="bas"></div>

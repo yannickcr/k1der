@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Statistiques">
+	<pages>
+		<page page="ua" condition="" />
+	</pages>
+	<actions>
+	</actions>
+	<admin titre="Statistiques">
+	</admin>
+</configuration>

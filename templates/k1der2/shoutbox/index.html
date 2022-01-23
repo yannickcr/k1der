@@ -1,0 +1,94 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <h3>Historique des messages</h3>
+ <div class="message">
+  <!-- BEGIN PAGINNATION -->
+  <div class="barreactions">
+  <p class="pagination">
+   <!-- BEGIN PAGES.NUM -->
+   <span class="pagen">{nbpages} pages</span>
+   <!-- END PAGESTNUM -->
+   <!-- BEGIN PAGES.FIRST -->
+   <a class="firstlast" href="shoutbox/index.html" title="Aller  la premire page">&laquo;</a>
+   <!-- END PAGES.FIRST -->
+   <!-- BEGIN PAGES.PREV -->
+   <a class="prevnext" href="shoutbox/index-{num.m}.html" title="Aller  la page précédente">&lt;</a>
+   <!-- END PAGES.PREV -->
+   <!-- BEGIN PAGES.MM -->
+   <a class="pagen" href="shoutbox/index-{num.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a>
+   <!-- END PAGES.MM -->
+   <!-- BEGIN PAGES.M -->
+   <a class="pagen" href="shoutbox/index-{num.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a>
+   <!-- END PAGES.M -->
+   <!-- BEGIN PAGES.C -->
+   <span class="current">{numpage0}</span>
+   <!-- END PAGES.C -->
+   <!-- BEGIN PAGES.P -->
+   <a class="pagen" href="shoutbox/index-{num.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a>
+   <!-- END PAGES.P -->
+   <!-- BEGIN PAGES.PP -->
+   <a class="pagen" href="shoutbox/index-{num.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a>
+   <!-- END PAGES.PP -->
+   <!-- BEGIN PAGES.NEXT -->
+   <a class="prevnext" href="shoutbox/index-{num.p}.html" title="Aller  la page suivante">&gt;</a>
+   <!-- END PAGES.NEXT -->
+   <!-- BEGIN PAGES.LAST -->
+   <a class="firstlast" href="shoutbox/index-{num.last}.html" title="Aller  la dernire page">&raquo;</a>
+   <!-- END PAGES.LAST -->
+  </p>
+  </div>
+  <!-- END PAGINNATION -->
+  <table>
+   <thead>
+    <tr>
+     <th>Auteur</th>
+     <th>Message</th>
+     <th>Date</th>
+    </tr>
+   </thead>
+   <tbody>
+    <!-- BEGIN MESSAGE -->
+    <tr>
+     <td><a title="Profil de l'auteur" href="membres/{messageCleanAuteur}">{messageAuteur}</a></td>
+     <td>{messageMessage}</td>
+     <td class="date">{messageDate}</td>
+    </tr>
+    <!-- END MESSAGE -->
+   </tbody>
+  </table>
+  <!-- BEGIN PAGINNATION -->
+  <p class="pagination">
+   <!-- BEGIN PAGES.NUM -->
+   <span class="pagen">{nbpages} pages</span>
+   <!-- END PAGESTNUM -->
+   <!-- BEGIN PAGES.FIRST -->
+   <a class="firstlast" href="shoutbox/index.html" title="Aller  la premire page">&laquo;</a>
+   <!-- END PAGES.FIRST -->
+   <!-- BEGIN PAGES.PREV -->
+   <a class="prevnext" href="shoutbox/index-{num.m}.html" title="Aller  la page précédente">&lt;</a>
+   <!-- END PAGES.PREV -->
+   <!-- BEGIN PAGES.MM -->
+   <a class="pagen" href="shoutbox/index-{num.mm}.html" title="Aller  la page {numpage-2}">{numpage-2}</a>
+   <!-- END PAGES.MM -->
+   <!-- BEGIN PAGES.M -->
+   <a class="pagen" href="shoutbox/index-{num.m}.html" title="Aller  la page {numpage-1}">{numpage-1}</a>
+   <!-- END PAGES.M -->
+   <!-- BEGIN PAGES.C -->
+   <span class="current">{numpage0}</span>
+   <!-- END PAGES.C -->
+   <!-- BEGIN PAGES.P -->
+   <a class="pagen" href="shoutbox/index-{num.p}.html" title="Aller  la page {numpage+1}">{numpage+1}</a>
+   <!-- END PAGES.P -->
+   <!-- BEGIN PAGES.PP -->
+   <a class="pagen" href="shoutbox/index-{num.pp}.html" title="Aller  la page {numpage+2}">{numpage+2}</a>
+   <!-- END PAGES.PP -->
+   <!-- BEGIN PAGES.NEXT -->
+   <a class="prevnext" href="shoutbox/index-{num.p}.html" title="Aller  la page suivante">&gt;</a>
+   <!-- END PAGES.NEXT -->
+   <!-- BEGIN PAGES.LAST -->
+   <a class="firstlast" href="shoutbox/index-{num.last}.html" title="Aller  la dernire page">&raquo;</a>
+   <!-- END PAGES.LAST -->
+  </p>
+  <!-- END PAGINNATION -->
+ </div>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Serveurs">
+	<pages>
+		<page page="maj" condition="get[action](maj),post[id]" />
+		<page page="majplayers" condition="get[action](majplayers),post[id]" />
+	</pages>
+	<actions>
+	</actions>
+	<admin titre="Serveurs">
+	</admin>
+</configuration>

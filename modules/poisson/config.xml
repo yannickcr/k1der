@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="">
+	<pages>
+		<page page="index" condition="" />
+	</pages>
+	<actions>
+	</actions>
+	<admin titre="Poisson">
+	</admin>
+</configuration>

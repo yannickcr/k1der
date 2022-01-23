@@ -1,0 +1,29 @@
+/**
+ * Merci à pouipouidesign.net pour le script ;)
+ */
+
+/* A fake IE information bar */
+#firebar {
+	position:absolute;
+	font: message-box;
+	text-align: left;
+	width:100%;
+	z-index:10;
+}
+
+/* Please adjust the values if the infobar is not looking good */
+#firebar a, #firebar a:link, #firebar a:visited, #firebar a:active {
+	display: block;
+	color: InfoText;
+	background: InfoBackground url(images/warning.gif) no-repeat fixed .3em .3em;
+	padding: .45em .3em .45em 2.5em;
+	border-bottom: .16em outset;
+	text-decoration: none;
+	letter-spacing: .1em;
+	cursor: default;
+}
+
+#firebar a:hover {
+	color: white;
+	background-color: Highlight;
+}

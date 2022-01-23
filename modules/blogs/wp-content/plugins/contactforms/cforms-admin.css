@@ -1,0 +1,403 @@
+
+/****************************************************************
+  GENERAL
+*****************************************************************/
+.wrap li,
+.wrap td,
+.wrap p		{ font-family: sans-serif;  }
+
+.wrap h2	{ font: bold 34px monospace, serif!important; line-height:5px!important; }
+
+.backup		{ clear:right; background:#fafafa; padding:6px 0; margin-top:12px; text-align:center; }
+
+fieldset	{ padding: 3px 0; }
+h3,
+.cflegend	{ font: bold 24px sans-serif!important; color: #888!important;
+				background: #DFEEF7; margin:45px 0 0 0; padding: 4px 15px; }
+
+h3			{ margin-top:50px; }
+.h3title-no { font-size:26px; padding:10px 2px; margin-right:7px; }
+
+h4			{ background: #bbb; color:white; padding:5px 0 5px 5px; font-size:18px; margin:20px 30px; }
+.h4ff		{ float:left; padding-right:20px; font-family:arial; font-size:9px; line-height:12px; font-weight:normal; }
+
+abbr, 
+span.abbr	{ border-bottom: 1px dashed #000080; cursor: help; }
+
+.tabletxt 	{ padding-top:5px; }
+.ex			{ background: url(images/attn.gif) no-repeat; padding: 2px 35px 10px 41px; }
+
+code.codehighlight 	{ background:#D8FFCC; }
+.hidden 	{ display:none!important; }
+/****************************************************************
+  HELP page
+*****************************************************************/
+
+a.helptop 	{ font-size:8px; float:right; margin:3px 10px 0 0; color:white!important; text-decoration:none; border-bottom:1px solid white;}
+
+.cflegend a.helptop, 
+h3 a.helptop { color:#666666!important; border-bottom:1px solid #666666; margin:10px 10px 0 0; }
+
+.helpimg 	{ float:right; border:1px solid #e0e0e0; margin-left:20px; margin-right:30px; }
+
+.cftoc		{ margin:5px 0 0 0; padding: 20px 0 20px 50px; list-style:decimal; background:#DFEEF7; color:navy; font-weight:bold; }
+.cftoctitle	{ font-variant:small-caps; font-size:22px; margin:0; padding:0; }
+
+
+/* info tables */
+.hf 			{ margin-left:30px; padding:1px; font-size:11px; background:white; border-style:solid; border-color:#C9D6ED; }
+.hf tr			{ vertical-align:middle; }
+.bleft			{ width:80px; background:#DFE8FF; padding-right:5px; font-size:10px; font-weight:bold; text-align:right; border-style:solid; border-color:white; }
+.bright			{ padding:3px 3px 3px 15px; background:#DFE8FF; padding-left:15px; border-style:solid; border-color:white;}
+.ball			{ padding:3px 10px; background:#F2DFFF; border-style:solid; border-color:white;} 
+
+.hf code.codehighlight 	{ font-size:11px; background:none; }
+
+/****************************************************************
+Options Page: Styling
+*****************************************************************/
+#stylebox 			{ font-family: monospace; font-size:0.9em; width:80%; height:500px; }
+#label-id			{ margin-left:40px; }
+.turnedon 			{ position:relative; top:3px; }
+
+/****************************************************************
+Options Page: Tracking
+*****************************************************************/
+.sortheader,
+.dataheader,
+.selectrow,
+.datarow			{ list-style-type:none; clear:both; margin:0; padding:0; margin:0 auto; width:710px; overflow:hidden; cursor:cell; }
+
+.dataheader			{ font-size:12px; color:#333333; font-weight:bold; }
+
+.sortheader 		{ border-bottom:2px solid #999; padding-bottom:7px;}
+.sortheader a		{ text-decoration:none; border:none; }
+
+.datarow li,
+.sortheader li		{ display:block; float:left; padding:1px 0; margin:0 5px 0 0; font-size:11px; overflow:hidden; }
+li.col0				{ width:30px; font-size:9px; text-align:right; padding-top:3px; }
+li.col1				{ width:20px; }
+li.col2				{ width:180px; }
+li.col3				{ width:200px; }
+li.col4				{ width:130px; font-size:10px; }
+li.col5				{ width:80px; font-size:10px; }
+li.col6				{ width:30px; font-size:10px; }
+.selectrow input	{ position:relative; top:1px; margin-right:10px;}
+.selectrow label	{ font-size:10px; width:100%; display:block; margin-left:36px; }
+.selectrow li		{ padding:0; margin:0; }
+.dataheader li		{ text-align:center; }
+
+input.delete,
+input.downloadselectedcforms,
+input.showselected			{ font-size:10px; padding: 1px 5px; margin:20px 0; overflow:visible; }
+input.delete				{ background: url(images/fade-butt-red.png ); }
+select.downloadformat		{ font-size:10px; width:6em; padding:1px; margin:20px 0;}
+select.downloadformat,
+input.downloadselectedcforms{ background: url( images/fade-butt-lightgreen.png );  }
+
+* html .col1 input		{ background:none!important; border:0!important;}/*ie hack*/
+* html .datarow input 	{ padding:0; margin:0;} /*ie hack*/
+
+.datarow 			{ display:inline-block; }
+.datarow:after 		{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+/* Hides from IE-mac \*/
+* html .datarow		{ height:1%; }
+.datarow			{ display:block; }
+/* End hide from IE-mac */
+
+/* show form entry */
+
+.showform			{width:680px; margin:30px auto 5px; padding:5px 0; background-color:#F4F4F4; border-bottom:2px solid #999999; }
+.showform span 		{ font-size:11px; font-weight:bold; margin-left:30px; }
+.showform em 		{ font-style:normal; font-size:10px; color:#888888; }
+.showformfield		{width:680px; margin:0; font-size:11px; }
+.showformfield .R,
+.showformfield .L	{ float:left; width:330px; }
+.showformfield .L	{ text-align:right; padding-right:20px; }
+
+.showformfield 			{ display:inline-block; }
+.showformfield:after 	{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+/* Hides from IE-mac \*/
+* html .showformfield	{ height:1%; }
+.showformfield			{ display:block; }
+/* End hide from IE-mac */
+/****************************************************************
+FORM NAME etc
+*****************************************************************/
+.chgformbox 		{ list-style-type:none; display:inline-block; padding:0; margin:25px 0 0 0; }
+.chgL				{ float:left; width:30%; }
+.chgM				{ float:left; text-align:center; width:28%; }
+.chgR				{ float:right; text-align:right; width:40%; }
+
+.chgformbox:after 	{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+/* Hides from IE-mac \*/
+* html .chgformbox	{ height:1%; }
+.chgformbox			{ display:block; }
+/* End hide from IE-mac */
+
+#pickform 			{ font-size:10px; width:55%; }
+input.go			{ font-size:10px; height:22px; }
+* html input.go 	{ padding:0; width:23px; height:18px; overflow:visible; }
+
+.mainoptions		{ padding:15px 5px; background:#fafafa; margin:4px 0 0 0; }
+.cforms_fname 		{ margin: 0 20px; position:relative; top:-3px; font-weight:bold; background:white; }
+.bignumber 			{ font-size:2em; color:#C9E2F1; }
+.cforms_ajax 		{ position:relative; top:-3px;}
+
+#cformsdata 		{ }
+.areadesc			{ margin:5px 0 0 0; }
+
+.optionsbox 		{ clear:both; margin:1px auto; width:850px; font-size:11px; overflow:hidden; }
+.optionsboxL		{ float:left; text-align:right; width:166px; margin-right:10px; padding-top:2px; }
+.optionsboxR	 	{ float:left; width:550px; }
+.optionsbox input,
+.optionsbox textarea	{ font-size:11px; padding-top:2px; }
+.optionsbox input 		{ width:280px; }
+.optionsbox textarea	{ width:280px; height:80px; }
+.optionsbox textarea.errmsgbox { height:45px; }
+
+.optionsboxRxl 		{ float:left; width:650px; }
+.optionsboxRxl pre  { margin-top:0; width:440px; background:#fafafa; }
+
+#cforms_cmsg,
+#cforms_cmsg_html,
+#cforms_header_html,
+#cforms_header		{ height:10em; width:430px; }
+
+.updtsetting			{ text-align:right; padding:0; margin:-25px 0 0 0;}
+
+#cforms_formdata_txt,
+#cforms_formdata_html,
+#cforms_popup1,
+#cforms_popup2			{ width:22px; margin-left:10px; margin-top:3px;background:none; border:none;}
+#cforms_show_quicktag	{ width:16px; margin-top:7px; }
+#cforms_cc1,
+#cforms_cc2,
+#cforms_confirm,
+#cforms_subid,
+#cforms_database,
+#cforms_showposa,
+#cforms_showposb,
+#cforms_redirect,
+#cforms_action,
+#cforms_linklove,
+#cforms_admin_html,
+#cforms_user_html,
+#cforms_noattachments,
+#cforms_smtp_onoff		{ width:16px; margin-top:4px; background:none; border:none; }
+
+#cforms_fromemail		{ background:#fdc4c4;}
+
+#cforms_space 			{ width:2em; margin-left:14px; padding:1px; }
+
+* html .cforms_ajax ,
+* html #cforms_confirm,
+* html #cforms_popup1,
+* html #cforms_popup2,
+* html #cforms_showposa,
+* html #cforms_showposb,
+* html #cforms_redirect,
+* html #cforms_action,
+* html #cforms_linklove	{ border:0; background:none; }
+
+* html #cforms_showposa,
+* html #cforms_showposb	{ position:relative; top:2px; }
+/****************************************************************
+BUTTONS
+*****************************************************************/
+.allbuttons{
+	background: url( images/fade-butt.png ) repeat-x;
+	border:1px solid #adadad; border-left-color:#ececec; border-top-color:#ececec;
+	height:25px;
+	font-weight:bold;
+	font-size:9px;
+	padding-top:2px; 
+	overflow:visible;
+}
+* html .allbuttons	{ padding:2px 5px; }
+
+.allbuttons:focus	{ background: url( images/fade-butt.png ) repeat-x; }
+
+.deleteall,
+.deleteall:active,
+.deleteall:focus	{ background: url( images/fade-butt-red.png ); }
+
+.chgbutton:focus,
+.chgbuttonhi:focus 	{ height:21px; }
+
+.dupbutton 		{ background: url( images/fade-butt-lightgreen.png ); }
+.chgbutton 		{ height:21px; }
+.chgbuttonhi 	{ height:21px; background: url( images/fade-butt-lightblue.png); }
+.addbutton 		{ background: url( images/fade-butt-lightgreen.png ); }
+.delbutton		{ background: url( images/fade-butt-red.png ); }
+.xbutton 		{ background: url( images/x.png ) no-repeat; }
+
+.backupbutton,
+.restorebutton 	{ font-weight:normal!important; }
+
+.stylebutton:active,
+.restorebutton:active,
+.backupbutton:active,
+.updbutton:active,
+.chgbutton:active,
+.addbutton:active,
+.delbutton:active,
+.chgbuttonhi:active		{ background: #f4f4f4; border: 1px solid #ccc; border-left-color: #999; border-top-color: #999; }
+
+.updbutton 				{ float:right; margin-right:15px; margin-top:3px; }
+.addfieldbox			{ width:810px; margin:0 auto; text-align:right;}
+
+.addfield 				{ font-size:10px; font-weight: bold; }
+.stylebutton			{ width:158px; }
+
+/****************************************************************
+Docking Boxes core CSS: YOU MUST NOT CHANGE OR OVERRIDE THESE
+*****************************************************************/
+.dbx-clone 	{ position:absolute; visibility:hidden; }
+.dbx-clone, 
+.dbx-clone .dbx-handle-cursor 
+			{ cursor:move !important; 	}
+.dbx-dummy 	{ display:block; width:0; height:0; overflow:hidden; }
+.dbx-group, 
+.dbx-box, 
+.dbx-handle	{ position:relative; display:block; }
+
+/****************************************************************
+avoid padding, margins or borders on dbx-box,
+to reduce visual discrepancies between it and the clone.
+overall, dbx-box is best left as visually unstyled as possible
+*****************************************************************/
+.dbx-box {
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+/****************************************************************
+otherwise, do what you like :)
+*****************************************************************/
+
+.dbx-group {
+	clear:both;
+	width:810px;
+	padding:0 10px 10px 10px;
+	}
+
+.dbx-handle-cursor {
+	cursor:move;
+	}
+
+#cformswarning { color:red; text-align:center; padding:0 200px; margin:30px 0;}
+
+/* table header */
+.tableheader	{margin:5px auto; padding-left:32px; width:810px; overflow:hidden; }
+.field1th 		{width:25px;}
+.field2th 		{width:280px;}
+.field3th 		{width:190px;}
+.field4th,
+.field5th,
+.field6th,
+.field7th 		{ padding-top:4px; line-height:18px; width:60px; font-size:9px; }
+
+.field1th,
+.field2th,
+.field3th,
+.field4th,
+.field5th,
+.field6th,
+.field7th 		{display:block; float:left; margin-right:5px; text-align:center; }
+
+/* all fields container */
+ 
+#cformsfieldsbox		{ margin:0 auto; width:810px; position:relative; clear:both; }
+#cformsfieldsbox 		{ display:inline-block; }
+#cformsfieldsbox:after 	{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+/* Hides from IE-mac \*/
+* html #cformsfieldsbox	{ height:1%; }
+#cformsfieldsbox		{ display:block; }
+/* End hide from IE-mac */
+
+/* inner content area & fields */
+.dbx-cforms 		{ margin:0; padding:0; list-style-type:none; display:inline-block; }
+.dbx-cforms:after 	{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+/* Hides from IE-mac \*/
+* html .dbx-cforms	{ height:1%; }
+.dbx-cforms			{ display:block; }
+/* End hide from IE-mac */
+
+.rowalt 			{ background:#f8f8f8; }
+.dbx-cforms li 		{ margin:2px 5px 2px 0; color: #666666; float:left; }
+
+.dbx-cforms .fieldno 		{ width:25px; padding-top:5px; text-align:center; font-size:11px; }
+* html .dbx-cforms .fieldno { padding-top:2px;  }
+
+.dbx-cforms .fieldname 		{ width:280px; }
+.dbx-cforms .fieldtype	 	{ width:190px; }
+.dbx-cforms .fieldisreq,
+.dbx-cforms .fieldisemail,
+.dbx-cforms .fieldclear,
+.dbx-cforms .fielddisabled 	{ width:60px; text-align:center; }
+
+.dbx-cforms .inpfld 	 	{ padding:4px 3px 0 3px; width:270px; height:16px; font-size:11px; background:#f8f8f8; }
+* html .dbx-cforms .inpfld 	{ margin-top:0px; padding-top:1px; padding-bottom:1px; } /* ie render bug */
+
+.dbx-cforms .selfld 		{ padding:2px 3px 2px 3px; font-size:11px; background:#f8f8f8; width:155px; }
+
+input.xbutton 				{ padding:0; height:15px; width:16px; top:2px; position:relative; border:0; }
+* html input.xbutton 		{ top:-1px; } /* ie render bug */
+
+.dbx-cforms .chkfld 		{ position:relative; top:3px; }
+* html .dbx-cforms .chkfld	{ border:0; top:0; background:none; margin-left:5px;}
+
+
+/* handles */
+.dbx-handle {
+	margin:0!important;
+	padding:5px 0 0 0!important;
+	color:white!important;
+	text-align:center;
+	width:19px;
+	height:18px;
+	color:#fff;
+	background: url( images/move.gif ) no-repeat 3px 7px!important;
+	border:0!important;
+}
+* html .dbx-handle {
+	width:19px;
+	height:18px;
+	background-position:3px 5px!important;
+}
+
+/* keyboard navigation tooltip */
+.dbx-tooltip {
+	display:block;
+	position:absolute;
+	margin:36px 0 0 125px;
+	width:185px;
+	border:1px solid #000;
+	background:#ffd;
+	color:#000;
+	font:normal normal normal 0.85em tahoma, arial, sans-serif;
+	padding:2px 4px 3px 5px;
+	text-align:left;
+	}
+* html .dbx-tooltip { width:195px; }
+
+/* use CSS2 system colors in CSS2 browsers
+ but not safari, which doesn't support them */
+*[class="dbx-tooltip"]:lang(en) {
+	border-color:InfoText;
+	background:InfoBackground;
+	color:InfoText;
+	font:small-caption;
+	font-weight:normal;
+	}
+
+/* additional clone styles */
+.dbx-clone {
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-khtml-opacity:0.8;
+	filter:alpha(opacity=80);
+	}
+

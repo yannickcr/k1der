@@ -1,0 +1,64 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+  <div class="left">
+    <h3>Derniers billets</h3>
+    <table>
+      <colgroup>
+      <col class="date" />
+      <col class="blog" />
+      <col class="titre" />
+      <col class="comms" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Blog</th>
+          <th>Titre</th>
+          <th>Comms</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- BEGIN BILLET -->
+        <tr>
+          <td class="date">{blogDate}</td>
+          <td><a href="/blog/{blogAuteur}">{blogBlog}</a></td>
+          <td><a href="/blog/{blogAuteur}/post/{blogUrl}">{blogTitre}</a></td>
+          <td class="comms"><a href="/blog/{blogAuteur}/post/{blogUrl}#comments">{blogComments}</a></td>
+        </tr>
+        <!-- END BILLET -->
+      </tbody>
+    </table>
+    <h3>Derniers commentaires</h3>
+    <table>
+      <colgroup>
+      <col class="date" />
+      <col class="blog" />
+      <col class="titre2" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Auteur</th>
+          <th>Billet</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- BEGIN COMMENTAIRE -->
+        <tr>
+          <td class="date">{commDate}</td>
+          <td><!-- BEGIN SITE1 --><a href="{commSite}"><!-- END SITE1 -->{commAuteur}<!-- BEGIN SITE2 --></a><!-- END SITE2 --></td>
+          <td><a href="/blog/{blogAuteur}/post/{commUrl}#c{commId}">{commTitre}</a></td>
+        </tr>
+        <!-- END COMMENTAIRE -->
+      </tbody>
+    </table>
+  </div>
+  <div class="right">
+    <h3>Stats</h3>
+    <ul>
+      <li>Blogs : {statsBlogs}</li>
+      <li>Billets : {statsBillets}</li>
+      <li>Commentaires : {statsComments}</li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration titre="Adsense">
+	<pages>
+		<page page="frame" condition="get[action](frame)" />
+	</pages>
+	<actions>
+	</actions>
+	<admin titre="Adsense">
+	</admin>
+</configuration>

@@ -1,0 +1,21 @@
+<h3>Configuration du site</h3>
+<div class="message">
+<form action="{REQUEST_URI}" method="post">
+<fieldset>
+	<legend>Configuration générale</legend>
+	<table cellpadding="0" cellspacing="5" style="margin:0px;width:100%;">
+		<tr>
+			<td style="width:30%;font-weight:bold;"><label for="defpage">Page par défaut</label></td>
+			<td style="width:70%;">
+			<select id="defpage" name="defpage">
+			<!-- BEGIN MODULES -->
+				<option value="{choix}"{selected}>{choix}</option>
+			<!-- END MODULES -->
+			</select>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+<div style="text-align:center;"><input type="submit" value="Valider les modifications" /></div>
+</form>
+</div>

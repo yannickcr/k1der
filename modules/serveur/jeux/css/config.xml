@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE jeu SYSTEM "../jeu.dtd">
+<jeu name="Counter-Strike: Source" shortname="css">
+	<gametype nom="5 vs 5" type="Team" nbplayer="5" team1="T" team2="CT" round="2" minmaps="1" maxmaps="3" />
+	<gametype nom="2 vs 2" type="Team" nbplayer="2" team1="T" team2="CT" round="2" minmaps="1" maxmaps="3" />
+	<maps>
+		<map nom="cs_assault" image="maps/cs_assault.jpg" />
+		<map nom="cs_compound" image="maps/cs_compound.jpg" />
+		<map nom="cs_havana" image="maps/cs_havana.jpg" />
+		<map nom="cs_italy" image="maps/cs_italy.jpg" />
+		<map nom="cs_office" image="maps/cs_office.jpg" />
+		<map nom="de_aztec" image="maps/de_aztec.jpg" />
+		<map nom="de_cbble" image="maps/de_cbble.jpg" />
+		<map nom="de_chateau" image="maps/de_chateau" />
+		<map nom="de_dust" image="maps/de_dust.jpg" />
+		<map nom="de_dust2" image="maps/de_dust2.jpg" />
+		<map nom="de_inferno" image="maps/de_inferno.jpg" />
+		<map nom="de_piranesi" image="maps/de_piranesi.jpg" />
+		<map nom="de_prodigy" image="maps/de_prodigy.jpg" />
+		<map nom="de_port" image="maps/de_port.jpg" />
+		<map nom="de_train" image="maps/de_train.jpg" />
+		<map nom="de_tides" image="maps/de_tides.jpg" />
+	</maps>
+</jeu>

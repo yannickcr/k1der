@@ -1,0 +1,33 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+{barrehaut}
+<!-- BEGIN CAT -->
+
+<h3><a href="forum/{catLinkTitre}-c{catId}.html">{catTitre}</a></h3>
+<table summary="Forums de la catégorie {catTitre}">
+<thead>
+<tr>
+	<th>&nbsp;</th>
+	<th id="forums{catId}">Forums</th>
+	<th id="sujets{catId}">Sujets</th>
+	<th id="reponses{catId}">R&eacute;ponses</th>
+	<th id="derniers{catId}">Dernier Message</th>
+</tr>
+</thead>
+<tbody>
+<!-- BEGIN FORUM -->
+<tr>
+	<td>&nbsp;</td>
+	<td headers="forums{catId}" class="forum"><h4><a href="forum/{forumLinkTitre}-f{forumId}.html">{forumTitre}</a></h4><p>{forumDescr}</p></td>
+	<td headers="sujets{catId}" class="nb">{forumNbTopics}</td>
+	<td headers="reponses{catId}" class="nb">{forumNbPosts}</td>
+	<td headers="derniers{catId}" class="last">{forumLastPostDate} &agrave; {forumLastPostHeure}<br />
+	  Dans :&nbsp;<!-- BEGIN LAST --><a href="forum/{forumLinkLastPost}-t{forumLastPostId}.html"><!-- END LAST -->{forumLastPost}<!-- BEGIN LAST2 --></a><!-- END LAST2 --><br />
+	  Par :&nbsp;<!-- BEGIN LAST3 --><a href="membres/{forumLastPosterName}"><!-- END LAST3 -->{forumLastPosterName}<!-- BEGIN LAST4 --></a><!-- END LAST4 -->
+	</td>
+</tr>
+<!-- END FORUM -->
+</tbody>
+</table>
+<!-- END CAT -->
+</div>

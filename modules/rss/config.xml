@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration SYSTEM "../../include/config.dtd">
+<configuration>
+	<pages>
+		<page page="flux" condition="get[action],get[param]" />
+	</pages>
+	<actions>
+	</actions>
+	<admin titre="Flux RSS">
+	</admin>
+</configuration>

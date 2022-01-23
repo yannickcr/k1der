@@ -1,0 +1,67 @@
+<h2 id="centretitre">{centreTitre}</h2>
+<div id="main">
+ <h3>Téléchargements</h3>
+ <div class="message">
+  <div class="discover">
+   <h4>A dcouvrir !</h4>
+   <img class="illus" src="{discIllus}" alt="{discNom}" />
+   <h5>{discNom}</h5>
+   <p>{discDescr}</p>
+   <table>
+    <tr>
+     <th>Taille</th>
+     <td>{discSize}</td>
+    </tr>
+    <tr>
+     <th>Note</th>
+     <td>
+	  <!-- BEGIN STAR -->
+      <img src="templates/{THEME}/images/star.png" alt="*" />
+      <!-- END STAR -->
+      <!-- BEGIN HALFSTAR -->
+      <img src="templates/{THEME}/images/halfstar.png" alt="&frac12;" />
+      <!-- END HALFSTAR -->
+      <!-- BEGIN EMPTYSTAR -->
+      <img src="templates/{THEME}/images/emptystar.png" alt="" />
+      <!-- END EMPTYSTAR -->
+      ({discVote} votes)
+	 </td>
+    </tr>
+    <tr>
+     <th>Tlcharg</th>
+     <td>{discDl} fois</td>
+    </tr>
+    <tr>
+     <td class="comms" colspan="2"><a href="download/{discCat}-id{discCatId}/{discCleanNom}-id{discId}.html#comms">{discComms} Commentaires</a></td>
+    </tr>
+   </table>
+   <a id="dl{discId}" class="dlcount" href="{discLink}">Tlcharger</a>
+  </div>
+  <div class="cats">
+   <h4>Catégories</h4>
+   <dl>
+    <!-- BEGIN CATS -->
+    <dt><a href="download/{catCleanNom}-id{catId}">{catNom}</a></dt>
+    <dd>
+     <p>{catDescr}</p>
+     <p>Sous-catégories :
+      <!-- BEGIN SUB -->
+      {catSubSep}<a href="download/{catSubCleanNom}-id{catSubId}">{catSubNom}</a>
+      <!-- END SUB -->
+     </p>
+    </dd>
+    <!-- END CATS -->
+   </dl>
+  </div>
+  <div class="new">
+   <h4>Nouveautes</h4>
+   <!-- BEGIN NEW -->
+   <a href="download/{newCat}-id{newCatId}/{newCleanNom}-id{newId}.html"><img class="illus" alt="{newNom}" src="{newIllus}" /></a>
+   <h5><a href="download/{newCat}-id{newCatId}/{newCleanNom}-id{newId}.html">{newNom}</a></h5>
+   <p>{newDescr}</p>
+  <hr class="clear" />
+   <!-- END NEW -->
+  </div>
+  <hr class="clear" />
+ </div>
+</div>

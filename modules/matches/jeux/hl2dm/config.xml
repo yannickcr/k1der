@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE jeu SYSTEM "../jeu.dtd">
+<jeu name="Half-Life Deathmatch" shortname="hl2dm">
+	<gametype nom="Duel" type="Duel" nbplayer="1" minmaps="1" maxmaps="3" />
+	<gametype nom="5 vs 5" type="Team" nbplayer="5" minmaps="1" maxmaps="3" />
+	<gametype nom="Deathmatch" type="Deathmatch" nbplayer="8" minmaps="1" maxmaps="1" />
+	<maps>
+		<map nom="dm_lockdown" image="maps/dm_lockdown.jpg" />
+		<map nom="dm_overwatch" image="maps/dm_overwatch.jpg" />
+		<map nom="dm_powerhouse" image="maps/dm_powerhouse.jpg" />
+		<map nom="dm_resistance" image="maps/dm_resistance.jpg" />
+		<map nom="dm_runoff" image="maps/dm_runoff.jpg" />
+		<map nom="dm_steamlab" image="maps/dm_steamlab.jpg" />
+		<map nom="dm_underpass" image="maps/dm_underpass.jpg" />
+	</maps>
+</jeu>

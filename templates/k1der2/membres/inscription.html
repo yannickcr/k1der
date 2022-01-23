@@ -1,0 +1,51 @@
+<div id="main">
+<h3>Créer un compte</h3>
+<div class="message">
+La Création d'un compte sur ce site vous permettera de:<br />
+<ul>
+<li>Poster sur le forum et dans le rapid'chat</li>
+<li>Commenter les news, les matches, les Lans Party, etc...</li>
+<li>Proposer des news et Lan Party</li>
+<li>Créer votre blog</li>
+<li>Pouvoir être prévenu par e-mail dès qu'une Lan Party se déroule près de chez-vous</li>
+<li>Etc...</li>
+</ul>
+Pour vous inscrire rentrez votre pseudo (utilisé comme login sur le site et le forum) et votre e-mail ci-dessous :<br /><br />
+<form action="{REQUEST_URI}" method="post">
+<table>
+	<tr>
+	<td style="width:30%;font-weight:bold;"><label for="pseudo">Pseudo</label><sup><a href="membres/inscription.html#tips1" title="Information">1</a></sup></td>
+	<td style="width:70%;">
+		<input type="text" id="pseudo" name="pseudo" value="{insPseudo}" />
+		<!-- BEGIN ERREUR-PSEUDO1 --><span class="erreur">Vous devez rentrer un pseudo</span><!-- END ERREUR-PSEUDO1 -->
+		<!-- BEGIN ERREUR-PSEUDO2 --><span class="erreur">Ce pseudo est déjà utilisé</span><!-- END ERREUR-PSEUDO2 -->
+		<!-- BEGIN ERREUR-PSEUDO3 --><span class="erreur">Votre pseudo ne peut contenir que des caractères alphanumriques</span><!-- END ERREUR-PSEUDO3 -->
+		<!-- BEGIN ERREUR-PSEUDO4 --><span class="erreur">Votre pseudo doit avoir une longueur comprise entre 3 et 20 caractères</span><!-- END ERREUR-PSEUDO4 -->
+	</td>
+	</tr>
+	<tr>
+	<td style="width:30%;font-weight:bold;"><label for="email">E-mail</label><sup><a href="membres/inscription.html#tips2" title="Information">2</a></sup></td>
+	<td style="width:70%;">
+		<input type="text" id="email" name="email" value="{insEmail}" />
+		<!-- BEGIN ERREUR-MAIL1 --><span class="erreur">Vous devez entrer un e-mail</span><!-- END ERREUR-MAIL1 -->
+		<!-- BEGIN ERREUR-MAIL2 --><span class="erreur">Cet e-mail est déjà utilisé par un autre compte</span><!-- END ERREUR-MAIL2 -->
+		<!-- BEGIN ERREUR-MAIL3 --><span class="erreur">Vous devez entrer un e-mail valide</span><!-- END ERREUR-MAIL3 -->
+	</td>
+	</tr>
+	<tr>
+	<td style="width:30%;font-weight:bold;text-align:right;"><input type="checkbox" id="reglement" name="reglement" value="ok" /></td>
+	<td style="width:70%;">
+		<label for="reglement">J'accepte le <a title="Lire le rglement" href="membres/reglement.html">réglement du site</a></label>
+		<!-- BEGIN ERREUR-REGLEMENT --><span class="erreur">Vous devez accepter le réglement</span><!-- END ERREUR-REGLEMENT -->
+	</td>
+	</tr>
+</table>
+<div style="text-align:center;margin:5px;"><input type="submit" value="Valider" /></div>
+<div style="font-size:0.8em;">
+<a id="tips1">1</a>.&nbsp;Votre pseudo doit avoir une longueur comprise entre 3 et 20 caractères et ne doit contenir que des caractères alphanumériques.<br/>
+<a id="tips2">2</a>.&nbsp;Un e-mail contenant votre mot de passe ainsi qu'un lien permettant de valider votre compte vous sera envoyé, vérifiez donc bien que vous rentrez une adresse e-mail valide.<br />
+</div>
+</form>
+</div>
+<div class="bas"></div>
+</div>

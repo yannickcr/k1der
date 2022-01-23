@@ -1,0 +1,26 @@
+#main h3 {
+	font-size:1.4em;
+	margin:1em 0;
+}
+
+#main p, #main dd {
+	text-indent:1em;
+	margin:1em;
+	text-align:justify;
+}
+
+#main dt a:link, #main dt a:visited {
+	font-weight:bold;
+	font-size:1.4em;
+	text-decoration:none;
+}
+#main dt a:hover, #main dt a:active { text-decoration:underline; }
+#main dt img {
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+#main dd img { vertical-align:middle; }
+
+#main ul { margin-left:4em; }
+#main ul ul { margin-left:1em; }

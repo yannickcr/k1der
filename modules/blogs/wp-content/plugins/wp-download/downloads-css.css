@@ -1,0 +1,40 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress 2.2 Plugin: WP-Download 1.0								|
+|	Copyright (c) 2007 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://www.lesterchan.net													|
+|																							|
+|	File Information:																	|
+|	- Post Ratings CSS File															|
+|	- wp-content/plugins/postratings/postratings-css.css					|
+|																							|
++----------------------------------------------------------------+
+*/
+
+.post-download {
+	border-top: 2px solid #ffd324;
+	border-bottom: 2px solid #ffd324;
+	padding: 5px 20px 5px 55px;
+	background: #fff6bf url(/blog/wp-content/plugins/wp-download/images/download.gif) no-repeat scroll 15px 50%;
+	text-align: left;
+	color: #ef8e04;
+}
+
+.post-download a {
+	color: #ef8e04;
+}
+
+.post-download-conditions {
+	font-size: 9px;
+	font-style: italic;
+	color: #ef8e04;
+}
+
+.post-download-conditions a {
+	color: #ef8e04;
+	text-decoration: underline;
+}
